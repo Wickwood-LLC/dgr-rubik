@@ -1,0 +1,14 @@
+{
+  "name": "sassmatic",
+  "homepage": "https://github.com/DarbyBrown/sassmatic",
+  "_release": "77718435f9",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "77718435f94dc800884f683ece0ab58815acfa1d"
+  },
+  "_source": "git://github.com/DarbyBrown/sassmatic.git",
+  "_target": "*",
+  "_originalSource": "DarbyBrown/sassmatic",
+  "_direct": true
+}
