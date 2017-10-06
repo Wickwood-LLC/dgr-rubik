@@ -102,6 +102,10 @@ ol, ul {
 
 /***********************/
 
+body {
+  max-width: 1400px;
+}
+
 body:not(.page-admin),
 body.page-admin #header,
 body.page-admin .region-footer {
@@ -119,6 +123,10 @@ div.comment, div.node {
 }
 body.tao {
   color: black;
+}
+
+#page {
+  margin: 0 150px;
 }
 
 .row {

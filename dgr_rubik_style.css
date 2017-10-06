@@ -90,6 +90,9 @@ ol li, ul li {
   margin-left: 40px; }
 
 /***********************/
+body {
+  max-width: 1400px; }
+
 body:not(.page-admin) .block,
 body:not(.page-admin) table,
 body.page-admin #header .block,
@@ -107,6 +110,9 @@ div.comment, div.node {
 
 body.tao {
   color: black; }
+
+#page {
+  margin: 0 150px; }
 
 .row {
   margin-left: 0;
@@ -3963,4 +3969,4 @@ input.form-submit {
   @media (min-width: 1084px) {
     #overlay {
       margin-top: 29px !important; } }
-/*# sourceMappingURL=wwm_rubik_style.css.map */
+/*# sourceMappingURL=dgr_rubik_style.css.map */

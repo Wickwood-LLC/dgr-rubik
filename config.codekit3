@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "817B2770-20ED-4992-8DB7-27DB169B087B"
+		"uuidString": "C66B2F19-1CB2-4DDE-8E24-238B4A6F8E88"
 		}
 	],
 "creatorBuild": "25900",
@@ -24,12 +24,12 @@
 		"oS": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/_bourbon-deprecated-upcoming.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/_bourbon-deprecated-upcoming.scss",
 		"oF": 0,
@@ -37,12 +37,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/_bourbon.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/_bourbon.scss",
 		"oF": 0,
@@ -50,12 +50,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_border-color.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_border-color.scss",
 		"oF": 0,
@@ -63,12 +63,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_border-radius.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_border-radius.scss",
 		"oF": 0,
@@ -76,12 +76,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_border-style.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_border-style.scss",
 		"oF": 0,
@@ -89,12 +89,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_border-width.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_border-width.scss",
 		"oF": 0,
@@ -102,12 +102,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_buttons.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_buttons.scss",
 		"oF": 0,
@@ -115,12 +115,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_clearfix.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_clearfix.scss",
 		"oF": 0,
@@ -128,12 +128,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_ellipsis.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_ellipsis.scss",
 		"oF": 0,
@@ -141,12 +141,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_font-stacks.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_font-stacks.scss",
 		"oF": 0,
@@ -154,12 +154,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_hide-text.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_hide-text.scss",
 		"oF": 0,
@@ -167,12 +167,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_margin.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_margin.scss",
 		"oF": 0,
@@ -180,12 +180,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_padding.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_padding.scss",
 		"oF": 0,
@@ -193,12 +193,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_position.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_position.scss",
 		"oF": 0,
@@ -206,12 +206,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_prefixer.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_prefixer.scss",
 		"oF": 0,
@@ -219,12 +219,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_retina-image.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_retina-image.scss",
 		"oF": 0,
@@ -232,12 +232,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_size.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_size.scss",
 		"oF": 0,
@@ -245,12 +245,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_text-inputs.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_text-inputs.scss",
 		"oF": 0,
@@ -258,12 +258,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_timing-functions.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_timing-functions.scss",
 		"oF": 0,
@@ -271,12 +271,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_triangle.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_triangle.scss",
 		"oF": 0,
@@ -284,12 +284,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_word-wrap.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/addons\/_word-wrap.scss",
 		"oF": 0,
@@ -297,12 +297,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_animation.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_animation.scss",
 		"oF": 0,
@@ -310,12 +310,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_appearance.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_appearance.scss",
 		"oF": 0,
@@ -323,12 +323,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_backface-visibility.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_backface-visibility.scss",
 		"oF": 0,
@@ -336,12 +336,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_background-image.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_background-image.scss",
 		"oF": 0,
@@ -349,12 +349,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_background.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_background.scss",
 		"oF": 0,
@@ -362,12 +362,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_border-image.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_border-image.scss",
 		"oF": 0,
@@ -375,12 +375,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_calc.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_calc.scss",
 		"oF": 0,
@@ -388,12 +388,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_columns.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_columns.scss",
 		"oF": 0,
@@ -401,12 +401,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_filter.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_filter.scss",
 		"oF": 0,
@@ -414,12 +414,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_flex-box.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_flex-box.scss",
 		"oF": 0,
@@ -427,12 +427,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_font-face.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_font-face.scss",
 		"oF": 0,
@@ -440,12 +440,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_font-feature-settings.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_font-feature-settings.scss",
 		"oF": 0,
@@ -453,12 +453,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_hidpi-media-query.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_hidpi-media-query.scss",
 		"oF": 0,
@@ -466,12 +466,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_hyphens.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_hyphens.scss",
 		"oF": 0,
@@ -479,12 +479,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_image-rendering.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_image-rendering.scss",
 		"oF": 0,
@@ -492,12 +492,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_keyframes.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_keyframes.scss",
 		"oF": 0,
@@ -505,12 +505,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_linear-gradient.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_linear-gradient.scss",
 		"oF": 0,
@@ -518,12 +518,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_perspective.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_perspective.scss",
 		"oF": 0,
@@ -531,12 +531,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_placeholder.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_placeholder.scss",
 		"oF": 0,
@@ -544,12 +544,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_radial-gradient.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_radial-gradient.scss",
 		"oF": 0,
@@ -557,12 +557,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_selection.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_selection.scss",
 		"oF": 0,
@@ -570,12 +570,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_text-decoration.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_text-decoration.scss",
 		"oF": 0,
@@ -583,12 +583,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_transform.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_transform.scss",
 		"oF": 0,
@@ -596,12 +596,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_transition.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_transition.scss",
 		"oF": 0,
@@ -609,12 +609,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_user-select.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/css3\/_user-select.scss",
 		"oF": 0,
@@ -622,12 +622,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_assign-inputs.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_assign-inputs.scss",
 		"oF": 0,
@@ -635,12 +635,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_contains-falsy.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_contains-falsy.scss",
 		"oF": 0,
@@ -648,12 +648,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_contains.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_contains.scss",
 		"oF": 0,
@@ -661,12 +661,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_is-length.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_is-length.scss",
 		"oF": 0,
@@ -674,12 +674,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_is-light.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_is-light.scss",
 		"oF": 0,
@@ -687,12 +687,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_is-number.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_is-number.scss",
 		"oF": 0,
@@ -700,12 +700,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_is-size.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_is-size.scss",
 		"oF": 0,
@@ -713,12 +713,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_modular-scale.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_modular-scale.scss",
 		"oF": 0,
@@ -726,12 +726,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_px-to-em.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_px-to-em.scss",
 		"oF": 0,
@@ -739,12 +739,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_px-to-rem.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_px-to-rem.scss",
 		"oF": 0,
@@ -752,12 +752,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_shade.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_shade.scss",
 		"oF": 0,
@@ -765,12 +765,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_strip-units.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_strip-units.scss",
 		"oF": 0,
@@ -778,12 +778,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_tint.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_tint.scss",
 		"oF": 0,
@@ -791,12 +791,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_transition-property-name.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_transition-property-name.scss",
 		"oF": 0,
@@ -804,12 +804,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_unpack.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/functions\/_unpack.scss",
 		"oF": 0,
@@ -817,12 +817,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_convert-units.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_convert-units.scss",
 		"oF": 0,
@@ -830,12 +830,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_directional-values.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_directional-values.scss",
 		"oF": 0,
@@ -843,12 +843,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_font-source-declaration.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_font-source-declaration.scss",
 		"oF": 0,
@@ -856,12 +856,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_gradient-positions-parser.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_gradient-positions-parser.scss",
 		"oF": 0,
@@ -869,12 +869,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_linear-angle-parser.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_linear-angle-parser.scss",
 		"oF": 0,
@@ -882,12 +882,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_linear-gradient-parser.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_linear-gradient-parser.scss",
 		"oF": 0,
@@ -895,12 +895,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_linear-positions-parser.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_linear-positions-parser.scss",
 		"oF": 0,
@@ -908,12 +908,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_linear-side-corner-parser.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_linear-side-corner-parser.scss",
 		"oF": 0,
@@ -921,12 +921,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_radial-arg-parser.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_radial-arg-parser.scss",
 		"oF": 0,
@@ -934,12 +934,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_radial-gradient-parser.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_radial-gradient-parser.scss",
 		"oF": 0,
@@ -947,12 +947,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_radial-positions-parser.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_radial-positions-parser.scss",
 		"oF": 0,
@@ -960,12 +960,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_render-gradients.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_render-gradients.scss",
 		"oF": 0,
@@ -973,12 +973,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_shape-size-stripper.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_shape-size-stripper.scss",
 		"oF": 0,
@@ -986,12 +986,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_str-to-num.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/helpers\/_str-to-num.scss",
 		"oF": 0,
@@ -999,12 +999,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/settings\/_asset-pipeline.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/settings\/_asset-pipeline.scss",
 		"oF": 0,
@@ -1012,12 +1012,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/settings\/_prefixer.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/settings\/_prefixer.scss",
 		"oF": 0,
@@ -1025,12 +1025,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/bourbon\/app\/assets\/stylesheets\/settings\/_px-to-em.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/bourbon\/app\/assets\/stylesheets\/settings\/_px-to-em.scss",
 		"oF": 0,
@@ -1140,7 +1140,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/compass-breakpoint\/eyeglass-exports.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/bower_components\/compass-breakpoint\/package.json": {
@@ -1178,12 +1178,12 @@
 		"oS": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/_breakpoint.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/_breakpoint.scss",
 		"oF": 0,
@@ -1191,12 +1191,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_context.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_context.scss",
 		"oF": 0,
@@ -1204,12 +1204,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_helpers.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_helpers.scss",
 		"oF": 0,
@@ -1217,12 +1217,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_legacy-settings.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_legacy-settings.scss",
 		"oF": 0,
@@ -1230,12 +1230,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_no-query.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_no-query.scss",
 		"oF": 0,
@@ -1243,12 +1243,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_parsers.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_parsers.scss",
 		"oF": 0,
@@ -1256,12 +1256,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_respond-to.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_respond-to.scss",
 		"oF": 0,
@@ -1269,12 +1269,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_settings.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/_settings.scss",
 		"oF": 0,
@@ -1282,12 +1282,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_double.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_double.scss",
 		"oF": 0,
@@ -1295,12 +1295,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_query.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_query.scss",
 		"oF": 0,
@@ -1308,12 +1308,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_resolution.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_resolution.scss",
 		"oF": 0,
@@ -1321,12 +1321,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_single.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_single.scss",
 		"oF": 0,
@@ -1334,12 +1334,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_triple.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/_triple.scss",
 		"oF": 0,
@@ -1347,12 +1347,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/double\/_default-pair.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/double\/_default-pair.scss",
 		"oF": 0,
@@ -1360,12 +1360,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/double\/_default.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/double\/_default.scss",
 		"oF": 0,
@@ -1373,12 +1373,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/double\/_double-string.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/double\/_double-string.scss",
 		"oF": 0,
@@ -1386,12 +1386,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/resolution\/_resolution.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/resolution\/_resolution.scss",
 		"oF": 0,
@@ -1399,12 +1399,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/single\/_default.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/single\/_default.scss",
 		"oF": 0,
@@ -1412,12 +1412,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/triple\/_default.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/compass-breakpoint\/stylesheets\/breakpoint\/parsers\/triple\/_default.scss",
 		"oF": 0,
@@ -1457,24 +1457,24 @@
 		"oF": 0
 		},
 	"\/bower_components\/sassmatic\/css\/normalize.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassmatic\/css\/normalize.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/bower_components\/sassmatic\/css\/style.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassmatic\/css\/style.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/bower_components\/sassmatic\/favicon.ico": {
 		"ft": 8192,
@@ -1501,7 +1501,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/sassmatic\/js\/main-ck.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/bower_components\/sassmatic\/js\/main.js": {
@@ -1511,7 +1511,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/sassmatic\/js\/main.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/bower_components\/sassmatic\/js\/prefixfree.min.js": {
@@ -1521,7 +1521,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/sassmatic\/js\/prefixfree.min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/bower_components\/sassmatic\/js\/vendor\/jquery-1.9.0.min.js": {
@@ -1531,7 +1531,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/sassmatic\/js\/vendor\/jquery-1.9.0.min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/bower_components\/sassmatic\/readme.md": {
@@ -1559,12 +1559,12 @@
 		"oF": 0
 		},
 	"\/bower_components\/sassmatic\/sass\/_sassmatic.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/sassmatic\/sass\/_sassmatic.scss",
 		"oF": 0,
@@ -1578,12 +1578,12 @@
 		"oF": 0
 		},
 	"\/bower_components\/sassmatic\/sass\/mixins.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/sassmatic\/sass\/mixins.scss",
 		"oF": 0,
@@ -1591,12 +1591,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/sassmatic\/sass\/style.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassmatic\/sass\/style.scss",
 		"oF": 0,
@@ -1638,12 +1638,12 @@
 		"uCM": 0
 		},
 	"\/bower_components\/sassy-maps\/examples\/example.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassy-maps\/examples\/example.scss",
 		"oF": 0,
@@ -1707,25 +1707,25 @@
 		"oS": 1
 		},
 	"\/bower_components\/sassy-maps\/sass\/_memo.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
-		"oA": 2,
+		"ma": 0,
+		"oA": 1,
 		"oAP": "\/bower_components\/sassy-maps\/sass\/_memo.scss",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
 	"\/bower_components\/sassy-maps\/sass\/_sassy-maps.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/sassy-maps\/sass\/_sassy-maps.scss",
 		"oF": 0,
@@ -1733,12 +1733,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/sassy-maps\/sass\/sassy-maps\/_map-get.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/sassy-maps\/sass\/sassy-maps\/_map-get.scss",
 		"oF": 0,
@@ -1746,12 +1746,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/sassy-maps\/sass\/sassy-maps\/_map-set.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/sassy-maps\/sass\/sassy-maps\/_map-set.scss",
 		"oF": 0,
@@ -1759,12 +1759,12 @@
 		"uL": 1
 		},
 	"\/bower_components\/sassy-maps\/sass\/sassy-maps\/_map-to-string.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/sassy-maps\/sass\/sassy-maps\/_map-to-string.scss",
 		"oF": 0,
@@ -1777,9 +1777,54 @@
 		"oAP": "\/bower_components\/sassy-maps\/sassy-maps.gemspec",
 		"oF": 0
 		},
+	"\/dgr_rubik.info": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dgr_rubik.info",
+		"oF": 0
+		},
+	"\/dgr_rubik.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/dgr_rubik-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/dgr_rubik_style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/dgr_rubik_style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/dgr_rubik_style.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dgr_rubik_style.css.map",
+		"oF": 0
+		},
+	"\/dgr_rubik_style.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/dgr_rubik_style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/images\/bleeds-rtl.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 5430,
 		"oA": 0,
 		"oAP": "\/images\/bleeds-rtl.png",
 		"oF": 0,
@@ -1811,7 +1856,7 @@
 		},
 	"\/images\/buttons.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 4160,
 		"oA": 0,
 		"oAP": "\/images\/buttons.png",
 		"oF": 0,
@@ -1832,7 +1877,7 @@
 		},
 	"\/images\/icons.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 61507,
 		"oA": 0,
 		"oAP": "\/images\/icons.png",
 		"oF": 0,
@@ -1853,7 +1898,7 @@
 		},
 	"\/images\/popup.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 2049,
 		"oA": 0,
 		"oAP": "\/images\/popup.png",
 		"oF": 0,
@@ -1874,7 +1919,7 @@
 		},
 	"\/images\/ui-icons-222222-256x240.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 3702,
 		"oA": 0,
 		"oAP": "\/images\/ui-icons-222222-256x240.png",
 		"oF": 0,
@@ -1885,7 +1930,7 @@
 		},
 	"\/images\/ui-icons-454545-256x240.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 3702,
 		"oA": 0,
 		"oAP": "\/images\/ui-icons-454545-256x240.png",
 		"oF": 0,
@@ -1896,7 +1941,7 @@
 		},
 	"\/images\/ui-icons-800000-256x240.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 3702,
 		"oA": 0,
 		"oAP": "\/images\/ui-icons-800000-256x240.png",
 		"oF": 0,
@@ -1907,7 +1952,7 @@
 		},
 	"\/images\/ui-icons-888888-256x240.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 3702,
 		"oA": 0,
 		"oAP": "\/images\/ui-icons-888888-256x240.png",
 		"oF": 0,
@@ -1918,7 +1963,7 @@
 		},
 	"\/images\/ui-icons-ffffff-256x240.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 3702,
 		"oA": 0,
 		"oAP": "\/images\/ui-icons-ffffff-256x240.png",
 		"oF": 0,
@@ -1929,7 +1974,7 @@
 		},
 	"\/images\/vrule.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 173,
 		"oA": 0,
 		"oAP": "\/images\/vrule.png",
 		"oF": 0,
@@ -1940,7 +1985,7 @@
 		},
 	"\/images\/vtabs.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 219,
 		"oA": 0,
 		"oAP": "\/images\/vtabs.png",
 		"oF": 0,
@@ -1961,23 +2006,13 @@
 		},
 	"\/maintenance-page.tpl.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/maintenance-page.tpl.php",
 		"oF": 0
 		},
-	"\/min\/full_rubik-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/min\/min\/full_rubik-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/page.tpl.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/page.tpl.php",
 		"oF": 0
 		},
@@ -1995,60 +2030,15 @@
 		},
 	"\/templates\/views-exposed-form.tpl.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/templates\/views-exposed-form.tpl.php",
 		"oF": 0
 		},
 	"\/theme-settings.php": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/theme-settings.php",
 		"oF": 0
-		},
-	"\/wwm_rubik.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/min\/wwm_rubik-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/wwm_rubik_style.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/wwm_rubik_style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/wwm_rubik_style.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wwm_rubik_style.css.map",
-		"oF": 0
-		},
-	"\/wwm_rubik_style.info": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wwm_rubik_style.info",
-		"oF": 0
-		},
-	"\/wwm_rubik_style.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/wwm_rubik_style.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		}
 	},
 "hooks": [
@@ -2056,14 +2046,14 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 500382347,
-	"displayValue": "full_rubik",
-	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-doge"
+	"creationDate": 528882172,
+	"displayValue": "dgr-rubik",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "meme-ron"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -2860,8 +2850,8 @@
 			"optionString": ""
 			},
 		"no-extra-parens": {
-			"active": 1,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			"active": 0,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -2880,7 +2870,7 @@
 			"optionString": ""
 			},
 		"no-global-assign": {
-			"active": 0,
+			"active": 1,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-implicit-coercion": {
@@ -3088,7 +3078,7 @@
 			"optionString": "{'props': false}"
 			},
 		"no-self-compare": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-sequences": {
@@ -3109,14 +3099,14 @@
 			},
 		"no-sync": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowAtRootLevel': false}"
 			},
 		"no-tabs": {
 			"active": 0,
 			"optionString": ""
 			},
 		"no-template-curly-in-string": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-ternary": {
@@ -3133,7 +3123,7 @@
 			},
 		"no-trailing-spaces": {
 			"active": 0,
-			"optionString": "{'skipBlankLines': false}"
+			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
 			},
 		"no-undef": {
 			"active": 1,
@@ -3149,7 +3139,7 @@
 			},
 		"no-underscore-dangle": {
 			"active": 0,
-			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
 			"active": 1,
@@ -3172,12 +3162,12 @@
 			"optionString": ""
 			},
 		"no-unsafe-negation": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"no-unused-expressions": {
 			"active": 0,
-			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
 			},
 		"no-unused-labels": {
 			"active": 1,
@@ -3185,18 +3175,18 @@
 			},
 		"no-unused-vars": {
 			"active": 1,
-			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
 			},
 		"no-use-before-define": {
 			"active": 0,
-			"optionString": "{'functions': true, 'classes': true}"
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
 			},
 		"no-useless-call": {
 			"active": 0,
 			"optionString": ""
 			},
 		"no-useless-computed-key": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-useless-concat": {
@@ -3321,7 +3311,7 @@
 			},
 		"quotes": {
 			"active": 0,
-			"optionString": "'double', 'avoid-escape'"
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
 			},
 		"radix": {
 			"active": 0,
@@ -3333,10 +3323,10 @@
 			},
 		"require-jsdoc": {
 			"active": 0,
-			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
 			},
 		"require-yield": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"rest-spread-spacing": {
@@ -3449,7 +3439,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/pan.dev:8888\/",
+	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -3814,7 +3804,7 @@
 		"syntaxCheckerStyle": 1
 		},
 	"languageDefaultsCSS": {
-		"autoOutputAction": 2,
+		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -3822,7 +3812,7 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
 	"languageDefaultsGIF": {
@@ -3863,10 +3853,10 @@
 		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 1,
+		"syntaxCheckerStyle": 3,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
@@ -3883,8 +3873,8 @@
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "",
-		"autoOutputPathReplace2": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsLESS": {
@@ -3894,8 +3884,8 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
-		"createSourceMap": 0,
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"ieCompatibility": 1,
 		"outputStyle": 0,
@@ -3961,11 +3951,11 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
@@ -3988,7 +3978,7 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"importCSS": 0,
@@ -4012,13 +4002,13 @@
 		"autoOutputPathRelativePath": "\/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
 		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
-		"moduleType": 0,
+		"moduleType": 2,
 		"noImplicitAny": 0,
 		"preserveConstEnums": 0,
 		"removeComments": 0,
@@ -4155,7 +4145,7 @@
 			"flagValue": -1
 			},
 		"screw-ie8": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {
