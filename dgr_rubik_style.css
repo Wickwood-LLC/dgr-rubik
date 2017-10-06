@@ -1340,10 +1340,7 @@ table.views-table .pane-user-field-identification {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  margin-bottom: 0px;
-  border: 1px solid #ccc;
-  padding: 1em;
-  position: relative; }
+  margin-bottom: 0px; }
   #block-panels-mini-header .block-content {
     width: 100%; }
   #block-panels-mini-header .pane-page-site-name {
@@ -1375,7 +1372,10 @@ table.views-table .pane-user-field-identification {
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    border: 1px solid #ccc;
+    padding: 1em;
+    position: relative; }
   #block-panels-mini-header .right-column,
   #block-panels-mini-header .left-column {
     -webkit-box-flex: 0;

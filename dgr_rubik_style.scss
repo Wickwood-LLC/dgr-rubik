@@ -2056,9 +2056,6 @@ table.views-table {
   display: flex;
   width: 100%;
   margin-bottom: 0px;
-  border: 1px solid #ccc;
-  padding: 1em;
-  position: relative;
 
   .block-content {
     width: 100%;
@@ -2095,6 +2092,9 @@ table.views-table {
     align-items: center;
     display: flex;
     justify-content: center;
+    border: 1px solid #ccc;
+    padding: 1em;
+    position: relative;
   }
 
   .right-column,
