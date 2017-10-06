@@ -3740,9 +3740,10 @@ input.form-submit {
 
   .copyright,
   .pane-menu-menu-footer-links {
-    flex: 1 50%;
+    flex: 1 100%;
 
     @include breakpoint(481px) {
+      flex: 1 50%;
       min-width: 455px;
     }
   }
