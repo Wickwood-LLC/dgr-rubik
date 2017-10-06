@@ -3995,8 +3995,11 @@ input.form-submit {
   #mini-panel-footer .pane-menu-menu-footer-links {
     -webkit-box-flex: 1;
         -ms-flex: 1 50%;
-            flex: 1 50%;
-    min-width: 455px; }
+            flex: 1 50%; }
+    @media (min-width: 481px) {
+      #mini-panel-footer .copyright,
+      #mini-panel-footer .pane-menu-menu-footer-links {
+        min-width: 455px; } }
 
 #overlay {
   padding: 3em 40px; }
