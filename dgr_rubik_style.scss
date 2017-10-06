@@ -3733,6 +3733,19 @@ input.form-submit {
   }
 }
 
+#mini-panel-footer {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+
+  .copyright,
+  .pane-menu-menu-footer-links {
+    flex: 1 50%;
+    min-width: 455px;
+  }
+
+}
+
 #overlay {
   padding: 3em 40px;
   
