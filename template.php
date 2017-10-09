@@ -73,6 +73,7 @@ function dgr_rubik_breadcrumb($vars) {
   }
 
   $depth = 0;
+  $separator = '  » ';
   foreach ($vars['breadcrumb'] as $link) {
 
     // If the item isn't a link, surround it with a strong tag to format it like
@@ -81,8 +82,12 @@ function dgr_rubik_breadcrumb($vars) {
       $link = '<strong>' . $link . '</strong>';
     }
 
-    $output .= "<span class='breadcrumb-link breadcrumb-depth-{$depth}'>{$link}</span>  » ";
+    $output .= "<span class='breadcrumb-link breadcrumb-depth-{$depth}'>{$link}</span>";
     $depth++;
+
+    if ($link !== end($vars['breadcrumb'])) {   // Add separators, unless we're on the last item
+      $output .= $separator;
+    }
   }
   return $output;
 }
