@@ -3978,8 +3978,7 @@ input.form-submit {
     #block-superfish-1 #superfish-1 .active-trail > a,
     .pane-superfish-1 #superfish-1 .active-trail > a {
       color: black;
-      text-decoration: underline;
-      text-shadow: #38a 0px 1px 0px; }
+      text-decoration: underline; }
       #block-superfish-1 #superfish-1 .active-trail > a:hover,
       .pane-superfish-1 #superfish-1 .active-trail > a:hover {
         background: inherit; }
