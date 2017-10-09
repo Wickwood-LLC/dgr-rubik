@@ -1409,9 +1409,12 @@ table.views-table .pane-user-field-identification {
     position: relative; }
   #block-panels-mini-header .right-column,
   #block-panels-mini-header .left-column {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 auto;
-            flex: 0 auto; }
+    -webkit-box-flex: 1;
+        -ms-flex: 1 170px;
+            flex: 1 170px;
+    border: 1px solid #ccc;
+    margin: 0 1em;
+    padding: 0; }
   #block-panels-mini-header .menu-name-user-menu ul li {
     margin-left: 0;
     white-space: nowrap;
