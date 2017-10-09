@@ -1414,7 +1414,16 @@ table.views-table .pane-user-field-identification {
             flex: 1 170px;
     border: 1px solid #ccc;
     margin: 0 1em;
-    padding: 0; }
+    padding: 1em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   #block-panels-mini-header .menu-name-user-menu ul li {
     margin-left: 0;
     white-space: nowrap;

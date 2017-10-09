@@ -2148,7 +2148,10 @@ table.views-table {
     flex: 1 170px;
     border: 1px solid #ccc;
     margin: 0 1em;
-    padding: 0;
+    padding: 1em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 
   .menu-name-user-menu {
