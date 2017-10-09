@@ -2108,11 +2108,6 @@ table.views-table {
     line-height: 1.5;
     text-align: center;
     font-family: Georgia, "Book Antiqua", serif;
-    color: black;
-
-    &:hover {
-      color: #1F45FC;
-    }
 
     @include breakpoint(295px) {
       font-size: 1.2em;
@@ -2124,6 +2119,14 @@ table.views-table {
 
     @include breakpoint(1024px) {
       font-size: 2.2em;
+    }
+
+    a {
+      color: black;
+    
+      &:hover {
+        color: #1F45FC;
+      }
     }
   }
 
