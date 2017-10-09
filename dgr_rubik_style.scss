@@ -126,6 +126,15 @@ body.tao {
   color: black;
 }
 
+a {
+  color: #1F45FC;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 #page {
   width: 100%;
   margin: auto;
@@ -2076,6 +2085,11 @@ table.views-table {
     line-height: 1.5;
     text-align: center;
     font-family: Georgia, "Book Antiqua", serif;
+    color: black;
+
+    &:hover {
+      color: #1F45FC;
+    }
 
     @include breakpoint(295px) {
       font-size: 1.8em;
@@ -2094,6 +2108,11 @@ table.views-table {
     line-height: 1.5;
     text-align: center;
     font-family: Georgia, "Book Antiqua", serif;
+    color: black;
+
+    &:hover {
+      color: #1F45FC;
+    }
 
     @include breakpoint(295px) {
       font-size: 1.2em;

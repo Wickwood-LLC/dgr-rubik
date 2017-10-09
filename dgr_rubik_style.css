@@ -112,6 +112,12 @@ div.comment, div.node {
 body.tao {
   color: black; }
 
+a {
+  color: #1F45FC;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
 #page {
   width: 100%;
   margin: auto;
@@ -1356,7 +1362,10 @@ table.views-table .pane-user-field-identification {
     font-size: 1.5em;
     line-height: 1.5;
     text-align: center;
-    font-family: Georgia, "Book Antiqua", serif; }
+    font-family: Georgia, "Book Antiqua", serif;
+    color: black; }
+    #block-panels-mini-header .pane-page-site-name:hover {
+      color: #1F45FC; }
     @media (min-width: 295px) {
       #block-panels-mini-header .pane-page-site-name {
         font-size: 1.8em; } }
@@ -1370,7 +1379,10 @@ table.views-table .pane-user-field-identification {
     font-size: 1em;
     line-height: 1.5;
     text-align: center;
-    font-family: Georgia, "Book Antiqua", serif; }
+    font-family: Georgia, "Book Antiqua", serif;
+    color: black; }
+    #block-panels-mini-header .pane-page-slogan:hover {
+      color: #1F45FC; }
     @media (min-width: 295px) {
       #block-panels-mini-header .pane-page-slogan {
         font-size: 1.2em; } }
