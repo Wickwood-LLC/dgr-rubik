@@ -116,7 +116,7 @@ body.tao {
   width: 100%;
   margin: auto;
   max-width: 100%; }
-  @media (min-width: 1025) {
+  @media (min-width: 1025px) {
     #page {
       width: 80%;
       min-width: 1024px; } }

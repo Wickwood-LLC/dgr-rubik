@@ -131,7 +131,7 @@ body.tao {
   margin: auto;
   max-width: 100%;
 
-  @include breakpoint(1025) {
+  @include breakpoint(1025px) {
     width: 80%;
     min-width: 1024px;
   }
