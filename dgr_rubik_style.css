@@ -731,11 +731,13 @@ body.maintenance-page {
     padding-top: 20px; }
   body.maintenance-page #site-name {
     font-size: 28px;
-    line-height: 1; }
+    line-height: 1;
+    font-family: Georgia, "Book Antiqua", serif; }
   body.maintenance-page #site-slogan {
     margin-top: 7px;
     word-spacing: 0.1em;
-    font-style: italic; }
+    font-style: italic;
+    font-family: Georgia, "Book Antiqua", serif; }
   body.maintenance-page h1#page-title {
     background: none;
     font-size: 28px;
@@ -1353,7 +1355,8 @@ table.views-table .pane-user-field-identification {
   #block-panels-mini-header .pane-page-site-name {
     font-size: 1.5em;
     line-height: 1.5;
-    text-align: center; }
+    text-align: center;
+    font-family: Georgia, "Book Antiqua", serif; }
     @media (min-width: 295px) {
       #block-panels-mini-header .pane-page-site-name {
         font-size: 1.8em; } }
@@ -1363,7 +1366,8 @@ table.views-table .pane-user-field-identification {
   #block-panels-mini-header .pane-page-slogan {
     font-size: 1em;
     line-height: 1.5;
-    text-align: center; }
+    text-align: center;
+    font-family: Georgia, "Book Antiqua", serif; }
     @media (min-width: 295px) {
       #block-panels-mini-header .pane-page-slogan {
         font-size: 1.2em; } }
@@ -3876,7 +3880,9 @@ input.form-submit {
 #block-superfish-1 #superfish-1,
 .pane-superfish-1 #superfish-1 {
   display: table;
-  margin: auto; }
+  margin: auto;
+  font-family: Georgia, "Book Antiqua", serif;
+  font-style: italic; }
   #block-superfish-1 #superfish-1 > li:first-child,
   #block-superfish-1 #superfish-1 > li:first-child a,
   .pane-superfish-1 #superfish-1 > li:first-child,
@@ -3891,11 +3897,11 @@ input.form-submit {
   .pane-superfish-1 #superfish-1 li {
     border-bottom: 0;
     float: left;
-    background: #eee url(images/bleeds.png) 50% 0px no-repeat;
+    background: none;
     padding: 0; }
     #block-superfish-1 #superfish-1 li:hover,
     .pane-superfish-1 #superfish-1 li:hover {
-      background: #f8f8f8; }
+      background: none; }
     #block-superfish-1 #superfish-1 li a,
     .pane-superfish-1 #superfish-1 li a {
       background-image: none;
@@ -3914,7 +3920,7 @@ input.form-submit {
         margin-left: 0.5em; }
       #block-superfish-1 #superfish-1 li a:hover,
       .pane-superfish-1 #superfish-1 li a:hover {
-        background: #f8f8f8; }
+        background: none; }
   #block-superfish-1 #superfish-1 .sf-sub-indicator,
   .pane-superfish-1 #superfish-1 .sf-sub-indicator {
     -webkit-filter: invert(70%);

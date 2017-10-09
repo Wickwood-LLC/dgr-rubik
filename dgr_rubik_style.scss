@@ -910,11 +910,13 @@ body.maintenance-page {
   #site-name {
     font-size: 28px;
     line-height: 1;
+    font-family: Georgia, "Book Antiqua", serif;
   }
   #site-slogan {
     margin-top: 7px;
     word-spacing: 0.1em;
     font-style: italic;
+    font-family: Georgia, "Book Antiqua", serif;
   }
   h1#page-title {
     background: none;
@@ -2073,6 +2075,7 @@ table.views-table {
     font-size: 1.5em ;
     line-height: 1.5;
     text-align: center;
+    font-family: Georgia, "Book Antiqua", serif;
 
     @include breakpoint(295px) {
       font-size: 1.8em;
@@ -2086,6 +2089,7 @@ table.views-table {
     font-size: 1em;
     line-height: 1.5;
     text-align: center;
+    font-family: Georgia, "Book Antiqua", serif;
 
     @include breakpoint(295px) {
       font-size: 1.2em;
@@ -3606,6 +3610,8 @@ input.form-submit {
   #superfish-1 {
     display: table;
     margin: auto;
+    font-family: Georgia, "Book Antiqua", serif;
+    font-style: italic;
 
     >li {
       &:first-child,
@@ -3621,11 +3627,11 @@ input.form-submit {
     li {
       border-bottom: 0;
       float: left;
-      background: #eee url(images/bleeds.png) 50% 0px no-repeat;
+      background: none;
       padding: 0;
 
       &:hover {
-        background: #f8f8f8;
+        background: none;
       }
 
       a {
@@ -3646,7 +3652,7 @@ input.form-submit {
         }
 
         &:hover {
-          background: #f8f8f8;
+          background: none;
         }
       }
     }
