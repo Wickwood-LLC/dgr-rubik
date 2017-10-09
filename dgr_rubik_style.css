@@ -3922,7 +3922,9 @@ input.form-submit {
       padding: 5px 10px;
       font-weight: bold;
       line-height: 20px;
-      border: 0; }
+      border: 0;
+      -webkit-transition: color 0.4s ease 0s;
+      transition: color 0.4s ease 0s; }
       #block-superfish-1 #superfish-1 li a > .sf-sub-indicator,
       .pane-superfish-1 #superfish-1 li a > .sf-sub-indicator {
         position: static;
@@ -3930,7 +3932,8 @@ input.form-submit {
         margin-left: 0.5em; }
       #block-superfish-1 #superfish-1 li a:hover,
       .pane-superfish-1 #superfish-1 li a:hover {
-        background: none; }
+        background: none;
+        color: #333131; }
   #block-superfish-1 #superfish-1 .sf-sub-indicator,
   .pane-superfish-1 #superfish-1 .sf-sub-indicator {
     -webkit-filter: invert(70%);

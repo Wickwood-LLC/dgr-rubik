@@ -3647,6 +3647,7 @@ input.form-submit {
         font-weight: bold;
         line-height: 20px;
         border: 0;
+        transition: color 0.4s ease 0s;
 
         > .sf-sub-indicator {
           position: static;
@@ -3656,6 +3657,7 @@ input.form-submit {
 
         &:hover {
           background: none;
+          color: #333131;
         }
       }
     }
