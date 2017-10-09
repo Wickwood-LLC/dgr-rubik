@@ -105,6 +105,15 @@ ol, ul {
 body {
   max-width: 1400px;
   margin: auto;
+
+  a {
+    color: #1F45FC;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 body:not(.page-admin),
@@ -124,15 +133,6 @@ div.comment, div.node {
 }
 body.tao {
   color: black;
-}
-
-a {
-  color: #1F45FC;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
 }
 
 #page {
@@ -2103,6 +2103,7 @@ table.views-table {
     
       &:hover {
         color: #1F45FC;
+        text-decoration: none;
       }
     }
   }

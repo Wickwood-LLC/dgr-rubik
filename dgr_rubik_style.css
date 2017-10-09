@@ -93,6 +93,11 @@ ol li, ul li {
 body {
   max-width: 1400px;
   margin: auto; }
+  body a {
+    color: #1F45FC;
+    text-decoration: none; }
+    body a:hover {
+      text-decoration: underline; }
 
 body:not(.page-admin) .block,
 body:not(.page-admin) table,
@@ -111,12 +116,6 @@ div.comment, div.node {
 
 body.tao {
   color: black; }
-
-a {
-  color: #1F45FC;
-  text-decoration: none; }
-  a:hover {
-    text-decoration: underline; }
 
 #page {
   width: 100%;
@@ -1375,7 +1374,8 @@ table.views-table .pane-user-field-identification {
     #block-panels-mini-header .pane-page-site-name a {
       color: black; }
       #block-panels-mini-header .pane-page-site-name a:hover {
-        color: #1F45FC; }
+        color: #1F45FC;
+        text-decoration: none; }
   #block-panels-mini-header .pane-page-slogan {
     font-size: 1em;
     line-height: 1.5;
