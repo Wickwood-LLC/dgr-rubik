@@ -3719,10 +3719,11 @@ input.form-submit {
     }
 
     .active-trail {
-      background-color: #7bc !important;
+      background-color: none !important;
 
       > a {
-        color: white;
+        color: black;
+        text-decoration: underline;
         text-shadow: #38a 0px 1px 0px;
 
         &:hover {
