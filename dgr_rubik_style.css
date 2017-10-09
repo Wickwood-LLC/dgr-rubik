@@ -3882,7 +3882,17 @@ input.form-submit {
   display: table;
   margin: auto;
   font-family: Georgia, "Book Antiqua", serif;
-  font-style: italic; }
+  font-style: italic;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
   #block-superfish-1 #superfish-1 > li:first-child,
   #block-superfish-1 #superfish-1 > li:first-child a,
   .pane-superfish-1 #superfish-1 > li:first-child,
@@ -3905,7 +3915,7 @@ input.form-submit {
     #block-superfish-1 #superfish-1 li a,
     .pane-superfish-1 #superfish-1 li a {
       background-image: none;
-      color: #333;
+      color: #858484;
       text-shadow: #fff 0px 1px 0px;
       min-width: 70px;
       text-align: center;
