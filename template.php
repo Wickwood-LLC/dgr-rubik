@@ -81,7 +81,7 @@ function dgr_rubik_breadcrumb($vars) {
       $link = '<strong>' . $link . '</strong>';
     }
 
-    $output .= "<span class='breadcrumb-link breadcrumb-depth-{$depth}'>{$link}</span>";
+    $output .= "<span class='breadcrumb-link breadcrumb-depth-{$depth}'>{$link}</span>  » ";
     $depth++;
   }
   return $output;
