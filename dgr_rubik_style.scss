@@ -3674,7 +3674,6 @@ input.form-submit {
       a {
         background-image: none;
         color: #858484;
-        text-shadow: #fff 0px 1px 0px;
         min-width: 70px;
         text-align: center;
         padding: 5px 10px;
@@ -3691,7 +3690,8 @@ input.form-submit {
 
         &:hover {
           background: none;
-          color: #333131;
+          color: #1F45FC;
+          text-decoration: underline;
         }
       }
     }

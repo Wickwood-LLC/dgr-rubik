@@ -3936,7 +3936,6 @@ input.form-submit {
     .pane-superfish-1 #superfish-1 li a {
       background-image: none;
       color: #858484;
-      text-shadow: #fff 0px 1px 0px;
       min-width: 70px;
       text-align: center;
       padding: 5px 10px;
@@ -3953,7 +3952,8 @@ input.form-submit {
       #block-superfish-1 #superfish-1 li a:hover,
       .pane-superfish-1 #superfish-1 li a:hover {
         background: none;
-        color: #333131; }
+        color: #1F45FC;
+        text-decoration: underline; }
   #block-superfish-1 #superfish-1 .sf-sub-indicator,
   .pane-superfish-1 #superfish-1 .sf-sub-indicator {
     -webkit-filter: invert(70%);
