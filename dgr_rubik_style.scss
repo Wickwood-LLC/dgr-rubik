@@ -104,6 +104,7 @@ ol, ul {
 
 body {
   max-width: 1400px;
+  margin: auto;
 }
 
 body:not(.page-admin),
@@ -126,7 +127,14 @@ body.tao {
 }
 
 #page {
-  margin: 0 100px;
+  width: 100%;
+  margin: auto;
+  max-width: 100%;
+
+  @include breakpoint(1025) {
+    width: 80%;
+    min-width: 1024px;
+  }
 }
 
 .row {
@@ -3771,4 +3779,8 @@ input.form-submit {
   @include breakpoint(1084px) {
     margin-top: 29px !important;
   }
+}
+
+div#panels-ipe-control-container {
+  left: 0;
 }

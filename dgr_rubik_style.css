@@ -91,7 +91,8 @@ ol li, ul li {
 
 /***********************/
 body {
-  max-width: 1400px; }
+  max-width: 1400px;
+  margin: auto; }
 
 body:not(.page-admin) .block,
 body:not(.page-admin) table,
@@ -112,7 +113,13 @@ body.tao {
   color: black; }
 
 #page {
-  margin: 0 100px; }
+  width: 100%;
+  margin: auto;
+  max-width: 100%; }
+  @media (min-width: 1025) {
+    #page {
+      width: 80%;
+      min-width: 1024px; } }
 
 .row {
   margin-left: 0;
@@ -4024,4 +4031,7 @@ input.form-submit {
   @media (min-width: 1084px) {
     #overlay {
       margin-top: 29px !important; } }
+
+div#panels-ipe-control-container {
+  left: 0; }
 /*# sourceMappingURL=dgr_rubik_style.css.map */
