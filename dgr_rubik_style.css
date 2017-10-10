@@ -18,6 +18,8 @@ blockquote {
     content: none; }
   blockquote:after {
     content: none; }
+  blockquote p:nth-child(n+2) {
+    padding-left: 2em; }
 
 code {
   font-family: monospace; }
