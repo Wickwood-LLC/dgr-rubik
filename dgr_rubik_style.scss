@@ -2175,7 +2175,7 @@ table.views-table {
     flex: 1 100%;
     justify-content: center;
     border: 1px solid #ccc;
-    padding: 1em;
+    padding: 0.5em;
     position: relative;
   }
 
@@ -2184,7 +2184,7 @@ table.views-table {
     flex: 1 220px;
     border: 1px solid #ccc;
     margin: 0 1em;
-    padding: 1em;
+    padding: 0.5em;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -3720,6 +3720,7 @@ input.form-submit {
         text-align: center;
         padding: 5px 10px;
         font-weight: bold;
+        font-size: 1.2em;
         line-height: 20px;
         border: 0;
         transition: color 0.4s ease 0s;
