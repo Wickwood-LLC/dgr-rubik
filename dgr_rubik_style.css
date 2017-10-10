@@ -1426,6 +1426,9 @@ table.views-table .pane-user-field-identification {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 100%;
+            flex: 1 100%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
