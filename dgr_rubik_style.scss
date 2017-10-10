@@ -135,6 +135,33 @@ body.tao {
   color: black;
 }
 
+#branding {
+  background: none;
+
+  .breadcrumb-link {
+    float: none;
+    position: static;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+
+    a {
+      color: black;
+      font-weight: normal;
+      float: left;
+      margin-right: 0;
+      padding: 0;
+      background: none;
+    }
+  }
+
+  .bc-separator {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+}
+
 #page {
   width: 100%;
   margin: auto;
