@@ -126,6 +126,9 @@ body.tao {
       width: 80%;
       min-width: 1024px; } }
 
+#main-content {
+  margin: 0; }
+
 .row {
   margin-left: 0;
   margin-right: 0; }
@@ -188,7 +191,7 @@ input[type="password"] {
           box-sizing: border-box; }
 
 .field > .field-items {
-  margin-left: 10px; }
+  margin-left: 0; }
 
 .field.field-type-field-collection > .field-items {
   margin-left: 0; }

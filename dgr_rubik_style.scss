@@ -146,6 +146,10 @@ body.tao {
   }
 }
 
+#main-content {
+  margin: 0;
+}
+
 .row {
   margin-left: 0;
   margin-right: 0;
@@ -229,7 +233,7 @@ input[type="password"] {
 }
 
 .field>.field-items {
-  margin-left: 10px;
+  margin-left: 0;
 }
 
 .field.field-type-field-collection>.field-items {
