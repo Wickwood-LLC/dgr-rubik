@@ -86,7 +86,7 @@ function dgr_rubik_breadcrumb($vars) {
     $depth++;
 
     if ($link !== end($vars['breadcrumb'])) {   // Add separators, unless we're on the last item
-      $output .= $separator;
+      $output .= "<span class='bc-separator'>{$separator}</span>" ;
     }
   }
   return $output;
