@@ -175,6 +175,16 @@ body.tao {
 
 #main-content {
   margin: 0;
+
+  p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    text-align: justify;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .row {

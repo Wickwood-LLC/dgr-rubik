@@ -148,6 +148,12 @@ body.tao {
 
 #main-content {
   margin: 0; }
+  #main-content p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    text-align: justify; }
+    #main-content p:last-child {
+      margin-bottom: 0; }
 
 .row {
   margin-left: 0;
