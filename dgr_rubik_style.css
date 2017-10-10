@@ -1438,8 +1438,8 @@ table.views-table .pane-user-field-identification {
   #block-panels-mini-header .row-one .right-column,
   #block-panels-mini-header .row-one .left-column {
     -webkit-box-flex: 1;
-        -ms-flex: 1 170px;
-            flex: 1 170px;
+        -ms-flex: 1 220px;
+            flex: 1 220px;
     border: 1px solid #ccc;
     margin: 0 1em;
     padding: 1em;
