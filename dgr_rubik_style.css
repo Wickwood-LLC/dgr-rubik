@@ -118,7 +118,7 @@ body.tao {
   color: black; }
 
 #branding {
-  background: none; }
+  background: none !important; }
   #branding .breadcrumb-link {
     float: none;
     position: static;
@@ -226,9 +226,11 @@ div#toolbar div.toolbar-shortcuts ul {
 .pane-page-logo img {
   width: 130px; }
 
-#page-title .page-title {
-  font-size: 2em;
-  margin: 0; }
+#page-title {
+  background: none; }
+  #page-title .page-title {
+    font-size: 2em;
+    margin: 0; }
 
 .content-main .featured-display {
   overflow: auto;

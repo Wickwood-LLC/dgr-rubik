@@ -136,7 +136,7 @@ body.tao {
 }
 
 #branding {
-  background: none;
+  background: none !important;
 
   .breadcrumb-link {
     float: none;
@@ -280,9 +280,13 @@ div#toolbar div.toolbar-shortcuts ul {
   width: 130px;
 }
 
-#page-title .page-title {
-  font-size: 2em;
-  margin: 0;
+#page-title {
+  background: none;
+  
+  .page-title {
+    font-size: 2em;
+    margin: 0;
+  }
 }
 
 .content-main  {
