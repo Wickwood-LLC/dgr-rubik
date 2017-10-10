@@ -1374,52 +1374,52 @@ table.views-table .field-name-field-deferred-fee-label,
 table.views-table .pane-user-field-identification {
   min-width: 0%; }
 
-#block-panels-mini-header {
+#block-panels-mini-header .row-one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   margin-bottom: 0px; }
-  #block-panels-mini-header .block-content {
+  #block-panels-mini-header .row-one .block-content {
     width: 100%; }
-  #block-panels-mini-header .pane-page-site-name {
+  #block-panels-mini-header .row-one .pane-page-site-name {
     font-size: 1.5em;
     line-height: 1.5;
     text-align: center;
     font-family: Georgia, "Book Antiqua", serif; }
     @media (min-width: 295px) {
-      #block-panels-mini-header .pane-page-site-name {
+      #block-panels-mini-header .row-one .pane-page-site-name {
         font-size: 1.8em; } }
     @media (min-width: 400px) {
-      #block-panels-mini-header .pane-page-site-name {
+      #block-panels-mini-header .row-one .pane-page-site-name {
         font-size: 2em; } }
     @media (min-width: 1024px) {
-      #block-panels-mini-header .pane-page-site-name {
+      #block-panels-mini-header .row-one .pane-page-site-name {
         font-size: 4em; } }
-    #block-panels-mini-header .pane-page-site-name a {
+    #block-panels-mini-header .row-one .pane-page-site-name a {
       color: black; }
-      #block-panels-mini-header .pane-page-site-name a:hover {
+      #block-panels-mini-header .row-one .pane-page-site-name a:hover {
         color: #1F45FC;
         text-decoration: none; }
-  #block-panels-mini-header .pane-page-slogan {
+  #block-panels-mini-header .row-one .pane-page-slogan {
     font-size: 1em;
     line-height: 1.5;
     text-align: center;
     font-family: Georgia, "Book Antiqua", serif; }
     @media (min-width: 295px) {
-      #block-panels-mini-header .pane-page-slogan {
+      #block-panels-mini-header .row-one .pane-page-slogan {
         font-size: 1.2em; } }
     @media (min-width: 400px) {
-      #block-panels-mini-header .pane-page-slogan {
+      #block-panels-mini-header .row-one .pane-page-slogan {
         font-size: 1.5em; } }
     @media (min-width: 1024px) {
-      #block-panels-mini-header .pane-page-slogan {
+      #block-panels-mini-header .row-one .pane-page-slogan {
         font-size: 2.2em; } }
-    #block-panels-mini-header .pane-page-slogan a {
+    #block-panels-mini-header .row-one .pane-page-slogan a {
       color: black; }
-      #block-panels-mini-header .pane-page-slogan a:hover {
+      #block-panels-mini-header .row-one .pane-page-slogan a:hover {
         color: #1F45FC; }
-  #block-panels-mini-header .middle-column {
+  #block-panels-mini-header .row-one .middle-column {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1432,8 +1432,8 @@ table.views-table .pane-user-field-identification {
     border: 1px solid #ccc;
     padding: 1em;
     position: relative; }
-  #block-panels-mini-header .right-column,
-  #block-panels-mini-header .left-column {
+  #block-panels-mini-header .row-one .right-column,
+  #block-panels-mini-header .row-one .left-column {
     -webkit-box-flex: 1;
         -ms-flex: 1 170px;
             flex: 1 170px;
@@ -1449,7 +1449,7 @@ table.views-table .pane-user-field-identification {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-  #block-panels-mini-header .menu-name-user-menu ul li {
+  #block-panels-mini-header .row-one .menu-name-user-menu ul li {
     margin-left: 0;
     white-space: nowrap;
     text-transform: capitalize;
