@@ -2171,8 +2171,8 @@ table.views-table {
 
   .middle-column {
     align-items: center;
-    display: block;
-    flex: 1 100%;
+    display: flex;
+    justify-content: center;
     border: 1px solid #ccc;
     padding: 1em;
     position: relative;
@@ -2185,7 +2185,7 @@ table.views-table {
     margin: 0 1em;
     padding: 1em;
     align-items: center;
-    display: block;
+    display: flex;
     justify-content: center;
   }
 
