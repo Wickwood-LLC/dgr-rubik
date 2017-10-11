@@ -4008,7 +4008,6 @@ input.form-submit {
     .pane-superfish-1 #superfish-1 li a {
       background-image: none;
       color: #858484;
-      min-width: 70px;
       text-align: center;
       padding: 5px 10px;
       font-weight: bold;
