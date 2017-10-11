@@ -4133,7 +4133,10 @@ input.form-submit {
   #mini-panel-footer .pane-menu-menu-footer-links {
     -webkit-box-flex: 1;
         -ms-flex: 1 100%;
-            flex: 1 100%; }
+            flex: 1 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
     @media (min-width: 481px) {
       #mini-panel-footer .copyright,
       #mini-panel-footer .pane-menu-menu-footer-links {
