@@ -18,7 +18,7 @@ blockquote {
     content: none; }
   blockquote:after {
     content: none; }
-  blockquote p:nth-child(n+2) {
+  blockquote p:nth-child(n+2):not([class]) {
     padding-left: 2em; }
 
 code {
@@ -153,11 +153,11 @@ body.tao {
 
 #main-content {
   margin: 0; }
-  #main-content p {
+  #main-content p:not([class]) {
     font-size: 1.2em;
     margin-bottom: 1em;
     text-align: justify; }
-    #main-content p:last-child {
+    #main-content p:not([class]):last-child {
       margin-bottom: 0; }
 
 .row {
@@ -4128,4 +4128,4 @@ div#panels-ipe-control-container {
 
 .breadcrumb-link a {
   color: #333; }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=dgr_rubik_style.css.map */
