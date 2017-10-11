@@ -1793,20 +1793,20 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/dgr_rubik.style.css": {
+	"\/dgr_rubik_style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/dgr_rubik.style-min.css",
+		"oAP": "\/dgr_rubik_style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/dgr_rubik.style.css.map": {
+	"\/dgr_rubik_style.css.map": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dgr_rubik.style.css.map",
+		"oAP": "\/dgr_rubik_style.css.map",
 		"oF": 0
 		},
 	"\/dgr_rubik_style.scss": {
