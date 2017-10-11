@@ -4036,7 +4036,7 @@ input.form-submit {
     #block-superfish-1 #superfish-1 .menuparent ul li,
     .pane-superfish-1 #superfish-1 .menuparent ul li {
       white-space: nowrap !important;
-      background: #ebebeb; }
+      background: white; }
       #block-superfish-1 #superfish-1 .menuparent ul li:hover,
       .pane-superfish-1 #superfish-1 .menuparent ul li:hover {
         background: white; }
