@@ -3,7 +3,7 @@ description = A subtheme of Full Rubik for use in DR Griffan Randall site.
 base theme = full_rubik
 core = 7.x
 
-stylesheets[all][] = dgr_rubik_style.css
+stylesheets[all][] = style.css
 scripts[] = dgr_rubik.js
 
 regions[header] = Header
