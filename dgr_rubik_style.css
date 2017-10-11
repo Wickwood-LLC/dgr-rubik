@@ -763,7 +763,10 @@ body.maintenance-page {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    display: inherit; }
+    display: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
   body.maintenance-page #header .section {
     text-align: center; }
   body.maintenance-page #name-and-slogan,
@@ -4138,6 +4141,10 @@ input.form-submit {
             -ms-flex: 1 50%;
                 flex: 1 50%;
         min-width: 455px; } }
+  #mini-panel-footer .pane-menu-menu-footer-links {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
 
 #overlay {
   padding: 3em 40px; }

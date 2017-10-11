@@ -958,6 +958,7 @@ body.maintenance-page {
     flex: 1 1 100%;
     justify-content: center;
     display: inherit;
+    display: flex;
   }
   #header .section {
     text-align: center;
@@ -3904,6 +3905,10 @@ input.form-submit {
       flex: 1 50%;
       min-width: 455px;
     }
+  }
+
+  .pane-menu-menu-footer-links {
+    justify-content: flex-end;
   }
 
 }
