@@ -114,6 +114,9 @@ ol, ul {
 body {
   max-width: 1400px;
   margin: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
 
   a {
     color: #1F45FC;
@@ -175,6 +178,7 @@ body.tao {
   width: 100%;
   margin: auto;
   max-width: 100%;
+  flex: 100%;
 
   @include breakpoint(1025px) {
     width: 80%;
