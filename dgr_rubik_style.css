@@ -4028,6 +4028,22 @@ input.form-submit {
         background: none;
         color: #1F45FC;
         text-decoration: underline; }
+      @media (min-width: 1232px) {
+        #block-superfish-1 #superfish-1 li a,
+        .pane-superfish-1 #superfish-1 li a {
+          font-size: 1.2em; } }
+      @media (min-width: 1195px) {
+        #block-superfish-1 #superfish-1 li a,
+        .pane-superfish-1 #superfish-1 li a {
+          font-size: 1.1em; } }
+      @media (min-width: 1159px) {
+        #block-superfish-1 #superfish-1 li a,
+        .pane-superfish-1 #superfish-1 li a {
+          font-size: 1em; } }
+      @media (min-width: 1127) {
+        #block-superfish-1 #superfish-1 li a,
+        .pane-superfish-1 #superfish-1 li a {
+          font-size: 0.9em; } }
   #block-superfish-1 #superfish-1 .sf-sub-indicator,
   .pane-superfish-1 #superfish-1 .sf-sub-indicator {
     -webkit-filter: invert(70%);

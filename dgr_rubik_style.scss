@@ -3786,6 +3786,19 @@ input.form-submit {
           color: #1F45FC;
           text-decoration: underline;
         }
+
+        @include breakpoint(1232px) {
+          font-size: 1.2em;
+        }
+        @include breakpoint(1195px) {
+          font-size: 1.1em;
+        }
+        @include breakpoint(1159px) {
+          font-size: 1em;
+        }
+        @include breakpoint(1127) {
+          font-size: 0.9em;
+        }
       }
     }
 
