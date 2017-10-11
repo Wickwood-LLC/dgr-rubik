@@ -8,12 +8,14 @@ big {
 
 blockquote {
   display: block;
+  line-height: 20px;
+  background: #f8f8f8;
+  padding: 4px 9px;
+  border: 1px solid #eee;
+  border-left: 5px solid #eee;
   font-style: italic;
   margin: 1em 2em;
-  quotes: '\201c' '\201d';
-  background-color: lightgrey;
-  padding: 1.8em;
-  border: 1px solid dimgrey; }
+  quotes: '\201c' '\201d'; }
   blockquote:before {
     content: none; }
   blockquote:after {
@@ -152,9 +154,9 @@ body.tao {
       min-width: 1024px; } }
 
 #main-content {
-  margin: 0; }
+  margin: 0;
+  font-size: 1.2em; }
   #main-content p:not([class]) {
-    font-size: 1.2em;
     margin-bottom: 1em;
     text-align: justify; }
     #main-content p:not([class]):last-child {
