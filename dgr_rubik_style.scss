@@ -2136,7 +2136,8 @@ table.views-table {
 
   .pane-page-site-name {
     font-size: 1.5em ;
-    line-height: 1.5;
+    line-height: 1;
+    margin: 20px 0;
     text-align: center;
     font-family: Georgia, "Book Antiqua", serif;
 
@@ -2163,7 +2164,8 @@ table.views-table {
   }
   .pane-page-slogan {
     font-size: 1em;
-    line-height: 1.5;
+    line-height: 1;
+    margin: 20px 0;
     text-align: center;
     font-family: Georgia, "Book Antiqua", serif;
 
@@ -2184,6 +2186,30 @@ table.views-table {
     
       &:hover {
         color: #1F45FC;
+      }
+    }
+  }
+
+  .pane-superfish-1 {
+    margin: 20px 0;
+  }
+
+  .pane-uuid-c30f5d3d-002d-498d-85f4-941d6a820d28 {
+    margin-bottom: 1em;
+  }
+  .pane-uuid-9eb16fb2-ba49-4f6e-8116-4766576e8283 {
+    margin-bottom: 0.5em;
+  }
+  .pane-widgets-s-socialmedia-share-default {
+    text-align: center;
+
+    .widgets-element {
+      display: inline-block;
+      margin-right: 5px;
+      float: none;
+
+      &:last-child {
+        margin-right: 0;
       }
     }
   }
@@ -3740,6 +3766,7 @@ input.form-submit {
         padding: 5px 10px;
         font-weight: bold;
         font-size: 1.2em;
+        line-height: 1;
         line-height: 20px;
         border: 0;
         transition: color 0.4s ease 0s;
