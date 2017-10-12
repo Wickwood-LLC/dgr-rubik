@@ -4242,8 +4242,8 @@ form#user-login, form#user-pass {
   margin-bottom: 1em; }
 
 .pane-node-links {
-  font-size: 0.9em; }
-  .pane-node-links .links {
+  font-size: 0.8em; }
+  .pane-node-links ul.links.inline {
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4255,4 +4255,6 @@ form#user-login, form#user-pass {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
+    .pane-node-links ul.links.inline li:not(:last-child) {
+      margin-right: 5px; }
 /*# sourceMappingURL=dgr_rubik_style.css.map */

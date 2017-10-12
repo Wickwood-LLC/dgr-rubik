@@ -4023,12 +4023,16 @@ form#user-login, form#user-pass {
 }
 
 .pane-node-links {
-  font-size: 0.9em;
+  font-size: 0.8em;
 
-  .links {
+  ul.links.inline {
     text-align: center;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+
+    li:not(:last-child) {
+      margin-right: 5px;
+    }
   }
 }
