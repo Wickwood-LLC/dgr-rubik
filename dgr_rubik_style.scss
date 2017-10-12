@@ -3965,22 +3965,25 @@ input.form-submit {
   .copyright,
   .pane-menu-menu-footer-links {
     display: flex;
-
-    @include breakpoint(481px) {
-      flex: 1 50%;
-      min-width: 455px;
-    }
+    flex: 1 100%;
   }
 
-  .copyright {
-    flex: 0 236px;
-    min-width: 236px;
+  .copyright {    
+    @include breakpoint(700px) {
+      flex: 0 236px;
+      min-width: 236px;
+      justify-content: center;
+    }    
   }
 
   .pane-menu-menu-footer-links {
     justify-content: flex-end;
-    flex: 1 404px;
-    min-width: 404px;
+
+    @include breakpoint(700px) {
+      flex: 1 404px;
+      min-width: 404px;
+      justify-content: center;
+    }
 
     a {
       color: black;
