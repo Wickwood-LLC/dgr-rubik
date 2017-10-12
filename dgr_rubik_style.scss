@@ -27,7 +27,8 @@
 big {
   font-size: larger;
 }
-blockquote {
+blockquote,
+.prose blockquote {
   display: block;
   line-height: 20px;
   background: #f8f8f8;
@@ -35,7 +36,7 @@ blockquote {
   border: 1px solid #eee;
   border-left: 5px solid #eee;
   font-style: italic;
-  margin: 1em 2em;
+  margin: 1em 7%;
   quotes: '\201c' '\201d';
 
   &:before {
@@ -46,7 +47,9 @@ blockquote {
   }
 
   p:nth-child(n+2):not([class]) {
-    padding-left: 2em;
+    @include breakpoint(750px) {
+      padding-left: 2em;
+    }
   }
 }
 code {
