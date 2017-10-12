@@ -3983,7 +3983,7 @@ input.form-submit {
     justify-content: center;
     flex: 1 100%;
 
-    @include breakpoint(437px 699px) {
+    @include breakpoint(0px 437px) {
       .menu li {
         display: inline-block;
         margin-left: 0;
