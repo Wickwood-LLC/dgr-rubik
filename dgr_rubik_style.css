@@ -1505,8 +1505,8 @@ table.views-table .pane-user-field-identification {
       display: inline-block;
       margin-right: 5px;
       float: none; }
-      #block-panels-mini-header .row-one .pane-widgets-s-socialmedia-share-default .widgets-element:last-of-type {
-        margin-right: 0; }
+    #block-panels-mini-header .row-one .pane-widgets-s-socialmedia-share-default #widgets-element-socialmedia_addthis-email {
+      margin-right: 0; }
   #block-panels-mini-header .row-one .middle-column {
     -webkit-box-align: center;
         -ms-flex-align: center;
