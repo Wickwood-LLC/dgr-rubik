@@ -3964,7 +3964,6 @@ input.form-submit {
 
   .copyright,
   .pane-menu-menu-footer-links {
-    flex: 1 100%;
     display: flex;
 
     @include breakpoint(481px) {
@@ -3973,8 +3972,15 @@ input.form-submit {
     }
   }
 
+  .copyright {
+    flex: 0 236px;
+    min-width: 236px;
+  }
+
   .pane-menu-menu-footer-links {
     justify-content: flex-end;
+    flex: 1 404px;
+    min-width: 404px;
 
     a {
       color: black;
