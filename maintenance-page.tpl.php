@@ -36,7 +36,7 @@
         <div id="name-and-slogan">
             <div id="site-name">
               <strong>
-                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
+                <a title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
               </strong>
             </div>
             <div id="site-slogan">
