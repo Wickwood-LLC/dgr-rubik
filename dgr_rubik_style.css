@@ -767,7 +767,8 @@ body.maintenance-page {
   body.maintenance-page #page-wrapper {
     border: 1px solid #ddd; }
   body.maintenance-page #page {
-    margin: 20px 40px 40px; }
+    margin: 20px 40px 40px;
+    width: auto; }
   body.maintenance-page #header,
   body.maintenance-page #container,
   body.maintenance-page #footer-wrapper {
