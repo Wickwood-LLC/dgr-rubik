@@ -4021,3 +4021,14 @@ form#user-login, form#user-pass {
   border: 2px solid lightgrey;
   margin-bottom: 1em;
 }
+
+.pane-node-links {
+  font-size: 0.9em;
+
+  .links {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
