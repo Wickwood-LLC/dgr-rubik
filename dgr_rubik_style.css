@@ -132,6 +132,9 @@ div.comment, div.node {
 body.tao {
   color: black; }
 
+img {
+  text-indent: -9999px; }
+
 #branding {
   background: none !important; }
   #branding .breadcrumb-link {
