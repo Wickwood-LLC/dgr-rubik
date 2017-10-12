@@ -3968,7 +3968,10 @@ input.form-submit {
     flex: 1 100%;
   }
 
-  .copyright {    
+  .copyright {
+    justify-content: center;
+    flex: 1 100%;
+
     @include breakpoint(700px) {
       flex: 0 236px;
       min-width: 236px;
@@ -3976,13 +3979,14 @@ input.form-submit {
     }    
   }
 
-  .pane-menu-menu-footer-links {
-    justify-content: flex-end;
+  .pane-menu-menu-footer-links {  
+    justify-content: center;
+    flex: 1 100%;
 
     @include breakpoint(700px) {
       flex: 1 404px;
       min-width: 404px;
-      justify-content: center;
+      justify-content: flex-end;
     }
 
     a {
