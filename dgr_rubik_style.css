@@ -868,7 +868,9 @@ div.panel-pane div.node.boxed {
 
 .form-actions#edit-actions {
   text-align: center;
-  float: none; }
+  float: none;
+  background: none;
+  border: none; }
 
 .pane-profile2-form-buttons {
   width: 100%; }
@@ -4193,6 +4195,10 @@ input.form-submit {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end; }
+    #mini-panel-footer .pane-menu-menu-footer-links a {
+      color: black; }
+      #mini-panel-footer .pane-menu-menu-footer-links a:hover {
+        color: #1F45FC; }
 
 #overlay {
   padding: 3em 40px; }
@@ -4220,4 +4226,13 @@ div#panels-ipe-control-container {
 
 .breadcrumb-link a {
   color: #333; }
+
+.pager li.pager-current, .primary-tabs li.active {
+  background-color: grey; }
+
+form#user-login, form#user-pass {
+  padding: 2em 1em 1em 1em;
+  border-radius: 10px;
+  border: 2px solid lightgrey;
+  margin-bottom: 1em; }
 /*# sourceMappingURL=dgr_rubik_style.css.map */

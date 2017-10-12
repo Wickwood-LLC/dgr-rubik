@@ -1081,6 +1081,8 @@ div.panel-pane div.node.boxed {
 .form-actions#edit-actions {
   text-align: center;
   float: none;
+  background: none;
+  border: none;
 }
 .pane-profile2-form-buttons {
   width: 100%;
@@ -3963,6 +3965,14 @@ input.form-submit {
 
   .pane-menu-menu-footer-links {
     justify-content: flex-end;
+
+    a {
+      color: black;
+
+      &:hover {
+        color: #1F45FC;
+      }
+    }
   }
 
 }
@@ -3996,4 +4006,15 @@ div#panels-ipe-control-container {
 
 .breadcrumb-link a {
   color: #333;
+}
+
+.pager li.pager-current, .primary-tabs li.active {
+  background-color: grey;
+}
+
+form#user-login, form#user-pass {
+  padding: 2em 1em 1em 1em;
+  border-radius: 10px;
+  border: 2px solid lightgrey;
+  margin-bottom: 1em;
 }
