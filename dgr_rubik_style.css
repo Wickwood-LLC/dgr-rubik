@@ -1457,7 +1457,7 @@ table.views-table .pane-user-field-identification {
   #block-panels-mini-header .row-one .pane-page-site-name {
     font-size: 1.5em;
     line-height: 1;
-    margin: 20px 0;
+    margin: 10px 0;
     text-align: center;
     font-family: Georgia, "Book Antiqua", serif; }
     @media (min-width: 295px) {
@@ -1494,7 +1494,7 @@ table.views-table .pane-user-field-identification {
       #block-panels-mini-header .row-one .pane-page-slogan a:hover {
         color: #1F45FC; }
   #block-panels-mini-header .row-one .pane-superfish-1 {
-    margin: 20px 0; }
+    margin: 10px 0; }
   #block-panels-mini-header .row-one .pane-uuid-c30f5d3d-002d-498d-85f4-941d6a820d28 {
     margin-bottom: 1em; }
   #block-panels-mini-header .row-one .pane-uuid-9eb16fb2-ba49-4f6e-8116-4766576e8283 {
@@ -4087,22 +4087,22 @@ input.form-submit {
         background: none;
         color: #1F45FC;
         text-decoration: underline; }
-      @media (min-width: 1232px) {
-        #block-superfish-1 #superfish-1 li a,
-        .pane-superfish-1 #superfish-1 li a {
-          font-size: 1.2em; } }
-      @media (min-width: 1195px) {
-        #block-superfish-1 #superfish-1 li a,
-        .pane-superfish-1 #superfish-1 li a {
-          font-size: 1.1em; } }
-      @media (min-width: 1159px) {
-        #block-superfish-1 #superfish-1 li a,
-        .pane-superfish-1 #superfish-1 li a {
-          font-size: 1em; } }
       @media (min-width: 1127) {
         #block-superfish-1 #superfish-1 li a,
         .pane-superfish-1 #superfish-1 li a {
           font-size: 0.9em; } }
+      @media (min-width: 1159px) {
+        #block-superfish-1 #superfish-1 li a,
+        .pane-superfish-1 #superfish-1 li a {
+          font-size: 1em; } }
+      @media (min-width: 1195px) {
+        #block-superfish-1 #superfish-1 li a,
+        .pane-superfish-1 #superfish-1 li a {
+          font-size: 1.1em; } }
+      @media (min-width: 1232px) {
+        #block-superfish-1 #superfish-1 li a,
+        .pane-superfish-1 #superfish-1 li a {
+          font-size: 1.2em; } }
   #block-superfish-1 #superfish-1 .sf-sub-indicator,
   .pane-superfish-1 #superfish-1 .sf-sub-indicator {
     -webkit-filter: invert(70%);

@@ -2202,7 +2202,7 @@ table.views-table {
   .pane-page-site-name {
     font-size: 1.5em ;
     line-height: 1;
-    margin: 20px 0;
+    margin: 10px 0;
     text-align: center;
     font-family: Georgia, "Book Antiqua", serif;
 
@@ -2256,7 +2256,7 @@ table.views-table {
   }
 
   .pane-superfish-1 {
-    margin: 20px 0;
+    margin: 10px 0;
   }
 
   .pane-uuid-c30f5d3d-002d-498d-85f4-941d6a820d28 {
@@ -3852,17 +3852,17 @@ input.form-submit {
           text-decoration: underline;
         }
 
-        @include breakpoint(1232px) {
-          font-size: 1.2em;
-        }
-        @include breakpoint(1195px) {
-          font-size: 1.1em;
+        @include breakpoint(1127) {
+          font-size: 0.9em;
         }
         @include breakpoint(1159px) {
           font-size: 1em;
         }
-        @include breakpoint(1127) {
-          font-size: 0.9em;
+        @include breakpoint(1195px) {
+          font-size: 1.1em;
+        }
+        @include breakpoint(1232px) {
+          font-size: 1.2em;
         }
       }
     }
