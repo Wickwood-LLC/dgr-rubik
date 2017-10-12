@@ -157,6 +157,11 @@ img {
 #branding {
   background: none !important;
 
+  .breadcrumb {
+    font-size: 1.2em;
+    margin-left: 15%;
+  }
+
   .breadcrumb-link {
     float: none;
     position: static;
@@ -178,6 +183,7 @@ img {
     display: inline-block;
     vertical-align: middle;
     margin-right: 5px;
+    color: black;
   }
 }
 
@@ -2295,6 +2301,7 @@ table.views-table {
       height: 140px;
       border: 1px solid #ccc;
       padding: 0.5em;
+      width: 100%;
     }
   }
 

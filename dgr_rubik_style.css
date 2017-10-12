@@ -142,6 +142,9 @@ img {
 
 #branding {
   background: none !important; }
+  #branding .breadcrumb {
+    font-size: 1.2em;
+    margin-left: 15%; }
   #branding .breadcrumb-link {
     float: none;
     position: static;
@@ -158,7 +161,8 @@ img {
   #branding .bc-separator {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 5px; }
+    margin-right: 5px;
+    color: black; }
 
 #page {
   width: 100%;
@@ -1538,7 +1542,8 @@ table.views-table .pane-user-field-identification {
     #block-panels-mini-header .row-one .left-column .inner {
       height: 140px;
       border: 1px solid #ccc;
-      padding: 0.5em; }
+      padding: 0.5em;
+      width: 100%; }
   #block-panels-mini-header .row-one .menu-name-user-menu ul li {
     margin-left: 0;
     white-space: nowrap;
