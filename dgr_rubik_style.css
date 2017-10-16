@@ -486,27 +486,28 @@ ul.primary-tabs.links {
 ul.secondary-tabs.links:hover li, ul.secondary-tabs.links:hover li a {
   float: none; }
 
-ul.secondary-tabs {
+ul.secondary-tabs.links {
   height: 20px;
   overflow: hidden;
   background: #c5c5c5; }
-  ul.secondary-tabs li a {
+  ul.secondary-tabs.links > li > a {
     display: block;
     float: none;
     height: 0px;
     position: relative;
     top: -20px;
-    text-shadow: #777 0 1px 0; }
-    ul.secondary-tabs li a:hover {
-      background: grey; }
-  ul.secondary-tabs li.active a {
+    text-shadow: #dbdcdf 0 1px 0;
+    color: black; }
+    ul.secondary-tabs.links > li > a:hover {
+      background: #eeeeee; }
+  ul.secondary-tabs.links > li.active > a {
     top: 0;
     height: 40px; }
-  ul.secondary-tabs:hover {
+  ul.secondary-tabs.links:hover {
     height: auto;
     overflow: visible;
     background: #c5c5c5; }
-    ul.secondary-tabs:hover li a {
+    ul.secondary-tabs.links:hover > li > a {
       height: auto;
       position: relative;
       top: 0px; }

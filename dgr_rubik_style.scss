@@ -610,25 +610,26 @@ ul.secondary-tabs.links:hover {
   }
 }
 
-ul.secondary-tabs {
+ul.secondary-tabs.links {
   height: 20px;
   overflow: hidden;
   background: #c5c5c5;
 
-  li a {
+  > li > a {
     display: block;
     float: none;
     height: 0px;
     position: relative;
     top: -20px;
-    text-shadow: #777 0 1px 0;
+    text-shadow: #dbdcdf 0 1px 0;
+    color: black;
 
     &:hover {
-      background: grey;
+      background: #eeeeee;
     }
   }
 
-  li.active a {
+  > li.active > a {
     top: 0;
     height: 40px;
   }
@@ -638,7 +639,7 @@ ul.secondary-tabs {
     overflow: visible;
     background: #c5c5c5;
 
-    li a {
+    > li > a {
       height: auto;
       position: relative;
       top: 0px;
