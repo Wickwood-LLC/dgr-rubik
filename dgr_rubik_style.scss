@@ -2301,7 +2301,6 @@ table.views-table {
 
   .right-column,
   .left-column {
-    flex: 1 175px;
     margin: 0 1em;
     align-items: flex-end;
     display: flex;
@@ -2313,6 +2312,16 @@ table.views-table {
       padding: 0.5em;
       width: 100%;
     }
+
+    @include breakpoint(1105px) {
+      flex: 1 23%;
+    }
+    @include breakpoint(1210px) {
+      flex: 1 20%;
+    }
+    @include breakpoint(1280px) {
+      flex: 1 25%;
+    }    
   }
 
   .menu-name-user-menu {
@@ -3844,7 +3853,7 @@ input.form-submit {
         text-align: center;
         padding: 5px 10px;
         font-weight: bold;
-        font-size: 0.8em;
+        font-size: 1em;
         line-height: 1;
         line-height: 20px;
         border: 0;
@@ -3862,9 +3871,6 @@ input.form-submit {
           text-decoration: underline;
         }
 
-        @include breakpoint(1127) {
-          font-size: 0.9em;
-        }
         @include breakpoint(1159px) {
           font-size: 1em;
         }
