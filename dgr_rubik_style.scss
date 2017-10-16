@@ -2202,6 +2202,7 @@ table.views-table {
 
 #block-panels-mini-header .row-one {
   display: flex;
+  flex-flow: row wrap;
   width: 100%;
   margin-bottom: 0px;
 
@@ -2316,14 +2317,14 @@ table.views-table {
     }
 
     @include breakpoint(1105px) {
-      flex: 1 23%;
+      flex: 0 23%;
       order: 1;
     }
     @include breakpoint(1210px) {
-      flex: 1 20%;
+      flex: 0 20%;
     }
     @include breakpoint(1280px) {
-      flex: 1 25%;
+      flex: 0 25%;
     }    
   }
 
