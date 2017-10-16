@@ -4051,7 +4051,7 @@ div#panels-ipe-control-container {
   color: #333;
 }
 
-.pager li.pager-current, .primary-tabs li.active {
+.pager li.pager-current, .primary-tabs > li.active {
   background-color: grey;
 }
 
