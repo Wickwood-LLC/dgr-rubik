@@ -148,7 +148,7 @@ body.tao {
     display: inline-block;
     vertical-align: middle;
     margin-right: 5px; }
-    #branding .breadcrumb-link a {
+    #branding .breadcrumb-link a, #branding .breadcrumb-link strong {
       color: black;
       font-weight: normal;
       float: left;
