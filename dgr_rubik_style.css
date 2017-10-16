@@ -489,7 +489,8 @@ ul.secondary-tabs.links:hover li, ul.secondary-tabs.links:hover li a {
 ul.secondary-tabs.links {
   height: 20px;
   overflow: hidden;
-  background: #c5c5c5; }
+  background: #c5c5c5;
+  opacity: 1; }
   ul.secondary-tabs.links > li > a {
     display: block;
     float: none;
