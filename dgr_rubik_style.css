@@ -4299,4 +4299,7 @@ form#user-login, form#user-pass {
             justify-content: center; }
     .pane-node-links ul.links.inline li:not(:last-child) {
       margin-right: 5px; }
+
+#block-system-help {
+  border: 0px; }
 /*# sourceMappingURL=dgr_rubik_style.css.map */
