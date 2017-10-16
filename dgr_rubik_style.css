@@ -520,11 +520,11 @@ ul.links.pager > li,
 ul.primary-tabs.links > li {
   margin-left: 0; }
 
-ul.action-links > li, ul.action-links > li a,
+ul.action-links > li, ul.action-links > li > a,
 ul.links.pager > li,
-ul.links.pager > li a,
+ul.links.pager > li > a,
 ul.primary-tabs.links > li,
-ul.primary-tabs.links > li a {
+ul.primary-tabs.links > li > a {
   float: left;
   text-shadow: #fff 0 1px 0; }
 

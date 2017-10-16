@@ -657,7 +657,7 @@ ul.primary-tabs.links {
   &>li {
     margin-left: 0;
   }
-  &>li, &>li a {
+  &>li, &>li > a {
     float: left;
     text-shadow: #fff 0 1px 0;
   }
