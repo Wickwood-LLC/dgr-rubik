@@ -2294,6 +2294,7 @@ table.views-table {
     align-items: center;
     display: flex;
     flex: 2 40%;
+
     justify-content: center;
     border: 1px solid #ccc;
     padding: 0.5em;
@@ -2306,7 +2307,7 @@ table.views-table {
     align-items: flex-end;
     display: flex;
     justify-content: center;
-    flex: 1 50%;
+    flex: 1 40%;
     order: 0;
 
     .inner {
@@ -2318,7 +2319,7 @@ table.views-table {
 
     @include breakpoint(1105px) {
       flex: 0 23%;
-      order: 1;
+      order: initial;
     }
     @include breakpoint(1210px) {
       flex: 0 20%;
