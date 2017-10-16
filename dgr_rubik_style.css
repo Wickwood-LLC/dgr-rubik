@@ -1543,9 +1543,11 @@ table.views-table .pane-user-field-identification {
             -ms-flex-order: initial;
                 order: initial; } }
   #block-panels-mini-header .row-one .right-column {
-    margin-right: 0; }
+    margin-right: 0;
+    margin-left: 0.5em; }
   #block-panels-mini-header .row-one .left-column {
-    margin-left: 0; }
+    margin-left: 0;
+    margin-right: 0.5em; }
   #block-panels-mini-header .row-one .right-column,
   #block-panels-mini-header .row-one .left-column {
     -webkit-box-align: end;
