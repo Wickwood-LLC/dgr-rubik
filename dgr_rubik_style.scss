@@ -598,6 +598,10 @@ ul.panels-ipe-linkbar li {
 
 ul.primary-tabs {
   text-transform: capitalize;
+
+  li.active {
+    text-shadow: #444 0 1px 0;
+  }
 }
 
 ul.secondary-tabs.links:hover {
@@ -609,6 +613,7 @@ ul.secondary-tabs.links:hover {
 ul.secondary-tabs {
   height: 20px;
   overflow: hidden;
+  background: #c5c5c5;
 
   li a {
     display: block;
@@ -616,6 +621,10 @@ ul.secondary-tabs {
     height: 0px;
     position: relative;
     top: -20px;
+
+    &:hover {
+      background: grey;
+    }
   }
 
   li.active a {
@@ -626,6 +635,7 @@ ul.secondary-tabs {
   &:hover {
     height: auto;
     overflow: visible;
+    background: #c5c5c5;
 
     li a {
       height: auto;
@@ -648,6 +658,7 @@ ul.primary-tabs.links {
   }
   &>li, &>li a {
     float: left;
+    text-shadow: #fff 0 1px 0;
   }
 }
 

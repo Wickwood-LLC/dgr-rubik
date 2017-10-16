@@ -480,25 +480,31 @@ ul.panels-ipe-linkbar li {
 
 ul.primary-tabs {
   text-transform: capitalize; }
+  ul.primary-tabs li.active {
+    text-shadow: #444 0 1px 0; }
 
 ul.secondary-tabs.links:hover li, ul.secondary-tabs.links:hover li a {
   float: none; }
 
 ul.secondary-tabs {
   height: 20px;
-  overflow: hidden; }
+  overflow: hidden;
+  background: #c5c5c5; }
   ul.secondary-tabs li a {
     display: block;
     float: none;
     height: 0px;
     position: relative;
     top: -20px; }
+    ul.secondary-tabs li a:hover {
+      background: grey; }
   ul.secondary-tabs li.active a {
     top: 0;
     height: 40px; }
   ul.secondary-tabs:hover {
     height: auto;
-    overflow: visible; }
+    overflow: visible;
+    background: #c5c5c5; }
     ul.secondary-tabs:hover li a {
       height: auto;
       position: relative;
@@ -518,7 +524,8 @@ ul.links.pager > li,
 ul.links.pager > li a,
 ul.primary-tabs.links > li,
 ul.primary-tabs.links > li a {
-  float: left; }
+  float: left;
+  text-shadow: #fff 0 1px 0; }
 
 ul.rules-operations-add a {
   padding: 5px 5px 5px 20px; }
