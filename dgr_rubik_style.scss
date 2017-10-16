@@ -599,8 +599,8 @@ ul.panels-ipe-linkbar li {
 ul.primary-tabs {
   text-transform: capitalize;
 
-  li.active {
-    text-shadow: #444 0 1px 0;
+  li.active a {
+    text-shadow: #dbdcdf 0 1px 0;
   }
 }
 

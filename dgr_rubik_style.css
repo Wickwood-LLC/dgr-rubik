@@ -480,8 +480,8 @@ ul.panels-ipe-linkbar li {
 
 ul.primary-tabs {
   text-transform: capitalize; }
-  ul.primary-tabs li.active {
-    text-shadow: #444 0 1px 0; }
+  ul.primary-tabs li.active a {
+    text-shadow: #dbdcdf 0 1px 0; }
 
 ul.secondary-tabs.links:hover li, ul.secondary-tabs.links:hover li a {
   float: none; }
