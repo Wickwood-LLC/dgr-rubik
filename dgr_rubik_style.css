@@ -479,7 +479,8 @@ ul.panels-ipe-linkbar li {
   margin-left: 0; }
 
 ul.primary-tabs.links {
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  text-shadow: #fff 0 1px 0; }
   ul.primary-tabs.links > li.active > a {
     text-shadow: black 0 1px 0; }
 
@@ -528,7 +529,7 @@ ul.links.pager > li > a,
 ul.primary-tabs.links > li,
 ul.primary-tabs.links > li > a {
   float: left;
-  text-shadow: #fff 0 1px 0; }
+  text-shadow: none; }
 
 ul.rules-operations-add a {
   padding: 5px 5px 5px 20px; }

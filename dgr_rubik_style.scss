@@ -598,6 +598,7 @@ ul.panels-ipe-linkbar li {
 
 ul.primary-tabs.links {
   text-transform: capitalize;
+  text-shadow: #fff 0 1px 0;
 
   > li.active > a {
     text-shadow: black 0 1px 0;
@@ -661,7 +662,7 @@ ul.primary-tabs.links {
   }
   &>li, &>li > a {
     float: left;
-    text-shadow: #fff 0 1px 0;
+    text-shadow: none;
   }
 }
 
