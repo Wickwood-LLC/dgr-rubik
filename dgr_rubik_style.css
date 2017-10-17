@@ -528,8 +528,7 @@ ul.links.pager > li,
 ul.links.pager > li > a,
 ul.primary-tabs.links > li,
 ul.primary-tabs.links > li > a {
-  float: left;
-  text-shadow: none; }
+  float: left; }
 
 ul.rules-operations-add a {
   padding: 5px 5px 5px 20px; }
