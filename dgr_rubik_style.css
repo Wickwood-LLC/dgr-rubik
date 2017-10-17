@@ -1508,7 +1508,7 @@ table.views-table .pane-user-field-identification {
         color: #1F45FC; }
   #block-panels-mini-header .row-one .pane-superfish-1 {
     margin: 10px 0; }
-  @media (min-width: 480px) {
+  @media (min-width: 1105px) {
     #block-panels-mini-header .row-one .pane-uuid-c30f5d3d-002d-498d-85f4-941d6a820d28 {
       margin-bottom: 1em; } }
   #block-panels-mini-header .row-one .pane-uuid-9eb16fb2-ba49-4f6e-8116-4766576e8283 {
