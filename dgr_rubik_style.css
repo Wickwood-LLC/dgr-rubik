@@ -1469,7 +1469,7 @@ table.views-table .pane-user-field-identification {
   #block-panels-mini-header .row-one .pane-page-site-name {
     font-size: 1.5em;
     line-height: 1;
-    margin: 10px 0;
+    margin-botom: 10px;
     text-align: center;
     font-family: Georgia, "Book Antiqua", serif; }
     @media (min-width: 295px) {
@@ -1546,6 +1546,11 @@ table.views-table .pane-user-field-identification {
   #block-panels-mini-header .row-one .right-column {
     margin-right: 0;
     margin-left: 0.5em; }
+    @media (min-width: 1105px) {
+      #block-panels-mini-header .row-one .right-column .inner > div {
+        -webkit-box-flex: 100%;
+            -ms-flex: 100%;
+                flex: 100%; } }
   #block-panels-mini-header .row-one .left-column {
     margin-left: 0;
     margin-right: 0.5em; }
@@ -1582,7 +1587,19 @@ table.views-table .pane-user-field-identification {
         -webkit-box-ordinal-group: initial;
             -ms-flex-order: initial;
                 order: initial;
-        margin: 0 1em; } }
+        margin: 0 1em; }
+        #block-panels-mini-header .row-one .right-column .inner,
+        #block-panels-mini-header .row-one .left-column .inner {
+          -webkit-box-align: end;
+              -ms-flex-align: end;
+                  align-items: flex-end;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+              -ms-flex-flow: row wrap;
+                  flex-flow: row wrap; } }
   #block-panels-mini-header .row-one .menu-name-user-menu ul li {
     margin-left: 0;
     white-space: nowrap;
@@ -4083,7 +4100,8 @@ input.form-submit {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
-          flex-flow: row wrap; }
+          flex-flow: row wrap;
+  height: 1em; }
   #block-superfish-1 #superfish-1 > li:first-child,
   #block-superfish-1 #superfish-1 > li:first-child a,
   .pane-superfish-1 #superfish-1 > li:first-child,
@@ -4108,7 +4126,7 @@ input.form-submit {
       background-image: none;
       color: #858484;
       text-align: center;
-      padding: 5px 10px;
+      padding: 0 10px;
       font-weight: bold;
       font-size: 1em;
       line-height: 1;
