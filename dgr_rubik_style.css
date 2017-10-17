@@ -1551,11 +1551,11 @@ table.views-table .pane-user-field-identification {
     @media (min-width: 480px) and (max-width: 1104px) {
       #block-panels-mini-header .row-one .right-column .inner > div:nth-child(2) {
         display: inline-block;
-        width: 50%;
+        width: 60%;
         vertical-align: middle; }
       #block-panels-mini-header .row-one .right-column .inner > div:nth-child(3) {
         display: inline-block;
-        width: 50%;
+        width: 40%;
         vertical-align: middle; }
         #block-panels-mini-header .row-one .right-column .inner > div:nth-child(3) .widgets-element {
           width: 25px; }

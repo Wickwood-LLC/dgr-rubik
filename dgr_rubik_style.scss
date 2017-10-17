@@ -2318,12 +2318,12 @@ table.views-table {
     @include breakpoint(480px 1104px) {
       .inner > div:nth-child(2) {
         display: inline-block;
-        width: 50%;
+        width: 60%;
         vertical-align: middle;
       }
       .inner > div:nth-child(3) {
         display: inline-block;
-        width: 50%;
+        width: 40%;
         vertical-align: middle;
 
         .widgets-element {
