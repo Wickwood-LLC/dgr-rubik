@@ -1588,7 +1588,8 @@ table.views-table .pane-user-field-identification {
         -webkit-box-ordinal-group: initial;
             -ms-flex-order: initial;
                 order: initial;
-        margin: 0 1em; }
+        margin: 0 1em;
+        min-width: 160px; }
         #block-panels-mini-header .row-one .right-column .inner,
         #block-panels-mini-header .row-one .left-column .inner {
           -webkit-box-align: end;
