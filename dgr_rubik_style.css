@@ -1551,10 +1551,16 @@ table.views-table .pane-user-field-identification {
     @media (min-width: 480px) and (max-width: 1104px) {
       #block-panels-mini-header .row-one .right-column .inner > div:nth-child(2) {
         display: inline-block;
-        width: 50%; }
+        width: 50%;
+        vertical-align: middle; }
       #block-panels-mini-header .row-one .right-column .inner > div:nth-child(3) {
         display: inline-block;
-        width: 50%; } }
+        width: 50%;
+        vertical-align: middle; }
+        #block-panels-mini-header .row-one .right-column .inner > div:nth-child(3) .widgets-element {
+          width: 25px; }
+          #block-panels-mini-header .row-one .right-column .inner > div:nth-child(3) .widgets-element img {
+            width: 25px; } }
     @media (min-width: 1105px) {
       #block-panels-mini-header .row-one .right-column .inner > div {
         -webkit-box-flex: 100%;
