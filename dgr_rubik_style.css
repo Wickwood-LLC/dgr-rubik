@@ -1463,7 +1463,8 @@ table.views-table .pane-user-field-identification {
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
   width: 100%;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  background: none; }
   #block-panels-mini-header .row-one .block-content {
     width: 100%; }
   #block-panels-mini-header .row-one .pane-page-site-name {
