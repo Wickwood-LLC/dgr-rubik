@@ -1575,7 +1575,6 @@ table.views-table .pane-user-field-identification {
     margin-bottom: 1em; }
     #block-panels-mini-header .row-one .right-column .inner,
     #block-panels-mini-header .row-one .left-column .inner {
-      height: 120px;
       border: 1px solid #ccc;
       padding: 0.5em;
       width: 100%; }
@@ -1592,6 +1591,7 @@ table.views-table .pane-user-field-identification {
         min-width: 160px; }
         #block-panels-mini-header .row-one .right-column .inner,
         #block-panels-mini-header .row-one .left-column .inner {
+          height: 120px;
           -webkit-box-align: end;
               -ms-flex-align: end;
                   align-items: flex-end;
