@@ -2275,7 +2275,9 @@ table.views-table {
   }
 
   .pane-uuid-c30f5d3d-002d-498d-85f4-941d6a820d28 {
-    margin-bottom: 1em;
+    @include breakpoint(480px) {
+      margin-bottom: 1em;
+    }
   }
   .pane-uuid-9eb16fb2-ba49-4f6e-8116-4766576e8283 {
     margin-bottom: 0.5em;
@@ -2313,6 +2315,19 @@ table.views-table {
     margin-right: 0;
     margin-left: 0.5em;
 
+    @include breakpoint(480px 1104px) {
+      .inner > div:nth-child(2) {
+        display: inline-block;
+        width: 50%;
+      }
+      .inner > div:nth-child(3) {
+        display: inline-block;
+        width: 50%;
+
+        
+      }
+    }
+
     @include breakpoint(1105px) {
       .inner > div {
         flex: 100%;
@@ -2329,7 +2344,7 @@ table.views-table {
     align-items: flex-end;
     display: flex;
     justify-content: center;
-    flex: 1 49%;
+    flex: 1 45%;
     order: 0;
     margin-bottom: 1em;
 
