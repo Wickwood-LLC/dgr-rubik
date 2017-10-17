@@ -1599,7 +1599,10 @@ table.views-table .pane-user-field-identification {
           -webkit-box-orient: horizontal;
           -webkit-box-direction: normal;
               -ms-flex-flow: row wrap;
-                  flex-flow: row wrap; } }
+                  flex-flow: row wrap;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center; } }
   #block-panels-mini-header .row-one .menu-name-user-menu ul li {
     margin-left: 0;
     white-space: nowrap;
