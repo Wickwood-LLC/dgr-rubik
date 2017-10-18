@@ -4145,7 +4145,11 @@ input.form-submit {
 
 /****** MAIN MENU ******/
 #block-superfish-1 #superfish-1,
-.pane-superfish-1 #superfish-1 {
+#block-superfish-1 #superfish-2,
+.pane-superfish-1 #superfish-1,
+.pane-superfish-1 #superfish-2,
+.pane-superfish-2 #superfish-1,
+.pane-superfish-2 #superfish-2 {
   display: table;
   margin: auto;
   font-family: Georgia, "Book Antiqua", serif;
@@ -4163,25 +4167,53 @@ input.form-submit {
   height: 1em; }
   #block-superfish-1 #superfish-1 > li:first-child,
   #block-superfish-1 #superfish-1 > li:first-child a,
+  #block-superfish-1 #superfish-2 > li:first-child,
+  #block-superfish-1 #superfish-2 > li:first-child a,
   .pane-superfish-1 #superfish-1 > li:first-child,
-  .pane-superfish-1 #superfish-1 > li:first-child a {
+  .pane-superfish-1 #superfish-1 > li:first-child a,
+  .pane-superfish-1 #superfish-2 > li:first-child,
+  .pane-superfish-1 #superfish-2 > li:first-child a,
+  .pane-superfish-2 #superfish-1 > li:first-child,
+  .pane-superfish-2 #superfish-1 > li:first-child a,
+  .pane-superfish-2 #superfish-2 > li:first-child,
+  .pane-superfish-2 #superfish-2 > li:first-child a {
     border-radius: 5px 0px 0px 5px; }
   #block-superfish-1 #superfish-1 > li:last-child,
   #block-superfish-1 #superfish-1 > li:last-child a,
+  #block-superfish-1 #superfish-2 > li:last-child,
+  #block-superfish-1 #superfish-2 > li:last-child a,
   .pane-superfish-1 #superfish-1 > li:last-child,
-  .pane-superfish-1 #superfish-1 > li:last-child a {
+  .pane-superfish-1 #superfish-1 > li:last-child a,
+  .pane-superfish-1 #superfish-2 > li:last-child,
+  .pane-superfish-1 #superfish-2 > li:last-child a,
+  .pane-superfish-2 #superfish-1 > li:last-child,
+  .pane-superfish-2 #superfish-1 > li:last-child a,
+  .pane-superfish-2 #superfish-2 > li:last-child,
+  .pane-superfish-2 #superfish-2 > li:last-child a {
     border-radius: 0px 5px 5px 0px; }
   #block-superfish-1 #superfish-1 li,
-  .pane-superfish-1 #superfish-1 li {
+  #block-superfish-1 #superfish-2 li,
+  .pane-superfish-1 #superfish-1 li,
+  .pane-superfish-1 #superfish-2 li,
+  .pane-superfish-2 #superfish-1 li,
+  .pane-superfish-2 #superfish-2 li {
     border-bottom: 0;
     float: left;
     background: none;
     padding: 0; }
     #block-superfish-1 #superfish-1 li:hover,
-    .pane-superfish-1 #superfish-1 li:hover {
+    #block-superfish-1 #superfish-2 li:hover,
+    .pane-superfish-1 #superfish-1 li:hover,
+    .pane-superfish-1 #superfish-2 li:hover,
+    .pane-superfish-2 #superfish-1 li:hover,
+    .pane-superfish-2 #superfish-2 li:hover {
       background: none; }
     #block-superfish-1 #superfish-1 li a,
-    .pane-superfish-1 #superfish-1 li a {
+    #block-superfish-1 #superfish-2 li a,
+    .pane-superfish-1 #superfish-1 li a,
+    .pane-superfish-1 #superfish-2 li a,
+    .pane-superfish-2 #superfish-1 li a,
+    .pane-superfish-2 #superfish-2 li a {
       background-image: none;
       color: #858484;
       text-align: center;
@@ -4194,58 +4226,111 @@ input.form-submit {
       -webkit-transition: color 0.4s ease 0s;
       transition: color 0.4s ease 0s; }
       #block-superfish-1 #superfish-1 li a > .sf-sub-indicator,
-      .pane-superfish-1 #superfish-1 li a > .sf-sub-indicator {
+      #block-superfish-1 #superfish-2 li a > .sf-sub-indicator,
+      .pane-superfish-1 #superfish-1 li a > .sf-sub-indicator,
+      .pane-superfish-1 #superfish-2 li a > .sf-sub-indicator,
+      .pane-superfish-2 #superfish-1 li a > .sf-sub-indicator,
+      .pane-superfish-2 #superfish-2 li a > .sf-sub-indicator {
         position: static;
         display: inline-block;
         margin-left: 0.5em; }
       #block-superfish-1 #superfish-1 li a:hover,
-      .pane-superfish-1 #superfish-1 li a:hover {
+      #block-superfish-1 #superfish-2 li a:hover,
+      .pane-superfish-1 #superfish-1 li a:hover,
+      .pane-superfish-1 #superfish-2 li a:hover,
+      .pane-superfish-2 #superfish-1 li a:hover,
+      .pane-superfish-2 #superfish-2 li a:hover {
         background: none;
         color: #1F45FC;
         text-decoration: underline; }
       @media (min-width: 1159px) {
         #block-superfish-1 #superfish-1 li a,
-        .pane-superfish-1 #superfish-1 li a {
+        #block-superfish-1 #superfish-2 li a,
+        .pane-superfish-1 #superfish-1 li a,
+        .pane-superfish-1 #superfish-2 li a,
+        .pane-superfish-2 #superfish-1 li a,
+        .pane-superfish-2 #superfish-2 li a {
           font-size: 1em; } }
       @media (min-width: 1195px) {
         #block-superfish-1 #superfish-1 li a,
-        .pane-superfish-1 #superfish-1 li a {
+        #block-superfish-1 #superfish-2 li a,
+        .pane-superfish-1 #superfish-1 li a,
+        .pane-superfish-1 #superfish-2 li a,
+        .pane-superfish-2 #superfish-1 li a,
+        .pane-superfish-2 #superfish-2 li a {
           font-size: 1.1em; } }
       @media (min-width: 1232px) {
         #block-superfish-1 #superfish-1 li a,
-        .pane-superfish-1 #superfish-1 li a {
+        #block-superfish-1 #superfish-2 li a,
+        .pane-superfish-1 #superfish-1 li a,
+        .pane-superfish-1 #superfish-2 li a,
+        .pane-superfish-2 #superfish-1 li a,
+        .pane-superfish-2 #superfish-2 li a {
           font-size: 1.2em; } }
   #block-superfish-1 #superfish-1 .sf-sub-indicator,
-  .pane-superfish-1 #superfish-1 .sf-sub-indicator {
+  #block-superfish-1 #superfish-2 .sf-sub-indicator,
+  .pane-superfish-1 #superfish-1 .sf-sub-indicator,
+  .pane-superfish-1 #superfish-2 .sf-sub-indicator,
+  .pane-superfish-2 #superfish-1 .sf-sub-indicator,
+  .pane-superfish-2 #superfish-2 .sf-sub-indicator {
     -webkit-filter: invert(70%);
             filter: invert(70%); }
   #block-superfish-1 #superfish-1 .menuparent ul,
-  .pane-superfish-1 #superfish-1 .menuparent ul {
+  #block-superfish-1 #superfish-2 .menuparent ul,
+  .pane-superfish-1 #superfish-1 .menuparent ul,
+  .pane-superfish-1 #superfish-2 .menuparent ul,
+  .pane-superfish-2 #superfish-1 .menuparent ul,
+  .pane-superfish-2 #superfish-2 .menuparent ul {
     width: auto !important;
     overflow: visible !important; }
     #block-superfish-1 #superfish-1 .menuparent ul li,
-    .pane-superfish-1 #superfish-1 .menuparent ul li {
+    #block-superfish-1 #superfish-2 .menuparent ul li,
+    .pane-superfish-1 #superfish-1 .menuparent ul li,
+    .pane-superfish-1 #superfish-2 .menuparent ul li,
+    .pane-superfish-2 #superfish-1 .menuparent ul li,
+    .pane-superfish-2 #superfish-2 .menuparent ul li {
       white-space: nowrap !important;
       background: white; }
       #block-superfish-1 #superfish-1 .menuparent ul li:hover,
-      .pane-superfish-1 #superfish-1 .menuparent ul li:hover {
+      #block-superfish-1 #superfish-2 .menuparent ul li:hover,
+      .pane-superfish-1 #superfish-1 .menuparent ul li:hover,
+      .pane-superfish-1 #superfish-2 .menuparent ul li:hover,
+      .pane-superfish-2 #superfish-1 .menuparent ul li:hover,
+      .pane-superfish-2 #superfish-2 .menuparent ul li:hover {
         background: white; }
       #block-superfish-1 #superfish-1 .menuparent ul li a,
-      .pane-superfish-1 #superfish-1 .menuparent ul li a {
+      #block-superfish-1 #superfish-2 .menuparent ul li a,
+      .pane-superfish-1 #superfish-1 .menuparent ul li a,
+      .pane-superfish-1 #superfish-2 .menuparent ul li a,
+      .pane-superfish-2 #superfish-1 .menuparent ul li a,
+      .pane-superfish-2 #superfish-2 .menuparent ul li a {
         text-align: left; }
   #block-superfish-1 #superfish-1 .active-trail,
-  .pane-superfish-1 #superfish-1 .active-trail {
+  #block-superfish-1 #superfish-2 .active-trail,
+  .pane-superfish-1 #superfish-1 .active-trail,
+  .pane-superfish-1 #superfish-2 .active-trail,
+  .pane-superfish-2 #superfish-1 .active-trail,
+  .pane-superfish-2 #superfish-2 .active-trail {
     background-color: none !important; }
     #block-superfish-1 #superfish-1 .active-trail > a,
-    .pane-superfish-1 #superfish-1 .active-trail > a {
+    #block-superfish-1 #superfish-2 .active-trail > a,
+    .pane-superfish-1 #superfish-1 .active-trail > a,
+    .pane-superfish-1 #superfish-2 .active-trail > a,
+    .pane-superfish-2 #superfish-1 .active-trail > a,
+    .pane-superfish-2 #superfish-2 .active-trail > a {
       color: black;
       text-decoration: underline; }
       #block-superfish-1 #superfish-1 .active-trail > a:hover,
-      .pane-superfish-1 #superfish-1 .active-trail > a:hover {
+      #block-superfish-1 #superfish-2 .active-trail > a:hover,
+      .pane-superfish-1 #superfish-1 .active-trail > a:hover,
+      .pane-superfish-1 #superfish-2 .active-trail > a:hover,
+      .pane-superfish-2 #superfish-1 .active-trail > a:hover,
+      .pane-superfish-2 #superfish-2 .active-trail > a:hover {
         background: inherit; }
 
 #block-superfish-1 #superfish-1-toggle,
-.pane-superfish-1 #superfish-1-toggle {
+.pane-superfish-1 #superfish-1-toggle,
+.pane-superfish-2 #superfish-1-toggle {
   display: block;
   text-align: center;
   background-color: #008db0;
@@ -4256,35 +4341,44 @@ input.form-submit {
   font-size: 18px;
   font-weight: bold; }
   #block-superfish-1 #superfish-1-toggle.sf-expanded,
-  .pane-superfish-1 #superfish-1-toggle.sf-expanded {
+  .pane-superfish-1 #superfish-1-toggle.sf-expanded,
+  .pane-superfish-2 #superfish-1-toggle.sf-expanded {
     background-color: #7bc;
     border-radius: 10px 10px 0 0; }
   #block-superfish-1 #superfish-1-toggle:hover,
-  .pane-superfish-1 #superfish-1-toggle:hover {
+  .pane-superfish-1 #superfish-1-toggle:hover,
+  .pane-superfish-2 #superfish-1-toggle:hover {
     background-color: #7bc; }
 
 #block-superfish-1 #superfish-1-accordion li,
-.pane-superfish-1 #superfish-1-accordion li {
+.pane-superfish-1 #superfish-1-accordion li,
+.pane-superfish-2 #superfish-1-accordion li {
   background-color: #e9eaec;
   line-height: 1.5;
   font-size: 16px; }
   #block-superfish-1 #superfish-1-accordion li.active-trail,
-  .pane-superfish-1 #superfish-1-accordion li.active-trail {
+  .pane-superfish-1 #superfish-1-accordion li.active-trail,
+  .pane-superfish-2 #superfish-1-accordion li.active-trail {
     background-color: #00728e; }
     #block-superfish-1 #superfish-1-accordion li.active-trail > a,
-    .pane-superfish-1 #superfish-1-accordion li.active-trail > a {
+    .pane-superfish-1 #superfish-1-accordion li.active-trail > a,
+    .pane-superfish-2 #superfish-1-accordion li.active-trail > a {
       color: white; }
   #block-superfish-1 #superfish-1-accordion li:last-child,
-  .pane-superfish-1 #superfish-1-accordion li:last-child {
+  .pane-superfish-1 #superfish-1-accordion li:last-child,
+  .pane-superfish-2 #superfish-1-accordion li:last-child {
     border-radius: 0 0 10px 10px; }
   #block-superfish-1 #superfish-1-accordion li:hover,
-  .pane-superfish-1 #superfish-1-accordion li:hover {
+  .pane-superfish-1 #superfish-1-accordion li:hover,
+  .pane-superfish-2 #superfish-1-accordion li:hover {
     background-color: #9ec5d0; }
     #block-superfish-1 #superfish-1-accordion li:hover > a,
-    .pane-superfish-1 #superfish-1-accordion li:hover > a {
+    .pane-superfish-1 #superfish-1-accordion li:hover > a,
+    .pane-superfish-2 #superfish-1-accordion li:hover > a {
       color: white; }
   #block-superfish-1 #superfish-1-accordion li a,
-  .pane-superfish-1 #superfish-1-accordion li a {
+  .pane-superfish-1 #superfish-1-accordion li a,
+  .pane-superfish-2 #superfish-1-accordion li a {
     color: #00728e; }
 
 #mini-panel-footer {

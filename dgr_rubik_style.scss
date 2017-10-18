@@ -3921,8 +3921,10 @@ input.form-submit {
 /****** MAIN MENU ******/
 
 #block-superfish-1,
-.pane-superfish-1 {
-  #superfish-1 {
+.pane-superfish-1,
+.pane-superfish-2 {
+  #superfish-1,
+  #superfish-2 {
     display: table;
     margin: auto;
     font-family: Georgia, "Book Antiqua", serif;
