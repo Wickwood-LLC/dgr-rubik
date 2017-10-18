@@ -4329,8 +4329,11 @@ input.form-submit {
         background: inherit; }
 
 #block-superfish-1 #superfish-1-toggle,
+#block-superfish-1 #superfish-2-toggle,
 .pane-superfish-1 #superfish-1-toggle,
-.pane-superfish-2 #superfish-1-toggle {
+.pane-superfish-1 #superfish-2-toggle,
+.pane-superfish-2 #superfish-1-toggle,
+.pane-superfish-2 #superfish-2-toggle {
   display: block;
   text-align: center;
   background-color: #008db0;
@@ -4341,44 +4344,71 @@ input.form-submit {
   font-size: 18px;
   font-weight: bold; }
   #block-superfish-1 #superfish-1-toggle.sf-expanded,
+  #block-superfish-1 #superfish-2-toggle.sf-expanded,
   .pane-superfish-1 #superfish-1-toggle.sf-expanded,
-  .pane-superfish-2 #superfish-1-toggle.sf-expanded {
+  .pane-superfish-1 #superfish-2-toggle.sf-expanded,
+  .pane-superfish-2 #superfish-1-toggle.sf-expanded,
+  .pane-superfish-2 #superfish-2-toggle.sf-expanded {
     background-color: #7bc;
     border-radius: 10px 10px 0 0; }
   #block-superfish-1 #superfish-1-toggle:hover,
+  #block-superfish-1 #superfish-2-toggle:hover,
   .pane-superfish-1 #superfish-1-toggle:hover,
-  .pane-superfish-2 #superfish-1-toggle:hover {
+  .pane-superfish-1 #superfish-2-toggle:hover,
+  .pane-superfish-2 #superfish-1-toggle:hover,
+  .pane-superfish-2 #superfish-2-toggle:hover {
     background-color: #7bc; }
 
 #block-superfish-1 #superfish-1-accordion li,
+#block-superfish-1 #superfish-2-accordion li,
 .pane-superfish-1 #superfish-1-accordion li,
-.pane-superfish-2 #superfish-1-accordion li {
+.pane-superfish-1 #superfish-2-accordion li,
+.pane-superfish-2 #superfish-1-accordion li,
+.pane-superfish-2 #superfish-2-accordion li {
   background-color: #e9eaec;
   line-height: 1.5;
   font-size: 16px; }
   #block-superfish-1 #superfish-1-accordion li.active-trail,
+  #block-superfish-1 #superfish-2-accordion li.active-trail,
   .pane-superfish-1 #superfish-1-accordion li.active-trail,
-  .pane-superfish-2 #superfish-1-accordion li.active-trail {
+  .pane-superfish-1 #superfish-2-accordion li.active-trail,
+  .pane-superfish-2 #superfish-1-accordion li.active-trail,
+  .pane-superfish-2 #superfish-2-accordion li.active-trail {
     background-color: #00728e; }
     #block-superfish-1 #superfish-1-accordion li.active-trail > a,
+    #block-superfish-1 #superfish-2-accordion li.active-trail > a,
     .pane-superfish-1 #superfish-1-accordion li.active-trail > a,
-    .pane-superfish-2 #superfish-1-accordion li.active-trail > a {
+    .pane-superfish-1 #superfish-2-accordion li.active-trail > a,
+    .pane-superfish-2 #superfish-1-accordion li.active-trail > a,
+    .pane-superfish-2 #superfish-2-accordion li.active-trail > a {
       color: white; }
   #block-superfish-1 #superfish-1-accordion li:last-child,
+  #block-superfish-1 #superfish-2-accordion li:last-child,
   .pane-superfish-1 #superfish-1-accordion li:last-child,
-  .pane-superfish-2 #superfish-1-accordion li:last-child {
+  .pane-superfish-1 #superfish-2-accordion li:last-child,
+  .pane-superfish-2 #superfish-1-accordion li:last-child,
+  .pane-superfish-2 #superfish-2-accordion li:last-child {
     border-radius: 0 0 10px 10px; }
   #block-superfish-1 #superfish-1-accordion li:hover,
+  #block-superfish-1 #superfish-2-accordion li:hover,
   .pane-superfish-1 #superfish-1-accordion li:hover,
-  .pane-superfish-2 #superfish-1-accordion li:hover {
+  .pane-superfish-1 #superfish-2-accordion li:hover,
+  .pane-superfish-2 #superfish-1-accordion li:hover,
+  .pane-superfish-2 #superfish-2-accordion li:hover {
     background-color: #9ec5d0; }
     #block-superfish-1 #superfish-1-accordion li:hover > a,
+    #block-superfish-1 #superfish-2-accordion li:hover > a,
     .pane-superfish-1 #superfish-1-accordion li:hover > a,
-    .pane-superfish-2 #superfish-1-accordion li:hover > a {
+    .pane-superfish-1 #superfish-2-accordion li:hover > a,
+    .pane-superfish-2 #superfish-1-accordion li:hover > a,
+    .pane-superfish-2 #superfish-2-accordion li:hover > a {
       color: white; }
   #block-superfish-1 #superfish-1-accordion li a,
+  #block-superfish-1 #superfish-2-accordion li a,
   .pane-superfish-1 #superfish-1-accordion li a,
-  .pane-superfish-2 #superfish-1-accordion li a {
+  .pane-superfish-1 #superfish-2-accordion li a,
+  .pane-superfish-2 #superfish-1-accordion li a,
+  .pane-superfish-2 #superfish-2-accordion li a {
     color: #00728e; }
 
 #mini-panel-footer {

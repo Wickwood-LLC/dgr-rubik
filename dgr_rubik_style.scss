@@ -4027,7 +4027,8 @@ input.form-submit {
     }
   }
 
-  #superfish-1-toggle {
+  #superfish-1-toggle,
+  #superfish-2-toggle {
     display: block;
     text-align: center;
     background-color: #008db0;
@@ -4048,7 +4049,8 @@ input.form-submit {
     }
   }
 
-  #superfish-1-accordion {
+  #superfish-1-accordion,
+  #superfish-2-accordion {
     li {
       background-color: #e9eaec;
       line-height: 1.5;
