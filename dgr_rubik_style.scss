@@ -2299,7 +2299,7 @@ table.views-table {
   .middle-column {
     align-items: center;
     display: flex;
-    flex: 2 50%;
+    flex: 1 100%;
     order: 1;
     justify-content: center;
     border: 1px solid #ccc;
@@ -2308,6 +2308,7 @@ table.views-table {
 
     @include breakpoint(1105px) {
       order: initial;
+      flex: 2 50%;
     }
   }
 
@@ -2352,8 +2353,9 @@ table.views-table {
     align-items: flex-end;
     display: flex;
     justify-content: center;
-    flex: 1 45%;
+    flex: 0 230px;
     order: 0;
+    margin: auto;
     margin-bottom: 1em;
 
     .inner {
