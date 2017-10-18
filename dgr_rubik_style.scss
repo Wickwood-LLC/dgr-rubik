@@ -2306,10 +2306,14 @@ table.views-table {
     display: flex;
     flex: 1 100%;
     order: 1;
-    justify-content: center;
+    justify-content: flex-start;
     border: 1px solid #ccc;
     padding: 0.5em;
     position: relative;
+
+    @include breakpoint(480px) {
+      justify-content: center;
+    }
 
     .inner {
       width: calc(100% - 37px);

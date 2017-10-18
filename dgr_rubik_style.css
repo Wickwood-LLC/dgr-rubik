@@ -1538,12 +1538,17 @@ table.views-table .pane-user-field-identification {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     border: 1px solid #ccc;
     padding: 0.5em;
     position: relative; }
+    @media (min-width: 480px) {
+      #block-panels-mini-header .row-one .middle-column {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; } }
     #block-panels-mini-header .row-one .middle-column .inner {
       width: calc(100% - 37px); }
       #block-panels-mini-header .row-one .middle-column .inner > div:last-child {
