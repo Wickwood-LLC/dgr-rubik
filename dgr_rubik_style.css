@@ -1493,7 +1493,7 @@ table.views-table .pane-user-field-identification {
   #block-panels-mini-header .row-one .pane-page-slogan {
     font-size: 1em;
     line-height: 1;
-    margin: 20px 0;
+    margin: 10px 0;
     text-align: center;
     font-family: Georgia, "Book Antiqua", serif; }
     @media (min-width: 295px) {
@@ -1502,6 +1502,9 @@ table.views-table .pane-user-field-identification {
     @media (min-width: 400px) {
       #block-panels-mini-header .row-one .pane-page-slogan {
         font-size: 1.5em; } }
+    @media (min-width: 480px) {
+      #block-panels-mini-header .row-one .pane-page-slogan {
+        margin: 20px 0; } }
     @media (min-width: 1024px) {
       #block-panels-mini-header .row-one .pane-page-slogan {
         font-size: 2.2em; } }

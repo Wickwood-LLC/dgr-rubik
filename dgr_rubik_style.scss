@@ -2249,7 +2249,7 @@ table.views-table {
   .pane-page-slogan {
     font-size: 1em;
     line-height: 1;
-    margin: 20px 0;
+    margin: 10px 0;
     text-align: center;
     font-family: Georgia, "Book Antiqua", serif;
 
@@ -2259,6 +2259,10 @@ table.views-table {
 
     @include breakpoint(400px) {
       font-size: 1.5em;
+    }
+
+    @include breakpoint(480px) {
+      margin: 20px 0;
     }
 
     @include breakpoint(1024px) {
