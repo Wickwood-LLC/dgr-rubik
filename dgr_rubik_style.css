@@ -1557,6 +1557,8 @@ table.views-table .pane-user-field-identification {
                 justify-content: center; } }
     #block-panels-mini-header .row-one .middle-column .inner {
       width: calc(100% - 37px); }
+      #block-panels-mini-header .row-one .middle-column .inner > div:nth-child(5) {
+        width: calc(100% + 37px); }
       #block-panels-mini-header .row-one .middle-column .inner > div:last-child {
         display: inline-block;
         position: absolute;
@@ -1565,6 +1567,8 @@ table.views-table .pane-user-field-identification {
       @media (min-width: 480px) {
         #block-panels-mini-header .row-one .middle-column .inner {
           width: 100%; }
+          #block-panels-mini-header .row-one .middle-column .inner > div:nth-child(5) {
+            width: 100%; }
           #block-panels-mini-header .row-one .middle-column .inner > div:last-child {
             display: block;
             position: initial; } }

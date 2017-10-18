@@ -2326,6 +2326,10 @@ table.views-table {
     .inner {
       width: calc(100% - 37px);
 
+      > div:nth-child(5) {
+        width: calc(100% + 37px);
+      }
+
       > div:last-child {
         display: inline-block;
         position: absolute;
@@ -2335,6 +2339,10 @@ table.views-table {
 
       @include breakpoint(480px) {
         width: 100%;
+
+        > div:nth-child(5) {
+          width: 100%;
+        }
 
         > div:last-child {
           display: block;
