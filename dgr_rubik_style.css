@@ -1476,13 +1476,16 @@ table.views-table .pane-user-field-identification {
     margin-botom: 10px;
     text-align: center;
     font-family: Georgia, "Book Antiqua", serif; }
-    @media (min-width: 295px) {
+    @media (min-width: 421px) {
       #block-panels-mini-header .row-one .pane-page-site-name {
-        font-size: 1.8em; } }
-    @media (min-width: 400px) {
+        font-size: 2.5em; } }
+    @media (min-width: 731px) {
       #block-panels-mini-header .row-one .pane-page-site-name {
-        font-size: 2em; } }
-    @media (min-width: 1024px) {
+        font-size: 3em; } }
+    @media (min-width: 841px) {
+      #block-panels-mini-header .row-one .pane-page-site-name {
+        font-size: 3.5em; } }
+    @media (min-width: 1106px) {
       #block-panels-mini-header .row-one .pane-page-site-name {
         font-size: 4em; } }
     #block-panels-mini-header .row-one .pane-page-site-name a {
@@ -1501,11 +1504,11 @@ table.views-table .pane-user-field-identification {
         font-size: 1.2em; } }
     @media (min-width: 400px) {
       #block-panels-mini-header .row-one .pane-page-slogan {
-        font-size: 1.5em; } }
+        font-size: 2.2em; } }
     @media (min-width: 480px) {
       #block-panels-mini-header .row-one .pane-page-slogan {
         margin: 20px 0; } }
-    @media (min-width: 1024px) {
+    @media (min-width: 840px) {
       #block-panels-mini-header .row-one .pane-page-slogan {
         font-size: 2.2em; } }
     #block-panels-mini-header .row-one .pane-page-slogan a {
@@ -4243,7 +4246,39 @@ input.form-submit {
         background: none;
         color: #1F45FC;
         text-decoration: underline; }
-      @media (min-width: 817px) and (max-width: 1104px) {
+      @media (min-width: 680px) {
+        #block-superfish-1 #superfish-1 li a,
+        #block-superfish-1 #superfish-2 li a,
+        .pane-superfish-1 #superfish-1 li a,
+        .pane-superfish-1 #superfish-2 li a,
+        .pane-superfish-2 #superfish-1 li a,
+        .pane-superfish-2 #superfish-2 li a {
+          font-size: 0.9em; } }
+      @media (min-width: 705px) {
+        #block-superfish-1 #superfish-1 li a,
+        #block-superfish-1 #superfish-2 li a,
+        .pane-superfish-1 #superfish-1 li a,
+        .pane-superfish-1 #superfish-2 li a,
+        .pane-superfish-2 #superfish-1 li a,
+        .pane-superfish-2 #superfish-2 li a {
+          font-size: 0.95em; } }
+      @media (min-width: 730px) {
+        #block-superfish-1 #superfish-1 li a,
+        #block-superfish-1 #superfish-2 li a,
+        .pane-superfish-1 #superfish-1 li a,
+        .pane-superfish-1 #superfish-2 li a,
+        .pane-superfish-2 #superfish-1 li a,
+        .pane-superfish-2 #superfish-2 li a {
+          font-size: 1em; } }
+      @media (min-width: 780px) {
+        #block-superfish-1 #superfish-1 li a,
+        #block-superfish-1 #superfish-2 li a,
+        .pane-superfish-1 #superfish-1 li a,
+        .pane-superfish-1 #superfish-2 li a,
+        .pane-superfish-2 #superfish-1 li a,
+        .pane-superfish-2 #superfish-2 li a {
+          font-size: 1.1em; } }
+      @media (min-width: 840px) and (max-width: 1104px) {
         #block-superfish-1 #superfish-1 li a,
         #block-superfish-1 #superfish-2 li a,
         .pane-superfish-1 #superfish-1 li a,
