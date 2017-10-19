@@ -5,15 +5,6 @@
 function dgr_rubik_breadcrumb($vars) {
   $output = '';
 
-  // // Add current page onto the end.
-  // if (!drupal_is_front_page()) {
-  //   $item = menu_get_item();
-  //   $end = end($vars['breadcrumb']);
-  //   if ($end && strip_tags($end) !== $item['title']) {
-  //     $vars['breadcrumb'][] = (isset($item['localized_options']['html']) && $item['localized_options']['html']) ? $item['title'] : check_plain($item['title']);
-  //   }
-  // }
-
   if (isset($vars['breadcrumb'][3])) {  // If we are 4 levels deep in the breadcrumb
     $pages = array("News", "Articles", "Press Releases");
     preg_match('/(?<=\>).*?(?=\<)/', $vars['breadcrumb'][1], $lists);
@@ -89,7 +80,10 @@ function dgr_rubik_breadcrumb($vars) {
       $output .= "<span class='bc-separator'>{$separator}</span>" ;
     }
   }
-  return $output;
+
+  if ($depth > 2) { // Only show breadcrumbs if we have more than 2 links
+    return $output;
+  }
 }
 
 /**
