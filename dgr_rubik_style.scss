@@ -2254,20 +2254,11 @@ table.views-table {
     text-align: center;
     font-family: Georgia, "Book Antiqua", serif;
 
-    @include breakpoint(295px) {
-      font-size: 1.2em;
-    }
-
-    @include breakpoint(400px) {
-      font-size: 2.2em;
-    }
-
-    @include breakpoint(480px) {
-      margin: 20px 0;
-    }
-
     @include breakpoint(421px) {
       font-size: 1.6em;
+    }
+    @include breakpoint(480px) {
+      margin: 20px 0;
     }
     @include breakpoint(731px) {
       font-size: 1.7em;
