@@ -4038,6 +4038,7 @@ input.form-submit {
     padding: 0.5em 1em;
     font-size: 18px;
     font-weight: bold;
+    margin-top: 10px;
 
     &.sf-expanded {
       background-color: #7bc;
@@ -4055,6 +4056,7 @@ input.form-submit {
       background-color: #e9eaec;
       line-height: 1.5;
       font-size: 16px;
+      box-sizing: border-box;
 
       &.active-trail {
         background-color: #00728e;

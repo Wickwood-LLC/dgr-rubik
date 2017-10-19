@@ -4342,7 +4342,8 @@ input.form-submit {
   line-height: 1.5;
   padding: 0.5em 1em;
   font-size: 18px;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-top: 10px; }
   #block-superfish-1 #superfish-1-toggle.sf-expanded,
   #block-superfish-1 #superfish-2-toggle.sf-expanded,
   .pane-superfish-1 #superfish-1-toggle.sf-expanded,
@@ -4367,7 +4368,9 @@ input.form-submit {
 .pane-superfish-2 #superfish-2-accordion li {
   background-color: #e9eaec;
   line-height: 1.5;
-  font-size: 16px; }
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
   #block-superfish-1 #superfish-1-accordion li.active-trail,
   #block-superfish-1 #superfish-2-accordion li.active-trail,
   .pane-superfish-1 #superfish-1-accordion li.active-trail,
