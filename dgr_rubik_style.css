@@ -1471,7 +1471,7 @@ table.views-table .pane-user-field-identification {
   #block-panels-mini-header .row-one .block-content {
     width: 100%; }
   #block-panels-mini-header .row-one .pane-page-site-name {
-    font-size: 1.5em;
+    font-size: 2em;
     line-height: 1;
     margin-botom: 10px;
     text-align: center;
@@ -1494,7 +1494,7 @@ table.views-table .pane-user-field-identification {
         color: #1F45FC;
         text-decoration: none; }
   #block-panels-mini-header .row-one .pane-page-slogan {
-    font-size: 1em;
+    font-size: 1.3em;
     line-height: 1;
     margin: 10px 0;
     text-align: center;
@@ -1508,7 +1508,16 @@ table.views-table .pane-user-field-identification {
     @media (min-width: 480px) {
       #block-panels-mini-header .row-one .pane-page-slogan {
         margin: 20px 0; } }
-    @media (min-width: 840px) {
+    @media (min-width: 421px) {
+      #block-panels-mini-header .row-one .pane-page-slogan {
+        font-size: 1.6em; } }
+    @media (min-width: 731px) {
+      #block-panels-mini-header .row-one .pane-page-slogan {
+        font-size: 1.7em; } }
+    @media (min-width: 841px) {
+      #block-panels-mini-header .row-one .pane-page-slogan {
+        font-size: 2em; } }
+    @media (min-width: 1106px) {
       #block-panels-mini-header .row-one .pane-page-slogan {
         font-size: 2.2em; } }
     #block-panels-mini-header .row-one .pane-page-slogan a {
