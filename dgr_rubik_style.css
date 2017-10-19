@@ -4243,6 +4243,14 @@ input.form-submit {
         background: none;
         color: #1F45FC;
         text-decoration: underline; }
+      @media (min-width: 817px) and (max-width: 1104px) {
+        #block-superfish-1 #superfish-1 li a,
+        #block-superfish-1 #superfish-2 li a,
+        .pane-superfish-1 #superfish-1 li a,
+        .pane-superfish-1 #superfish-2 li a,
+        .pane-superfish-2 #superfish-1 li a,
+        .pane-superfish-2 #superfish-2 li a {
+          font-size: 1.2em; } }
       @media (min-width: 1159px) {
         #block-superfish-1 #superfish-1 li a,
         #block-superfish-1 #superfish-2 li a,
@@ -4337,6 +4345,7 @@ input.form-submit {
   display: block;
   text-align: center;
   background-color: #008db0;
+  text-decoration: none;
   color: white;
   border-radius: 10px;
   line-height: 1.5;

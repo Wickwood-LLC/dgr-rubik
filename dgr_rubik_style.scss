@@ -3979,6 +3979,9 @@ input.form-submit {
           text-decoration: underline;
         }
 
+        @include breakpoint(817px 1104px) {
+          font-size: 1.2em;
+        }
         @include breakpoint(1159px) {
           font-size: 1em;
         }
@@ -4032,6 +4035,7 @@ input.form-submit {
     display: block;
     text-align: center;
     background-color: #008db0;
+    text-decoration: none;
     color: white;
     border-radius: 10px;
     line-height: 1.5;
