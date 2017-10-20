@@ -4609,4 +4609,9 @@ form#user-login, form#user-pass {
 
 .view-card-cycles .views-slideshow-cycle-main-frame-row-item {
   padding-top: 2em; }
+
+.node-type-panopoly-faq .field-name-field-categories {
+  margin-top: 1em;
+  font-size: 0.9em;
+  text-align: right; }
 /*# sourceMappingURL=dgr_rubik_style.css.map */
