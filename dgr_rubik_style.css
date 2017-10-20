@@ -4616,5 +4616,6 @@ form#user-login, form#user-pass {
   text-align: right; }
   .node-type-panopoly-faq .field-name-field-categories .field-label,
   .node-type-panopoly-faq .field-name-field-categories .field-items {
-    display: inline-block; }
+    display: inline-block;
+    float: none; }
 /*# sourceMappingURL=dgr_rubik_style.css.map */
