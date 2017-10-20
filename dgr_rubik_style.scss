@@ -4259,5 +4259,10 @@ form#user-login, form#user-pass {
     margin-top: 1em;
     font-size: 0.9em;
     text-align: right;
+
+    .field-label,
+    .field-items {
+      display: inline-block;
+    }
   }
 }

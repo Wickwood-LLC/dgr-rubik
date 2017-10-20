@@ -4614,4 +4614,7 @@ form#user-login, form#user-pass {
   margin-top: 1em;
   font-size: 0.9em;
   text-align: right; }
+  .node-type-panopoly-faq .field-name-field-categories .field-label,
+  .node-type-panopoly-faq .field-name-field-categories .field-items {
+    display: inline-block; }
 /*# sourceMappingURL=dgr_rubik_style.css.map */
