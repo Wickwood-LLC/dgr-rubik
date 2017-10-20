@@ -4596,12 +4596,12 @@ form#user-login, form#user-pass {
 .view-card-cycles .vscc_controls_pause {
   display: inline-block; }
 
-.view-card-cycles .vscc-controls {
-  text-align: center;
+.view-card-cycles .views-slideshow-controls-top {
   position: absolute;
+  top: 23px;
   width: 100%;
-  z-index: 100;
-  height: 2em; }
+  text-align: center;
+  z-index: 100; }
 
 .view-card-cycles .views-slideshow-cycle-main-frame,
 .view-card-cycles .views-slideshow-cycle-main-frame-row {

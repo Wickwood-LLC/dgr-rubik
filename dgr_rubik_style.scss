@@ -4236,12 +4236,12 @@ form#user-login, form#user-pass {
     display: inline-block;
   }
 
-  .vscc-controls {
-    text-align: center;
+  .views-slideshow-controls-top {
     position: absolute;
+    top: 23px;
     width: 100%;
+    text-align: center;
     z-index: 100;
-    height: 2em;
   }
 
   .views-slideshow-cycle-main-frame,
