@@ -4215,3 +4215,15 @@ form#user-login, form#user-pass {
 #block-system-help {
   border: 0px;  
 }
+
+.view-nodequeue-1 {
+  .views-field-body {
+    margin-left: 2em;
+  }
+  .views-field-field-categories {
+    text-align: right;
+    font-size: 0.9em;
+    line-height: 1;
+    margin-top: 0.7em;
+  }
+}
