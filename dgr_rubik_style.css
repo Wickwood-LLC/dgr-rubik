@@ -4596,13 +4596,15 @@ form#user-login, form#user-pass {
 .view-card-cycles .vscc_controls_pause {
   display: inline-block; }
 
-.view-card-cycles .views-slideshow-controls-top {
+.view-card-cycles .vscc-controls {
+  text-align: center;
   position: absolute;
-  top: 20px;
   width: 100%;
-  text-align: center; }
+  z-index: 100;
+  height: 2em; }
 
-.view-card-cycles #views_slideshow_cycle_teaser_section_card_cycles-card_slideshow_1 {
+.view-card-cycles .views-slideshow-cycle-main-frame,
+.view-card-cycles .views-slideshow-cycle-main-frame-row {
   width: 100% !important; }
 
 .view-card-cycles .views-slideshow-cycle-main-frame-row-item {
