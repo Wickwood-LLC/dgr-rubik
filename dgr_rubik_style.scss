@@ -3991,7 +3991,7 @@ input.form-submit {
         @include breakpoint(780px) {
           font-size: 1.1em;
         }
-        @include breakpoint(840px 1104px) {
+        @include breakpoint(840px) {
           font-size: 1.2em;
         }
         @include breakpoint(1105px) {
