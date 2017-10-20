@@ -4618,4 +4618,10 @@ form#user-login, form#user-pass {
   .node-type-panopoly-faq .field-name-field-categories .field-items {
     display: inline-block;
     float: none; }
+
+.pane-node-title {
+  line-height: 1.2; }
+
+#views-display-menu-tabs input.add-display {
+  color: black; }
 /*# sourceMappingURL=dgr_rubik_style.css.map */
