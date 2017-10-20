@@ -4589,4 +4589,22 @@ form#user-login, form#user-pass {
   font-size: 0.9em;
   line-height: 1;
   margin-top: 0.7em; }
+
+.view-card-cycles .vscc-controls {
+  text-align: center; }
+
+.view-card-cycles .vscc_controls_pause {
+  display: inline-block; }
+
+.view-card-cycles .views-slideshow-controls-top {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center; }
+
+.view-card-cycles #views_slideshow_cycle_teaser_section_card_cycles-card_slideshow_1 {
+  width: 100% !important; }
+
+.view-card-cycles .views-slideshow-cycle-main-frame-row-item {
+  padding-top: 2em; }
 /*# sourceMappingURL=dgr_rubik_style.css.map */
