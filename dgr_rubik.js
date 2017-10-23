@@ -9,4 +9,197 @@
 		  });
     }
   };
+
+  Drupal.behaviors.stickyHeader = {
+    attach: function (context, settings) {
+      var stickyTop;
+      var headerWidth;
+      var headerHeight;
+      var windowTop;
+      var currentPosition;
+      var $header;
+
+      var topSpacing;
+
+      $header = $('.region-header');
+      topSpacing = $('#admin-menu').height();
+
+      $(window).off("load resize scroll");
+
+      $(document).ready(sticky);
+      $(window).on("resize", sticky);
+
+      function sticky() {
+        headerWidth = $header.parent().width();          // gets the width of the container
+        $header.css({
+          width: headerWidth,
+        });
+        if ($('sticky-header')) {
+          $header.removeClass('sticky-header');
+        }
+
+        stickyTop = $header.offset().top;       // tells how far our target element is from the top of the page
+        windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
+        currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
+        headerHeight = $header.height();        // gets the height of our menu
+        topSpacing = $('#admin-menu').height();
+
+        $('.region-header').css({
+          "margin-bottom": headerHeight
+        });
+
+        // console.log('Distance from top of page: ' + stickyTop);
+        // console.log('Position on load ' + currentPosition);
+
+        if (currentPosition < 0) {   // if target element goes above the screen
+          $header.css({
+            width: '100%',
+            left: '0',
+          });   //stick it at the top
+          $header.addClass('sticky-header');
+
+          $('.region-header').css({
+            "margin-bottom": headerHeight
+          });
+        }
+        else {
+          $header.css({
+            width: headerWidth,
+          });
+          $header.removeClass('sticky-header');
+
+          $('.region-header').css({
+            "margin-bottom": 0
+          });
+        }
+
+        if ($('#admin-menu').length) {
+          windowTop = $(window).scrollTop() + topSpacing;    // tells how far our screen is currently from the top of the page
+          currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
+
+          if (currentPosition < 0) {   // if target element goes above the screen
+            $header.css({
+              top: topSpacing,
+            });
+          }
+          else {
+            $header.css({
+              top: '0',
+            });
+          }
+        }
+
+        // console.log("Top spacing is " + topSpacing);
+      }
+      
+      $('#admin-menu').on("mresize", function(){
+        headerWidth = $header.parent().width();          // gets the width of the container
+        $header.css({
+          width: headerWidth,
+        });
+        $header.removeClass('sticky-header');
+
+        $('.region-header').css({
+          "margin-bottom": 0
+        });
+
+        stickyTop = $header.offset().top;       // tells how far our target element is from the top of the page
+        windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
+        currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
+        headerHeight = $header.height();        // gets the height of our menu
+        topSpacing = $('#admin-menu').height();
+
+        // console.log('Distance from top of page: ' + stickyTop);
+        // console.log('Position on load ' + currentPosition);
+
+        if (currentPosition < 0) {   // if target element goes above the screen
+          $header.css({
+            width: '100%',
+            left: '0',
+          });   //stick it at the top
+          $header.addClass('sticky-header');
+
+          $('.region-header').css({
+            "margin-bottom": headerHeight + 18
+          });
+        }
+        else {
+          $header.css({
+            width: headerWidth,
+          });
+          $header.removeClass('sticky-header');
+
+          $('.region-header').css({
+            "margin-bottom": 0
+          });
+        }
+
+        if ($('#admin-menu').length) {
+          windowTop = $(window).scrollTop() + topSpacing;    // tells how far our screen is currently from the top of the page
+          currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
+
+          if (currentPosition < 0) {   // if target element goes above the screen
+            $header.css({
+              top: topSpacing,
+            });
+          }
+          else {
+            $header.css({
+              top: '0',
+            });
+          }
+        }
+
+        // console.log("Top spacing is " + topSpacing);
+      });
+
+      $(window).scroll(function(){ // scroll event 
+        $header.addClass('sticky-header');
+        windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
+        currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
+
+        // console.log('Distance from top of page: ' + stickyTop);
+        // console.log('Current position: ' + currentPosition);
+
+        if ($('#admin-menu').length) {
+          windowTop = $(window).scrollTop() + topSpacing;    // tells how far our screen is currently from the top of the page
+          currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
+          // console.log('[admin] Distance from top of page: ' + stickyTop);
+          // console.log('[admin] Current position: ' + currentPosition);
+
+          if (currentPosition < 0) {   // if target element goes above the screen
+            $header.css({
+              top: topSpacing,
+              width: '100%',
+              left: '0',
+            });   //stick it at the top
+            $header.addClass('sticky-header');
+          }
+          else {
+            $header.css({
+              top: '0',
+              width: headerWidth,
+            });
+            $header.removeClass('sticky-header');
+          }
+        }
+
+        if (currentPosition < 0) {   // if target element goes above the screen
+          $header.css({
+            width: '100%',
+            left: '0',
+          });   //stick it at the top
+          $header.addClass('sticky-header');
+        }
+        else if (currentPosition >= 0) {
+          $header.css({
+            width: headerWidth,
+          });
+          $header.removeClass('sticky-header');
+        }
+
+        // console.log("Top spacing is " + topSpacing);
+      });
+    }
+  };
 }(jQuery));

@@ -2,3 +2,4 @@
 *.sublime-project
 *.sublime-workspace
 *.scssc
+/dgr_rubik-min.js
