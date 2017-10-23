@@ -114,7 +114,7 @@ body {
           flex-flow: column nowrap;
   min-height: 100vh; }
   body a {
-    color: #1F45FC;
+    color: #008080;
     text-decoration: none; }
     body a:hover {
       text-decoration: underline; }
@@ -825,7 +825,7 @@ body.maintenance-page {
     body.maintenance-page #site-name a {
       color: black; }
       body.maintenance-page #site-name a:hover {
-        color: #1F45FC;
+        color: #008080;
         text-decoration: none; }
   body.maintenance-page #site-slogan {
     font-size: 1em;
@@ -848,7 +848,7 @@ body.maintenance-page {
     body.maintenance-page #site-slogan a {
       color: black; }
       body.maintenance-page #site-slogan a:hover {
-        color: #1F45FC; }
+        color: #008080; }
   body.maintenance-page h1#page-title {
     background: none;
     font-size: 28px;
@@ -1516,7 +1516,7 @@ table.views-table .pane-user-field-identification {
     #block-panels-mini-header .row-one .pane-page-slogan a {
       color: black; }
       #block-panels-mini-header .row-one .pane-page-slogan a:hover {
-        color: #1F45FC; }
+        color: #008080; }
   #block-panels-mini-header .row-one .pane-superfish-1 {
     margin: 10px 0; }
   @media (min-width: 1105px) {
@@ -4246,7 +4246,7 @@ input.form-submit {
       .pane-superfish-2 #superfish-1 li a:hover,
       .pane-superfish-2 #superfish-2 li a:hover {
         background: none;
-        color: #1F45FC;
+        color: #008080;
         text-decoration: underline; }
       @media (min-width: 680px) {
         #block-superfish-1 #superfish-1 li a,
@@ -4523,7 +4523,7 @@ input.form-submit {
     #mini-panel-footer .pane-menu-menu-footer-links a {
       color: black; }
       #mini-panel-footer .pane-menu-menu-footer-links a:hover {
-        color: #1F45FC; }
+        color: #008080; }
 
 #overlay {
   padding: 3em 40px; }
