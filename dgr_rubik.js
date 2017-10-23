@@ -21,7 +21,7 @@
 
       var topSpacing;
 
-      $header = $('.region-header');
+      $header = $('#block-panels-mini-header');
       topSpacing = $('#admin-menu').height();
 
       $(window).off("load resize scroll");
