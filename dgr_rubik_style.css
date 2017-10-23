@@ -4608,7 +4608,15 @@ form#user-login, form#user-pass {
   width: 100% !important; }
 
 .view-card-cycles .views-slideshow-cycle-main-frame-row-item {
-  padding-top: 2em; }
+  padding-top: 2em;
+  text-align: center; }
+
+.view-card-cycles div.field-type-asin {
+  border: 0px; }
+
+.view-card-cycles .field--name-field-amazon-book-listing img {
+  width: 150px;
+  height: auto; }
 
 .node-type-panopoly-faq .field-name-field-categories {
   margin-top: 1em;

@@ -4251,6 +4251,16 @@ form#user-login, form#user-pass {
 
   .views-slideshow-cycle-main-frame-row-item {
     padding-top: 2em;
+    text-align: center;
+  }
+
+  div.field-type-asin {
+    border: 0px;
+  }
+
+  .field--name-field-amazon-book-listing img {
+    width: 150px;
+    height: auto;
   }
 }
 
