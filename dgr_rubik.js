@@ -90,66 +90,66 @@
         // console.log("Top spacing is " + topSpacing);
       }
       
-      $('#admin-menu').on("mresize", function(){
-        headerWidth = $header.parent().width();          // gets the width of the container
-        $header.css({
-          width: headerWidth,
-        });
-        $header.removeClass('sticky-header');
+      // $('#admin-menu').on("mresize", function(){
+      //   headerWidth = $header.parent().width();          // gets the width of the container
+      //   $header.css({
+      //     width: headerWidth,
+      //   });
+      //   $header.removeClass('sticky-header');
 
-        $('.region-header').css({
-          "margin-bottom": 0
-        });
+      //   $('.region-header').css({
+      //     "margin-bottom": 0
+      //   });
 
-        stickyTop = $header.offset().top;       // tells how far our target element is from the top of the page
-        windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
-        currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
-        headerHeight = $header.height();        // gets the height of our menu
-        topSpacing = $('#admin-menu').height();
+      //   stickyTop = $header.offset().top;       // tells how far our target element is from the top of the page
+      //   windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
+      //   currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
+      //   headerHeight = $header.height();        // gets the height of our menu
+      //   topSpacing = $('#admin-menu').height();
 
-        // console.log('Distance from top of page: ' + stickyTop);
-        // console.log('Position on load ' + currentPosition);
+      //   // console.log('Distance from top of page: ' + stickyTop);
+      //   // console.log('Position on load ' + currentPosition);
 
-        if (currentPosition < 0) {   // if target element goes above the screen
-          $header.css({
-            width: '100%',
-            left: '0',
-          });   //stick it at the top
-          $header.addClass('sticky-header');
+      //   if (currentPosition < 0) {   // if target element goes above the screen
+      //     $header.css({
+      //       width: '100%',
+      //       left: '0',
+      //     });   //stick it at the top
+      //     $header.addClass('sticky-header');
 
-          $('.region-header').css({
-            "margin-bottom": headerHeight + 18
-          });
-        }
-        else {
-          $header.css({
-            width: headerWidth,
-          });
-          $header.removeClass('sticky-header');
+      //     $('.region-header').css({
+      //       "margin-bottom": headerHeight + 18
+      //     });
+      //   }
+      //   else {
+      //     $header.css({
+      //       width: headerWidth,
+      //     });
+      //     $header.removeClass('sticky-header');
 
-          $('.region-header').css({
-            "margin-bottom": 0
-          });
-        }
+      //     $('.region-header').css({
+      //       "margin-bottom": 0
+      //     });
+      //   }
 
-        if ($('#admin-menu').length) {
-          windowTop = $(window).scrollTop() + topSpacing;    // tells how far our screen is currently from the top of the page
-          currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
+      //   if ($('#admin-menu').length) {
+      //     windowTop = $(window).scrollTop() + topSpacing;    // tells how far our screen is currently from the top of the page
+      //     currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
 
-          if (currentPosition < 0) {   // if target element goes above the screen
-            $header.css({
-              top: topSpacing,
-            });
-          }
-          else {
-            $header.css({
-              top: '0',
-            });
-          }
-        }
+      //     if (currentPosition < 0) {   // if target element goes above the screen
+      //       $header.css({
+      //         top: topSpacing,
+      //       });
+      //     }
+      //     else {
+      //       $header.css({
+      //         top: '0',
+      //       });
+      //     }
+      //   }
 
-        // console.log("Top spacing is " + topSpacing);
-      });
+      //   // console.log("Top spacing is " + topSpacing);
+      // });
 
       $(window).scroll(function(){ // scroll event 
         $header.addClass('sticky-header');
