@@ -24,8 +24,6 @@
       $header = $('#block-panels-mini-header');
       topSpacing = $('#admin-menu').height();
 
-      $(window).off("load resize scroll");
-
       $(document).ready(sticky);
       $(window).on("resize", sticky);
 
