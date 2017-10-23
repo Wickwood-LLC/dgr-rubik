@@ -30,7 +30,7 @@
       $(window).on("resize", sticky);
 
       function sticky() {
-        headerWidth = $header.parent().width();          // gets the width of the container
+        headerWidth = $header.width();          // gets the width of the container
         $header.css({
           width: headerWidth,
         });
