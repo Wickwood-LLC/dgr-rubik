@@ -240,7 +240,7 @@ function dgr_rubik_link_field_process($element, $form_state, $complete_form) {
 //Disable sticky headers
 function dgr_rubik_js_alter(&$js) {
   unset($js['misc/tableheader.js']);
-  dpm($js);
+  unset($js['sites/2017-10-03.a.2.dev.drgriffanrandall.com/themes/full_rubik/full_rubik.js']);
 }
 
 /**
