@@ -240,6 +240,7 @@ function dgr_rubik_link_field_process($element, $form_state, $complete_form) {
 //Disable sticky headers
 function dgr_rubik_js_alter(&$js) {
   unset($js['misc/tableheader.js']);
+  dpm($js);
 }
 
 /**
