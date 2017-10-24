@@ -1674,8 +1674,8 @@ table.views-table .pane-user-field-identification {
   position: fixed;
   background: white;
   z-index: 100;
-  -webkit-box-shadow: 0px 4px 8px 0px #bdbdbd;
-          box-shadow: 0px 4px 8px 0px #bdbdbd; }
+  -webkit-box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
+          box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7); }
 
 .secure-site-notif .block-content {
   background-color: #2ECC71;

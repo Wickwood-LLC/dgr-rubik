@@ -30,7 +30,7 @@
       function sticky() {
         headerWidth = $header.width();          // gets the width of the container
         $header.css({
-          width: headerWidth,
+          width: initial,
         });
         if ($('sticky-header')) {
           $header.removeClass('sticky-header');
@@ -43,7 +43,7 @@
         topSpacing = $('#admin-menu').height();
 
         $('.region-header').css({
-          "margin-bottom": headerHeight
+          "margin-bottom": 0,
         });
 
         // console.log('Distance from top of page: ' + stickyTop);
@@ -57,7 +57,7 @@
           $header.addClass('sticky-header');
 
           $('.region-header').css({
-            "margin-bottom": headerHeight
+            "margin-bottom": headerHeight,
           });
         }
         else {
