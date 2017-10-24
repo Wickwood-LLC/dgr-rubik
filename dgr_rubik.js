@@ -72,9 +72,6 @@
         }
 
         if ($('#admin-menu').length) {
-          windowTop = $(window).scrollTop() + topSpacing;    // tells how far our screen is currently from the top of the page
-          currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
-
           if (currentPosition < 0) {   // if target element goes above the screen
             $header.css({
               top: topSpacing,
