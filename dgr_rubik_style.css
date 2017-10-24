@@ -1670,6 +1670,13 @@ table.views-table .pane-user-field-identification {
     text-transform: capitalize;
     border-bottom: none; }
 
+#block-panels-mini-header.sticky-header {
+  position: fixed;
+  background: white;
+  z-index: 100;
+  -webkit-box-shadow: 0px 4px 8px 0px #bdbdbd;
+          box-shadow: 0px 4px 8px 0px #bdbdbd; }
+
 .secure-site-notif .block-content {
   background-color: #2ECC71;
   text-align: center;
