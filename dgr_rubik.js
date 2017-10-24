@@ -83,8 +83,8 @@
         windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
         currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
 
-        // console.log('Distance from top of page: ' + stickyTop);
-        // console.log('Current position: ' + currentPosition);
+        console.log('Distance from top of page: ' + stickyTop);
+        console.log('Current position: ' + currentPosition);
 
         if (currentPosition < 0) {   // if target element goes above the screen
           $header.addClass('sticky-header');
