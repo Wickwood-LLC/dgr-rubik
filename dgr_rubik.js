@@ -152,7 +152,6 @@
       // });
 
       $(window).scroll(function(){ // scroll event 
-        $header.addClass('sticky-header');
         windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
         currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
 
@@ -160,25 +159,15 @@
         // console.log('Current position: ' + currentPosition);
 
         if ($('#admin-menu').length) {
-          windowTop = $(window).scrollTop() + topSpacing;    // tells how far our screen is currently from the top of the page
-          currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
-          // console.log('[admin] Distance from top of page: ' + stickyTop);
-          // console.log('[admin] Current position: ' + currentPosition);
-
           if (currentPosition < 0) {   // if target element goes above the screen
             $header.css({
               top: topSpacing,
-              width: '100%',
-              left: '0',
             });   //stick it at the top
-            $header.addClass('sticky-header');
           }
           else {
             $header.css({
               top: '0',
-              width: headerWidth,
             });
-            $header.removeClass('sticky-header');
           }
         }
 
