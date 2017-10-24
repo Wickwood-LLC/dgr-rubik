@@ -188,12 +188,20 @@
             left: '0',
           });   //stick it at the top
           $header.addClass('sticky-header');
+
+          $('.region-header').css({
+            "margin-bottom": headerHeight,
+          });
         }
         else if (currentPosition >= 0) {
           $header.css({
             width: headerWidth,
           });
           $header.removeClass('sticky-header');
+
+          $('.region-header').css({
+            "margin-bottom": 0
+          });
         }
 
         // console.log("Top spacing is " + topSpacing);
