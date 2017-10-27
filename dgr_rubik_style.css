@@ -1577,6 +1577,9 @@ table.views-table .pane-user-field-identification {
           #block-panels-mini-header .row-one .middle-column .inner > div:last-child {
             display: block;
             position: initial; } }
+      @media (min-width: 506px) {
+        #block-panels-mini-header .row-one .middle-column .inner > div:last-child {
+          display: none; } }
     @media (min-width: 1105px) {
       #block-panels-mini-header .row-one .middle-column {
         -webkit-box-ordinal-group: initial;

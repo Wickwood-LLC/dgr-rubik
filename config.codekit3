@@ -1777,16 +1777,6 @@
 		"oAP": "\/bower_components\/sassy-maps\/sassy-maps.gemspec",
 		"oF": 0
 		},
-	"\/dgr_rubik-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dgr_rubik-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/dgr_rubik.info": {
 		"ft": 8192,
 		"oA": 2,
