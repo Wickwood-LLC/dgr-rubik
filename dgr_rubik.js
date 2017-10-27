@@ -29,7 +29,7 @@
       function sticky() {
         headerWidth = $header.width();          // gets the width of the container
         $header.css({
-          width: "initial",
+          // width: "initial",
         });
         if ($('sticky-header')) {
           $header.removeClass('sticky-header');
