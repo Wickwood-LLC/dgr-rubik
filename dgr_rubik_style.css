@@ -1679,9 +1679,7 @@ table.views-table .pane-user-field-identification {
 #block-panels-mini-floating-header {
   display: none; }
   #block-panels-mini-floating-header.sticky-header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
     position: fixed;
     background: white;
     z-index: 100;
@@ -1689,6 +1687,14 @@ table.views-table .pane-user-field-identification {
             box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
     left: 0;
     width: 100%; }
+    #block-panels-mini-floating-header.sticky-header > .block-content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      width: 100%; }
 
 .secure-site-notif .block-content {
   background-color: #2ECC71;
