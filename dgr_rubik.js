@@ -41,11 +41,10 @@
         stickyTop = $header.offset().top;       // tells how far our target element is from the top of the page
         windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
         currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
-        headerHeight = $floatingHeader.height();        // gets the height of our header
         topSpacing = $('#admin-menu').height();
 
-        $('.region-header').css({
-          // "margin-bottom": 0,
+        $('#header').css({
+          "margin-bottom": 0,
         });
 
         // console.log('Distance from top of page: ' + stickyTop);
@@ -55,6 +54,7 @@
           $header.addClass('sticky-header');
           $floatingHeader.addClass('sticky-header');
 
+          headerHeight = $floatingHeader.height();        // gets the height of our header
           $('#header').css({
             'margin-bottom': headerHeight,
           });
