@@ -18,9 +18,11 @@
       var windowTop;
       var currentPosition;
       var $header;
+      var $floatingHeader
       var topSpacing;
 
       $header = $('#block-panels-mini-header');
+      $floatingHeader = $('#block-panels-mini-floating-header');
       topSpacing = $('#admin-menu').height();
 
       $(document).ready(sticky);
@@ -33,6 +35,7 @@
         });
         if ($('sticky-header')) {
           $header.removeClass('sticky-header');
+          $floatingHeader.removeClass('sticky-header');
         }
 
         stickyTop = $header.offset().top;       // tells how far our target element is from the top of the page
@@ -50,6 +53,7 @@
 
         if (currentPosition < 0) {   // if target element goes above the screen
           $header.addClass('sticky-header');
+          $floatingHeader.addClass('sticky-header');
 
           $('.region-header').css({
             // "margin-bottom": headerHeight,
@@ -57,6 +61,7 @@
         }
         else {
           $header.removeClass('sticky-header');
+          $floatingHeader.removeClass('sticky-header');
 
           $('.region-header').css({
             // "margin-bottom": 0
@@ -88,9 +93,11 @@
 
         if (currentPosition < 0) {   // if target element goes above the screen
           $header.addClass('sticky-header');
+          $floatingHeader.addClass('sticky-header');
         }
         else if (currentPosition >= 0) {
           $header.removeClass('sticky-header');
+          $floatingHeader.removeClass('sticky-header');
         }
 
         if ($('#admin-menu').length) {

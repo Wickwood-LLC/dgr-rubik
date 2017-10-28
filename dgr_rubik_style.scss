@@ -2445,12 +2445,20 @@ table.views-table {
 }
 
 #block-panels-mini-header.sticky-header {
-  position: fixed;
-  background: white;
-  z-index: 100;
-  box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
-  left: 0;
+  display: none;
+}
 
+#block-panels-mini-floating-header {
+  display: none;
+
+  &.sticky-header {
+    display: flex;
+    position: fixed;
+    background: white;
+    z-index: 100;
+    box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
+    left: 0;
+  }
 }
 
 .secure-site-notif .block-content {
