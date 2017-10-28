@@ -44,7 +44,7 @@
         topSpacing = $('#admin-menu').height();
 
         $('#header').css({
-          "margin-bottom": 0,
+          "margin-bottom": '0',
         });
 
         // console.log('Distance from top of page: ' + stickyTop);
