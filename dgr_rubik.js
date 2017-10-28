@@ -41,7 +41,7 @@
         stickyTop = $header.offset().top;       // tells how far our target element is from the top of the page
         windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
         currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
-        headerHeight = $header.height();        // gets the height of our header
+        headerHeight = $floatingHeader.height();        // gets the height of our header
         topSpacing = $('#admin-menu').height();
 
         $('.region-header').css({
@@ -55,16 +55,16 @@
           $header.addClass('sticky-header');
           $floatingHeader.addClass('sticky-header');
 
-          $('.region-header').css({
-            // "margin-bottom": headerHeight,
+          $('#header').css({
+            'margin-bottom': headerHeight;
           });
         }
         else {
           $header.removeClass('sticky-header');
           $floatingHeader.removeClass('sticky-header');
 
-          $('.region-header').css({
-            // "margin-bottom": 0
+          $('#header').css({
+            'margin-bottom': '0';
           });
         }
 
@@ -94,10 +94,18 @@
         if (currentPosition < 0) {   // if target element goes above the screen
           $header.addClass('sticky-header');
           $floatingHeader.addClass('sticky-header');
+
+          $('#header').css({
+            'margin-bottom': headerHeight;
+          })
         }
         else if (currentPosition >= 0) {
           $header.removeClass('sticky-header');
           $floatingHeader.removeClass('sticky-header');
+
+          $('#header').css({
+            'margin-bottom': '0';
+          })
         }
 
         if ($('#admin-menu').length) {
