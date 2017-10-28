@@ -92,10 +92,8 @@
         console.log('Current position: ' + currentPosition);
 
         if (currentPosition < 0) {   // if target element goes above the screen
-          // $header.addClass('sticky-header');
-          // $floatingHeader.addClass('sticky-header');
-          $header.fadeToggle();
-          $floatingHeader.fadeToggle();
+          $header.addClass('sticky-header');
+          $floatingHeader.addClass('sticky-header');
         }
         else if (currentPosition >= 0) {
           $header.removeClass('sticky-header');
