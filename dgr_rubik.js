@@ -56,7 +56,7 @@
           $floatingHeader.addClass('sticky-header');
 
           $('#header').css({
-            'margin-bottom': headerHeight;
+            'margin-bottom': headerHeight,
           });
         }
         else {
@@ -64,7 +64,7 @@
           $floatingHeader.removeClass('sticky-header');
 
           $('#header').css({
-            'margin-bottom': '0';
+            'margin-bottom': '0',
           });
         }
 
@@ -96,7 +96,7 @@
           $floatingHeader.addClass('sticky-header');
 
           $('#header').css({
-            'margin-bottom': headerHeight;
+            'margin-bottom': headerHeight,
           })
         }
         else if (currentPosition >= 0) {
@@ -104,7 +104,7 @@
           $floatingHeader.removeClass('sticky-header');
 
           $('#header').css({
-            'margin-bottom': '0';
+            'margin-bottom': '0',
           })
         }
 
