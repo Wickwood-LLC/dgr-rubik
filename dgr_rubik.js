@@ -95,6 +95,7 @@
           $header.addClass('sticky-header');
           $floatingHeader.addClass('sticky-header');
 
+          headerHeight = $floatingHeader.height();        // gets the height of our header
           $('#header').css({
             'margin-bottom': headerHeight,
           })
