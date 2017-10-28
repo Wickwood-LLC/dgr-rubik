@@ -1678,7 +1678,8 @@ table.views-table .pane-user-field-identification {
   background: white;
   z-index: 100;
   -webkit-box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
-          box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7); }
+          box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
+  left: 0; }
 
 .secure-site-notif .block-content {
   background-color: #2ECC71;
@@ -4611,7 +4612,7 @@ form#user-login, form#user-pass {
   top: 23px;
   width: 100%;
   text-align: center;
-  z-index: 100; }
+  z-index: 10; }
 
 .view-card-cycles .views-slideshow-cycle-main-frame,
 .view-card-cycles .views-slideshow-cycle-main-frame-row {

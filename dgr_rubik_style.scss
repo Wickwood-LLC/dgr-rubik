@@ -2449,8 +2449,8 @@ table.views-table {
   background: white;
   z-index: 100;
   box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
+  left: 0;
 
-  
 }
 
 .secure-site-notif .block-content {
@@ -4255,7 +4255,7 @@ form#user-login, form#user-pass {
     top: 23px;
     width: 100%;
     text-align: center;
-    z-index: 100;
+    z-index: 10;
   }
 
   .views-slideshow-cycle-main-frame,
