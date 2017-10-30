@@ -3898,8 +3898,6 @@ input.form-submit {
   background-color: #77BBCD;
   border-color: #73b5c5;
   color: white;
-  margin: auto;
-  display: table;
 }
 
 .views-exposed-form .reset-link-button {
@@ -4287,5 +4285,12 @@ form#user-login, form#user-pass {
 #views-display-menu-tabs {
   input.add-display {
     color: black;
+  }
+}
+
+.webform-client-form-246 {
+  input.form-submit {
+    margin: auto;
+    display: table;
   }
 }

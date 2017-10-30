@@ -4128,9 +4128,7 @@ td:not([class]) {
 input.form-submit {
   background-color: #77BBCD;
   border-color: #73b5c5;
-  color: white;
-  margin: auto;
-  display: table; }
+  color: white; }
 
 .views-exposed-form .reset-link-button {
   background-image: url(/sites/all/themes/rubik/images/buttons.png) !important;
@@ -4634,4 +4632,8 @@ form#user-login, form#user-pass {
 
 #views-display-menu-tabs input.add-display {
   color: black; }
+
+.webform-client-form-246 input.form-submit {
+  margin: auto;
+  display: table; }
 /*# sourceMappingURL=dgr_rubik_style.css.map */
