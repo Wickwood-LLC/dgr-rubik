@@ -4581,10 +4581,12 @@ form#user-login, form#user-pass {
 #block-system-help {
   border: 0px; }
 
-.view-nodequeue-1 .views-field-body {
+.view-nodequeue-1 .views-field-body,
+.view-panopoly-faq .views-field-body {
   margin-left: 2em; }
 
-.view-nodequeue-1 .views-field-field-categories {
+.view-nodequeue-1 .views-field-field-categories,
+.view-panopoly-faq .views-field-field-categories {
   text-align: right;
   font-size: 0.9em;
   line-height: 1;
