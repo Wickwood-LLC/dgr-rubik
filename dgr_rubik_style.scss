@@ -4315,8 +4315,24 @@ body.i18n-es {
       font-size: 0.9em;
       padding: 0 5px;
     }
-    @include breakpoint(1126px) {
+    @include breakpoint(750px) {
       font-size: 0.9em;
+      padding: 0 10px;
+    }
+    @include breakpoint(808px) {
+      font-size: 1em;
+    }
+    @include breakpoint(866px) {
+      font-size: 1.1em;
+    }
+    @include breakpoint(924px) {
+      font-size: 1.2em;
+    }
+    @include breakpoint(1105px) {
+      font-size: 0.9em;
+      padding: 0 5px;
+    }
+    @include breakpoint(1126px) {
       padding: 0 10px;
     }
     @include breakpoint(1187px) {

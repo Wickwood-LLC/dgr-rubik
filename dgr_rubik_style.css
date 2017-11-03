@@ -4653,9 +4653,30 @@ form#user-login, form#user-pass {
     font-size: 0.9em;
     padding: 0 5px; } }
 
-@media (min-width: 1126px) {
+@media (min-width: 750px) {
   body.i18n-es .pane-superfish-1 #superfish-1 li a {
     font-size: 0.9em;
+    padding: 0 10px; } }
+
+@media (min-width: 808px) {
+  body.i18n-es .pane-superfish-1 #superfish-1 li a {
+    font-size: 1em; } }
+
+@media (min-width: 866px) {
+  body.i18n-es .pane-superfish-1 #superfish-1 li a {
+    font-size: 1.1em; } }
+
+@media (min-width: 924px) {
+  body.i18n-es .pane-superfish-1 #superfish-1 li a {
+    font-size: 1.2em; } }
+
+@media (min-width: 1105px) {
+  body.i18n-es .pane-superfish-1 #superfish-1 li a {
+    font-size: 0.9em;
+    padding: 0 5px; } }
+
+@media (min-width: 1126px) {
+  body.i18n-es .pane-superfish-1 #superfish-1 li a {
     padding: 0 10px; } }
 
 @media (min-width: 1187px) {
