@@ -2352,6 +2352,11 @@ table.views-table {
           position: initial;
         }
       }
+      @include breakpoint(506px) {
+        > div:last-child {
+          display: none;
+        }
+      }
     }
 
     @include breakpoint(1105px) {
