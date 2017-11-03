@@ -141,7 +141,8 @@ body.tao {
   color: black; }
 
 #branding {
-  background: none !important; }
+  background: none !important;
+  height: auto; }
   #branding .breadcrumb {
     font-size: 1.2em;
     margin-left: 10.5%; }

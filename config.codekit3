@@ -7,9 +7,10 @@
 		"uuidString": "C66B2F19-1CB2-4DDE-8E24-238B4A6F8E88"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26097",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
@@ -1046,10 +1047,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/bourbon\/LICENSE.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1064,10 +1065,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/bourbon\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1098,10 +1099,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/compass-breakpoint\/CHANGELOG.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1116,10 +1117,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/compass-breakpoint\/CONTRIBUTING.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1152,10 +1153,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/compass-breakpoint\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1433,24 +1434,28 @@
 		"oS": 1
 		},
 	"\/bower_components\/sassmatic\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassmatic\/.gitignore",
 		"oF": 0
 		},
 	"\/bower_components\/sassmatic\/.htaccess": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassmatic\/.htaccess",
 		"oF": 0
 		},
 	"\/bower_components\/sassmatic\/config.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassmatic\/config.rb",
 		"oF": 0
 		},
 	"\/bower_components\/sassmatic\/css\/config.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassmatic\/css\/config.rb",
@@ -1477,18 +1482,21 @@
 		"oS": 3
 		},
 	"\/bower_components\/sassmatic\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassmatic\/favicon.ico",
 		"oF": 0
 		},
 	"\/bower_components\/sassmatic\/humans.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassmatic\/humans.txt",
 		"oF": 0
 		},
 	"\/bower_components\/sassmatic\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassmatic\/index.html",
@@ -1535,10 +1543,10 @@
 		"tS": 0
 		},
 	"\/bower_components\/sassmatic\/readme.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1553,6 +1561,7 @@
 		"uCM": 0
 		},
 	"\/bower_components\/sassmatic\/robots.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassmatic\/robots.txt",
@@ -1572,6 +1581,7 @@
 		"uL": 1
 		},
 	"\/bower_components\/sassmatic\/sass\/config.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassmatic\/sass\/config.rb",
@@ -1620,10 +1630,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/sassy-maps\/CONTRIBUTING.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1651,40 +1661,45 @@
 		"uL": 1
 		},
 	"\/bower_components\/sassy-maps\/examples\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassy-maps\/examples\/index.html",
 		"oF": 0
 		},
 	"\/bower_components\/sassy-maps\/lib\/sassy-maps.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassy-maps\/lib\/sassy-maps.rb",
 		"oF": 0
 		},
 	"\/bower_components\/sassy-maps\/lib\/sassy-maps\/version.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassy-maps\/lib\/sassy-maps\/version.rb",
 		"oF": 0
 		},
 	"\/bower_components\/sassy-maps\/lib\/tapout\/reporters\/navigator_reporter.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassy-maps\/lib\/tapout\/reporters\/navigator_reporter.rb",
 		"oF": 0
 		},
 	"\/bower_components\/sassy-maps\/Rakefile": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassy-maps\/Rakefile",
 		"oF": 0
 		},
 	"\/bower_components\/sassy-maps\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1772,12 +1787,14 @@
 		"uL": 1
 		},
 	"\/bower_components\/sassy-maps\/sassy-maps.gemspec": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassy-maps\/sassy-maps.gemspec",
 		"oF": 0
 		},
 	"\/dgr_rubik.info": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/dgr_rubik.info",
@@ -1804,6 +1821,7 @@
 		"oS": 3
 		},
 	"\/dgr_rubik_style.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/dgr_rubik_style.css.map",
@@ -2005,36 +2023,42 @@
 		"prP": 0
 		},
 	"\/maintenance-page.tpl.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/maintenance-page.tpl.php",
 		"oF": 0
 		},
 	"\/page.tpl.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page.tpl.php",
 		"oF": 0
 		},
 	"\/template.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template.php",
 		"oF": 0
 		},
 	"\/templates\/overlay.tpl.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/templates\/overlay.tpl.php",
 		"oF": 0
 		},
 	"\/templates\/views-exposed-form.tpl.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/templates\/views-exposed-form.tpl.php",
 		"oF": 0
 		},
 	"\/theme-settings.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/theme-settings.php",
@@ -2585,6 +2609,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -2649,9 +2677,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -2681,6 +2709,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -2690,14 +2722,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -3801,7 +3825,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -3834,6 +3859,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -3875,7 +3901,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -3907,13 +3934,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -3922,7 +3949,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -3942,7 +3970,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -3970,7 +3999,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
