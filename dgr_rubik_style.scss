@@ -4310,7 +4310,7 @@ form#user-login, form#user-pass {
 
 /********** OPPA SPANISH STYLE **********/
 body.i18n-es {
-  .superfish-1 li a {
+  #block-superfish-1 #superfish-1 li a {
     @include breakpoint(680px) {
       font-size: 0.9em;
       padding: 0 5px;
