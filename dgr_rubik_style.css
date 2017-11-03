@@ -4653,10 +4653,14 @@ form#user-login, form#user-pass {
     font-size: 0.9em;
     padding: 0 5px; } }
 
-@media (min-width: 808px) {
+@media (min-width: 1126px) {
   body.i18n-es .pane-superfish-1 #superfish-1 li a {
-    font-size: 1em;
+    font-size: 0.9em;
     padding: 0 10px; } }
+
+@media (min-width: 1187px) {
+  body.i18n-es .pane-superfish-1 #superfish-1 li a {
+    font-size: 1em; } }
 
 @media (min-width: 1268px) {
   body.i18n-es .pane-superfish-1 #superfish-1 li a {
