@@ -69,7 +69,10 @@ h5              { font-size: .83em; margin: 1.5em 0 }
 h6              { font-size: .75em; margin: 1.67em 0 }
 h1, h2, h3, h4,
 h5, h6, b,
-strong          { font-weight: bolder }
+strong          { 
+  font-weight: bolder;
+  line-height: 1.2;
+}
 ins { 
   text-decoration: underline;
 }
@@ -4302,5 +4305,25 @@ form#user-login, form#user-pass {
   input.form-submit {
     margin: auto;
     display: table;
+  }
+}
+
+/********** OPPA SPANISH STYLE **********/
+body.i18n-es {
+  .superfish-1 li a {
+    @include breakpoint(680px) {
+      font-size: 0.9em;
+      padding: 0 5px;
+    }
+    @include breakpoint(808px) {
+      font-size: 1em;
+      padding: 0 10px;
+    }
+    @include breakpoint(1268px) {
+      font-size: 1.1em;
+    }
+    @include breakpoint(1348px) {
+      font-size: 1.2em;
+    }
   }
 }

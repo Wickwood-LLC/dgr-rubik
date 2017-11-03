@@ -63,7 +63,8 @@ h6 {
 h1, h2, h3, h4,
 h5, h6, b,
 strong {
-  font-weight: bolder; }
+  font-weight: bolder;
+  line-height: 1.2; }
 
 ins {
   text-decoration: underline; }
@@ -4645,4 +4646,23 @@ form#user-login, form#user-pass {
 .webform-client-form-246 input.form-submit {
   margin: auto;
   display: table; }
+
+/********** OPPA SPANISH STYLE **********/
+@media (min-width: 680px) {
+  body.i18n-es .superfish-1 li a {
+    font-size: 0.9em;
+    padding: 0 5px; } }
+
+@media (min-width: 808px) {
+  body.i18n-es .superfish-1 li a {
+    font-size: 1em;
+    padding: 0 10px; } }
+
+@media (min-width: 1268px) {
+  body.i18n-es .superfish-1 li a {
+    font-size: 1.1em; } }
+
+@media (min-width: 1348px) {
+  body.i18n-es .superfish-1 li a {
+    font-size: 1.2em; } }
 /*# sourceMappingURL=dgr_rubik_style.css.map */
