@@ -243,12 +243,12 @@ function dgr_rubik_js_alter(&$js) {
   unset($js['sites/2017-10-03.a.2.dev.drgriffanrandall.com/themes/full_rubik/full_rubik.js']);
 
   foreach($js as $key=>$value) {
-    if (stristr($key,'full_rubik.js') !== FALSE) {
+    if (strstr($key,'full_rubik.js') !== FALSE) {
       $remove = $key;
     }
   }
 
-  dpm($key);
+  dpm($remove);
 }
 
 /**
