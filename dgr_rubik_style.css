@@ -4222,6 +4222,13 @@ input.form-submit {
   .pane-superfish-2 #superfish-2 > li:last-child,
   .pane-superfish-2 #superfish-2 > li:last-child a {
     border-radius: 0px 5px 5px 0px; }
+  #block-superfish-1 #superfish-1 > li.menuparent > ul,
+  #block-superfish-1 #superfish-2 > li.menuparent > ul,
+  .pane-superfish-1 #superfish-1 > li.menuparent > ul,
+  .pane-superfish-1 #superfish-2 > li.menuparent > ul,
+  .pane-superfish-2 #superfish-1 > li.menuparent > ul,
+  .pane-superfish-2 #superfish-2 > li.menuparent > ul {
+    display: none; }
   #block-superfish-1 #superfish-1 li,
   #block-superfish-1 #superfish-2 li,
   .pane-superfish-1 #superfish-1 li,

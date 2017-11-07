@@ -3972,6 +3972,10 @@ input.form-submit {
       &:last-child a {
         border-radius: 0px 5px 5px 0px;
       }
+
+      &.menuparent > ul {
+        display: none;
+      }
     }
 
     li {
