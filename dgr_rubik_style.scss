@@ -3964,6 +3964,9 @@ input.form-submit {
     height: 1em;
 
     >li {
+      display: inline-block;
+      float: none;
+      
       &:first-child,
       &:first-child a {
         border-radius: 5px 0px 0px 5px;
