@@ -3992,27 +3992,34 @@ input.form-submit {
         }
 
         @include breakpoint(680px) {
-          font-size: 0.9em;
+          padding: 0 5px;
         }
-        @include breakpoint(705px) {
+        @include breakpoint(706px) {
+          font-size: 0.9em;
+          padding: 0 10px;
+        }
+        @include breakpoint(732px) {
           font-size: 0.95em;
         }
-        @include breakpoint(730px) {
+        @include breakpoint(760px) {
           font-size: 1em;
         }
-        @include breakpoint(780px) {
+        @include breakpoint(813px) {
           font-size: 1.1em;
         }
-        @include breakpoint(840px) {
+        @include breakpoint(866px) {
           font-size: 1.2em;
         }
         @include breakpoint(1105px) {
+          font-size: 0.9em;
+        }
+        @include breakpoint(1136px) {
           font-size: 1em;
         }
-        @include breakpoint(1142px) {
+        @include breakpoint(1192px) {
           font-size: 1.1em;
         }
-        @include breakpoint(1232px) {
+        @include breakpoint(1266px) {
           font-size: 1.2em;
         }
       }
