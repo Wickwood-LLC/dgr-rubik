@@ -243,7 +243,7 @@ function dgr_rubik_js_alter(&$js) {
 
   foreach($js as $key=>$value) {
     if (strstr($key,'full_rubik.js') !== FALSE) {
-      unset($key);
+      unset($js[$key]);  // prevent full_rubik.js from loading into the site
     }
   }
 }
