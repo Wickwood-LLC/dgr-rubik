@@ -3992,10 +3992,10 @@ input.form-submit {
         }
 
         @include breakpoint(680px) {
+          font-size: 0.9em;
           padding: 0 5px;
         }
         @include breakpoint(706px) {
-          font-size: 0.9em;
           padding: 0 10px;
         }
         @include breakpoint(732px) {

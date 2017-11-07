@@ -4263,6 +4263,7 @@ input.form-submit {
         .pane-superfish-1 #superfish-2 li a,
         .pane-superfish-2 #superfish-1 li a,
         .pane-superfish-2 #superfish-2 li a {
+          font-size: 0.9em;
           padding: 0 5px; } }
       @media (min-width: 706px) {
         #block-superfish-1 #superfish-1 li a,
@@ -4271,7 +4272,6 @@ input.form-submit {
         .pane-superfish-1 #superfish-2 li a,
         .pane-superfish-2 #superfish-1 li a,
         .pane-superfish-2 #superfish-2 li a {
-          font-size: 0.9em;
           padding: 0 10px; } }
       @media (min-width: 732px) {
         #block-superfish-1 #superfish-1 li a,
