@@ -2470,13 +2470,13 @@ table.views-table {
         border: 0px;
         align-items: flex-start;
         height: 73px;
+        width: 220px;
       }
     }
 
     .left-column {
       position: absolute;
       left: 0;
-      width: 160px;
       text-align: center;
 
       .header-address-line1,
@@ -2498,7 +2498,6 @@ table.views-table {
     .right-column {
       position: absolute;
       right: 0;
-      width: 160px;
 
       div[data-pane="2499"] {
         display: none;

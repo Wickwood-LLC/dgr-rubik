@@ -1698,11 +1698,11 @@ table.views-table .pane-user-field-identification {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    height: 73px; }
+    height: 73px;
+    width: 220px; }
   #block-panels-mini-header.sticky-header .row-one .left-column {
     position: absolute;
     left: 0;
-    width: 160px;
     text-align: center; }
     #block-panels-mini-header.sticky-header .row-one .left-column .header-address-line1,
     #block-panels-mini-header.sticky-header .row-one .left-column .header-address-line2,
@@ -1715,8 +1715,7 @@ table.views-table .pane-user-field-identification {
       text-align: center; }
   #block-panels-mini-header.sticky-header .row-one .right-column {
     position: absolute;
-    right: 0;
-    width: 160px; }
+    right: 0; }
     #block-panels-mini-header.sticky-header .row-one .right-column div[data-pane="2499"] {
       display: none; }
   #block-panels-mini-header.sticky-header .row-one .pane-page-site-name {
