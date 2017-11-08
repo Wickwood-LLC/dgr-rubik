@@ -35,7 +35,6 @@
         });
         if ($('sticky-header')) {
           $header.removeClass('sticky-header');
-          $floatingHeader.removeClass('sticky-header');
         }
 
         stickyTop = $header.offset().top;       // tells how far our target element is from the top of the page
@@ -52,7 +51,6 @@
 
         if (currentPosition < 0) {   // if target element goes above the screen
           $header.addClass('sticky-header');
-          $floatingHeader.addClass('sticky-header');
 
           headerHeight = $floatingHeader.height();        // gets the height of our header
           $('#header').css({
@@ -61,7 +59,6 @@
         }
         else {
           $header.removeClass('sticky-header');
-          $floatingHeader.removeClass('sticky-header');
 
           $('#header').css({
             'margin-bottom': '0',
@@ -93,7 +90,6 @@
 
         if (currentPosition < 0) {   // if target element goes above the screen
           $header.addClass('sticky-header');
-          $floatingHeader.addClass('sticky-header');
 
           headerHeight = $floatingHeader.height();        // gets the height of our header
           $('#header').css({
@@ -102,7 +98,6 @@
         }
         else if (currentPosition >= 0) {
           $header.removeClass('sticky-header');
-          $floatingHeader.removeClass('sticky-header');
 
           $('#header').css({
             'margin-bottom': '0',

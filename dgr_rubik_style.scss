@@ -2445,26 +2445,18 @@ table.views-table {
 }
 
 #block-panels-mini-header.sticky-header {
-  display: none;
-}
+  display: block;
+  position: fixed;
+  background: white;
+  z-index: 100;
+  box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
+  left: 0;
+  width: 100%;
 
-#block-panels-mini-floating-header {
-  display: none;
-
-  &.sticky-header {
-    display: block;
-    position: fixed;
-    background: white;
-    z-index: 100;
-    box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
-    left: 0;
+  > .block-content {
+    display: flex;
+    justify-content: center;
     width: 100%;
-
-    > .block-content {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-    }
   }
 }
 
