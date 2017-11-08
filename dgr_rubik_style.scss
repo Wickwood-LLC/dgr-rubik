@@ -2469,7 +2469,7 @@ table.views-table {
       .inner {
         border: 0px;
         align-items: flex-start;
-        height: auto;
+        height: 73px;
       }
     }
 
@@ -2477,9 +2477,13 @@ table.views-table {
       position: absolute;
       left: 0;
       width: 160px;
+      text-align: center;
 
-      div[data-pane="2499"] {
-        display: none;
+      .header-address-line1,
+      .header-address-line2,
+      .header-address-state,
+      .header-address-zip {
+        display: inline-block;
       }
     }
 
@@ -2495,6 +2499,10 @@ table.views-table {
       position: absolute;
       right: 0;
       width: 160px;
+
+      div[data-pane="2499"] {
+        display: none;
+      }
     }
 
     .pane-page-site-name {
