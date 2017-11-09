@@ -2460,6 +2460,7 @@ table.views-table {
     max-width: 1400px;
     margin: auto;
     position: relative;
+    box-sizing: border-box;
   }
 
   #mini-panel-header {
@@ -2471,6 +2472,7 @@ table.views-table {
     .right-column {
       min-width: 0;
       flex: 0 225px;
+      z-index: 1;
       .inner {
         align-items: flex-start;
         height: 73px;
@@ -2530,6 +2532,9 @@ table.views-table {
 
       div[data-pane="2496"]{
         display: none;
+      }
+      div[data-pane="2434"]{
+        width: 100%;
       }
 
       @include breakpoint(1106px) {
