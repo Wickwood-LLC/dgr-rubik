@@ -1689,7 +1689,10 @@ table.views-table .pane-user-field-identification {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 100%; }
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    position: relative; }
   #block-panels-mini-header.sticky-header #mini-panel-header {
     width: 100%; }
   #block-panels-mini-header.sticky-header .row-one .left-column .inner,
