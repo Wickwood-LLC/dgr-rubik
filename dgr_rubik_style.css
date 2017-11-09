@@ -1718,7 +1718,9 @@ table.views-table .pane-user-field-identification {
     position: absolute;
     left: 0; }
     #block-panels-mini-header.sticky-header .row-one .left-column .inner {
-      border: 0; }
+      border: 0;
+      width: auto;
+      margin-right: 1em; }
     #block-panels-mini-header.sticky-header .row-one .left-column .header-address {
       display: none; }
     @media (min-width: 1106px) {
@@ -1740,7 +1742,9 @@ table.views-table .pane-user-field-identification {
     position: absolute;
     right: 0; }
     #block-panels-mini-header.sticky-header .row-one .right-column .inner {
-      border: 0; }
+      border: 0;
+      width: auto;
+      margin-right: 1em; }
     #block-panels-mini-header.sticky-header .row-one .right-column div[data-pane="2496"] {
       display: none; }
     #block-panels-mini-header.sticky-header .row-one .right-column div[data-pane="2434"] {
