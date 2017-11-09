@@ -2517,6 +2517,16 @@ table.views-table {
       margin-left: 1em;
     }
   }
+
+  #superfish-1 {
+    > li a {
+      font-size: 1.14vw;
+
+      @include breakpoint(1400px) {
+        font-size: 16px;
+      }
+    }
+  }
 }
 
 .secure-site-notif .block-content {
