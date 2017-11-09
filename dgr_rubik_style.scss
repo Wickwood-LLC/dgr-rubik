@@ -2469,17 +2469,16 @@ table.views-table {
   .row-one {
     .left-column,
     .right-column {
+      min-width: 0;
       .inner {
-        border: 0px;
         align-items: flex-start;
         height: 73px;
-        width: 220px;
+        width: 225px;
+        box-sizing: border-box;
       }
     }
 
     .left-column {
-      position: absolute;
-      left: 0;
       text-align: center;
 
       .header-address-line1,
@@ -2491,19 +2490,18 @@ table.views-table {
     }
 
     .middle-column {
-      border: 0px;
-
       .inner {
         text-align: center;
       }
     }
 
     .right-column {
-      position: absolute;
-      right: 0;
-
       div[data-pane="2499"] {
         display: none;
+      }
+
+      .pane-uuid-c30f5d3d-002d-498d-85f4-941d6a820d28 {
+        margin-bottom: 0;
       }
     }
 

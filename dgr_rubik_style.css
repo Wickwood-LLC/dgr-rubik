@@ -1695,32 +1695,31 @@ table.views-table .pane-user-field-identification {
     position: relative; }
   #block-panels-mini-header.sticky-header #mini-panel-header {
     width: 100%; }
-  #block-panels-mini-header.sticky-header .row-one .left-column .inner,
-  #block-panels-mini-header.sticky-header .row-one .right-column .inner {
-    border: 0px;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    height: 73px;
-    width: 220px; }
+  #block-panels-mini-header.sticky-header .row-one .left-column,
+  #block-panels-mini-header.sticky-header .row-one .right-column {
+    min-width: 0; }
+    #block-panels-mini-header.sticky-header .row-one .left-column .inner,
+    #block-panels-mini-header.sticky-header .row-one .right-column .inner {
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      height: 73px;
+      width: 225px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
   #block-panels-mini-header.sticky-header .row-one .left-column {
-    position: absolute;
-    left: 0;
     text-align: center; }
     #block-panels-mini-header.sticky-header .row-one .left-column .header-address-line1,
     #block-panels-mini-header.sticky-header .row-one .left-column .header-address-line2,
     #block-panels-mini-header.sticky-header .row-one .left-column .header-address-state,
     #block-panels-mini-header.sticky-header .row-one .left-column .header-address-zip {
       display: inline-block; }
-  #block-panels-mini-header.sticky-header .row-one .middle-column {
-    border: 0px; }
-    #block-panels-mini-header.sticky-header .row-one .middle-column .inner {
-      text-align: center; }
-  #block-panels-mini-header.sticky-header .row-one .right-column {
-    position: absolute;
-    right: 0; }
-    #block-panels-mini-header.sticky-header .row-one .right-column div[data-pane="2499"] {
-      display: none; }
+  #block-panels-mini-header.sticky-header .row-one .middle-column .inner {
+    text-align: center; }
+  #block-panels-mini-header.sticky-header .row-one .right-column div[data-pane="2499"] {
+    display: none; }
+  #block-panels-mini-header.sticky-header .row-one .right-column .pane-uuid-c30f5d3d-002d-498d-85f4-941d6a820d28 {
+    margin-bottom: 0; }
   #block-panels-mini-header.sticky-header .row-one .pane-page-site-name {
     display: inline-block;
     font-size: 2em; }
