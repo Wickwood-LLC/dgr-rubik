@@ -2476,7 +2476,6 @@ table.views-table {
       .inner {
         align-items: flex-start;
         height: 73px;
-        width: 225px;
         box-sizing: border-box;
       }
     }
@@ -2502,6 +2501,7 @@ table.views-table {
 
         .inner {
           border: 1px solid #ccc;
+          width: 225px;
         }
 
         .header-address {
@@ -2547,6 +2547,7 @@ table.views-table {
 
         .inner {
           border: 1px solid #ccc;
+          width: 225px;
         }
 
         div[data-pane="2496"]{
