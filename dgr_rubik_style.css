@@ -1715,13 +1715,19 @@ table.views-table .pane-user-field-identification {
   #block-panels-mini-header.sticky-header .row-one .left-column {
     text-align: center;
     position: absolute;
-    left: 0; }
+    right: 111px; }
     #block-panels-mini-header.sticky-header .row-one .left-column .inner {
       border: 0;
       width: auto;
       margin-left: 1em; }
+    #block-panels-mini-header.sticky-header .row-one .left-column .header-phone {
+      line-height: 2; }
     #block-panels-mini-header.sticky-header .row-one .left-column .header-address {
       display: none; }
+    @media (min-width: 860px) {
+      #block-panels-mini-header.sticky-header .row-one .left-column {
+        left: 0;
+        right: initial; } }
     @media (min-width: 1106px) {
       #block-panels-mini-header.sticky-header .row-one .left-column {
         position: static;
@@ -1731,6 +1737,8 @@ table.views-table .pane-user-field-identification {
           border: 1px solid #ccc;
           width: 225px;
           margin: 0; }
+        #block-panels-mini-header.sticky-header .row-one .left-column .header-phone {
+          line-height: 1; }
         #block-panels-mini-header.sticky-header .row-one .left-column .header-address {
           display: block; } }
     #block-panels-mini-header.sticky-header .row-one .left-column .header-address-line1,
@@ -1768,12 +1776,20 @@ table.views-table .pane-user-field-identification {
       margin-bottom: 0; }
   #block-panels-mini-header.sticky-header .row-one .pane-page-site-name {
     display: inline-block;
-    font-size: 2em; }
+    font-size: 2em;
+    width: 100%;
+    text-align: left; }
+    @media (min-width: 860px) {
+      #block-panels-mini-header.sticky-header .row-one .pane-page-site-name {
+        width: auto; } }
   #block-panels-mini-header.sticky-header .row-one .pane-page-slogan {
-    display: inline-block;
+    display: none;
     font-size: 1.5em;
     margin: 0;
     margin-left: 1em; }
+    @media (min-width: 860px) {
+      #block-panels-mini-header.sticky-header .row-one .pane-page-slogan {
+        display: inline-block; } }
   #block-panels-mini-header.sticky-header #superfish-1 > li a {
     font-size: 1.2em; }
     @media (min-width: 681px) {

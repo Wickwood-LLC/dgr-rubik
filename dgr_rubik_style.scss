@@ -2483,7 +2483,7 @@ table.views-table {
     .left-column {
       text-align: center;
       position: absolute;
-      left: 0;
+      right: 111px;
 
       .inner {
         border: 0;
@@ -2491,8 +2491,16 @@ table.views-table {
         margin-left: 1em;
       }
 
+      .header-phone {
+        line-height: 2;
+      }
       .header-address {
         display: none;
+      }
+
+      @include breakpoint(860px) {
+        left: 0;
+        right: initial;
       }
 
       @include breakpoint(1106px) {
@@ -2506,11 +2514,13 @@ table.views-table {
           margin: 0;
         }
 
+        .header-phone {
+          line-height: 1;
+        }
         .header-address {
           display: block;
         }
       }
-
 
       .header-address-line1,
       .header-address-line2,
@@ -2571,12 +2581,22 @@ table.views-table {
     .pane-page-site-name {
       display: inline-block;
       font-size: 2em;
+      width: 100%;
+      text-align: left;
+
+      @include breakpoint(860px) {
+        width: auto;
+      }
     }
     .pane-page-slogan {
-      display: inline-block;
+      display: none;
       font-size: 1.5em;
       margin: 0;
       margin-left: 1em;
+
+      @include breakpoint(860px) {
+        display: inline-block;
+      }
     }
   }
 
