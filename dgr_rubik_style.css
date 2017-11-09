@@ -1776,13 +1776,22 @@ table.views-table .pane-user-field-identification {
     margin-left: 1em; }
   #block-panels-mini-header.sticky-header #superfish-1 > li a {
     font-size: 1.2em; }
+    @media (min-width: 681px) {
+      #block-panels-mini-header.sticky-header #superfish-1 > li a {
+        font-size: 1.9vw;
+        padding: 0 0.7vw; } }
+    @media (min-width: 853px) {
+      #block-panels-mini-header.sticky-header #superfish-1 > li a {
+        font-size: 1.2em;
+        padding: 0 10px; } }
     @media (min-width: 1106px) {
       #block-panels-mini-header.sticky-header #superfish-1 > li a {
         font-size: calc((100vw - 502px)*0.017);
         padding: 0 0.695vw; } }
     @media (min-width: 1400px) {
       #block-panels-mini-header.sticky-header #superfish-1 > li a {
-        font-size: 14.5px; } }
+        font-size: 14.5px;
+        padding: 0 10px; } }
 
 .secure-site-notif .block-content {
   background-color: #2ECC71;
