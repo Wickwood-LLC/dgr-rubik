@@ -1725,7 +1725,8 @@ table.views-table .pane-user-field-identification {
     @media (min-width: 1106px) {
       #block-panels-mini-header.sticky-header .row-one .left-column {
         position: static;
-        border: 1px; }
+        border: 1px;
+        margin-left: 0px; }
         #block-panels-mini-header.sticky-header .row-one .left-column .inner {
           border: 1px solid #ccc;
           width: 225px;
@@ -1753,7 +1754,8 @@ table.views-table .pane-user-field-identification {
     @media (min-width: 1106px) {
       #block-panels-mini-header.sticky-header .row-one .right-column {
         position: static;
-        border: 1px; }
+        border: 1px;
+        margin-right: 0; }
         #block-panels-mini-header.sticky-header .row-one .right-column .inner {
           border: 1px solid #ccc;
           width: 225px;

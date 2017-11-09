@@ -2498,6 +2498,7 @@ table.views-table {
       @include breakpoint(1106px) {
         position: static;
         border: 1px;
+        margin-left: 0px;
 
         .inner {
           border: 1px solid #ccc;
@@ -2545,6 +2546,7 @@ table.views-table {
       @include breakpoint(1106px) {
         position: static;
         border: 1px;
+        margin-right: 0;
 
         .inner {
           border: 1px solid #ccc;
