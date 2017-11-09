@@ -1728,7 +1728,8 @@ table.views-table .pane-user-field-identification {
         border: 1px; }
         #block-panels-mini-header.sticky-header .row-one .left-column .inner {
           border: 1px solid #ccc;
-          width: 225px; }
+          width: 225px;
+          margin: 0; }
         #block-panels-mini-header.sticky-header .row-one .left-column .header-address {
           display: block; } }
     #block-panels-mini-header.sticky-header .row-one .left-column .header-address-line1,
@@ -1755,7 +1756,8 @@ table.views-table .pane-user-field-identification {
         border: 1px; }
         #block-panels-mini-header.sticky-header .row-one .right-column .inner {
           border: 1px solid #ccc;
-          width: 225px; }
+          width: 225px;
+          margin: 0; }
         #block-panels-mini-header.sticky-header .row-one .right-column div[data-pane="2496"] {
           display: block; } }
     #block-panels-mini-header.sticky-header .row-one .right-column div[data-pane="2499"] {
