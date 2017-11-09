@@ -1697,7 +1697,10 @@ table.views-table .pane-user-field-identification {
     width: 100%; }
   #block-panels-mini-header.sticky-header .row-one .left-column,
   #block-panels-mini-header.sticky-header .row-one .right-column {
-    min-width: 0; }
+    min-width: 0;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 225px;
+            flex: 0 225px; }
     #block-panels-mini-header.sticky-header .row-one .left-column .inner,
     #block-panels-mini-header.sticky-header .row-one .right-column .inner {
       -webkit-box-align: start;
@@ -1727,7 +1730,7 @@ table.views-table .pane-user-field-identification {
     display: inline-block;
     font-size: 1.5em;
     margin: 0;
-    margin-right: 1em; }
+    margin-left: 1em; }
 
 .secure-site-notif .block-content {
   background-color: #2ECC71;
