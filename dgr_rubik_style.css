@@ -1719,7 +1719,7 @@ table.views-table .pane-user-field-identification {
     #block-panels-mini-header.sticky-header .row-one .left-column .inner {
       border: 0;
       width: auto;
-      margin-right: 1em; }
+      margin-left: 1em; }
     #block-panels-mini-header.sticky-header .row-one .left-column .header-address {
       display: none; }
     @media (min-width: 1106px) {
