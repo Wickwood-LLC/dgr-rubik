@@ -1744,17 +1744,30 @@ table.views-table .pane-user-field-identification {
   #block-panels-mini-header.sticky-header .row-one .left-column {
     text-align: center;
     position: absolute;
-    right: 138px; }
+    right: 126px; }
     #block-panels-mini-header.sticky-header .row-one .left-column .inner {
       border: 0;
       width: auto;
       margin-left: 1em; }
     #block-panels-mini-header.sticky-header .row-one .left-column .header-phone {
       line-height: 2; }
+    #block-panels-mini-header.sticky-header .row-one .left-column .header-phone-icon {
+      font-size: 27px;
+      line-height: 1; }
+    #block-panels-mini-header.sticky-header .row-one .left-column .header-phone-number {
+      display: none; }
     #block-panels-mini-header.sticky-header .row-one .left-column .header-fax {
       display: none; }
     #block-panels-mini-header.sticky-header .row-one .left-column .header-address {
       display: none; }
+    @media (min-width: 540px) {
+      #block-panels-mini-header.sticky-header .row-one .left-column {
+        right: 138px; }
+        #block-panels-mini-header.sticky-header .row-one .left-column .header-phone-number {
+          display: inline; }
+        #block-panels-mini-header.sticky-header .row-one .left-column .header-phone-icon {
+          font-size: 1em;
+          line-height: 2; } }
     @media (min-width: 860px) {
       #block-panels-mini-header.sticky-header .row-one .left-column {
         left: 0;

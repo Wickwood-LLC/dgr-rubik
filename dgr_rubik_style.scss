@@ -2518,7 +2518,7 @@ table.views-table {
     .left-column {
       text-align: center;
       position: absolute;
-      right: 138px;
+      right: 126px;
 
       .inner {
         border: 0;
@@ -2529,11 +2529,30 @@ table.views-table {
       .header-phone {
         line-height: 2;
       }
+      .header-phone-icon {
+        font-size: 27px;
+        line-height: 1;
+      }
+      .header-phone-number {
+        display: none;
+      }
       .header-fax {
         display: none;
       }
       .header-address {
         display: none;
+      }
+
+      @include breakpoint(540px) {
+        right: 138px;
+
+        .header-phone-number {
+          display: inline;
+        }
+        .header-phone-icon {
+          font-size: 1em;
+          line-height: 2;
+        }
       }
 
       @include breakpoint(860px) {
