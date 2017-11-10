@@ -1749,7 +1749,7 @@ table.views-table .pane-user-field-identification {
           width: 225px;
           margin: 0; }
         #block-panels-mini-header.sticky-header .row-one .left-column .header-phone {
-          line-height: 1; }
+          line-height: 1.5; }
         #block-panels-mini-header.sticky-header .row-one .left-column .header-address {
           display: block; } }
     #block-panels-mini-header.sticky-header .row-one .left-column .header-address-line1,
@@ -4413,70 +4413,42 @@ input.form-submit {
         background: none;
         color: #008080;
         text-decoration: underline; }
-      @media (min-width: 680px) {
+      @media (min-width: 681px) {
         #block-superfish-1 #superfish-1 li a,
         #block-superfish-1 #superfish-2 li a,
         .pane-superfish-1 #superfish-1 li a,
         .pane-superfish-1 #superfish-2 li a,
         .pane-superfish-2 #superfish-1 li a,
         .pane-superfish-2 #superfish-2 li a {
-          font-size: 0.9em; } }
-      @media (min-width: 705px) {
+          font-size: 1.9vw;
+          padding: 0 0.7vw; } }
+      @media (min-width: 853px) {
         #block-superfish-1 #superfish-1 li a,
         #block-superfish-1 #superfish-2 li a,
         .pane-superfish-1 #superfish-1 li a,
         .pane-superfish-1 #superfish-2 li a,
         .pane-superfish-2 #superfish-1 li a,
         .pane-superfish-2 #superfish-2 li a {
-          font-size: 0.95em; } }
-      @media (min-width: 730px) {
+          font-size: 1.2em;
+          padding: 0 10px; } }
+      @media (min-width: 1106px) {
         #block-superfish-1 #superfish-1 li a,
         #block-superfish-1 #superfish-2 li a,
         .pane-superfish-1 #superfish-1 li a,
         .pane-superfish-1 #superfish-2 li a,
         .pane-superfish-2 #superfish-1 li a,
         .pane-superfish-2 #superfish-2 li a {
-          font-size: 1em; } }
-      @media (min-width: 780px) {
+          font-size: calc((100vw - 502px)*0.017);
+          padding: 0 0.695vw; } }
+      @media (min-width: 1400px) {
         #block-superfish-1 #superfish-1 li a,
         #block-superfish-1 #superfish-2 li a,
         .pane-superfish-1 #superfish-1 li a,
         .pane-superfish-1 #superfish-2 li a,
         .pane-superfish-2 #superfish-1 li a,
         .pane-superfish-2 #superfish-2 li a {
-          font-size: 1.1em; } }
-      @media (min-width: 840px) {
-        #block-superfish-1 #superfish-1 li a,
-        #block-superfish-1 #superfish-2 li a,
-        .pane-superfish-1 #superfish-1 li a,
-        .pane-superfish-1 #superfish-2 li a,
-        .pane-superfish-2 #superfish-1 li a,
-        .pane-superfish-2 #superfish-2 li a {
-          font-size: 1.2em; } }
-      @media (min-width: 1105px) {
-        #block-superfish-1 #superfish-1 li a,
-        #block-superfish-1 #superfish-2 li a,
-        .pane-superfish-1 #superfish-1 li a,
-        .pane-superfish-1 #superfish-2 li a,
-        .pane-superfish-2 #superfish-1 li a,
-        .pane-superfish-2 #superfish-2 li a {
-          font-size: 1em; } }
-      @media (min-width: 1142px) {
-        #block-superfish-1 #superfish-1 li a,
-        #block-superfish-1 #superfish-2 li a,
-        .pane-superfish-1 #superfish-1 li a,
-        .pane-superfish-1 #superfish-2 li a,
-        .pane-superfish-2 #superfish-1 li a,
-        .pane-superfish-2 #superfish-2 li a {
-          font-size: 1.1em; } }
-      @media (min-width: 1232px) {
-        #block-superfish-1 #superfish-1 li a,
-        #block-superfish-1 #superfish-2 li a,
-        .pane-superfish-1 #superfish-1 li a,
-        .pane-superfish-1 #superfish-2 li a,
-        .pane-superfish-2 #superfish-1 li a,
-        .pane-superfish-2 #superfish-2 li a {
-          font-size: 1.2em; } }
+          font-size: 14.5px;
+          padding: 0 10px; } }
   #block-superfish-1 #superfish-1 .sf-sub-indicator,
   #block-superfish-1 #superfish-2 .sf-sub-indicator,
   .pane-superfish-1 #superfish-1 .sf-sub-indicator,

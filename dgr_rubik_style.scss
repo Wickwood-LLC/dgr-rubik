@@ -2531,7 +2531,7 @@ table.views-table {
         }
 
         .header-phone {
-          line-height: 1;
+          line-height: 1.5;
         }
         .header-address {
           display: block;
@@ -4188,30 +4188,48 @@ input.form-submit {
           text-decoration: underline;
         }
 
-        @include breakpoint(680px) {
-          font-size: 0.9em;
+        @include breakpoint(681px) {
+          font-size: 1.9vw;
+          padding: 0 0.7vw;
         }
-        @include breakpoint(705px) {
-          font-size: 0.95em;
-        }
-        @include breakpoint(730px) {
-          font-size: 1em;
-        }
-        @include breakpoint(780px) {
-          font-size: 1.1em;
-        }
-        @include breakpoint(840px) {
+        @include breakpoint(853px) {
           font-size: 1.2em;
+          padding: 0 10px;
         }
-        @include breakpoint(1105px) {
-          font-size: 1em;
+        @include breakpoint(1106px) {
+          font-size: calc((100vw - 502px)*0.017);
+          padding: 0 0.695vw;
         }
-        @include breakpoint(1142px) {
-          font-size: 1.1em;
+
+        @include breakpoint(1400px) {
+          font-size: 14.5px;
+          padding: 0 10px;
         }
-        @include breakpoint(1232px) {
-          font-size: 1.2em;
-        }
+
+        // @include breakpoint(680px) {
+        //   font-size: 0.9em;
+        // }
+        // @include breakpoint(705px) {
+        //   font-size: 0.95em;
+        // }
+        // @include breakpoint(730px) {
+        //   font-size: 1em;
+        // }
+        // @include breakpoint(780px) {
+        //   font-size: 1.1em;
+        // }
+        // @include breakpoint(840px) {
+        //   font-size: 1.2em;
+        // }
+        // @include breakpoint(1105px) {
+        //   font-size: 1em;
+        // }
+        // @include breakpoint(1142px) {
+        //   font-size: 1.1em;
+        // }
+        // @include breakpoint(1232px) {
+        //   font-size: 1.2em;
+        // }
       }
     }
 
