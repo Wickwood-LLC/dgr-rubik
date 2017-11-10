@@ -2508,6 +2508,8 @@ table.views-table {
       min-width: 0;
       flex: 0 225px;
       z-index: 1;
+      display: block;
+
       .inner {
         align-items: flex-start;
         height: 73px;
@@ -2519,6 +2521,7 @@ table.views-table {
       text-align: center;
       position: absolute;
       right: 126px;
+      margin-right: 0;
 
       .inner {
         border: 0;
@@ -2564,6 +2567,7 @@ table.views-table {
         position: static;
         border: 1px;
         margin-left: 0px;
+        margin-right: 0.5em;
 
         .inner {
           border: 1px solid #ccc;
