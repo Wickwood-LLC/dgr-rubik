@@ -1806,6 +1806,12 @@ table.views-table .pane-user-field-identification {
       border: 0;
       width: auto;
       margin-right: 1em; }
+    #block-panels-mini-header.sticky-header .row-one .right-column .pane-widgets-s-socialmedia-share-default .widgets-element {
+      float: left;
+      margin-right: 5px;
+      width: 25px; }
+    #block-panels-mini-header.sticky-header .row-one .right-column .pane-widgets-s-socialmedia-share-default #widgets-element-socialmedia_addthis-email {
+      margin-right: 0; }
     #block-panels-mini-header.sticky-header .row-one .right-column div[data-pane="2496"] {
       display: inline-block;
       vertical-align: bottom; }

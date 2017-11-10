@@ -2613,6 +2613,18 @@ table.views-table {
         margin-right: 1em;
       }
 
+      .pane-widgets-s-socialmedia-share-default {
+        .widgets-element {
+          float: left;
+          margin-right: 5px;
+          width: 25px;
+        }
+
+        #widgets-element-socialmedia_addthis-email {
+          margin-right: 0;
+        }
+      }
+
       div[data-pane="2496"] {
         display: inline-block;
         vertical-align: bottom;
