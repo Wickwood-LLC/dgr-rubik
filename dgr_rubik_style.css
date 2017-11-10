@@ -1673,7 +1673,7 @@ table.views-table .pane-user-field-identification {
   #block-panels-mini-header .row-one .header-phone-icon:before {
     content: "\f098 \00a0";
     font-family: FontAwesome, sans-serif; }
-  #block-panels-mini-header .row-one .header-fax-icon {
+  #block-panels-mini-header .row-one .header-fax-icon:before {
     content: "\f1ac \00a0";
     font-family: FontAwesome, sans-serif; }
   #block-panels-mini-header .row-one .menu-name-user-menu ul li {
