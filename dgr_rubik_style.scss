@@ -2584,11 +2584,21 @@ table.views-table {
         margin-right: 1em;
       }
 
-      div[data-pane="2496"]{
-        display: none;
+      div[data-pane="2496"] {
+        display: inline-block;
+        vertical-align: bottom;
+
+        .language-icon {
+          width: 25px;
+          height: 25px;
+        }
+        .language-text {
+          display: none;
+        }
       }
+
       div[data-pane="2434"]{
-        width: 100%;
+        width: auto;
       }
 
       @include breakpoint(1106px) {
@@ -2602,8 +2612,18 @@ table.views-table {
           margin: 0;
         }
 
-        div[data-pane="2496"]{
-          display: block;
+        div[data-pane="2496"] {
+          .language-icon {
+            width: 1em;
+            height: 1em;
+          }
+          .language-text {
+            display: inline-block;
+          }
+        }
+
+        div[data-pane="2434"]{
+          width: 100%;
         }
       }
 
