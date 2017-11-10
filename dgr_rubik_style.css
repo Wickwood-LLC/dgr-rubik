@@ -1457,6 +1457,24 @@ table.views-table .field-name-field-deferred-fee-label,
 table.views-table .pane-user-field-identification {
   min-width: 0%; }
 
+.language-switch:before {
+  content: "";
+  background: url(https://lipis.github.io/flag-icon-css/flags/4x3/es.svg) no-repeat center center;
+  background-size: cover;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  margin-right: 3px; }
+
+.i18n-es .language-switch:before {
+  content: "";
+  background: url(https://lipis.github.io/flag-icon-css/flags/4x3/gb.svg) no-repeat center center;
+  background-size: cover;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  margin-right: 3px; }
+
 #block-panels-mini-header .row-one {
   display: -webkit-box;
   display: -ms-flexbox;
