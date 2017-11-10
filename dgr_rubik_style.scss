@@ -2615,7 +2615,7 @@ table.views-table {
 
       .pane-widgets-s-socialmedia-share-default {
         .widgets-element {
-          float: left;
+          display: inline-block;
           margin-right: 5px;
           
           img {
@@ -2685,10 +2685,15 @@ table.views-table {
 
     .pane-page-site-name {
       display: inline-block;
-      font-size: 2em;
+      font-size: 4.5vw;
       width: 100%;
       text-align: left;
+      line-height: 30px;
 
+      @include breakpoint(440px) {
+        font-size: 2em;
+        line-height: 1;
+      }
       @include breakpoint(860px) {
         width: auto;
       }
