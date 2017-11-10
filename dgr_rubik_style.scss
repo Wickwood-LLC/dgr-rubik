@@ -2595,6 +2595,12 @@ table.views-table {
       .inner {
         text-align: center;
       }
+
+      div[data-pane="2506"],
+      div[data-pane="2507"],
+      div[data-pane="2508"] {
+        display: none;
+      }
     }
 
     .right-column {
@@ -2623,6 +2629,7 @@ table.views-table {
 
       div[data-pane="2434"]{
         width: auto;
+        display: inline-block;
       }
 
       @include breakpoint(1106px) {
