@@ -2588,7 +2588,7 @@ table.views-table {
         display: inline-block;
         vertical-align: bottom;
 
-        .language-icon {
+        .language-icon:before {
           width: 25px;
           height: 25px;
         }
@@ -2613,7 +2613,7 @@ table.views-table {
         }
 
         div[data-pane="2496"] {
-          .language-icon {
+          .language-icon:before {
             width: 1em;
             height: 1em;
           }
