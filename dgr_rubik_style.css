@@ -1667,6 +1667,15 @@ table.views-table .pane-user-field-identification {
           -webkit-box-pack: center;
               -ms-flex-pack: center;
                   justify-content: center; } }
+  #block-panels-mini-header .row-one .header-phone,
+  #block-panels-mini-header .row-one .header-fax {
+    display: block; }
+  #block-panels-mini-header .row-one .header-phone-icon:before {
+    content: "\f098 \00a0";
+    font-family: FontAwesome, sans-serif; }
+  #block-panels-mini-header .row-one .header-fax-icon {
+    content: "\f1ac \00a0";
+    font-family: FontAwesome, sans-serif; }
   #block-panels-mini-header .row-one .menu-name-user-menu ul li {
     margin-left: 0;
     white-space: nowrap;
@@ -1722,6 +1731,8 @@ table.views-table .pane-user-field-identification {
       margin-left: 1em; }
     #block-panels-mini-header.sticky-header .row-one .left-column .header-phone {
       line-height: 2; }
+    #block-panels-mini-header.sticky-header .row-one .left-column .header-fax {
+      display: none; }
     #block-panels-mini-header.sticky-header .row-one .left-column .header-address {
       display: none; }
     @media (min-width: 860px) {

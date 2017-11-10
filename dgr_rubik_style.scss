@@ -2434,6 +2434,19 @@ table.views-table {
     }  
   }
 
+  .header-phone,
+  .header-fax {
+    display: block;
+  }
+  .header-phone-icon:before {
+    content: "\f098 \00a0";
+    font-family: FontAwesome, sans-serif;
+  }
+  .header-fax-icon {
+    content: "\f1ac \00a0";
+    font-family: FontAwesome, sans-serif;
+  }
+
   .menu-name-user-menu {
     ul li {
       margin-left: 0;
@@ -2493,6 +2506,9 @@ table.views-table {
 
       .header-phone {
         line-height: 2;
+      }
+      .header-fax {
+        display: none;
       }
       .header-address {
         display: none;
