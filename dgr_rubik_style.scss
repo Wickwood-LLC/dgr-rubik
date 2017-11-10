@@ -2617,7 +2617,10 @@ table.views-table {
         .widgets-element {
           float: left;
           margin-right: 5px;
-          width: 25px;
+          
+          img {
+            width: 25px;
+          }
         }
 
         #widgets-element-socialmedia_addthis-email {
