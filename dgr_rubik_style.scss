@@ -1913,10 +1913,10 @@ html.js fieldset.collapsible div.fieldset-wrapper {
     }
   }
   .header-phone-icon:before {
-    content: "p: \00a0";
+    content: "p: ";
   }
   .header-fax-icon:before {
-    content: "f: \00a0";
+    content: "f: ";
   }
 
   .menu-name-user-menu {
@@ -2103,28 +2103,6 @@ html.js fieldset.collapsible div.fieldset-wrapper {
         }
       }
 
-      .i18n-en .language-icon:before {
-        content: "";
-        background: url(https://lipis.github.io/flag-icon-css/flags/4x3/es.svg) no-repeat center center;
-        background-size: cover;
-        border-radius: 3px;
-        width: 1em;
-        height: 1em;
-        display: inline-block;
-        margin-right: 3px;
-      }
-
-      .i18n-es .language-icon:before {
-        content: "";
-        background: url(https://lipis.github.io/flag-icon-css/flags/4x3/us.svg) no-repeat center center;
-        background-size: cover;
-        border-radius: 3px;
-        width: 1em;
-        height: 1em;
-        display: inline-block;
-        margin-right: 3px;
-      }
-
       div[data-pane="2434"]{
         width: auto;
         display: inline-block;
@@ -2215,6 +2193,28 @@ html.js fieldset.collapsible div.fieldset-wrapper {
         padding: 0 10px;
       }
     }
+  }
+
+  .i18n-en .language-icon:before {
+    content: "";
+    background: url(https://lipis.github.io/flag-icon-css/flags/4x3/es.svg) no-repeat center center;
+    background-size: cover;
+    border-radius: 3px;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    margin-right: 3px;
+  }
+
+  .i18n-es .language-icon:before {
+    content: "";
+    background: url(https://lipis.github.io/flag-icon-css/flags/4x3/us.svg) no-repeat center center;
+    background-size: cover;
+    border-radius: 3px;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    margin-right: 3px;
   }
 }
 

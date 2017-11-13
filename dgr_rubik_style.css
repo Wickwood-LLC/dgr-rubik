@@ -1633,9 +1633,9 @@ html.js fieldset.collapsible div.fieldset-wrapper {
     #block-panels-mini-header .row-one .header-fax:hover {
       color: #008080; }
   #block-panels-mini-header .row-one .header-phone-icon:before {
-    content: "p: \00a0"; }
+    content: "p: "; }
   #block-panels-mini-header .row-one .header-fax-icon:before {
-    content: "f: \00a0"; }
+    content: "f: "; }
   #block-panels-mini-header .row-one .menu-name-user-menu ul li {
     margin-left: 0;
     white-space: nowrap;
@@ -1770,24 +1770,6 @@ html.js fieldset.collapsible div.fieldset-wrapper {
         margin-right: 5px; }
       #block-panels-mini-header.sticky-header .row-one .right-column div[data-pane="2496"] .language-text {
         display: none; }
-    #block-panels-mini-header.sticky-header .row-one .right-column .i18n-en .language-icon:before {
-      content: "";
-      background: url(https://lipis.github.io/flag-icon-css/flags/4x3/es.svg) no-repeat center center;
-      background-size: cover;
-      border-radius: 3px;
-      width: 1em;
-      height: 1em;
-      display: inline-block;
-      margin-right: 3px; }
-    #block-panels-mini-header.sticky-header .row-one .right-column .i18n-es .language-icon:before {
-      content: "";
-      background: url(https://lipis.github.io/flag-icon-css/flags/4x3/us.svg) no-repeat center center;
-      background-size: cover;
-      border-radius: 3px;
-      width: 1em;
-      height: 1em;
-      display: inline-block;
-      margin-right: 3px; }
     #block-panels-mini-header.sticky-header .row-one .right-column div[data-pane="2434"] {
       width: auto;
       display: inline-block; }
@@ -1851,6 +1833,24 @@ html.js fieldset.collapsible div.fieldset-wrapper {
       #block-panels-mini-header.sticky-header #superfish-1 > li a {
         font-size: 14.5px;
         padding: 0 10px; } }
+  #block-panels-mini-header.sticky-header .i18n-en .language-icon:before {
+    content: "";
+    background: url(https://lipis.github.io/flag-icon-css/flags/4x3/es.svg) no-repeat center center;
+    background-size: cover;
+    border-radius: 3px;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    margin-right: 3px; }
+  #block-panels-mini-header.sticky-header .i18n-es .language-icon:before {
+    content: "";
+    background: url(https://lipis.github.io/flag-icon-css/flags/4x3/us.svg) no-repeat center center;
+    background-size: cover;
+    border-radius: 3px;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    margin-right: 3px; }
 
 .secure-site-notif .block-content {
   background-color: #2ECC71;
