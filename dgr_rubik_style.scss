@@ -2194,28 +2194,28 @@ html.js fieldset.collapsible div.fieldset-wrapper {
       }
     }
   }
+}
 
-  .i18n-en .language-icon:before {
-    content: "";
-    background: url(https://lipis.github.io/flag-icon-css/flags/4x3/es.svg) no-repeat center center;
-    background-size: cover;
-    border-radius: 3px;
-    width: 1em;
-    height: 1em;
-    display: inline-block;
-    margin-right: 3px;
-  }
+.i18n-en .floating-header .language-icon:before {
+  content: "";
+  background: url(https://lipis.github.io/flag-icon-css/flags/4x3/es.svg) no-repeat center center;
+  background-size: cover;
+  border-radius: 3px;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  margin-right: 3px;
+}
 
-  .i18n-es .language-icon:before {
-    content: "";
-    background: url(https://lipis.github.io/flag-icon-css/flags/4x3/us.svg) no-repeat center center;
-    background-size: cover;
-    border-radius: 3px;
-    width: 1em;
-    height: 1em;
-    display: inline-block;
-    margin-right: 3px;
-  }
+.i18n-es .floating-header .language-icon:before {
+  content: "";
+  background: url(https://lipis.github.io/flag-icon-css/flags/4x3/us.svg) no-repeat center center;
+  background-size: cover;
+  border-radius: 3px;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  margin-right: 3px;
 }
 
 .secure-site-notif .block-content {
