@@ -1834,7 +1834,7 @@ html.js fieldset.collapsible div.fieldset-wrapper {
         font-size: 14.5px;
         padding: 0 10px; } }
 
-.i18n-en .floating-header .language-icon:before {
+.i18n-en .sticky-header .language-icon:before {
   content: "";
   background: url(https://lipis.github.io/flag-icon-css/flags/4x3/es.svg) no-repeat center center;
   background-size: cover;
@@ -1844,7 +1844,7 @@ html.js fieldset.collapsible div.fieldset-wrapper {
   display: inline-block;
   margin-right: 3px; }
 
-.i18n-es .floating-header .language-icon:before {
+.i18n-es .sticky-header .language-icon:before {
   content: "";
   background: url(https://lipis.github.io/flag-icon-css/flags/4x3/us.svg) no-repeat center center;
   background-size: cover;
