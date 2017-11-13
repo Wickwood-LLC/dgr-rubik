@@ -52,7 +52,7 @@
         if (currentPosition < 0) {   // if target element goes above the screen
           $header.addClass('sticky-header');
 
-          headerHeight = $floatingHeader.height();        // gets the height of our header
+          headerHeight = $header.height();        // gets the height of our header
           $('#header').css({
             'margin-bottom': headerHeight,
           });
@@ -91,7 +91,7 @@
         if (currentPosition < 0) {   // if target element goes above the screen
           $header.addClass('sticky-header');
 
-          headerHeight = $floatingHeader.height();        // gets the height of our header
+          headerHeight = $header.height();        // gets the height of our header
           $('#header').css({
             'margin-bottom': headerHeight,
           })
