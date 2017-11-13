@@ -1569,7 +1569,27 @@ html.js fieldset.collapsible div.fieldset-wrapper {
                 flex: 100%; } }
   #block-panels-mini-header .row-one .left-column {
     margin-left: 0;
-    margin-right: 0.5em; }
+    margin-right: 0.5em;
+    text-align: center; }
+    #block-panels-mini-header .row-one .left-column .header-phone,
+    #block-panels-mini-header .row-one .left-column .header-fax,
+    #block-panels-mini-header .row-one .left-column .header-address-line1,
+    #block-panels-mini-header .row-one .left-column .header-address-line2,
+    #block-panels-mini-header .row-one .left-column .header-address-state,
+    #block-panels-mini-header .row-one .left-column .header-address-zip {
+      display: inline-block; }
+    #block-panels-mini-header .row-one .left-column .header-fax {
+      margin-left: 5px; }
+    @media (min-width: 1105px) {
+      #block-panels-mini-header .row-one .left-column .header-phone,
+      #block-panels-mini-header .row-one .left-column .header-fax,
+      #block-panels-mini-header .row-one .left-column .header-address-line1,
+      #block-panels-mini-header .row-one .left-column .header-address-line2,
+      #block-panels-mini-header .row-one .left-column .header-address-state,
+      #block-panels-mini-header .row-one .left-column .header-address-zip {
+        display: block; }
+      #block-panels-mini-header .row-one .left-column .header-fax {
+        margin-left: 0px; } }
   #block-panels-mini-header .row-one .right-column,
   #block-panels-mini-header .row-one .left-column {
     display: none; }
@@ -1591,8 +1611,8 @@ html.js fieldset.collapsible div.fieldset-wrapper {
             -ms-flex-pack: center;
                 justify-content: center;
         -webkit-box-flex: 0;
-            -ms-flex: 0 230px;
-                flex: 0 230px;
+            -ms-flex: 0 255px;
+                flex: 0 255px;
         -webkit-box-ordinal-group: 1;
             -ms-flex-order: 0;
                 order: 0;
@@ -1844,7 +1864,7 @@ html.js fieldset.collapsible div.fieldset-wrapper {
   display: inline-block;
   margin-right: 3px; }
 
-.i18n-es .sticky-header .language-icon:before {
+.i18n-es .stick-header .language-icon:before {
   content: "";
   background: url(https://lipis.github.io/flag-icon-css/flags/4x3/us.svg) no-repeat center center;
   background-size: cover;
