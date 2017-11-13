@@ -2220,7 +2220,7 @@ table.views-table {
 
 .i18n-es .language-icon:before {
   content: "";
-  background: url(https://lipis.github.io/flag-icon-css/flags/4x3/gb.svg) no-repeat center center;
+  background: url(https://lipis.github.io/flag-icon-css/flags/4x3/us.svg) no-repeat center center;
   background-size: cover;
   border-radius: 3px;
   width: 1em;
@@ -2459,14 +2459,17 @@ table.views-table {
   .header-phone,
   .header-fax {
     display: block;
+    color: black;
+
+    &:hover {
+      color: #008080;
+    }
   }
   .header-phone-icon:before {
-    content: "\f098 \00a0";
-    font-family: FontAwesome, sans-serif;
+    content: "p: \00a0";
   }
   .header-fax-icon:before {
-    content: "\f1ac \00a0";
-    font-family: FontAwesome, sans-serif;
+    content: "f: \00a0";
   }
 
   .menu-name-user-menu {
@@ -2538,6 +2541,14 @@ table.views-table {
       }
       .header-phone-number {
         display: none;
+      }
+      .header-phone-icon:before {
+        content: "\f098 \00a0";
+        font-family: FontAwesome, sans-serif;
+      }
+      .header-fax-icon:before {
+        content: "\f1ac \00a0";
+        font-family: FontAwesome, sans-serif;
       }
       .header-fax {
         display: none;

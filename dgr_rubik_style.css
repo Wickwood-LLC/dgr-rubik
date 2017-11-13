@@ -1469,7 +1469,7 @@ table.views-table .pane-user-field-identification {
 
 .i18n-es .language-icon:before {
   content: "";
-  background: url(https://lipis.github.io/flag-icon-css/flags/4x3/gb.svg) no-repeat center center;
+  background: url(https://lipis.github.io/flag-icon-css/flags/4x3/us.svg) no-repeat center center;
   background-size: cover;
   border-radius: 3px;
   width: 1em;
@@ -1689,13 +1689,15 @@ table.views-table .pane-user-field-identification {
                   justify-content: center; } }
   #block-panels-mini-header .row-one .header-phone,
   #block-panels-mini-header .row-one .header-fax {
-    display: block; }
+    display: block;
+    color: black; }
+    #block-panels-mini-header .row-one .header-phone:hover,
+    #block-panels-mini-header .row-one .header-fax:hover {
+      color: #008080; }
   #block-panels-mini-header .row-one .header-phone-icon:before {
-    content: "\f098 \00a0";
-    font-family: FontAwesome, sans-serif; }
+    content: "p: \00a0"; }
   #block-panels-mini-header .row-one .header-fax-icon:before {
-    content: "\f1ac \00a0";
-    font-family: FontAwesome, sans-serif; }
+    content: "f: \00a0"; }
   #block-panels-mini-header .row-one .menu-name-user-menu ul li {
     margin-left: 0;
     white-space: nowrap;
@@ -1758,6 +1760,12 @@ table.views-table .pane-user-field-identification {
       line-height: 1; }
     #block-panels-mini-header.sticky-header .row-one .left-column .header-phone-number {
       display: none; }
+    #block-panels-mini-header.sticky-header .row-one .left-column .header-phone-icon:before {
+      content: "\f098 \00a0";
+      font-family: FontAwesome, sans-serif; }
+    #block-panels-mini-header.sticky-header .row-one .left-column .header-fax-icon:before {
+      content: "\f1ac \00a0";
+      font-family: FontAwesome, sans-serif; }
     #block-panels-mini-header.sticky-header .row-one .left-column .header-fax {
       display: none; }
     #block-panels-mini-header.sticky-header .row-one .left-column .header-address {
