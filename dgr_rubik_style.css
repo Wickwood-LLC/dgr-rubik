@@ -1611,13 +1611,21 @@ html.js fieldset.collapsible div.fieldset-wrapper {
             -ms-flex-pack: center;
                 justify-content: center;
         -webkit-box-flex: 0;
-            -ms-flex: 0 255px;
-                flex: 0 255px;
+            -ms-flex: 0 230px;
+                flex: 0 230px;
+        font-size: 11px;
         -webkit-box-ordinal-group: 1;
             -ms-flex-order: 0;
                 order: 0;
         margin: auto;
         margin-bottom: 0.5em; } }
+    @media (min-width: 560px) {
+      #block-panels-mini-header .row-one .right-column,
+      #block-panels-mini-header .row-one .left-column {
+        font-size: 1em;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 255px;
+                flex: 0 255px; } }
     @media (min-width: 1105px) {
       #block-panels-mini-header .row-one .right-column,
       #block-panels-mini-header .row-one .left-column {

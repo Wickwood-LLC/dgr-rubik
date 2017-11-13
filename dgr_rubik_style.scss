@@ -1908,10 +1908,16 @@ html.js fieldset.collapsible div.fieldset-wrapper {
       align-items: flex-end;
       display: flex;
       justify-content: center;
-      flex: 0 255px;
+      flex: 0 230px;
+      font-size: 11px;
       order: 0;
       margin: auto;
       margin-bottom: 0.5em;
+    }
+
+    @include breakpoint(560px) {
+      font-size: 1em;
+      flex: 0 255px;
     }
 
     @include breakpoint(1105px) {
