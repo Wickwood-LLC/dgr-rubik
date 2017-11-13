@@ -1571,25 +1571,6 @@ html.js fieldset.collapsible div.fieldset-wrapper {
     margin-left: 0;
     margin-right: 0.5em;
     text-align: center; }
-    #block-panels-mini-header .row-one .left-column .header-phone,
-    #block-panels-mini-header .row-one .left-column .header-fax,
-    #block-panels-mini-header .row-one .left-column .header-address-line1,
-    #block-panels-mini-header .row-one .left-column .header-address-line2,
-    #block-panels-mini-header .row-one .left-column .header-address-state,
-    #block-panels-mini-header .row-one .left-column .header-address-zip {
-      display: inline-block; }
-    #block-panels-mini-header .row-one .left-column .header-fax {
-      margin-left: 5px; }
-    @media (min-width: 1105px) {
-      #block-panels-mini-header .row-one .left-column .header-phone,
-      #block-panels-mini-header .row-one .left-column .header-fax,
-      #block-panels-mini-header .row-one .left-column .header-address-line1,
-      #block-panels-mini-header .row-one .left-column .header-address-line2,
-      #block-panels-mini-header .row-one .left-column .header-address-state,
-      #block-panels-mini-header .row-one .left-column .header-address-zip {
-        display: block; }
-      #block-panels-mini-header .row-one .left-column .header-fax {
-        margin-left: 0px; } }
   #block-panels-mini-header .row-one .right-column,
   #block-panels-mini-header .row-one .left-column {
     display: none; }
@@ -1664,6 +1645,26 @@ html.js fieldset.collapsible div.fieldset-wrapper {
     content: "p: "; }
   #block-panels-mini-header .row-one .header-fax-icon:before {
     content: "f: "; }
+  #block-panels-mini-header .row-one .header-phone,
+  #block-panels-mini-header .row-one .header-fax,
+  #block-panels-mini-header .row-one .header-address-line1,
+  #block-panels-mini-header .row-one .header-address-line2,
+  #block-panels-mini-header .row-one .header-address-state,
+  #block-panels-mini-header .row-one .header-address-zip {
+    display: inline-block; }
+    @media (min-width: 1105px) {
+      #block-panels-mini-header .row-one .header-phone,
+      #block-panels-mini-header .row-one .header-fax,
+      #block-panels-mini-header .row-one .header-address-line1,
+      #block-panels-mini-header .row-one .header-address-line2,
+      #block-panels-mini-header .row-one .header-address-state,
+      #block-panels-mini-header .row-one .header-address-zip {
+        display: block; } }
+  #block-panels-mini-header .row-one .header-fax {
+    margin-left: 5px; }
+    @media (min-width: 1105px) {
+      #block-panels-mini-header .row-one .header-fax {
+        margin-left: 0; } }
   #block-panels-mini-header .row-one .menu-name-user-menu ul li {
     margin-left: 0;
     white-space: nowrap;
@@ -1769,12 +1770,17 @@ html.js fieldset.collapsible div.fieldset-wrapper {
     #block-panels-mini-header.sticky-header .row-one .left-column .header-address-state,
     #block-panels-mini-header.sticky-header .row-one .left-column .header-address-zip {
       display: inline-block; }
-  #block-panels-mini-header.sticky-header .row-one .middle-column .inner {
-    text-align: center; }
-  #block-panels-mini-header.sticky-header .row-one .middle-column div[data-pane="2506"],
-  #block-panels-mini-header.sticky-header .row-one .middle-column div[data-pane="2507"],
-  #block-panels-mini-header.sticky-header .row-one .middle-column div[data-pane="2508"] {
-    display: none; }
+  #block-panels-mini-header.sticky-header .row-one .middle-column {
+    border: 0px; }
+    #block-panels-mini-header.sticky-header .row-one .middle-column .inner {
+      text-align: center; }
+    #block-panels-mini-header.sticky-header .row-one .middle-column div[data-pane="2506"],
+    #block-panels-mini-header.sticky-header .row-one .middle-column div[data-pane="2507"],
+    #block-panels-mini-header.sticky-header .row-one .middle-column div[data-pane="2508"] {
+      display: none; }
+    @media (min-width: 681px) {
+      #block-panels-mini-header.sticky-header .row-one .middle-column {
+        border: 1px solid #ccc; } }
   #block-panels-mini-header.sticky-header .row-one .right-column {
     position: absolute;
     right: 0; }

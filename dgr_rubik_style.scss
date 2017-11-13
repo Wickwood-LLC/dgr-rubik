@@ -1866,32 +1866,6 @@ html.js fieldset.collapsible div.fieldset-wrapper {
     margin-left: 0;
     margin-right: 0.5em;
     text-align: center;
-
-    .header-phone,
-    .header-fax,
-    .header-address-line1,
-    .header-address-line2,
-    .header-address-state,
-    .header-address-zip {
-      display: inline-block;
-    }
-    .header-fax {
-      margin-left: 5px;
-    }
-
-    @include breakpoint(1105px) {
-      .header-phone,
-      .header-fax,
-      .header-address-line1,
-      .header-address-line2,
-      .header-address-state,
-      .header-address-zip {
-        display: block;
-      }
-      .header-fax {
-        margin-left: 0px;
-      }
-    }    
   }
 
   .right-column,
@@ -1950,6 +1924,24 @@ html.js fieldset.collapsible div.fieldset-wrapper {
   }
   .header-fax-icon:before {
     content: "f: ";
+  }
+  .header-phone,
+  .header-fax,
+  .header-address-line1,
+  .header-address-line2,
+  .header-address-state,
+  .header-address-zip {
+    display: inline-block;
+
+    @include breakpoint(1105px) {
+      display: block;
+    }
+  }
+  .header-fax {
+    margin-left: 5px;
+    @include breakpoint(1105px) {
+      margin-left: 0;
+    }
   }
 
   .menu-name-user-menu {
@@ -2086,6 +2078,8 @@ html.js fieldset.collapsible div.fieldset-wrapper {
     }
 
     .middle-column {
+      border: 0px;
+
       .inner {
         text-align: center;
       }
@@ -2094,6 +2088,10 @@ html.js fieldset.collapsible div.fieldset-wrapper {
       div[data-pane="2507"],
       div[data-pane="2508"] {
         display: none;
+      }
+
+      @include breakpoint(681px) {
+        border: 1px solid #ccc;
       }
     }
 
