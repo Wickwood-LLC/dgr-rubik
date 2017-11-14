@@ -32,10 +32,10 @@
         $header.css({
           // width: "initial",
         });
-        headerHeight = $header.height();        // gets the height of our header
         if ($('sticky-header')) {
           $header.removeClass('sticky-header');
         }
+        headerHeight = $header.height();        // gets the height of our header
 
         stickyTop = $header.offset().top;       // tells how far our target element is from the top of the page
         windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
