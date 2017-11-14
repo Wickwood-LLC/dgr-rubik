@@ -18,12 +18,11 @@
       var windowTop;
       var currentPosition;
       var $header;
-      var $floatingHeader
       var topSpacing;
 
       $header = $('#block-panels-mini-header');
-      $floatingHeader = $('#block-panels-mini-floating-header');
       topSpacing = $('#admin-menu').height();
+      headerHeight = $header.height();        // gets the height of our header
 
       $(document).ready(sticky);
       $(window).on("resize mresize", sticky);
