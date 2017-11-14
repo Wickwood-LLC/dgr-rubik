@@ -2042,6 +2042,11 @@ html.js fieldset.collapsible div.fieldset-wrapper {
         .header-phone-icon {
           font-size: 1em;
           line-height: 2;
+
+          &:before {
+            content: "p: ";
+            font-family: FontAwesome, sans-serif;
+          }
         }
       }
 
@@ -2066,7 +2071,7 @@ html.js fieldset.collapsible div.fieldset-wrapper {
           line-height: 1.5;
         }
         .header-phone-icon {
-          line-height: 1;
+          display: none;
         }
         .header-address {
           display: block;
@@ -2156,9 +2161,7 @@ html.js fieldset.collapsible div.fieldset-wrapper {
 
         div[data-pane="2496"] {
           .language-icon:before {
-            width: 1em;
-            height: 1em;
-            margin-right: 3px;
+            display: none;
           }
           .language-text {
             display: inline-block;
