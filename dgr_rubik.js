@@ -33,6 +33,7 @@
         $header.css({
           // width: "initial",
         });
+        headerHeight = $header.height();        // gets the height of our header
         if ($('sticky-header')) {
           $header.removeClass('sticky-header');
         }
@@ -52,7 +53,6 @@
         if (currentPosition < 0) {   // if target element goes above the screen
           $header.addClass('sticky-header');
 
-          headerHeight = $header.height();        // gets the height of our header
           $('#header').css({
             'margin-bottom': headerHeight,
           });
@@ -82,6 +82,7 @@
       }
 
       $(window).scroll(function(){ // scroll event 
+        headerHeight = $header.height();        // gets the height of our header
         windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
         currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
 
@@ -91,7 +92,6 @@
         if (currentPosition < 0) {   // if target element goes above the screen
           $header.addClass('sticky-header');
 
-          headerHeight = $header.height();        // gets the height of our header
           $('#header').css({
             'margin-bottom': headerHeight,
           })
