@@ -1746,7 +1746,7 @@ html.js fieldset.collapsible div.fieldset-wrapper {
           display: inline; }
         #block-panels-mini-header.sticky-header .row-one .left-column .header-phone-icon {
           font-size: 1em;
-          line-height: 2; }
+          line-height: 1.5; }
           #block-panels-mini-header.sticky-header .row-one .left-column .header-phone-icon:before {
             content: "p: ";
             font-family: FontAwesome, sans-serif; } }
