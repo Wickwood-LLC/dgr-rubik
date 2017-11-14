@@ -65,7 +65,7 @@
         }
 
         if ($('#admin-menu').length) {
-          if (currentPosition < 0) {   // if target element goes above the screen
+          if (currentPosition + topSpacing < 0) {   // if target element goes above the screen
             $header.css({
               top: topSpacing,
             });
@@ -103,7 +103,7 @@
         }
 
         if ($('#admin-menu').length) {
-          if (currentPosition < 0) {   // if target element goes above the screen
+          if (currentPosition + topSpacing < 0) {   // if target element goes above the screen
             $header.css({
               top: topSpacing,
             });   //stick it at the top
