@@ -2127,7 +2127,6 @@ html.js fieldset.collapsible div.fieldset-wrapper {
       }
 
       div[data-pane="2496"] {
-        display: inline-block;
         vertical-align: bottom;
 
         .language-icon:before {
@@ -2142,7 +2141,6 @@ html.js fieldset.collapsible div.fieldset-wrapper {
 
       div[data-pane="2434"]{
         width: auto;
-        display: inline-block;
       }
 
       @include breakpoint(1106px) {
