@@ -1579,6 +1579,8 @@ html.js fieldset.collapsible div.fieldset-wrapper {
     margin-left: 0;
     margin-right: 0.5em;
     text-align: center; }
+    #block-panels-mini-header .row-one .left-column [data-pane="2433"] p {
+      margin-bottom: 0; }
   #block-panels-mini-header .row-one .right-column,
   #block-panels-mini-header .row-one .left-column {
     display: none; }

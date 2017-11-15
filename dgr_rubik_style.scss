@@ -1879,6 +1879,12 @@ html.js fieldset.collapsible div.fieldset-wrapper {
     margin-left: 0;
     margin-right: 0.5em;
     text-align: center;
+
+    [data-pane="2433"] {
+      p {
+        margin-bottom: 0;
+      }
+    }
   }
 
   .right-column,
