@@ -1813,6 +1813,9 @@ html.js fieldset.collapsible div.fieldset-wrapper {
     @media (min-width: 681px) {
       #block-panels-mini-header.sticky-header .row-one .middle-column {
         border: 1px solid #ccc; } }
+    @media (min-width: 1106px) {
+      #block-panels-mini-header.sticky-header .row-one .middle-column div[data-pane="2508"] {
+        display: none; } }
   #block-panels-mini-header.sticky-header .row-one .right-column {
     position: absolute;
     right: 0; }
@@ -2872,4 +2875,14 @@ form#user-login, form#user-pass {
 @media (min-width: 1348px) {
   body.i18n-es .pane-superfish-1 #superfish-1 li a {
     font-size: 1.2em; } }
+
+@media (min-width: 681px) {
+  body.i18n-es .sticky-header .pane-superfish-1 #superfish-1 li a {
+    font-size: 1.9vw;
+    padding: 0 0.7vw; } }
+
+@media (min-width: 1106px) {
+  body.i18n-es .sticky-header .pane-superfish-1 #superfish-1 li a {
+    font-size: calc((100vw - 540px)*0.017);
+    padding: 0 0.695vw; } }
 /*# sourceMappingURL=dgr_rubik_style.css.map */
