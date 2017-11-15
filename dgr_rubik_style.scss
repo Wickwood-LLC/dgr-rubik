@@ -2126,21 +2126,24 @@ html.js fieldset.collapsible div.fieldset-wrapper {
         }
       }
 
-      div[data-pane="2496"] {
-        vertical-align: bottom;
+      @include breakpoint(506px) {
+        div[data-pane="2496"] {
+          display: inline-block;
+          vertical-align: bottom;
 
-        .language-icon:before {
-          width: 25px;
-          height: 25px;
-          margin-right: 5px;
+          .language-icon:before {
+            width: 25px;
+            height: 25px;
+            margin-right: 5px;
+          }
+          .language-text {
+            display: none;
+          }
         }
-        .language-text {
-          display: none;
-        }
-      }
 
-      div[data-pane="2434"]{
-        width: auto;
+        div[data-pane="2434"] {
+          width: auto;
+        }
       }
 
       @include breakpoint(1106px) {
