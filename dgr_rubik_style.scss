@@ -2090,10 +2090,40 @@ html.js fieldset.collapsible div.fieldset-wrapper {
         text-align: center;
       }
 
-      div[data-pane="2506"],
-      div[data-pane="2507"],
-      div[data-pane="2508"] {
+      div[data-pane="2506"] {
         display: none;
+      }
+
+      div[data-pane="2507"] {
+        position: absolute;
+        top: 7px;
+        right: 92px;
+        width: auto;
+
+        .language-icon:before {
+          width: 25px;
+          height: 25px;
+        }
+        .language-text {
+          display: none;
+        }
+      }
+
+      div[data-pane="2508"] {
+        display: inline-block;
+        position: absolute;
+        top: 7px;
+        right: 5px;
+
+        .widgets-element {
+          float: left;
+          margin-right: 5px;
+
+          img {
+            width: 25px;
+            height: 25px;
+          }
+        }
       }
 
       @include breakpoint(681px) {
