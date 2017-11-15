@@ -3234,6 +3234,10 @@ body.i18n-es {
         font-size: calc((100vw - 540px)*0.017);
         padding: 0 0.695vw;
       }
+      @include breakpoint(1400px) {
+        font-size: 14.5px;
+        padding: 0 10px;
+      }
     }
   }
 }
