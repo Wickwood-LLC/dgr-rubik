@@ -2878,7 +2878,7 @@ form#user-login, form#user-pass {
 
 @media (min-width: 681px) {
   body.i18n-es #block-panels-mini-header.sticky-header #superfish-1 > li a {
-    font-size: 1.9vw;
+    font-size: 1.7vw;
     padding: 0 0.7vw; } }
 
 @media (min-width: 1106px) {
