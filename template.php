@@ -240,6 +240,12 @@ function dgr_rubik_link_field_process($element, $form_state, $complete_form) {
 //Disable sticky headers
 function dgr_rubik_js_alter(&$js) {
   unset($js['misc/tableheader.js']);
+
+  foreach($js as $key=>$value) {
+    if (strstr($key,'full_rubik.js') !== FALSE) {
+      unset($js[$key]);  // prevent full_rubik.js from loading into the site
+    }
+  }
 }
 
 /**
