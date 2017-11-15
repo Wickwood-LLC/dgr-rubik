@@ -3224,8 +3224,8 @@ body.i18n-es {
     }
   }
 
-  .sticky-header {
-    .pane-superfish-1 #superfish-1 li a {
+  #block-panels-mini-header.sticky-header {
+    #superfish-1 > li a {
       @include breakpoint(681px) {
         font-size: 1.9vw;
         padding: 0 0.7vw;
