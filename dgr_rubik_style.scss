@@ -1800,6 +1800,21 @@ html.js fieldset.collapsible div.fieldset-wrapper {
     padding: 0.5em;
     position: relative;
 
+    .pane-superfish-1 {
+      display: none;
+
+      @include breakpoint(681px) {
+        display: block;
+      }
+    }
+
+    .pane-current-17,
+    .pane-current-12,
+    .pane-widgets-s-socialmedia-share-default {
+      display: block;
+      text-align: center;
+    }
+
     @include breakpoint(480px) {
       justify-content: center;
     }
@@ -1829,6 +1844,12 @@ html.js fieldset.collapsible div.fieldset-wrapper {
           display: block;
           position: initial;
         }
+
+        .pane-current-17,
+        .pane-current-12,
+        .pane-widgets-s-socialmedia-share-default {
+          display: none;
+        }
       }
       @include breakpoint(506px) {
         > div:last-child {
@@ -1850,12 +1871,12 @@ html.js fieldset.collapsible div.fieldset-wrapper {
     @include breakpoint(506px 1104px) {
       .inner > div:nth-child(2) {
         display: inline-block;
-        width: 60%;
+        width: calc(100% - 90px);
         vertical-align: middle;
       }
       .inner > div:nth-child(3) {
         display: inline-block;
-        width: 40%;
+        width: auto;
         vertical-align: middle;
 
         .widgets-element {
@@ -1879,10 +1900,8 @@ html.js fieldset.collapsible div.fieldset-wrapper {
     margin-right: 0.5em;
     text-align: center;
 
-    [data-pane="2433"] {
-      p {
-        margin-bottom: 0;
-      }
+    p {
+      margin-bottom: 0;
     }
   }
 
@@ -1926,6 +1945,14 @@ html.js fieldset.collapsible div.fieldset-wrapper {
         justify-content: center;
       }
     }  
+  }
+
+  .pane-superfish-2 {
+    display: block;
+
+    @include breakpoint(681px) {
+      display: none;
+    }
   }
 
   [data-pane="2506"] {
