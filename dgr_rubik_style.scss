@@ -1844,15 +1844,14 @@ html.js fieldset.collapsible div.fieldset-wrapper {
           display: block;
           position: initial;
         }
-
-        .pane-current-17,
-        .pane-current-12,
-        .pane-widgets-s-socialmedia-share-default {
-          display: none;
-        }
       }
       @include breakpoint(506px) {
         > div:last-child {
+          display: none;
+        }
+        .pane-current-17,
+        .pane-current-12,
+        .pane-widgets-s-socialmedia-share-default {
           display: none;
         }
       }
