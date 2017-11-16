@@ -2139,12 +2139,17 @@ html.js fieldset.collapsible div.fieldset-wrapper {
           top: 7px;
           right: 92px;
           width: auto;
+          display: block;
 
           .language-icon:before {
             width: 25px;
             height: 25px;
           }
           .language-text {
+            display: none;
+          }
+
+          @include breakpoint(506px) {
             display: none;
           }
         }
