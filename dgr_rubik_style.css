@@ -1657,11 +1657,6 @@ html.js fieldset.collapsible div.fieldset-wrapper {
           -webkit-box-pack: center;
               -ms-flex-pack: center;
                   justify-content: center; } }
-  #block-panels-mini-header .row-one .pane-superfish-2 {
-    display: block; }
-    @media (min-width: 681px) {
-      #block-panels-mini-header .row-one .pane-superfish-2 {
-        display: none; } }
   #block-panels-mini-header .row-one [data-pane="2506"] {
     text-align: center; }
   #block-panels-mini-header .row-one .header-phone,
@@ -1700,6 +1695,11 @@ html.js fieldset.collapsible div.fieldset-wrapper {
     white-space: nowrap;
     text-transform: capitalize;
     border-bottom: none; }
+  #block-panels-mini-header .row-one .pane-superfish-2 {
+    display: block; }
+    @media (min-width: 681px) {
+      #block-panels-mini-header .row-one .pane-superfish-2 {
+        display: none; } }
 
 #block-panels-mini-header.sticky-header {
   display: block;

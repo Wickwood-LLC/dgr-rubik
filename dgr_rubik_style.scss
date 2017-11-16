@@ -1947,14 +1947,6 @@ html.js fieldset.collapsible div.fieldset-wrapper {
     }  
   }
 
-  .pane-superfish-2 {
-    display: block;
-
-    @include breakpoint(681px) {
-      display: none;
-    }
-  }
-
   [data-pane="2506"] {
     text-align: center;
   }
@@ -1999,6 +1991,14 @@ html.js fieldset.collapsible div.fieldset-wrapper {
       white-space: nowrap;
       text-transform: capitalize;
       border-bottom: none;
+    }
+  }
+
+  .pane-superfish-2 {
+    display: block;
+
+    @include breakpoint(681px) {
+      display: none;
     }
   }
 }
