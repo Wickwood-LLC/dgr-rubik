@@ -2333,15 +2333,15 @@ html.js fieldset.collapsible div.fieldset-wrapper {
           border: 1px solid #ccc;
           width: 225px;
           margin: 0; }
-        /* line 2257, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
-        #block-panels-mini-header.sticky-header .row-one .right-column .pane-current-12 .language-icon:before {
-          display: none; }
-        /* line 2260, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
-        #block-panels-mini-header.sticky-header .row-one .right-column .pane-current-12 .language-text {
-          display: inline-block; }
-        /* line 2265, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
-        #block-panels-mini-header.sticky-header .row-one .right-column .pane-widgets-s-socialmedia-share-default {
-          width: 100%; } }
+          /* line 2256, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+          #block-panels-mini-header.sticky-header .row-one .right-column .inner .pane-current-12 .language-icon:before {
+            display: none; }
+          /* line 2259, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+          #block-panels-mini-header.sticky-header .row-one .right-column .inner .pane-current-12 .language-text {
+            display: inline-block; }
+          /* line 2264, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+          #block-panels-mini-header.sticky-header .row-one .right-column .inner .pane-widgets-s-socialmedia-share-default {
+            width: 100%; } }
     /* line 2270, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
     #block-panels-mini-header.sticky-header .row-one .right-column .pane-uuid-c30f5d3d-002d-498d-85f4-941d6a820d28 {
       margin-bottom: 0; }

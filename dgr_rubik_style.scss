@@ -2251,19 +2251,19 @@ html.js fieldset.collapsible div.fieldset-wrapper {
           border: 1px solid #ccc;
           width: 225px;
           margin: 0;
-        }
 
-        .pane-current-12 {
-          .language-icon:before {
-            display: none;
+          .pane-current-12 {
+            .language-icon:before {
+              display: none;
+            }
+            .language-text {
+              display: inline-block;
+            }
           }
-          .language-text {
-            display: inline-block;
-          }
-        }
 
-        .pane-widgets-s-socialmedia-share-default{
-          width: 100%;
+          .pane-widgets-s-socialmedia-share-default{
+            width: 100%;
+          }
         }
       }
 
