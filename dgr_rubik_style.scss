@@ -2195,23 +2195,12 @@ html.js fieldset.collapsible div.fieldset-wrapper {
         width: auto;
         margin-right: 1em;
 
-        > div:nth-child(2) {
+        .pane-current-12 {
           display: none;
         }
 
-        > div:nth-child(3) {
-          .widgets-element {
-            display: inline-block;
-            margin-right: 5px;
-            
-            img {
-              width: 25px;
-            }
-          }
-
-          #widgets-element-socialmedia_addthis-email {
-            margin-right: 0;
-          }
+        > div:nth-child(2) {
+          display: none;
         }
       }
 
@@ -2230,9 +2219,21 @@ html.js fieldset.collapsible div.fieldset-wrapper {
               display: none;
             }
           }
-
+          
           > div:nth-child(3) {
             width: auto;
+            .widgets-element {
+              display: inline-block;
+              margin-right: 5px;
+              
+              img {
+                width: 25px;
+              }
+            }
+
+            #widgets-element-socialmedia_addthis-email {
+              margin-right: 0;
+            }
           }
         }
       }
