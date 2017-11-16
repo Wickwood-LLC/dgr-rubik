@@ -2194,40 +2194,42 @@ html.js fieldset.collapsible div.fieldset-wrapper {
         > div:nth-child(2) {
           display: none;
         }
-      }
 
-      .pane-widgets-s-socialmedia-share-default {
-        .widgets-element {
-          display: inline-block;
-          margin-right: 5px;
-          
-          img {
-            width: 25px;
+        > div:nth-child(3) {
+          .widgets-element {
+            display: inline-block;
+            margin-right: 5px;
+            
+            img {
+              width: 25px;
+            }
           }
-        }
 
-        #widgets-element-socialmedia_addthis-email {
-          margin-right: 0;
+          #widgets-element-socialmedia_addthis-email {
+            margin-right: 0;
+          }
         }
       }
 
       @include breakpoint(506px) {
-        .pane-current-12 {
-          display: inline-block;
-          vertical-align: bottom;
+        .inner {
+          .pane-current-12 {
+            display: inline-block;
+            vertical-align: bottom;
 
-          .language-icon:before {
-            width: 25px;
-            height: 25px;
-            margin-right: 5px;
+            .language-icon:before {
+              width: 25px;
+              height: 25px;
+              margin-right: 5px;
+            }
+            .language-text {
+              display: none;
+            }
           }
-          .language-text {
-            display: none;
-          }
-        }
 
-        .pane-widgets-s-socialmedia-share-default {
-          width: auto;
+          > div:nth-child(3) {
+            width: auto;
+          }
         }
       }
 
