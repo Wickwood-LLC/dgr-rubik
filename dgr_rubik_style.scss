@@ -1993,13 +1993,13 @@ html.js fieldset.collapsible div.fieldset-wrapper {
       border-bottom: none;
     }
   }
+}
 
-  .pane-superfish-2 {
-    display: block;
+.pane-superfish-2 {
+  display: block;
 
-    @include breakpoint(681px) {
-      display: none;
-    }
+  @include breakpoint(681px) {
+    display: none;
   }
 }
 
