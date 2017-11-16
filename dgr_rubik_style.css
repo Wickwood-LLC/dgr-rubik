@@ -2281,30 +2281,33 @@ html.js fieldset.collapsible div.fieldset-wrapper {
       border: 0;
       width: auto;
       margin-right: 1em; }
-    /* line 2196, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 2194, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      #block-panels-mini-header.sticky-header .row-one .right-column .inner > div:nth-child(2) {
+        display: none; }
+    /* line 2200, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
     #block-panels-mini-header.sticky-header .row-one .right-column .pane-widgets-s-socialmedia-share-default .widgets-element {
       display: inline-block;
       margin-right: 5px; }
-      /* line 2200, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 2204, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       #block-panels-mini-header.sticky-header .row-one .right-column .pane-widgets-s-socialmedia-share-default .widgets-element img {
         width: 25px; }
-    /* line 2205, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+    /* line 2209, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
     #block-panels-mini-header.sticky-header .row-one .right-column .pane-widgets-s-socialmedia-share-default #widgets-element-socialmedia_addthis-email {
       margin-right: 0; }
     @media (min-width: 506px) {
-      /* line 2211, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 2215, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       #block-panels-mini-header.sticky-header .row-one .right-column .pane-current-12 {
         display: inline-block;
         vertical-align: bottom; }
-        /* line 2215, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+        /* line 2219, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
         #block-panels-mini-header.sticky-header .row-one .right-column .pane-current-12 .language-icon:before {
           width: 25px;
           height: 25px;
           margin-right: 5px; }
-        /* line 2220, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+        /* line 2224, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
         #block-panels-mini-header.sticky-header .row-one .right-column .pane-current-12 .language-text {
           display: none; }
-      /* line 2225, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 2229, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       #block-panels-mini-header.sticky-header .row-one .right-column pane-widgets-s-socialmedia-share-default {
         width: auto; } }
     @media (min-width: 1106px) {
@@ -2313,23 +2316,20 @@ html.js fieldset.collapsible div.fieldset-wrapper {
         position: static;
         border: 1px;
         margin-right: 0; }
-        /* line 2235, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+        /* line 2239, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
         #block-panels-mini-header.sticky-header .row-one .right-column .inner {
           border: 1px solid #ccc;
           width: 225px;
           margin: 0; }
-        /* line 2242, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+        /* line 2246, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
         #block-panels-mini-header.sticky-header .row-one .right-column .pane-current-12 .language-icon:before {
           display: none; }
-        /* line 2245, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+        /* line 2249, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
         #block-panels-mini-header.sticky-header .row-one .right-column .pane-current-12 .language-text {
           display: inline-block; }
-        /* line 2250, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+        /* line 2254, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
         #block-panels-mini-header.sticky-header .row-one .right-column pane-widgets-s-socialmedia-share-default {
           width: 100%; } }
-    /* line 2255, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
-    #block-panels-mini-header.sticky-header .row-one .right-column .pane-uuid-e3019ff4-476a-4ab9-b3d4-c71978899a7a {
-      display: none; }
     /* line 2259, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
     #block-panels-mini-header.sticky-header .row-one .right-column .pane-uuid-c30f5d3d-002d-498d-85f4-941d6a820d28 {
       margin-bottom: 0; }

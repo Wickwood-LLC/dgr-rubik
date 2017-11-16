@@ -2190,6 +2190,10 @@ html.js fieldset.collapsible div.fieldset-wrapper {
         border: 0;
         width: auto;
         margin-right: 1em;
+
+        > div:nth-child(2) {
+          display: none;
+        }
       }
 
       .pane-widgets-s-socialmedia-share-default {
@@ -2250,10 +2254,6 @@ html.js fieldset.collapsible div.fieldset-wrapper {
         pane-widgets-s-socialmedia-share-default{
           width: 100%;
         }
-      }
-
-      .pane-uuid-e3019ff4-476a-4ab9-b3d4-c71978899a7a {
-        display: none;
       }
 
       .pane-uuid-c30f5d3d-002d-498d-85f4-941d6a820d28 {
