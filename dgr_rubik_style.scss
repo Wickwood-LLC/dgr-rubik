@@ -2164,6 +2164,10 @@ html.js fieldset.collapsible div.fieldset-wrapper {
               height: 25px;
             }
           }
+
+          @include breakpoint(506px) {
+            display: none;
+          }
         }
       }
 
