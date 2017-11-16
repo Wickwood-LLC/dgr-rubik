@@ -2234,36 +2234,36 @@ html.js fieldset.collapsible div.fieldset-wrapper {
     /* line 2134, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
     #block-panels-mini-header.sticky-header .row-one .middle-column .inner {
       text-align: center; }
-    /* line 2138, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
-    #block-panels-mini-header.sticky-header .row-one .middle-column .pane-current-17 {
-      display: none; }
-    /* line 2142, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
-    #block-panels-mini-header.sticky-header .row-one .middle-column .pane-current-12 {
-      position: absolute;
-      top: 7px;
-      right: 92px;
-      width: auto; }
-      /* line 2148, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
-      #block-panels-mini-header.sticky-header .row-one .middle-column .pane-current-12 .language-icon:before {
-        width: 25px;
-        height: 25px; }
-      /* line 2152, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
-      #block-panels-mini-header.sticky-header .row-one .middle-column .pane-current-12 .language-text {
-        display: none; }
-    /* line 2157, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
-    #block-panels-mini-header.sticky-header .row-one .middle-column .pane-widgets-s-socialmedia-share-default {
-      display: inline-block;
-      position: absolute;
-      top: 7px;
-      right: 5px; }
-      /* line 2163, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
-      #block-panels-mini-header.sticky-header .row-one .middle-column .pane-widgets-s-socialmedia-share-default .widgets-element {
-        float: left;
-        margin-right: 5px; }
-        /* line 2167, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
-        #block-panels-mini-header.sticky-header .row-one .middle-column .pane-widgets-s-socialmedia-share-default .widgets-element img {
+      /* line 2137, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      #block-panels-mini-header.sticky-header .row-one .middle-column .inner > div:nth-child(5) {
+        position: absolute;
+        top: 7px;
+        right: 92px;
+        width: auto; }
+        /* line 2143, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+        #block-panels-mini-header.sticky-header .row-one .middle-column .inner > div:nth-child(5) .language-icon:before {
           width: 25px;
           height: 25px; }
+        /* line 2147, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+        #block-panels-mini-header.sticky-header .row-one .middle-column .inner > div:nth-child(5) .language-text {
+          display: none; }
+      /* line 2152, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      #block-panels-mini-header.sticky-header .row-one .middle-column .inner div:last-child {
+        display: inline-block;
+        position: absolute;
+        top: 7px;
+        right: 5px; }
+        /* line 2158, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+        #block-panels-mini-header.sticky-header .row-one .middle-column .inner div:last-child .widgets-element {
+          float: left;
+          margin-right: 5px; }
+          /* line 2162, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+          #block-panels-mini-header.sticky-header .row-one .middle-column .inner div:last-child .widgets-element img {
+            width: 25px;
+            height: 25px; }
+    /* line 2170, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+    #block-panels-mini-header.sticky-header .row-one .middle-column .pane-current-17 {
+      display: none; }
     @media (min-width: 681px) {
       /* line 2131, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       #block-panels-mini-header.sticky-header .row-one .middle-column {
