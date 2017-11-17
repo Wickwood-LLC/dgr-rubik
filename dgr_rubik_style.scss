@@ -3294,17 +3294,35 @@ form#user-login, form#user-pass {
 
     .sidebar-content {
       flex: 1 1 0;
-        margin: 0.5em;
-        min-width: 0;
-        max-width: 100%;
+      margin: 0.5em;
+      min-width: 0;
+      max-width: 100%;
 
-        @include breakpoint(375px) {
+      @include breakpoint(375px) {
         min-width: 250px;
         flex: 1 1 250px;
       }
 
+      .pane-articles-test-panel-pane-7 {
+        .view-content {
+          column-width: 150px;
+        }
+      }
+
       div:first-child {
         margin-top: 0;
+      }
+
+      div:nth-child(2) {
+        @include breakpoint(600px 905px) {
+          display: none;
+        }
+      }
+      div:nth-child(3) {
+        display: none;
+        @include breakpoint(600px 905px) {
+          display: block;
+        }
       }
     }
 
@@ -3446,6 +3464,10 @@ form#user-login, form#user-pass {
           text-align: center;
         }
       }     
+    }
+
+    .pane-card-cycles-card-slideshow {
+      position: relative;
     }
 
     .main-display {
