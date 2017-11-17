@@ -3167,6 +3167,7 @@ form#user-login, form#user-pass {
 
   .views-slideshow-cycle-main-frame,
   .views-slideshow-cycle-main-frame-row {
+    display: flex;
     width: 100% !important;
   }
 
@@ -3330,8 +3331,9 @@ form#user-login, form#user-pass {
     .pane-news-test-panel-pane-6,
     .pane-press-releases-test-panel-pane-6,
     .pane-panopoly-faq-panel-pane-4 {
-        margin: 0 0 1em 0;
-        height: 100%;
+      box-sizing: border-box;
+      margin: 0 0 1em 0;
+      height: 100%;
     }
     .pane-panopoly-faq-panel-pane-4 {
       height: auto;
@@ -3430,8 +3432,7 @@ form#user-login, form#user-pass {
         }
         .col-1 {
           background-color: #9bcb3b;
-            padding: 1em;
-            border-radius: 8px 8px 0 0;
+          padding: 1em;
         }
         .col-2 {
           padding: 0 1em 1em 1em;

@@ -3446,72 +3446,75 @@ form#user-login, form#user-pass {
 /* line 3168, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
 .view-card-cycles .views-slideshow-cycle-main-frame,
 .view-card-cycles .views-slideshow-cycle-main-frame-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100% !important; }
 
-/* line 3173, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+/* line 3174, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
 .view-card-cycles .views-slideshow-cycle-main-frame-row-item {
   padding-top: 2em;
   text-align: center; }
 
-/* line 3178, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+/* line 3179, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
 .view-card-cycles div.field-type-asin {
   border: 0px; }
 
-/* line 3182, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+/* line 3183, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
 .view-card-cycles .field-name-field-amazon-book-listing img {
   width: 150px;
   height: auto; }
 
-/* line 3189, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+/* line 3190, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
 .node-type-panopoly-faq .field-name-field-categories {
   margin-top: 1em;
   font-size: 0.9em;
   text-align: right; }
-  /* line 3194, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3195, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .node-type-panopoly-faq .field-name-field-categories .field-label,
   .node-type-panopoly-faq .field-name-field-categories .field-items {
     display: inline-block;
     float: none; }
 
-/* line 3202, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+/* line 3203, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
 .pane-node-title {
   line-height: 1.2; }
 
-/* line 3207, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+/* line 3208, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
 #views-display-menu-tabs input.add-display {
   color: black; }
 
-/* line 3213, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+/* line 3214, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
 .webform-client-form-246 input.form-submit {
   margin: auto;
   display: table; }
 
 /********** Articles, News, Press Release **********/
-/* line 3221, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+/* line 3222, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
 .blog-type-page h1.page-title {
   width: 100%;
   text-align: center;
   margin-bottom: 0;
   display: block; }
 
-/* line 3229, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+/* line 3230, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
 .blog-type-page .views-exposed-form .views-exposed-widget {
   display: inline-block;
   float: none;
   min-width: 0;
   max-width: 100%; }
-  /* line 3236, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3237, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page .views-exposed-form .views-exposed-widget .form-item input, .blog-type-page .views-exposed-form .views-exposed-widget .form-item select {
     min-width: 0;
     max-width: 100%; }
-  /* line 3242, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3243, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page .views-exposed-form .views-exposed-widget .form-submit {
     margin-top: 0;
     position: absolute;
     top: 18px;
     right: 10px; }
 
-/* line 3251, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+/* line 3252, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
 .blog-type-page #main-content .panel-myriad-layout {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3522,22 +3525,22 @@ form#user-login, form#user-pass {
           flex-flow: row wrap;
   padding: 1em;
   padding-top: 0px; }
-  /* line 3258, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3259, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-reset-button {
     float: right; }
-  /* line 3262, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3263, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-published_at .views-operator, .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-published_at .views-widget {
     margin-left: 1em; }
-  /* line 3265, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3266, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-published_at .views-widget {
     margin-top: 0.5em; }
-  /* line 3269, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3270, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-type .views-widget {
     margin-left: 1em; }
-  /* line 3273, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3274, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets label:not(.option):after {
     content: ":"; }
-  /* line 3278, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3279, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page #main-content .panel-myriad-layout .row-one {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3547,20 +3550,20 @@ form#user-login, form#user-pass {
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
     width: 100%; }
-  /* line 3284, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3285, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page #main-content .panel-myriad-layout .main-content {
     -webkit-box-flex: 1;
         -ms-flex: 1 100%;
             flex: 1 100%;
     padding: 0.5em; }
     @media (min-width: 626px) {
-      /* line 3284, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3285, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .main-content {
         min-width: 560px;
         -webkit-box-flex: 3;
             -ms-flex: 3 0 560px;
                 flex: 3 0 560px; } }
-  /* line 3294, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3295, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page #main-content .panel-myriad-layout .sidebar-content {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 0px;
@@ -3569,22 +3572,22 @@ form#user-login, form#user-pass {
     min-width: 0;
     max-width: 100%; }
     @media (min-width: 375px) {
-      /* line 3294, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3295, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .sidebar-content {
         min-width: 250px;
         -webkit-box-flex: 1;
             -ms-flex: 1 1 250px;
                 flex: 1 1 250px; } }
-    /* line 3305, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+    /* line 3306, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content div:first-child {
       margin-top: 0; }
-  /* line 3310, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3311, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_1 .view-content {
     padding: 0.5em; }
-  /* line 3315, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3316, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager {
     margin-bottom: 0; }
-    /* line 3318, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+    /* line 3319, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
     .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager li {
       list-style: none;
       font-size: 14px;
@@ -3592,20 +3595,22 @@ form#user-login, form#user-pass {
       padding: 3px 4px;
       border-radius: 5px;
       width: auto; }
-  /* line 3329, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3330, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page #main-content .panel-myriad-layout .pane-articles-test-panel-pane-6,
   .blog-type-page #main-content .panel-myriad-layout .pane-news-test-panel-pane-6,
   .blog-type-page #main-content .panel-myriad-layout .pane-press-releases-test-panel-pane-6,
   .blog-type-page #main-content .panel-myriad-layout .pane-panopoly-faq-panel-pane-4 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin: 0 0 1em 0;
     height: 100%; }
-  /* line 3336, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3338, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page #main-content .panel-myriad-layout .pane-panopoly-faq-panel-pane-4 {
     height: auto; }
-  /* line 3340, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3342, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page #main-content .panel-myriad-layout .featured-display {
     height: 100%; }
-    /* line 3343, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+    /* line 3345, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
     .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -3615,7 +3620,7 @@ form#user-login, form#user-pass {
           -ms-flex-flow: row wrap;
               flex-flow: row wrap;
       height: 100%; }
-      /* line 3348, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3350, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
         width: 50%;
         -webkit-box-flex: 1;
@@ -3635,18 +3640,18 @@ form#user-login, form#user-pass {
             -ms-flex-flow: column nowrap;
                 flex-flow: column nowrap; }
         @media (min-width: 420px) {
-          /* line 3348, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+          /* line 3350, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
           .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
             -webkit-box-flex: 1;
                 -ms-flex: 1 1 300px;
                     flex: 1 1 300px;
             font-size: 18px;
             min-width: 300px; } }
-        /* line 3366, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+        /* line 3368, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .featured-image img {
           width: 100%;
           height: auto; }
-        /* line 3371, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+        /* line 3373, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-body {
           -webkit-box-flex: 1;
               -ms-flex: 1;
@@ -3654,24 +3659,24 @@ form#user-login, form#user-pass {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex; }
-      /* line 3377, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3379, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .scroll-pane {
         max-height: 716px;
         overflow: auto; }
-      /* line 3382, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3384, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-published-at {
         text-align: center;
         margin-bottom: 1em; }
-      /* line 3386, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3388, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-name {
         display: block;
         text-align: center;
         margin-bottom: 1em; }
-      /* line 3391, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3393, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-body img {
         width: 100%;
         height: auto; }
-  /* line 3398, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3400, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3680,7 +3685,7 @@ form#user-login, form#user-pass {
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; }
-    /* line 3402, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+    /* line 3404, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
     .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row {
       -webkit-box-flex: 1;
           -ms-flex: 1 30%;
@@ -3688,47 +3693,46 @@ form#user-login, form#user-pass {
       margin: 0.5em;
       padding: 0; }
       @media (min-width: 375px) {
-        /* line 3402, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+        /* line 3404, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
         .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row {
           min-width: 300px;
           -webkit-box-flex: 1;
               -ms-flex: 1 1 300px;
                   flex: 1 1 300px; } }
-      /* line 3412, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3414, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .panel-display {
         padding: 0; }
-      /* line 3415, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3417, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .panel-flexible {
         padding: 1em; }
-      /* line 3419, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3421, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row h2 {
         margin: 0.5em 0 0 0;
         text-align: center; }
-      /* line 3423, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3425, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row h3 {
         margin: 0 0 0.5em 0;
         text-align: center; }
-      /* line 3428, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3430, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-1, .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-2 {
         width: 100%; }
-      /* line 3431, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3433, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-1 {
         background-color: #9bcb3b;
-        padding: 1em;
-        border-radius: 8px 8px 0 0; }
-      /* line 3436, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+        padding: 1em; }
+      /* line 3437, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-2 {
         padding: 0 1em 1em 1em; }
-      /* line 3440, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3441, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .pane-node-field-card-image {
         text-align: center; }
-      /* line 3444, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3445, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .field--name-field-amazon-book-listing {
         text-align: center; }
-  /* line 3450, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3451, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page #main-content .panel-myriad-layout .main-display {
     width: 100%; }
-  /* line 3453, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3454, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page #main-content .panel-myriad-layout .main-display .view-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3740,7 +3744,7 @@ form#user-login, form#user-pass {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-    /* line 3458, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+    /* line 3459, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
     .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row {
       -webkit-box-flex: 1;
           -ms-flex: 1 30%;
@@ -3756,144 +3760,144 @@ form#user-login, form#user-pass {
           -ms-flex-flow: column nowrap;
               flex-flow: column nowrap; }
       @media (min-width: 375px) {
-        /* line 3458, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+        /* line 3459, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row {
           min-width: 250px;
           -webkit-box-flex: 1;
               -ms-flex: 1 250px;
                   flex: 1 250px;
           font-size: 18px; } }
-      /* line 3472, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3473, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-field-featured-image,
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-title {
         text-align: center; }
-        /* line 3476, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+        /* line 3477, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-field-featured-image h3,
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-title h3 {
           margin-bottom: 0; }
-      /* line 3480, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3481, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-name,
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-published-at {
         display: block;
         text-align: center; }
-      /* line 3486, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3487, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-body {
         -webkit-box-flex: 1;
             -ms-flex-positive: 1;
                 flex-grow: 1; }
-        /* line 3489, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+        /* line 3490, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-body .field-content {
           margin-bottom: 1em;
           line-height: 1.35em; }
-      /* line 3494, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3495, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-field-categories {
         font-weight: bold;
         font-size: 0.8em; }
-      /* line 3498, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3499, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-label-field-categories {
         float: left;
         margin-right: 4px; }
-      /* line 3502, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+      /* line 3503, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-type {
         font-weight: bold;
         font-size: 0.8em; }
-  /* line 3509, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3510, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a {
     float: right;
     text-transform: capitalize;
     color: #EA4335;
     font-weight: bold; }
-    /* line 3515, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+    /* line 3516, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
     .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a:hover {
       text-decoration: underline; }
-    /* line 3518, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+    /* line 3519, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
     .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a:focus {
       color: #0f753b; }
 
-/* line 3524, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+/* line 3525, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
 .blog-type-page .views-field-title h2 {
   text-align: center;
   margin: 0; }
 
-/* line 3528, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+/* line 3529, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
 .blog-type-page .views-field-field-categories {
   font-weight: bold;
   font-size: 0.8em;
   clear: both; }
 
-/* line 3533, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+/* line 3534, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
 .blog-type-page .views-label-field-categories {
   float: left;
   margin-right: 4px; }
 
 /********** OPPA SPANISH STYLE **********/
 @media (min-width: 680px) {
-  /* line 3541, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3542, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   body.i18n-es .pane-superfish-1 #superfish-1 li a {
     font-size: 0.9em;
     padding: 0 5px; } }
 
 @media (min-width: 750px) {
-  /* line 3541, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3542, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   body.i18n-es .pane-superfish-1 #superfish-1 li a {
     font-size: 0.9em;
     padding: 0 10px; } }
 
 @media (min-width: 808px) {
-  /* line 3541, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3542, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   body.i18n-es .pane-superfish-1 #superfish-1 li a {
     font-size: 1em; } }
 
 @media (min-width: 866px) {
-  /* line 3541, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3542, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   body.i18n-es .pane-superfish-1 #superfish-1 li a {
     font-size: 1.1em; } }
 
 @media (min-width: 924px) {
-  /* line 3541, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3542, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   body.i18n-es .pane-superfish-1 #superfish-1 li a {
     font-size: 1.2em; } }
 
 @media (min-width: 1105px) {
-  /* line 3541, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3542, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   body.i18n-es .pane-superfish-1 #superfish-1 li a {
     font-size: 0.9em;
     padding: 0 5px; } }
 
 @media (min-width: 1126px) {
-  /* line 3541, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3542, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   body.i18n-es .pane-superfish-1 #superfish-1 li a {
     padding: 0 10px; } }
 
 @media (min-width: 1187px) {
-  /* line 3541, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3542, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   body.i18n-es .pane-superfish-1 #superfish-1 li a {
     font-size: 1em; } }
 
 @media (min-width: 1268px) {
-  /* line 3541, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3542, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   body.i18n-es .pane-superfish-1 #superfish-1 li a {
     font-size: 1.1em; } }
 
 @media (min-width: 1348px) {
-  /* line 3541, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3542, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   body.i18n-es .pane-superfish-1 #superfish-1 li a {
     font-size: 1.2em; } }
 
 @media (min-width: 681px) {
-  /* line 3578, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3579, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   body.i18n-es #block-panels-mini-header.sticky-header #superfish-1 > li a {
     font-size: 1.7vw;
     padding: 0 0.7vw; } }
 
 @media (min-width: 1106px) {
-  /* line 3578, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3579, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   body.i18n-es #block-panels-mini-header.sticky-header #superfish-1 > li a {
     font-size: calc((100vw - 540px)*0.017);
     padding: 0 0.695vw; } }
 
 @media (min-width: 1400px) {
-  /* line 3578, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
+  /* line 3579, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   body.i18n-es #block-panels-mini-header.sticky-header #superfish-1 > li a {
     font-size: 14.5px;
     padding: 0 10px; } }
