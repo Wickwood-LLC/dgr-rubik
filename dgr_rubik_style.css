@@ -3587,14 +3587,14 @@ form#user-login, form#user-pass {
       margin-top: 0; }
     @media (min-width: 600px) and (max-width: 905px) {
       /* line 3316, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
-      .blog-type-page #main-content .panel-myriad-layout .sidebar-content div:nth-child(2) {
+      .blog-type-page #main-content .panel-myriad-layout .sidebar-content > div:nth-child(2) {
         display: none; } }
     /* line 3321, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
-    .blog-type-page #main-content .panel-myriad-layout .sidebar-content div:nth-child(3) {
+    .blog-type-page #main-content .panel-myriad-layout .sidebar-content > div:nth-child(3) {
       display: none; }
       @media (min-width: 600px) and (max-width: 905px) {
         /* line 3321, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
-        .blog-type-page #main-content .panel-myriad-layout .sidebar-content div:nth-child(3) {
+        .blog-type-page #main-content .panel-myriad-layout .sidebar-content > div:nth-child(3) {
           display: block; } }
   /* line 3329, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_1 .view-content {
