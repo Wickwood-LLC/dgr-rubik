@@ -46,10 +46,8 @@ blockquote,
     content: none;
   }
 
-  p:nth-child(n+2):not([class]) {
-    @include breakpoint(750px) {
-      padding-left: 2em;
-    }
+  p:not([class]) {
+    padding-left: 2em;
   }
 }
 code {
