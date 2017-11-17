@@ -3571,10 +3571,10 @@ form#user-login, form#user-pass {
     @media (min-width: 375px) {
       /* line 3294, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .sidebar-content {
-        min-width: 300px;
+        min-width: 250px;
         -webkit-box-flex: 1;
-            -ms-flex: 1 1 300px;
-                flex: 1 1 300px; } }
+            -ms-flex: 1 1 250px;
+                flex: 1 1 250px; } }
     /* line 3305, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content div:first-child {
       margin-top: 0; }
@@ -3758,10 +3758,10 @@ form#user-login, form#user-pass {
       @media (min-width: 375px) {
         /* line 3458, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row {
-          min-width: 300px;
+          min-width: 250px;
           -webkit-box-flex: 1;
-              -ms-flex: 1 300px;
-                  flex: 1 300px;
+              -ms-flex: 1 250px;
+                  flex: 1 250px;
           font-size: 18px; } }
       /* line 3472, Users/palagpatski/Documents/WEB DEV/dgr-rubik/dgr_rubik_style.scss */
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-field-featured-image,

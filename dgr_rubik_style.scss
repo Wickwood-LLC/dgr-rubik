@@ -3298,8 +3298,8 @@ form#user-login, form#user-pass {
         max-width: 100%;
 
         @include breakpoint(375px) {
-        min-width: 300px;
-        flex: 1 1 300px;
+        min-width: 250px;
+        flex: 1 1 250px;
       }
 
       div:first-child {
@@ -3464,8 +3464,8 @@ form#user-login, form#user-pass {
           flex-flow: column nowrap;
 
         @include breakpoint(375px) {
-          min-width: 300px;
-          flex: 1 300px;
+          min-width: 250px;
+          flex: 1 250px;
           font-size: 18px;
         }
 
