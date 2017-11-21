@@ -2585,7 +2585,7 @@ form#user-login, form#user-pass {
 
 .view-card-cycles .views-slideshow-controls-top {
   position: absolute;
-  top: 23px;
+  top: 7px;
   width: 100%;
   text-align: center;
   z-index: 10; }
