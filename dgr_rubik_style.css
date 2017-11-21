@@ -2910,6 +2910,10 @@ form#user-login, form#user-pass {
       margin-top: 0; }
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_1 .view-content {
     padding: 0.5em; }
+  .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .item-list ul li {
+    border-bottom: 0;
+    margin-left: 0;
+    padding: 0; }
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager {
     margin-bottom: 0; }
     .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager li {
@@ -2949,7 +2953,6 @@ form#user-login, form#user-pass {
         margin: 0.5em;
         border: 1px solid #cccccc;
         border-radius: 5px;
-        background-color: #f5f5f5;
         font-size: 14px;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -2988,7 +2991,7 @@ form#user-login, form#user-pass {
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-body img {
         width: 100%;
         height: auto; }
-  .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content {
+  .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-slideshow-cycle-main-frame-row {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2996,41 +2999,43 @@ form#user-login, form#user-pass {
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; }
-    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row {
-      -webkit-box-flex: 1;
-          -ms-flex: 1 30%;
-              flex: 1 30%;
-      margin: 0.5em;
+  .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 30%;
+            flex: 1 30%;
+    margin: 0.5em;
+    padding: 0; }
+    @media (min-width: 375px) {
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row {
+        min-width: 300px;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 300px;
+                flex: 1 1 300px; } }
+    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .panel-display {
       padding: 0; }
-      @media (min-width: 375px) {
-        .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row {
-          min-width: 300px;
-          -webkit-box-flex: 1;
-              -ms-flex: 1 1 300px;
-                  flex: 1 1 300px; } }
-      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .panel-display {
-        padding: 0; }
-      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .panel-flexible {
-        padding: 1em; }
-      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row h2 {
-        margin: 0.5em 0 0 0;
-        text-align: center; }
-      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row h3 {
-        margin: 0 0 0.5em 0;
-        text-align: center; }
-      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-1, .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-2 {
-        width: 100%; }
-      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-1 {
-        background-color: #9bcb3b;
-        padding: 1em; }
-      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-2 {
-        padding: 0 1em 1em 1em; }
-      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .pane-node-field-card-image {
-        text-align: center; }
-      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .field--name-field-amazon-book-listing {
-        text-align: center; }
+    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .panel-flexible {
+      padding: 1em; }
+    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row h2 {
+      margin: 0.5em 0 0 0;
+      text-align: center; }
+    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row h3 {
+      margin: 0 0 0.5em 0;
+      text-align: center; }
+    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-1, .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-2 {
+      width: 100%; }
+    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-1 {
+      background-color: #9bcb3b;
+      padding: 1em; }
+    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-2 {
+      padding: 0 1em 1em 1em; }
+    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .pane-node-field-card-image {
+      text-align: center; }
+    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .field--name-field-amazon-book-listing {
+      text-align: center; }
   .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-slideshow {
     position: relative; }
+    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-slideshow .col-1 {
+      width: 100%; }
   .blog-type-page #main-content .panel-myriad-layout .main-display {
     width: 100%; }
   .blog-type-page #main-content .panel-myriad-layout .main-display .view-content {
@@ -3113,6 +3118,24 @@ form#user-login, form#user-pass {
 .blog-type-page .views-label-field-categories {
   float: left;
   margin-right: 4px; }
+
+.blog-type-page .field-name-field-call-to-action {
+  background-color: #77BBCD;
+  border-color: #73b5c5;
+  color: white;
+  cursor: pointer;
+  padding: 3px 10px;
+  font-size: 13px;
+  text-align: center;
+  font-weight: normal;
+  border-width: 1px;
+  border-style: solid;
+  display: inline-block;
+  border-radius: 3px;
+  -webkit-box-shadow: #ddd 0 1px 1px;
+          box-shadow: #ddd 0 1px 1px; }
+  .blog-type-page .field-name-field-call-to-action a {
+    color: white; }
 
 /********** OPPA SPANISH STYLE **********/
 @media (min-width: 680px) {

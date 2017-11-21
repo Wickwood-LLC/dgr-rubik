@@ -3283,6 +3283,11 @@ form#user-login, form#user-pass {
     }
 
     .view-display-id-panel_pane_2 {
+      .item-list ul li {
+        border-bottom: 0;
+        margin-left: 0;
+        padding: 0;
+      }
       .pager {
         margin-bottom: 0;
 
@@ -3324,7 +3329,6 @@ form#user-login, form#user-pass {
             margin: 0.5em;
             border: 1px solid #cccccc;
             border-radius: 5px;
-            background-color: #f5f5f5;
             font-size: 14px;
             display: flex;
             flex-flow: column nowrap;
@@ -3368,8 +3372,10 @@ form#user-login, form#user-pass {
     }
 
     .pane-card-cycles-card-blog .view-content {
-      display: flex;
-      flex-flow: row wrap;
+      .views-slideshow-cycle-main-frame-row {
+        display: flex;
+        flex-flow: row wrap;
+      }
 
       .views-row {
         flex: 1 30%;
@@ -3420,6 +3426,10 @@ form#user-login, form#user-pass {
 
     .pane-card-cycles-card-slideshow {
       position: relative;
+
+      .col-1 {
+        width: 100%;
+      }
     }
 
     .main-display {
@@ -3508,6 +3518,26 @@ form#user-login, form#user-pass {
   .views-label-field-categories {
     float: left;
     margin-right: 4px;
+  }
+
+  .field-name-field-call-to-action {
+    background-color: #77BBCD;
+    border-color: #73b5c5;
+    color: white;
+    cursor: pointer;
+    padding: 3px 10px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: normal;
+    border-width: 1px;
+    border-style: solid;
+    display: inline-block;
+    border-radius: 3px;
+    box-shadow: #ddd 0 1px 1px;
+
+    a {
+      color: white;
+    }
   }
 }
 
