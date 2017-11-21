@@ -266,8 +266,10 @@ div#toolbar div.toolbar-shortcuts ul {
 #page-title {
   background: none; }
   #page-title .page-title {
-    font-size: 2em;
-    margin: 0; }
+    font-size: 2rem;
+    margin: 0;
+    font-weight: bolder;
+    line-height: 1.2; }
 
 .content-main .featured-display {
   overflow: auto;
@@ -3170,3 +3172,4 @@ form#user-login, form#user-pass {
   body.i18n-es #block-panels-mini-header.sticky-header #superfish-1 > li a {
     font-size: 14.5px;
     padding: 0 10px; } }
+/*# sourceMappingURL=dgr_rubik_style.css.map */
