@@ -3179,6 +3179,348 @@ form#user-login, form#user-pass {
   }
 }
 
+/********** Articles, News, Press Release **********/
+.blog-type-page {
+  h1.page-title {
+    width: 100%;
+      text-align: center;
+      margin-bottom: 0;
+      display: block;
+  }
+
+  .views-exposed-form {
+    .views-exposed-widget {
+      display: inline-block;
+      float: none;
+      min-width: 0;
+      max-width: 100%;
+
+      .form-item {
+        input, select {
+          min-width: 0;
+          max-width: 100%;
+        }
+      }
+
+      .form-submit {
+        margin-top: 0;
+        position: absolute;
+        top: 18px;
+        right: 10px;
+      }
+    }
+  }
+  
+  #main-content .panel-myriad-layout {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1em;
+    padding-top: 0px;
+
+    .views-exposed-widgets {
+      .views-reset-button {
+        float: right;
+      }
+      .views-widget-filter-published_at {
+        .views-operator, .views-widget {
+          margin-left: 1em;
+        }
+        .views-widget {
+          margin-top: 0.5em;
+        }
+      }
+      .views-widget-filter-type .views-widget {
+        margin-left: 1em;
+      }
+
+      label:not(.option):after {
+        content: ":";
+      }
+    }
+
+    .row-one {
+      display: flex;
+      flex-flow: row wrap;
+      width: 100%;
+    }
+
+    .main-content {
+      flex: 1 100%;
+        padding: 0.5em;
+
+        @include breakpoint(626px) {
+          min-width: 560px;
+          flex: 3 0 560px;
+        }
+    }
+
+    .sidebar-content {
+      flex: 1 1 0;
+      margin: 0.5em;
+      min-width: 0;
+      max-width: 100%;
+
+      @include breakpoint(375px) {
+        min-width: 250px;
+        flex: 1 1 250px;
+      }
+
+      .pane-articles-test-panel-pane-7 {
+        .view-content {
+          column-width: 150px;
+        }
+      }
+
+      div:first-child {
+        margin-top: 0;
+      }
+
+      div:nth-child(2) {
+        @include breakpoint(600px 905px) {
+          display: none;
+        }
+      }
+      div:nth-child(3) {
+        display: none;
+        @include breakpoint(600px 905px) {
+          display: block;
+        }
+      }
+    }
+
+    .view-display-id-panel_pane_1 .view-content {
+      padding: 0.5em;
+    }
+
+    .view-display-id-panel_pane_2 {
+      .pager {
+        margin-bottom: 0;
+
+        li {
+          list-style: none;
+            font-size: 14px;
+            display: inline-block;
+            padding: 3px 4px;
+            border-radius: 5px;
+            width: auto;
+        }
+      }
+    }
+
+    .pane-articles-test-panel-pane-6,
+    .pane-news-test-panel-pane-6,
+    .pane-press-releases-test-panel-pane-6,
+    .pane-panopoly-faq-panel-pane-4 {
+      box-sizing: border-box;
+      margin: 0 0 1em 0;
+      height: 100%;
+    }
+    .pane-panopoly-faq-panel-pane-4 {
+      height: auto;
+    }
+
+    .featured-display {
+      height: 100%;
+
+      .view-content {
+        display: flex;
+        flex-flow: row wrap;
+        height: 100%;
+  
+          .views-row {
+            width: 50%;
+            flex: 1 100%;
+            padding: 0.5em;
+            margin: 0.5em;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            background-color: #f5f5f5;
+            font-size: 14px;
+            display: flex;
+            flex-flow: column nowrap;
+  
+            @include breakpoint(420px) {
+              flex: 1 1 300px;
+              font-size: 18px;
+              min-width: 300px;
+            }
+  
+            .featured-image img {
+              width: 100%;
+              height: auto;
+            }
+  
+            .views-field-body {
+              flex: 1;
+              display: flex;
+            }
+          }
+  
+          .scroll-pane {
+            max-height: 716px;
+            overflow: auto;
+          }
+  
+          .views-field-published-at {
+            text-align: center;
+            margin-bottom: 1em;
+          }
+          .views-field-name {
+            display: block;
+            text-align: center;
+            margin-bottom: 1em;
+          }
+          .views-field-body img {
+            width: 100%;
+            height: auto;
+          }
+      }
+    }
+
+    .pane-card-cycles-card-blog .view-content {
+      display: flex;
+      flex-flow: row wrap;
+
+      .views-row {
+        flex: 1 30%;
+        margin: 0.5em;
+        padding: 0;
+
+        @include breakpoint(375px) {
+          min-width: 300px;
+          flex: 1 1 300px;
+        }
+
+        .panel-display {
+          padding: 0;
+        }
+        .panel-flexible {
+          padding: 1em;
+        }
+
+        h2 {
+          margin: 0.5em 0 0 0;
+          text-align: center;
+        }
+        h3 {
+          margin: 0 0 0.5em 0;
+          text-align: center;
+        }
+
+        .col-1, .col-2 {
+          width: 100%;
+        }
+        .col-1 {
+          background-color: #9bcb3b;
+          padding: 1em;
+        }
+        .col-2 {
+          padding: 0 1em 1em 1em;
+        }
+
+        .pane-node-field-card-image {
+          text-align: center;
+        }
+
+        .field--name-field-amazon-book-listing {
+          text-align: center;
+        }
+      }     
+    }
+
+    .pane-card-cycles-card-slideshow {
+      position: relative;
+    }
+
+    .main-display {
+      width: 100%;
+    }
+    .main-display .view-content {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+
+      .views-row {
+        flex: 1 30%;
+        margin: 0.5em;
+        background-color: white;
+        font-size: 14px;
+        display: flex;
+          flex-flow: column nowrap;
+
+        @include breakpoint(375px) {
+          min-width: 250px;
+          flex: 1 250px;
+          font-size: 18px;
+        }
+
+        .views-field-field-featured-image,
+        .views-field-title {
+          text-align: center;
+          
+          h3 {
+            margin-bottom: 0;
+          }
+        }
+        .views-field-name,
+        .views-field-published-at {
+          display: block;
+          text-align: center;
+        }
+
+        .views-field-body {
+          flex-grow: 1;
+
+          .field-content {
+            margin-bottom: 1em;
+            line-height: 1.35em;
+          }
+        }
+        .views-field-field-categories {
+          font-weight: bold;
+          font-size: 0.8em;
+        }
+        .views-label-field-categories {
+          float: left;
+          margin-right: 4px;
+        }
+        .views-field-type {
+          font-weight: bold;
+          font-size: 0.8em;
+        }
+      }
+    }
+
+    .views-field-view-node a {
+        float: right;
+        text-transform: capitalize;
+        color: #EA4335;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: underline;
+      }
+      &:focus {
+        color: #0f753b;
+      }
+    }
+  }
+
+  .views-field-title h2 {
+    text-align: center;
+    margin: 0;
+  }
+  .views-field-field-categories {
+    font-weight: bold;
+    font-size: 0.8em;
+    clear: both;
+  }
+  .views-label-field-categories {
+    float: left;
+    margin-right: 4px;
+  }
+}
+
 /********** OPPA SPANISH STYLE **********/
 body.i18n-es {
   .pane-superfish-1 #superfish-1 li a {
