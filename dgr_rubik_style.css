@@ -2906,14 +2906,6 @@ form#user-login, form#user-pass {
               column-width: 150px; }
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content div:first-child {
       margin-top: 0; }
-    @media (min-width: 600px) and (max-width: 905px) {
-      .blog-type-page #main-content .panel-myriad-layout .sidebar-content div:nth-child(2) {
-        display: none; } }
-    .blog-type-page #main-content .panel-myriad-layout .sidebar-content div:nth-child(3) {
-      display: none; }
-      @media (min-width: 600px) and (max-width: 905px) {
-        .blog-type-page #main-content .panel-myriad-layout .sidebar-content div:nth-child(3) {
-          display: block; } }
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_1 .view-content {
     padding: 0.5em; }
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager {
