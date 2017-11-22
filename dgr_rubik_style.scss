@@ -3541,6 +3541,173 @@ form#user-login, form#user-pass {
   }
 }
 
+.node-type-article-post,
+.node-type-panopoly-news-article,
+.node-type-panopoly-faq {
+  .field--name-field-featured-image {
+    width: 100%;
+
+      @include breakpoint(481px) {
+        margin: 0 1em 1em 0;
+        width: 50%;
+        float: left;
+      }
+
+      img {
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+        width: 100%;
+      }
+  }
+  .field--name-field-categories {
+    margin-top: 1em;
+    font-weight: bold;
+  }
+
+  .row {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .radix-layouts-content {
+    flex: 1 1 500px;
+    padding-right: 0;
+
+    @include breakpoint(848px) {
+      min-width: 500px;
+      padding-right: 15px;
+    }
+  }
+
+  .radix-layouts-sidebar {
+    flex: 1 300px;
+    min-width: 300px;
+    padding-left: 0;
+
+    @include breakpoint(848px) {
+      flex: 0 300px;
+      padding-left: 15px;
+    }
+  }
+}
+
+.node-type-press-release.panelized-node {
+  #content {
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+
+  .panel-col-mid {
+    flex: 1 1 500px;
+  }
+  .panel-col-right {
+    @include breakpoint(1024px){
+      flex: 0 300px;
+      min-width: 300px;
+    }
+
+    div:first-child .panel-pane {
+      margin-top: 0;
+    }
+  }
+
+  h1.page-title {
+    text-align: center;
+  }
+  
+  .content-main {
+    max-width: 960px;
+    background: #FFF;
+    margin: 0 auto 40px auto;
+    position: relative;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    padding: 5%;
+    box-sizing: border-box;
+
+    &:before, &:after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      box-shadow: 0 0 20px rgba(0,0,0,0.8);
+      top: 50%;
+      bottom: 0;
+      left: 10px;
+      right: 10px;
+      border-radius: 100px / 10px;
+    }
+  }
+
+  .pane-node-field-immediate-release,
+  .contact-title {
+    h4 {
+      margin: 0;
+    }
+  }
+
+  .field--name-field-pr-about {
+    margin: 2em 0;
+  }
+
+  .field--name-field-full-contact-details {
+    margin: 2em 0;
+    text-align: center;
+
+    h4 {
+      margin: 0;
+      display: inline-flex;
+
+      &:after {
+        content: '\00a0';
+      }
+    }
+  }
+
+  .field--name-field-upload-document {
+    display: flex;
+    justify-content: center;
+  }
+
+  .field--name-field-featured-image {
+    width: 100%;
+
+    @include breakpoint(481px){
+      margin: 0 1em 1em 0;
+      width: 50%;
+      float: left;
+    }
+
+    img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .field--name-field-categories {
+    font-weight: bold;
+    text-align: center;
+
+    .field__label, .field__items {
+      display: inline-block;
+      float: none;
+    }
+  }
+
+  .pane-node-title h1 {
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .pane-node-links {
+    text-align: center;
+
+    .links {
+      display: inline-block;
+    }
+  }
+}
+
 /********** OPPA SPANISH STYLE **********/
 body.i18n-es {
   .pane-superfish-1 #superfish-1 li a {
