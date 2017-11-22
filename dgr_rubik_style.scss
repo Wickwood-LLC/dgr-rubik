@@ -3114,6 +3114,26 @@ form#user-login, form#user-pass {
   }
 }
 
+.field-name-field-call-to-action {
+  background-color: #77BBCD;
+  border-color: #73b5c5;
+  color: white;
+  cursor: pointer;
+  padding: 3px 10px;
+  font-size: 13px;
+  text-align: center;
+  font-weight: normal;
+  border-width: 1px;
+  border-style: solid;
+  display: inline-block;
+  border-radius: 3px;
+  box-shadow: #ddd 0 1px 1px;
+
+  a {
+    color: white;
+  }
+}
+
 .view-card-cycles {
   .vscc-controls {
     text-align: center;
@@ -3124,7 +3144,7 @@ form#user-login, form#user-pass {
 
   .views-slideshow-controls-top {
     position: absolute;
-    top: 21px;
+    top: 7px;
     width: 100%;
     text-align: center;
     z-index: 10;
@@ -3519,26 +3539,6 @@ form#user-login, form#user-pass {
   .views-label-field-categories {
     float: left;
     margin-right: 4px;
-  }
-
-  .field-name-field-call-to-action {
-    background-color: #77BBCD;
-    border-color: #73b5c5;
-    color: white;
-    cursor: pointer;
-    padding: 3px 10px;
-    font-size: 13px;
-    text-align: center;
-    font-weight: normal;
-    border-width: 1px;
-    border-style: solid;
-    display: inline-block;
-    border-radius: 3px;
-    box-shadow: #ddd 0 1px 1px;
-
-    a {
-      color: white;
-    }
   }
 }
 
