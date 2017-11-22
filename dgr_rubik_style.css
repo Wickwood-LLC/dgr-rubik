@@ -2790,7 +2790,7 @@ form#user-login, form#user-pass {
 
 .view-card-cycles .views-slideshow-controls-top {
   position: absolute;
-  top: 7px;
+  top: 21px;
   width: 100%;
   text-align: center;
   z-index: 10; }
@@ -2906,7 +2906,7 @@ form#user-login, form#user-pass {
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content .pane-articles-test-panel-pane-7 .view-content {
       -webkit-column-width: 150px;
               column-width: 150px; }
-    .blog-type-page #main-content .panel-myriad-layout .sidebar-content div:first-child {
+    .blog-type-page #main-content .panel-myriad-layout .sidebar-content > div:first-child {
       margin-top: 0; }
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_1 .view-content {
     padding: 0.5em; }
