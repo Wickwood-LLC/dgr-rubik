@@ -63,6 +63,12 @@ function dgr_rubik_breadcrumb($vars) {
     array_unshift($vars['breadcrumb'], $site_name);
   }
 
+  $exceptions = array("News", "Articles", "Press Releases", "Administration");
+  preg_match('/(?<=\>).*?(?=\<)/', $vars['breadcrumb'][1], $list);
+  if (in_array($list[0], $exceptions)) {
+    $exempted = TRUE;
+  }
+
   $depth = 0;
   $separator = '  » ';
   foreach ($vars['breadcrumb'] as $link) {
@@ -81,7 +87,7 @@ function dgr_rubik_breadcrumb($vars) {
     }
   }
 
-  if ($depth > 2) { // Only show breadcrumbs if we have more than 2 links
+  if (($depth > 2) || ($exempted)) { // Only show breadcrumbs if we have more than 2 links or if we are on the exempted pages
     return $output;
   }
 }
