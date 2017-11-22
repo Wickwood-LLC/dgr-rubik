@@ -321,12 +321,23 @@ div#toolbar div.toolbar-shortcuts ul {
 
 #page-title {
   background: none;
+  text-align: center;
 
   .page-title {
     font-size: 2rem;
     margin: 0;
     font-weight: bolder;
     line-height: 1.2;
+    width: auto;
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+  }
+
+  .add-or-remove-shortcuts {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
   }
 }
 
@@ -3128,6 +3139,7 @@ form#user-login, form#user-pass {
   display: inline-block;
   border-radius: 3px;
   box-shadow: #ddd 0 1px 1px;
+  margin-top: 1em;
 
   a {
     color: white;
@@ -3358,6 +3370,7 @@ form#user-login, form#user-pass {
               flex: 1 1 300px;
               font-size: 18px;
               min-width: 300px;
+              margin: 0 0.5em;
             }
   
             .featured-image img {
@@ -3428,7 +3441,6 @@ form#user-login, form#user-pass {
           width: 100%;
         }
         .col-1 {
-          background-color: #9bcb3b;
           padding: 1em;
         }
         .col-2 {
