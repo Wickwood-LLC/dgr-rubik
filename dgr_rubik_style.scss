@@ -3709,6 +3709,30 @@ form#user-login, form#user-pass {
   }
 }
 
+.pane-news-test-panel-pane-5,
+.pane-articles-test-panel-pane-5,
+.pane-press-releases-test-panel-pane-5 {
+  .view-content {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .views-row {
+    display: inline-block;
+    vertical-align: top;
+    width: 230px;
+    margin-right: 10px;
+    margin-bottom: 0.5em;
+    flex: 1 240px;
+  }
+  .views-field-field-featured-image {
+    float: left;
+    margin-right: 10px;
+  }
+  .views-field-published-at {
+    font-size: 0.8em;
+  }
+}
+
 /********** OPPA SPANISH STYLE **********/
 body.i18n-es {
   .pane-superfish-1 #superfish-1 li a {
