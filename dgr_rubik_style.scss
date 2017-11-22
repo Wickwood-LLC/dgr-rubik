@@ -3544,7 +3544,7 @@ form#user-login, form#user-pass {
 .node-type-article-post,
 .node-type-panopoly-news-article,
 .node-type-panopoly-faq {
-  .field--name-field-featured-image {
+  .field-name-field-featured-image {
     width: 100%;
 
       @include breakpoint(481px) {
@@ -3560,7 +3560,7 @@ form#user-login, form#user-pass {
         width: 100%;
       }
   }
-  .field--name-field-categories {
+  .field-name-field-categories {
     margin-top: 1em;
     font-weight: bold;
   }
@@ -3645,11 +3645,11 @@ form#user-login, form#user-pass {
     }
   }
 
-  .field--name-field-pr-about {
+  .field-name-field-pr-about {
     margin: 2em 0;
   }
 
-  .field--name-field-full-contact-details {
+  .field-name-field-full-contact-details {
     margin: 2em 0;
     text-align: center;
 
@@ -3663,12 +3663,12 @@ form#user-login, form#user-pass {
     }
   }
 
-  .field--name-field-upload-document {
+  .field-name-field-upload-document {
     display: flex;
     justify-content: center;
   }
 
-  .field--name-field-featured-image {
+  .field-name-field-featured-image {
     width: 100%;
 
     @include breakpoint(481px){
@@ -3684,7 +3684,7 @@ form#user-login, form#user-pass {
     }
   }
 
-  .field--name-field-categories {
+  .field-name-field-categories {
     font-weight: bold;
     text-align: center;
 

@@ -3137,28 +3137,28 @@ form#user-login, form#user-pass {
   .blog-type-page .field-name-field-call-to-action a {
     color: white; }
 
-.node-type-article-post .field--name-field-featured-image,
-.node-type-panopoly-news-article .field--name-field-featured-image,
-.node-type-panopoly-faq .field--name-field-featured-image {
+.node-type-article-post .field-name-field-featured-image,
+.node-type-panopoly-news-article .field-name-field-featured-image,
+.node-type-panopoly-faq .field-name-field-featured-image {
   width: 100%; }
   @media (min-width: 481px) {
-    .node-type-article-post .field--name-field-featured-image,
-    .node-type-panopoly-news-article .field--name-field-featured-image,
-    .node-type-panopoly-faq .field--name-field-featured-image {
+    .node-type-article-post .field-name-field-featured-image,
+    .node-type-panopoly-news-article .field-name-field-featured-image,
+    .node-type-panopoly-faq .field-name-field-featured-image {
       margin: 0 1em 1em 0;
       width: 50%;
       float: left; } }
-  .node-type-article-post .field--name-field-featured-image img,
-  .node-type-panopoly-news-article .field--name-field-featured-image img,
-  .node-type-panopoly-faq .field--name-field-featured-image img {
+  .node-type-article-post .field-name-field-featured-image img,
+  .node-type-panopoly-news-article .field-name-field-featured-image img,
+  .node-type-panopoly-faq .field-name-field-featured-image img {
     max-width: 100%;
     min-width: 0;
     height: auto;
     width: 100%; }
 
-.node-type-article-post .field--name-field-categories,
-.node-type-panopoly-news-article .field--name-field-categories,
-.node-type-panopoly-faq .field--name-field-categories {
+.node-type-article-post .field-name-field-categories,
+.node-type-panopoly-news-article .field-name-field-categories,
+.node-type-panopoly-faq .field-name-field-categories {
   margin-top: 1em;
   font-weight: bold; }
 
@@ -3252,21 +3252,21 @@ form#user-login, form#user-pass {
 .node-type-press-release.panelized-node .contact-title h4 {
   margin: 0; }
 
-.node-type-press-release.panelized-node .field--name-field-pr-about {
+.node-type-press-release.panelized-node .field-name-field-pr-about {
   margin: 2em 0; }
 
-.node-type-press-release.panelized-node .field--name-field-full-contact-details {
+.node-type-press-release.panelized-node .field-name-field-full-contact-details {
   margin: 2em 0;
   text-align: center; }
-  .node-type-press-release.panelized-node .field--name-field-full-contact-details h4 {
+  .node-type-press-release.panelized-node .field-name-field-full-contact-details h4 {
     margin: 0;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; }
-    .node-type-press-release.panelized-node .field--name-field-full-contact-details h4:after {
+    .node-type-press-release.panelized-node .field-name-field-full-contact-details h4:after {
       content: '\00a0'; }
 
-.node-type-press-release.panelized-node .field--name-field-upload-document {
+.node-type-press-release.panelized-node .field-name-field-upload-document {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3274,22 +3274,22 @@ form#user-login, form#user-pass {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.node-type-press-release.panelized-node .field--name-field-featured-image {
+.node-type-press-release.panelized-node .field-name-field-featured-image {
   width: 100%; }
   @media (min-width: 481px) {
-    .node-type-press-release.panelized-node .field--name-field-featured-image {
+    .node-type-press-release.panelized-node .field-name-field-featured-image {
       margin: 0 1em 1em 0;
       width: 50%;
       float: left; } }
-  .node-type-press-release.panelized-node .field--name-field-featured-image img {
+  .node-type-press-release.panelized-node .field-name-field-featured-image img {
     width: 100%;
     max-width: 100%;
     height: auto; }
 
-.node-type-press-release.panelized-node .field--name-field-categories {
+.node-type-press-release.panelized-node .field-name-field-categories {
   font-weight: bold;
   text-align: center; }
-  .node-type-press-release.panelized-node .field--name-field-categories .field__label, .node-type-press-release.panelized-node .field--name-field-categories .field__items {
+  .node-type-press-release.panelized-node .field-name-field-categories .field__label, .node-type-press-release.panelized-node .field-name-field-categories .field__items {
     display: inline-block;
     float: none; }
 
