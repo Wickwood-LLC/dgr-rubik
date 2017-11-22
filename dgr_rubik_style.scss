@@ -3296,7 +3296,7 @@ form#user-login, form#user-pass {
       max-width: 100%;
 
       @include breakpoint(375px) {
-        min-width: 250px;
+        min-width: 300px;
         flex: 1 1 250px;
       }
 
@@ -3361,7 +3361,6 @@ form#user-login, form#user-pass {
             padding: 0.5em;
             margin: 0.5em;
             border: 1px solid #cccccc;
-            border-radius: 5px;
             font-size: 14px;
             display: flex;
             flex-flow: column nowrap;
