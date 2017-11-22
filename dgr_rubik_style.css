@@ -2996,7 +2996,16 @@ form#user-login, form#user-pass {
                 -ms-flex: 1 1 300px;
                     flex: 1 1 300px;
             font-size: 18px;
-            min-width: 300px;
+            min-width: 300px; } }
+        @media (min-width: 906px) {
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row:first-child {
+            margin-top: 0;
+            margin-bottom: 0.5em; }
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row:last-child {
+            margin-top: 0.5em;
+            margin-bottom: 0; } }
+        @media (min-width: 1328px) {
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
             margin: 0 0.5em; } }
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .featured-image img {
           width: 100%;

@@ -3370,6 +3370,20 @@ form#user-login, form#user-pass {
               flex: 1 1 300px;
               font-size: 18px;
               min-width: 300px;
+            }
+
+            @include breakpoint(906px) {
+              &:first-child {
+                margin-top: 0;
+                margin-bottom: 0.5em;
+              }
+              &:last-child {
+                margin-top: 0.5em;
+                margin-bottom: 0;
+              }
+            }
+
+            @include breakpoint(1328px) {
               margin: 0 0.5em;
             }
   
