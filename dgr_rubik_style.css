@@ -2801,7 +2801,8 @@ form#user-login, form#user-pass {
 
 .view-card-cycles .views-slideshow-cycle-main-frame-row-item {
   padding-top: 2em;
-  text-align: center; }
+  text-align: center;
+  margin: 0; }
 
 .view-card-cycles div.field-type-asin {
   border: 0px; }
