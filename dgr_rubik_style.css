@@ -3028,46 +3028,53 @@ form#user-login, form#user-pass {
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-body img {
         width: 100%;
         height: auto; }
-  .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-slideshow-cycle-main-frame-row {
+  .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap; }
-  .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 30%;
-            flex: 1 30%;
-    margin: 0.5em;
-    padding: 0; }
-    @media (min-width: 375px) {
-      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row {
-        min-width: 300px;
-        -webkit-box-flex: 1;
-            -ms-flex: 1 1 300px;
-                flex: 1 1 300px; } }
-    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .panel-display {
+    display: flex; }
+    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-slideshow-cycle-main-frame-row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap; }
+    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 30%;
+              flex: 1 30%;
+      margin: 0.5em;
       padding: 0; }
-    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .panel-flexible {
-      padding: 1em; }
-    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row h2 {
-      margin: 0.5em 0 0 0;
-      text-align: center; }
-    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row h3 {
-      margin: 0 0 0.5em 0;
-      text-align: center; }
-    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-1, .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-2 {
-      width: 100%; }
-    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-1 {
-      padding: 1em; }
-    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-2 {
-      padding: 0 1em 1em 1em; }
-    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .pane-node-field-card-image {
-      text-align: center; }
-    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .field--name-field-amazon-book-listing {
-      text-align: center; }
+      @media (min-width: 375px) {
+        .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row {
+          min-width: 300px;
+          -webkit-box-flex: 1;
+              -ms-flex: 1 1 300px;
+                  flex: 1 1 300px; } }
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .panel-display {
+        padding: 0; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .panel-flexible {
+        padding: 1em; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row h2 {
+        margin: 0.5em 0 0 0;
+        text-align: center; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row h3 {
+        margin: 0 0 0.5em 0;
+        text-align: center; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-1, .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-2 {
+        width: 100%; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-1 {
+        padding: 1em;
+        text-align: center; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .col-2 {
+        padding: 0 1em 1em 1em; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .pane-node-field-card-image {
+        text-align: center; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .field--name-field-amazon-book-listing {
+        text-align: center; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .pane-node-field-call-to-action {
+        text-align: center; }
   .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-slideshow {
     position: relative; }
     .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-slideshow .col-1 {

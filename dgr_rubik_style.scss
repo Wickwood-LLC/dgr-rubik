@@ -3420,6 +3420,8 @@ form#user-login, form#user-pass {
     }
 
     .pane-card-cycles-card-blog .view-content {
+      display: flex;
+
       .views-slideshow-cycle-main-frame-row {
         display: flex;
         flex-flow: row wrap;
@@ -3456,6 +3458,7 @@ form#user-login, form#user-pass {
         }
         .col-1 {
           padding: 1em;
+          text-align: center;
         }
         .col-2 {
           padding: 0 1em 1em 1em;
@@ -3466,6 +3469,10 @@ form#user-login, form#user-pass {
         }
 
         .field--name-field-amazon-book-listing {
+          text-align: center;
+        }
+
+        .pane-node-field-call-to-action {
           text-align: center;
         }
       }     
