@@ -3534,6 +3534,11 @@ form#user-login, form#user-pass {
             margin-bottom: 1em;
             line-height: 1.35em;
           }
+
+          iframe {
+            width: 100%;
+            height: auto;
+          }
         }
         .views-field-field-categories {
           font-weight: bold;

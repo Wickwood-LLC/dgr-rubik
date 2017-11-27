@@ -3133,6 +3133,9 @@ form#user-login, form#user-pass {
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-body .field-content {
           margin-bottom: 1em;
           line-height: 1.35em; }
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-body iframe {
+          width: 100%;
+          height: auto; }
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-field-categories {
         font-weight: bold;
         font-size: 0.8em; }
