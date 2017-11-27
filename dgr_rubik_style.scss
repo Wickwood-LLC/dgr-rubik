@@ -3396,6 +3396,11 @@ form#user-login, form#user-pass {
           .views-field-body {
             flex: 1;
             display: flex;
+
+            iframe {
+              max-width: 100%;
+              height: auto;
+            }
           }
         }
 

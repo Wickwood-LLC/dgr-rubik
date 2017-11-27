@@ -3016,6 +3016,9 @@ form#user-login, form#user-pass {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex; }
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-body iframe {
+            max-width: 100%;
+            height: auto; }
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .scroll-pane {
         overflow: auto; }
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-published-at {
