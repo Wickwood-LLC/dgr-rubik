@@ -3602,15 +3602,17 @@ form#user-login, form#user-pass {
   .row {
     display: flex;
     flex-flow: row wrap;
+    padding: 0 1em;
   }
 
   .radix-layouts-content {
-    flex: 1 1 500px;
+    flex: 1 100%;
     padding-right: 0;
 
     @include breakpoint(848px) {
-      min-width: 500px;
-      padding-right: 15px;
+      flex: 3 0 560px;
+      min-width: 560px;
+      padding: 0.5em;
     }
   }
 
@@ -3620,8 +3622,8 @@ form#user-login, form#user-pass {
     padding-left: 0;
 
     @include breakpoint(848px) {
-      flex: 0 300px;
-      padding-left: 15px;
+      flex: 1 1 250px;
+      padding: 0.5em;
     }
   }
 }
