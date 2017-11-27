@@ -3309,6 +3309,10 @@ form#user-login, form#user-pass {
       > div:first-child {
         margin-top: 0;
       }
+
+      .boxed {
+        padding-top: 2em;
+      }
     }
 
     .view-display-id-panel_pane_1 .view-content {
@@ -3634,6 +3638,10 @@ form#user-login, form#user-pass {
     @include breakpoint(848px) {
       flex: 1 1 250px;
       padding: 0.5em;
+    }
+
+    .boxed {
+      padding-top: 2em;
     }
   }
 }

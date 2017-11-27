@@ -2937,6 +2937,8 @@ form#user-login, form#user-pass {
               column-width: 150px; }
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content > div:first-child {
       margin-top: 0; }
+    .blog-type-page #main-content .panel-myriad-layout .sidebar-content .boxed {
+      padding-top: 2em; }
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_1 .view-content {
     padding: 0.5em; }
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .item-list ul li {
@@ -3238,6 +3240,10 @@ form#user-login, form#user-pass {
           -ms-flex: 1 1 250px;
               flex: 1 1 250px;
       padding: 0.5em; } }
+  .node-type-article-post .radix-layouts-sidebar .boxed,
+  .node-type-panopoly-news-article .radix-layouts-sidebar .boxed,
+  .node-type-panopoly-faq .radix-layouts-sidebar .boxed {
+    padding-top: 2em; }
 
 .node-type-press-release.panelized-node #content {
   margin-right: 1%;
