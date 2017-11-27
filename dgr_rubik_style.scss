@@ -3355,68 +3355,67 @@ form#user-login, form#user-pass {
         flex-flow: row wrap;
         height: 100%;
   
-          .views-row {
-            width: 50%;
-            flex: 1 100%;
-            padding: 0.5em;
-            margin: 0.5em;
-            border: 1px solid #cccccc;
-            font-size: 14px;
-            display: flex;
-            flex-flow: column nowrap;
-  
-            @include breakpoint(420px) {
-              flex: 1 1 300px;
-              font-size: 18px;
-              min-width: 300px;
-            }
+        .views-row {
+          width: 50%;
+          flex: 1 100%;
+          padding: 0.5em;
+          margin: 0.5em;
+          border: 1px solid #cccccc;
+          font-size: 14px;
+          display: flex;
+          flex-flow: column nowrap;
 
-            @include breakpoint(956px) {
-              &:first-child {
-                margin-top: 0;
-                margin-bottom: 0.5em;
-              }
-              &:last-child {
-                margin-top: 0.5em;
-                margin-bottom: 0;
-              }
-            }
+          @include breakpoint(420px) {
+            flex: 1 1 300px;
+            font-size: 18px;
+            min-width: 300px;
+          }
 
-            @include breakpoint(1342px) {
-              &:first-child, &:last-child{
-                margin: 0 0.5em;
-              }
+          @include breakpoint(956px) {
+            &:first-child {
+              margin-top: 0;
+              margin-bottom: 0.5em;
             }
-  
-            .featured-image img {
-              width: 100%;
-              height: auto;
-            }
-  
-            .views-field-body {
-              flex: 1;
-              display: flex;
+            &:last-child {
+              margin-top: 0.5em;
+              margin-bottom: 0;
             }
           }
-  
-          .scroll-pane {
-            max-height: 716px;
-            overflow: auto;
+
+          @include breakpoint(1342px) {
+            &:first-child, &:last-child{
+              margin: 0 0.5em;
+            }
           }
-  
-          .views-field-published-at {
-            text-align: center;
-            margin-bottom: 1em;
-          }
-          .views-field-name {
-            display: block;
-            text-align: center;
-            margin-bottom: 1em;
-          }
-          .views-field-body img {
+
+          .featured-image img {
             width: 100%;
             height: auto;
           }
+
+          .views-field-body {
+            flex: 1;
+            display: flex;
+          }
+        }
+
+        .scroll-pane {
+          overflow: auto;
+        }
+
+        .views-field-published-at {
+          text-align: center;
+          margin-bottom: 1em;
+        }
+        .views-field-name {
+          display: block;
+          text-align: center;
+          margin-bottom: 1em;
+        }
+        .views-field-body img {
+          width: 100%;
+          height: auto;
+        }
       }
     }
 

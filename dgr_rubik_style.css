@@ -3017,7 +3017,6 @@ form#user-login, form#user-pass {
           display: -ms-flexbox;
           display: flex; }
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .scroll-pane {
-        max-height: 716px;
         overflow: auto; }
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-published-at {
         text-align: center;
