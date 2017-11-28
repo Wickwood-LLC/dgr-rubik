@@ -2939,6 +2939,10 @@ form#user-login, form#user-pass {
       margin-top: 0; }
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content .boxed {
       padding-top: 2em; }
+    .blog-type-page #main-content .panel-myriad-layout .sidebar-content [data-pane] {
+      margin: 1em 0; }
+      .blog-type-page #main-content .panel-myriad-layout .sidebar-content [data-pane] .boxed {
+        margin: 0; }
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_1 .view-content {
     padding: 0.5em; }
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .item-list ul li {

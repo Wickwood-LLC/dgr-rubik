@@ -3313,6 +3313,14 @@ form#user-login, form#user-pass {
       .boxed {
         padding-top: 2em;
       }
+
+      [data-pane] {
+        margin: 1em 0;
+
+        .boxed {
+          margin: 0;
+        }
+      }
     }
 
     .view-display-id-panel_pane_1 .view-content {
