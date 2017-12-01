@@ -3411,7 +3411,6 @@ form#user-login, form#user-pass {
 
             iframe {
               max-width: 100%;
-              height: auto;
             }
           }
         }
@@ -3845,6 +3844,19 @@ body.i18n-es {
       @include breakpoint(1400px) {
         font-size: 14.5px;
         padding: 0 10px;
+      }
+    }
+  }
+
+  .sidebar-content{
+    .pane-articles-test-panel-pane-2,
+    .pane-news-test-panel-pane-2,
+    .pane-press-releases-test-panel-pane-2,
+    .pane-articles-test-panel-pane-7,
+    .pane-news-test-panel-pane-7,
+    .pane-press-releases-test-panel-pane-7 {
+      &.boxed {
+        padding-top: 56px;
       }
     }
   }
