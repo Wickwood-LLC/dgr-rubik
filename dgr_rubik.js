@@ -119,4 +119,18 @@
       });
     }
   };
+
+  Drupal.behaviors.wrapTitles = {
+    attach: function (context, settings) {
+      $(window).on("load resize", wrap);
+
+      function sticky(argument) {
+        if ($('.boxed .pane-title').length) {
+          $('.boxed').css({
+            paddingTop: $('.boxed .pane-title').height(),
+          });
+        }
+      }
+    }
+  };
 }(jQuery));
