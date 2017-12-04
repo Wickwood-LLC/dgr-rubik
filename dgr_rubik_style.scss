@@ -3795,6 +3795,10 @@ form#user-login, form#user-pass {
 
 /********** OPPA SPANISH STYLE **********/
 body.i18n-es {
+  label, .pane-title, .ckeditor_links, .link-edit-summary, .form-actions input, .vertical-tabs-list li a strong {
+    text-transform: none;
+  }
+  
   .pane-superfish-1 #superfish-1 li a {
     @include breakpoint(680px) {
       font-size: 0.9em;
