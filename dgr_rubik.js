@@ -124,7 +124,7 @@
     attach: function (context, settings) {
       $(window).on("load resize", wrap);
 
-      function sticky(argument) {
+      function wrap() {
         if ($('.boxed .pane-title').length) {
           $('.boxed').css({
             paddingTop: $('.boxed .pane-title').height(),
