@@ -125,11 +125,13 @@
       $(window).on("load resize", wrap);
 
       function wrap() {
-        if ($('.boxed .pane-title').length) {
-          $('.boxed').css({
-            paddingTop: $('.boxed .pane-title').height(),
-          });
-        }
+        $('.boxed').each(function() {
+          if ($(this).find('.pane-title').length) {
+            $(this).css({
+              paddingTop: $(this).find('.pane-title').height(),
+            });
+          }
+        })
       }
     }
   };
