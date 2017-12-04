@@ -3438,12 +3438,4 @@ form#user-login, form#user-pass {
   body.i18n-es #block-panels-mini-header.sticky-header #superfish-1 > li a {
     font-size: 14.5px;
     padding: 0 10px; } }
-
-body.i18n-es #main-content .panel-myriad-layout .sidebar-content .pane-articles-test-panel-pane-2.boxed,
-body.i18n-es #main-content .panel-myriad-layout .sidebar-content .pane-news-test-panel-pane-2.boxed,
-body.i18n-es #main-content .panel-myriad-layout .sidebar-content .pane-press-releases-test-panel-pane-2.boxed,
-body.i18n-es #main-content .panel-myriad-layout .sidebar-content .pane-articles-test-panel-pane-7.boxed,
-body.i18n-es #main-content .panel-myriad-layout .sidebar-content .pane-news-test-panel-pane-7.boxed,
-body.i18n-es #main-content .panel-myriad-layout .sidebar-content .pane-press-releases-test-panel-pane-7.boxed {
-  padding-top: 56px; }
 /*# sourceMappingURL=dgr_rubik_style.css.map */
