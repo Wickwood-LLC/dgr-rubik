@@ -125,10 +125,10 @@
       $(window).on("load resize", wrap);
 
       function wrap() {
-        $('.boxed').each(function() {
-          if ($(this).find('.pane-title').length) {
+        $('.boxed').each(function() {                 // find a boxed element
+          if ($(this).find('.pane-title').length) {   // if it has a pane title
             $(this).css({
-              paddingTop: $(this).find('.pane-title').height(),
+              paddingTop: $(this).find('.pane-title').height(),   // adjust top padding to accommodate this absolute-positioned pane title and prevent overlapping
             });
           }
         })
