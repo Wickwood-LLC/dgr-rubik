@@ -122,7 +122,8 @@
 
   Drupal.behaviors.wrapTitles = {
     attach: function (context, settings) {
-      $(window).on("load resize", wrap);
+      $(body).on("load resize", '.boxed', wrap);
+      $(window).resize(wrap);
 
       function wrap() {
         $('.boxed').each(function() {                 // find a boxed element
