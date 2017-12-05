@@ -84,8 +84,8 @@
         windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
         currentPosition = stickyTop - windowTop + headerHeight;    // tells how far our target element is from where our screen is currently
 
-        console.log('Distance from top of page: ' + stickyTop);
-        console.log('Current position: ' + currentPosition);
+        // console.log('Distance from top of page: ' + stickyTop);
+        // console.log('Current position: ' + currentPosition);
 
         if (currentPosition < 0) {   // if target element goes above the screen
           $header.addClass('sticky-header');
@@ -122,7 +122,7 @@
 
   Drupal.behaviors.wrapTitles = {
     attach: function (context, settings) {
-      $(body).on("load resize", '.boxed', wrap);
+      $('body').on("load resize", '.boxed', wrap);
       $(window).resize(wrap);
 
       function wrap() {
