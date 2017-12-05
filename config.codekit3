@@ -1810,46 +1810,6 @@
 		"oAP": "\/dgr_rubik.info",
 		"oF": 0
 		},
-	"\/dgr_rubik.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/dgr_rubik-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/dgr_rubik_style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/dgr_rubik_style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/dgr_rubik_style.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dgr_rubik_style.css.map",
-		"oF": 0
-		},
-	"\/dgr_rubik_style.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/dgr_rubik_style.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/images\/bleeds-rtl.png": {
 		"ft": 32768,
 		"iS": 5430,

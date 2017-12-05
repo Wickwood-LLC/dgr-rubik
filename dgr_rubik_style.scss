@@ -3795,6 +3795,10 @@ form#user-login, form#user-pass {
 
 /********** OPPA SPANISH STYLE **********/
 body.i18n-es {
+  label, .pane-title, .ckeditor_links, .link-edit-summary, .form-actions input, .vertical-tabs-list li a strong {
+    text-transform: none;
+  }
+  
   .pane-superfish-1 #superfish-1 li a {
     @include breakpoint(680px) {
       font-size: 0.9em;
@@ -3844,19 +3848,6 @@ body.i18n-es {
       @include breakpoint(1400px) {
         font-size: 14.5px;
         padding: 0 10px;
-      }
-    }
-  }
-
-  #main-content .panel-myriad-layout .sidebar-content {
-    .pane-articles-test-panel-pane-2,
-    .pane-news-test-panel-pane-2,
-    .pane-press-releases-test-panel-pane-2,
-    .pane-articles-test-panel-pane-7,
-    .pane-news-test-panel-pane-7,
-    .pane-press-releases-test-panel-pane-7 {
-      &.boxed {
-        padding-top: 56px;
       }
     }
   }
