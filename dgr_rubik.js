@@ -122,15 +122,16 @@
 
   Drupal.behaviors.wrapTitles = {
     attach: function (context, settings) {
-      $('body').on("load resize", '.boxed', wrap);
-      $(window).resize(wrap);
+      $(window).on("load resize", ".boxed", wrap);
 
       function wrap() {
+        $('.boxed').each(function() {                 // find a boxed element
           if ($(this).find('.pane-title').length) {   // if it has a pane title
             $(this).css({
               paddingTop: $(this).find('.pane-title').height(),   // adjust top padding to accommodate this absolute-positioned pane title and prevent overlapping
             });
           }
+        })
       }
     }
   };
