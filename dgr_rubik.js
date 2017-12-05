@@ -122,7 +122,7 @@
 
   Drupal.behaviors.wrapTitles = {
     attach: function (context, settings) {
-      $(window).on("load resize", ".boxed", wrap);
+      $(window).on("load resize", wrap);
 
       function wrap() {
         $('.boxed').each(function() {                 // find a boxed element
@@ -133,6 +133,8 @@
           }
         })
       }
+
+      $('body').on("DOMNodeInserted", ".boxed", wrap);  // for dynamically loaded elements (after page load)
     }
   };
 }(jQuery));
