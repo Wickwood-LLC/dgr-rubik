@@ -3525,7 +3525,7 @@ form#user-login, form#user-pass {
         }
 
         .views-field-field-featured-image,
-        .views-field-title {
+        .views-field-title-field p {
           text-align: center;
           
           h3 {
@@ -3581,7 +3581,7 @@ form#user-login, form#user-pass {
     }
   }
 
-  .views-field-title h2 {
+  .views-field-title-field p {
     text-align: center;
     margin: 0;
   }
@@ -3673,7 +3673,7 @@ form#user-login, form#user-pass {
     }
   }
 
-  h1.page-title {
+  h1.pane-node-title-field {
     text-align: center;
   }
   
