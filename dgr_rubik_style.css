@@ -2774,7 +2774,7 @@ form#user-login, form#user-pass {
         @media (min-width: 1342px) {
           .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row:first-child, .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row:last-child {
             margin: 0 0.5em; } }
-        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title-field p {
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title-field, .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title-field p {
           text-align: center; }
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .featured-image img {
           width: 100%;
@@ -2855,9 +2855,11 @@ form#user-login, form#user-pass {
           flex: 1 250px;
           font-size: 18px; } }
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-field-featured-image,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-title-field,
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-title-field p {
         text-align: center; }
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-field-featured-image h3,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-title-field h3,
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-title-field p h3 {
           margin-bottom: 0; }
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-name,

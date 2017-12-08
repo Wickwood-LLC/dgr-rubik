@@ -3400,7 +3400,7 @@ form#user-login, form#user-pass {
             }
           }
 
-          .views-field-title-field p {
+          .views-field-title-field, .views-field-title-field p {
             text-align: center;
           }
 
@@ -3529,6 +3529,7 @@ form#user-login, form#user-pass {
         }
 
         .views-field-field-featured-image,
+        .views-field-title-field, 
         .views-field-title-field p {
           text-align: center;
           
