@@ -63,7 +63,7 @@ function dgr_rubik_breadcrumb($vars) {
     array_unshift($vars['breadcrumb'], $site_name);
   }
 
-  $exceptions = array("News", "Articles", "Press Releases", "Administration");
+  $exceptions = array("News", "Noticias", "Articles", "Artículos", "Press Releases", "Comunicados de Prensa", "Administration");
   preg_match('/(?<=\>).*?(?=\<)/', $vars['breadcrumb'][1], $list);
   if (in_array($list[0], $exceptions)) {
     $exempted = TRUE;
