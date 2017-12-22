@@ -2504,8 +2504,8 @@ input.form-submit {
     flex: 1 100%; }
     @media (min-width: 700px) {
       #mini-panel-footer .copyright {
-        flex: 0 236px;
-        min-width: 236px;
+        flex: 0 310px;
+        min-width: 310px;
         justify-content: center; } }
   #mini-panel-footer .pane-menu-menu-footer-links {
     justify-content: center;
