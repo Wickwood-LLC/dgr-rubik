@@ -3586,7 +3586,8 @@ form#user-login, form#user-pass {
     }
   }
 
-  .views-field-title-field p {
+  .views-field-title-field p,
+  .views-field-title-field h2 {
     text-align: center;
     margin: 0;
   }

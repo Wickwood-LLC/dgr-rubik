@@ -2893,7 +2893,8 @@ form#user-login, form#user-pass {
     .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a:focus {
       color: #0f753b; }
 
-.blog-type-page .views-field-title-field p {
+.blog-type-page .views-field-title-field p,
+.blog-type-page .views-field-title-field h2 {
   text-align: center;
   margin: 0; }
 
