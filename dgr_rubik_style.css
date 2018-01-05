@@ -2497,15 +2497,14 @@ input.form-submit {
   align-items: center; }
   #mini-panel-footer .copyright,
   #mini-panel-footer .pane-menu-menu-footer-links {
-    display: flex;
-    flex: 1 100%; }
+    display: flex; }
   #mini-panel-footer .copyright {
     justify-content: center;
     flex: 1 100%; }
     @media (min-width: 700px) {
       #mini-panel-footer .copyright {
-        flex: 0 310px;
-        min-width: 310px;
+        flex: 0 350px;
+        min-width: 350px;
         justify-content: center; } }
   #mini-panel-footer .pane-menu-menu-footer-links {
     justify-content: center;
@@ -2520,8 +2519,8 @@ input.form-submit {
         box-sizing: border-box; } }
     @media (min-width: 700px) {
       #mini-panel-footer .pane-menu-menu-footer-links {
-        flex: 1 404px;
-        min-width: 404px;
+        flex: 1 1 240px;
+        min-width: 240px;
         justify-content: flex-end; } }
     #mini-panel-footer .pane-menu-menu-footer-links a {
       color: black; }

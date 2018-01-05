@@ -3005,7 +3005,6 @@ input.form-submit {
   .copyright,
   .pane-menu-menu-footer-links {
     display: flex;
-    flex: 1 100%;
   }
 
   .copyright {
@@ -3013,8 +3012,8 @@ input.form-submit {
     flex: 1 100%;
 
     @include breakpoint(700px) {
-      flex: 0 310px;
-      min-width: 310px;
+      flex: 0 350px;
+      min-width: 350px;
       justify-content: center;
     }    
   }
@@ -3035,8 +3034,8 @@ input.form-submit {
     }
 
     @include breakpoint(700px) {
-      flex: 1 404px;
-      min-width: 404px;
+      flex: 1 1 240px;
+      min-width: 240px;
       justify-content: flex-end;
     }
 
