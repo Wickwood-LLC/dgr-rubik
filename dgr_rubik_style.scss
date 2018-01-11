@@ -3431,8 +3431,9 @@ form#user-login, form#user-pass {
           margin-bottom: 1em;
         }
         .views-field-body img {
-          width: 100%;
+          display: block;
           height: auto;
+          margin: auto;
         }
       }
     }
