@@ -3272,19 +3272,18 @@ form#user-login, form#user-pass {
     }
 
     .row-one {
-      display: flex;
-      flex-flow: row wrap;
       width: 100%;
     }
 
     .main-content {
+      width: 100%;
       flex: 1 100%;
-        padding: 0.5em;
+      padding: 0.5em;
 
-        @include breakpoint(626px) {
-          min-width: 560px;
-          flex: 3 0 560px;
-        }
+      @include breakpoint(626px) {
+        min-width: 560px;
+        flex: 3 0 560px;
+      }
     }
 
     .sidebar-content {
@@ -3361,19 +3360,21 @@ form#user-login, form#user-pass {
       height: 100%;
 
       .view-content {
-        display: flex;
+        display: block;
+        width: 100%;
         flex-flow: row wrap;
         height: 100%;
   
         .views-row {
-          width: 50%;
+          width: calc(30% - 1em);
           flex: 1 100%;
           padding: 0.5em;
           margin: 0.5em;
           border: 1px solid #cccccc;
           font-size: 14px;
-          display: flex;
+          display: inline-block;
           flex-flow: column nowrap;
+          vertical-align: top;
 
           @include breakpoint(420px) {
             flex: 1 1 300px;
