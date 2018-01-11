@@ -2992,16 +2992,6 @@ form#user-login, form#user-pass {
                     flex: 1 1 300px;
             font-size: 18px;
             min-width: 300px; } }
-        @media (min-width: 956px) {
-          .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row:first-child {
-            margin-top: 0;
-            margin-bottom: 0.5em; }
-          .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row:last-child {
-            margin-top: 0.5em;
-            margin-bottom: 0; } }
-        @media (min-width: 1342px) {
-          .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row:first-child, .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row:last-child {
-            margin: 0 0.5em; } }
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title-field, .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title-field p {
           text-align: center; }
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .featured-image img {

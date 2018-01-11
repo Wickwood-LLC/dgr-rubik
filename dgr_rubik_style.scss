@@ -3384,22 +3384,22 @@ form#user-login, form#user-pass {
             min-width: 300px;
           }
 
-          @include breakpoint(956px) {
-            &:first-child {
-              margin-top: 0;
-              margin-bottom: 0.5em;
-            }
-            &:last-child {
-              margin-top: 0.5em;
-              margin-bottom: 0;
-            }
-          }
+          // @include breakpoint(956px) {
+          //   &:first-child {
+          //     margin-top: 0;
+          //     margin-bottom: 0.5em;
+          //   }
+          //   &:last-child {
+          //     margin-top: 0.5em;
+          //     margin-bottom: 0;
+          //   }
+          // }
 
-          @include breakpoint(1342px) {
-            &:first-child, &:last-child{
-              margin: 0 0.5em;
-            }
-          }
+          // @include breakpoint(1342px) {
+          //   &:first-child, &:last-child{
+          //     margin: 0 0.5em;
+          //   }
+          // }
 
           .views-field-title-field, .views-field-title-field p {
             text-align: center;
