@@ -1696,7 +1696,7 @@ html.js fieldset.collapsible div.fieldset-wrapper {
 }
 
 #block-panels-mini-header .row-one {
-  display: block;
+  display: flex;
   flex-flow: row wrap;
   width: 100%;
   margin-bottom: 0px;
