@@ -2896,7 +2896,17 @@ form#user-login, form#user-pass {
   .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets label:not(.option):after {
     content: ":"; }
   .blog-type-page #main-content .panel-myriad-layout .row-one {
-    width: 100%; }
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
+    @media (min-width: 944px) {
+      .blog-type-page #main-content .panel-myriad-layout .row-one {
+        display: block; } }
   .blog-type-page #main-content .panel-myriad-layout .main-content {
     width: 100%;
     -webkit-box-flex: 1;
@@ -2963,13 +2973,18 @@ form#user-login, form#user-pass {
   .blog-type-page #main-content .panel-myriad-layout .featured-display {
     height: 100%; }
     .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content {
-      display: block;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
       width: 100%;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-flow: row wrap;
               flex-flow: row wrap;
       height: 100%; }
+      @media (min-width: 944px) {
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content {
+          display: block; } }
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
         width: calc(30% - 1em);
         -webkit-box-flex: 1;

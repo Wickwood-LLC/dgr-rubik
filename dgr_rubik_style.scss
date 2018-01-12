@@ -3273,6 +3273,12 @@ form#user-login, form#user-pass {
 
     .row-one {
       width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+
+      @include breakpoint(944px) {
+        display: block;
+      }
     }
 
     .main-content {
@@ -3362,10 +3368,14 @@ form#user-login, form#user-pass {
       height: 100%;
 
       .view-content {
-        display: block;
+        display: flex;
         width: 100%;
         flex-flow: row wrap;
         height: 100%;
+
+        @include breakpoint(944px) {
+          display: block;
+        }
   
         .views-row {
           width: calc(30% - 1em);
@@ -3383,23 +3393,6 @@ form#user-login, form#user-pass {
             font-size: 18px;
             min-width: 300px;
           }
-
-          // @include breakpoint(956px) {
-          //   &:first-child {
-          //     margin-top: 0;
-          //     margin-bottom: 0.5em;
-          //   }
-          //   &:last-child {
-          //     margin-top: 0.5em;
-          //     margin-bottom: 0;
-          //   }
-          // }
-
-          // @include breakpoint(1342px) {
-          //   &:first-child, &:last-child{
-          //     margin: 0 0.5em;
-          //   }
-          // }
 
           .views-field-title-field, .views-field-title-field p {
             text-align: center;
