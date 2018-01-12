@@ -3304,6 +3304,9 @@ form#user-login, form#user-pass {
         min-width: 300px;
         flex: 1 1 250px;
       }
+      @include breakpoint(944px) {
+        min-width: 0;
+      }
 
       .pane-articles-test-panel-pane-7 {
         .view-content {
@@ -3392,6 +3395,9 @@ form#user-login, form#user-pass {
             flex: 1 1 300px;
             font-size: 18px;
             min-width: 300px;
+          }
+          @include breakpoint(944px) {
+            min-width: 0;
           }
 
           .views-field-title-field, .views-field-title-field p {
