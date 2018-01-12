@@ -2927,7 +2927,7 @@ form#user-login, form#user-pass {
     min-width: 0;
     max-width: 100%;
     float: right;
-    width: 300px; }
+    width: calc((100% / 3) - 23px); }
     @media (min-width: 375px) {
       .blog-type-page #main-content .panel-myriad-layout .sidebar-content {
         min-width: 300px;
@@ -2986,7 +2986,7 @@ form#user-login, form#user-pass {
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content {
           display: block; } }
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
-        width: calc(30% - 1em);
+        width: calc((100% / 3) - 23px);
         -webkit-box-flex: 1;
             -ms-flex: 1 100%;
                 flex: 1 100%;

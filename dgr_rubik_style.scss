@@ -3298,7 +3298,7 @@ form#user-login, form#user-pass {
       min-width: 0;
       max-width: 100%;
       float: right;
-      width: 300px;
+      width: calc((100% / 3) - 23px);
 
       @include breakpoint(375px) {
         min-width: 300px;
@@ -3378,7 +3378,7 @@ form#user-login, form#user-pass {
         }
   
         .views-row {
-          width: calc(30% - 1em);
+          width: calc((100% / 3) - 23px);
           flex: 1 100%;
           padding: 0.5em;
           margin: 0.5em;
