@@ -172,15 +172,21 @@
       }
 
       $(document).ready(function() {
-        equalheight('.pane-articles-test-panel-pane-6 .views-row');
+        if ($(window).width > 943px) {
+          equalheight('.pane-articles-test-panel-pane-6 .views-row');
+        }
       });
 
       $(document).on("DOMNodeInserted", function() {
-        equalheight('.pane-articles-test-panel-pane-6 .views-row');
+        if ($(window).width > 943px) {
+          equalheight('.pane-articles-test-panel-pane-6 .views-row');
+        }
       });
 
       $(window).resize(function(){
-        equalheight('.pane-articles-test-panel-pane-6 .views-row');
+        if ($(window).width > 943px) {
+          equalheight('.pane-articles-test-panel-pane-6 .views-row');
+        }
       });
     }
   };
