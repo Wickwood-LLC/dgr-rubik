@@ -171,7 +171,7 @@
         });
       }
 
-      $(window).load(function() {
+      $(document).ready(function() {
         equalheight('.pane-articles-test-panel-pane-6 .views-row');
       });
 
