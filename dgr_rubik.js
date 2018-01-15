@@ -175,7 +175,7 @@
         equalheight('.pane-articles-test-panel-pane-6 .views-row');
       });
 
-      $(document).on("DOMNodeInserted", ".pane-articles-test-panel-pane-6 .views-row", function() {
+      $(document).on("DOMNodeInserted", function() {
         equalheight('.pane-articles-test-panel-pane-6 .views-row');
       });
 
