@@ -3299,6 +3299,8 @@ form#user-login, form#user-pass {
       max-width: 100%;
       float: right;
       width: calc((100% / 3) - 23px);
+      position: relative;
+      z-index: 1;
 
       @include breakpoint(375px) {
         min-width: 300px;

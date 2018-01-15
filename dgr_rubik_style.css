@@ -2927,7 +2927,9 @@ form#user-login, form#user-pass {
     min-width: 0;
     max-width: 100%;
     float: right;
-    width: calc((100% / 3) - 23px); }
+    width: calc((100% / 3) - 23px);
+    position: relative;
+    z-index: 1; }
     @media (min-width: 375px) {
       .blog-type-page #main-content .panel-myriad-layout .sidebar-content {
         min-width: 300px;
