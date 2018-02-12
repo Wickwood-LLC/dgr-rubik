@@ -3444,6 +3444,7 @@ form#user-login, form#user-pass {
 
     .pane-card-cycles-card-blog .view-content {
       display: flex;
+      flex-flow: row wrap;
 
       .views-slideshow-cycle-main-frame-row {
         display: flex;

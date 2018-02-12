@@ -3045,7 +3045,11 @@ form#user-login, form#user-pass {
   .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
     .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-slideshow-cycle-main-frame-row {
       display: -webkit-box;
       display: -ms-flexbox;
