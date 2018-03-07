@@ -3181,6 +3181,12 @@ form#user-login, form#user-pass {
   }
 }
 
+[data-pane="3197"] {
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+}
+
 .node-type-panopoly-faq {
   .field-name-field-categories {
     margin-top: 1em;
@@ -3280,7 +3286,8 @@ form#user-login, form#user-pass {
       }
     }     
   }
-  .pane-card-cycles-panel-pane-1 {
+  .pane-card-cycles-card-slideshow,
+  .pane-card-cycles-slideshow-clone, {
     position: relative;
 
     .col-1 {
