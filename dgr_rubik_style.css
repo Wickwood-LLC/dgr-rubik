@@ -2835,11 +2835,6 @@ form#user-login, form#user-pass {
   width: 150px;
   height: auto; }
 
-[data-pane="3197"] {
-  width: 100%;
-  max-width: 350px;
-  margin: auto; }
-
 .node-type-panopoly-faq .field-name-field-categories {
   margin-top: 1em;
   font-size: 0.9em;
@@ -2918,11 +2913,9 @@ form#user-login, form#user-pass {
     .blog-type-page .pane-card-cycles-card-blog .view-content .views-row .pane-node-field-call-to-action {
       text-align: center; }
 
-.blog-type-page .pane-card-cycles-card-slideshow,
-.blog-type-page .pane-card-cycles-slideshow-clone {
+.blog-type-page .pane-card-cycles-panel-pane-1 {
   position: relative; }
-  .blog-type-page .pane-card-cycles-card-slideshow .col-1,
-  .blog-type-page .pane-card-cycles-slideshow-clone .col-1 {
+  .blog-type-page .pane-card-cycles-panel-pane-1 .col-1 {
     width: 100%; }
 
 .blog-type-page .views-exposed-form .views-exposed-widget {
