@@ -3164,6 +3164,11 @@ form#user-login, form#user-pass {
   .views-slideshow-cycle-main-frame-row {
     width: 100% !important;
   }
+  [data-pane="3197"] {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+  }
 
   .views-slideshow-cycle-main-frame-row-item {
     padding-top: 2em;

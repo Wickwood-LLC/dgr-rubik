@@ -2823,6 +2823,11 @@ form#user-login, form#user-pass {
 .view-card-cycles .views-slideshow-cycle-main-frame-row {
   width: 100% !important; }
 
+.view-card-cycles [data-pane="3197"] {
+  width: 100%;
+  max-width: 350px;
+  margin: auto; }
+
 .view-card-cycles .views-slideshow-cycle-main-frame-row-item {
   padding-top: 2em;
   text-align: center;
