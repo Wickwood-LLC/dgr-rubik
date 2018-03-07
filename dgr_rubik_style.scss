@@ -3227,6 +3227,73 @@ form#user-login, form#user-pass {
       display: block;
   }
 
+  .pane-card-cycles-card-blog .view-content {
+    display: flex;
+    flex-flow: row wrap;
+
+    .views-slideshow-cycle-main-frame-row {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    .views-row {
+      flex: 1 30%;
+      margin: 0.5em;
+      padding: 0;
+
+      @include breakpoint(375px) {
+        min-width: 300px;
+        flex: 1 1 300px;
+      }
+
+      .panel-display {
+        padding: 0;
+      }
+      .panel-flexible {
+        padding: 1em;
+      }
+
+      h2 {
+        margin: 0.5em 0 0 0;
+        text-align: center;
+      }
+      h3 {
+        margin: 0 0 0.5em 0;
+        text-align: center;
+      }
+
+      .col-1, .col-2 {
+        width: 100%;
+      }
+      .col-1 {
+        padding: 1em;
+        text-align: center;
+      }
+      .col-2 {
+        padding: 0 1em 1em 1em;
+      }
+
+      .pane-node-field-card-image {
+        text-align: center;
+      }
+
+      .field--name-field-amazon-book-listing {
+        text-align: center;
+      }
+
+      .pane-node-field-call-to-action {
+        text-align: center;
+      }
+    }     
+  }
+  .pane-card-cycles-card-slideshow {
+    position: relative;
+
+    .col-1 {
+      width: 100%;
+    }
+  }
+
   .views-exposed-form {
     .views-exposed-widget {
       display: inline-block;
@@ -3445,74 +3512,6 @@ form#user-login, form#user-pass {
           height: auto;
           margin: auto;
         }
-      }
-    }
-
-    .pane-card-cycles-card-blog .view-content {
-      display: flex;
-      flex-flow: row wrap;
-
-      .views-slideshow-cycle-main-frame-row {
-        display: flex;
-        flex-flow: row wrap;
-      }
-
-      .views-row {
-        flex: 1 30%;
-        margin: 0.5em;
-        padding: 0;
-
-        @include breakpoint(375px) {
-          min-width: 300px;
-          flex: 1 1 300px;
-        }
-
-        .panel-display {
-          padding: 0;
-        }
-        .panel-flexible {
-          padding: 1em;
-        }
-
-        h2 {
-          margin: 0.5em 0 0 0;
-          text-align: center;
-        }
-        h3 {
-          margin: 0 0 0.5em 0;
-          text-align: center;
-        }
-
-        .col-1, .col-2 {
-          width: 100%;
-        }
-        .col-1 {
-          padding: 1em;
-          text-align: center;
-        }
-        .col-2 {
-          padding: 0 1em 1em 1em;
-        }
-
-        .pane-node-field-card-image {
-          text-align: center;
-        }
-
-        .field--name-field-amazon-book-listing {
-          text-align: center;
-        }
-
-        .pane-node-field-call-to-action {
-          text-align: center;
-        }
-      }     
-    }
-
-    .pane-card-cycles-card-slideshow {
-      position: relative;
-
-      .col-1 {
-        width: 100%;
       }
     }
 
