@@ -3286,7 +3286,8 @@ form#user-login, form#user-pass {
       }
     }     
   }
-  .pane-card-cycles-card-slideshow {
+  .pane-card-cycles-card-slideshow,
+  .pane-card-cycles-slideshow-clone, {
     position: relative;
 
     .col-1 {

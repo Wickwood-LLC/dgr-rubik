@@ -2918,9 +2918,11 @@ form#user-login, form#user-pass {
     .blog-type-page .pane-card-cycles-card-blog .view-content .views-row .pane-node-field-call-to-action {
       text-align: center; }
 
-.blog-type-page .pane-card-cycles-card-slideshow {
+.blog-type-page .pane-card-cycles-card-slideshow,
+.blog-type-page .pane-card-cycles-slideshow-clone {
   position: relative; }
-  .blog-type-page .pane-card-cycles-card-slideshow .col-1 {
+  .blog-type-page .pane-card-cycles-card-slideshow .col-1,
+  .blog-type-page .pane-card-cycles-slideshow-clone .col-1 {
     width: 100%; }
 
 .blog-type-page .views-exposed-form .views-exposed-widget {
