@@ -3839,7 +3839,7 @@ form#user-login, form#user-pass {
   }
 }
 
-.page-taxonomy-term {
+.page-taxonomy-term #main-content .panel-myriad-layout {
   .views-exposed-form {
     margin: 0;
 
@@ -3855,16 +3855,16 @@ form#user-login, form#user-pass {
       display: flex;
       align-items: flex-start;
       justify-content: center;
-    }
 
-    .pane-views-68df6443216479c90da4235283a03ab4 {
-      flex: 1 1 0;
-      margin-right: 0.5em;
-    }
-    [data-pane="3494"] {
-      flex: 1 1 0;
-      margin: 0;
-      margin-left: 0.5em;
+      .pane-views-68df6443216479c90da4235283a03ab4 {
+        flex: 1 1 0;
+        margin-right: 0.5em;
+      }
+      [data-pane="3494"] {
+        flex: 1 1 0;
+        margin: 0;
+        margin-left: 0.5em;
+      }
     }
   }
 }

@@ -3421,15 +3421,15 @@ form#user-login, form#user-pass {
   bottom: 18px;
   right: 10px; }
 
-.page-taxonomy-term .views-exposed-form {
+.page-taxonomy-term #main-content .panel-myriad-layout .views-exposed-form {
   margin: 0; }
-  .page-taxonomy-term .views-exposed-form #edit-reset {
+  .page-taxonomy-term #main-content .panel-myriad-layout .views-exposed-form #edit-reset {
     position: absolute;
     bottom: 18px;
     top: initial; }
 
 @media (min-width: 944px) {
-  .page-taxonomy-term .sidebar-content {
+  .page-taxonomy-term #main-content .panel-myriad-layout .sidebar-content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3439,17 +3439,17 @@ form#user-login, form#user-pass {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-  .page-taxonomy-term .pane-views-68df6443216479c90da4235283a03ab4 {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 0px;
-            flex: 1 1 0;
-    margin-right: 0.5em; }
-  .page-taxonomy-term [data-pane="3494"] {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 0px;
-            flex: 1 1 0;
-    margin: 0;
-    margin-left: 0.5em; } }
+    .page-taxonomy-term #main-content .panel-myriad-layout .sidebar-content .pane-views-68df6443216479c90da4235283a03ab4 {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 1 0px;
+              flex: 1 1 0;
+      margin-right: 0.5em; }
+    .page-taxonomy-term #main-content .panel-myriad-layout .sidebar-content [data-pane="3494"] {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 1 0px;
+              flex: 1 1 0;
+      margin: 0;
+      margin-left: 0.5em; } }
 
 /********** OPPA SPANISH STYLE **********/
 body.i18n-es label, body.i18n-es .pane-title, body.i18n-es .ckeditor_links, body.i18n-es .link-edit-summary, body.i18n-es .form-actions input, body.i18n-es .vertical-tabs-list li a strong {
