@@ -3402,6 +3402,16 @@ form#user-login, form#user-pass {
 .pane-press-releases-test-panel-pane-5 .views-field-published-at {
   font-size: 0.8em; }
 
+@media (min-width: 944px) {
+  .page-categories #main-content .radix-burr-flipped .col-md-8 {
+    width: 66.66666666666666%;
+    width: calc((100% / 3) * 2);
+    float: left; }
+  .page-categories #main-content .radix-burr-flipped .col-md-4 {
+    width: 33.33333333333333%;
+    width: calc(100% / 3);
+    float: left; } }
+
 .pane-views-exp-categories-panel-pane-2 .views-exposed-form {
   margin: 0; }
 
