@@ -3428,6 +3428,9 @@ form#user-login, form#user-pass {
     bottom: 18px;
     top: initial; }
 
+.page-taxonomy-term #main-content .panel-myriad-layout [data-pane="3499"] {
+  width: 100%; }
+
 @media (min-width: 944px) {
   .page-taxonomy-term #main-content .panel-myriad-layout .sidebar-content {
     display: -webkit-box;

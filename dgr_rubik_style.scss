@@ -3850,6 +3850,10 @@ form#user-login, form#user-pass {
     }
   }
 
+  [data-pane="3499"] {
+    width: 100%;
+  }
+
   @include breakpoint(944px) {
     .sidebar-content {
       display: flex;
