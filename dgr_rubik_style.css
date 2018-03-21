@@ -3415,7 +3415,7 @@ form#user-login, form#user-pass {
 .pane-views-exp-categories-panel-pane-2 .views-exposed-form {
   margin: 0; }
 
-.pane-views-exp-categories-panel-pane-2 #edit-reset {
+.pane-views-exp-categories-panel-pane-2 [id*='edit-reset'] {
   position: absolute;
   top: initial;
   bottom: 18px;

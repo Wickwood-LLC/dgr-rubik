@@ -3831,7 +3831,7 @@ form#user-login, form#user-pass {
   .views-exposed-form {
     margin: 0;
   }
-  #edit-reset {
+  [id*='edit-reset'] {
     position: absolute;
     top: initial;
     bottom: 18px;
