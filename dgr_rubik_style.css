@@ -3407,6 +3407,7 @@ form#user-login, form#user-pass {
 
 .pane-views-exp-categories-panel-pane-2 #edit-reset {
   position: absolute;
+  top: initial;
   bottom: 18px;
   right: 10px; }
 
