@@ -3839,6 +3839,36 @@ form#user-login, form#user-pass {
   }
 }
 
+.page-taxonomy-term {
+  .views-exposed-form {
+    margin: 0;
+
+    #edit-reset {
+      position: absolute;
+      bottom: 18px;
+      top: initial;
+    }
+  }
+
+  @include breakpoint(944px) {
+    .sidebar-content {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+    }
+
+    .pane-views-68df6443216479c90da4235283a03ab4 {
+      flex: 1 1 0;
+      margin-right: 0.5em;
+    }
+    .pane-uuid-264212cf-229e-4665-be57-bb9b7a8008f7 {
+      flex: 1 1 0;
+      margin: 0;
+      margin-left: 0.5em;
+    }
+  }
+}
+
 /********** OPPA SPANISH STYLE **********/
 body.i18n-es {
   label, .pane-title, .ckeditor_links, .link-edit-summary, .form-actions input, .vertical-tabs-list li a strong {
