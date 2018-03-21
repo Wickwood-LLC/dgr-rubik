@@ -3181,7 +3181,8 @@ form#user-login, form#user-pass {
   }
 }
 
-[data-pane="3203"] {
+[data-pane="3203"],
+ {
   width: 100%;
   max-width: 350px;
   margin: auto;
@@ -3806,6 +3807,17 @@ form#user-login, form#user-pass {
   }
   .views-field-published-at {
     font-size: 0.8em;
+  }
+}
+
+.pane-views-exp-categories-panel-pane-2 {
+  .views-exposed-form {
+    margin: 0;
+  }
+  #edit-reset {
+    position: absolute;
+    bottom: 18px;
+    right: 10px;
   }
 }
 

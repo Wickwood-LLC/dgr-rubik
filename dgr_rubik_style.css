@@ -3402,6 +3402,14 @@ form#user-login, form#user-pass {
 .pane-press-releases-test-panel-pane-5 .views-field-published-at {
   font-size: 0.8em; }
 
+.pane-views-exp-categories-panel-pane-2 .views-exposed-form {
+  margin: 0; }
+
+.pane-views-exp-categories-panel-pane-2 #edit-reset {
+  position: absolute;
+  bottom: 18px;
+  right: 10px; }
+
 /********** OPPA SPANISH STYLE **********/
 body.i18n-es label, body.i18n-es .pane-title, body.i18n-es .ckeditor_links, body.i18n-es .link-edit-summary, body.i18n-es .form-actions input, body.i18n-es .vertical-tabs-list li a strong {
   text-transform: none; }
