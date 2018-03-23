@@ -3896,8 +3896,8 @@ form#user-login, form#user-pass {
     flex: 1 0 100%;
     display: flex;
 
-    .views-widget {
-      flex: 1 0 auto;
+    label[for="edit-content-type-filter"] {
+      display: flex;
     }
 
     .form-type-bef-checkbox {
