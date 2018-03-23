@@ -3500,6 +3500,8 @@ form#user-login, form#user-pass {
     display: inline-block;
     width: auto;
     margin-right: 0.5em; }
+    .page-taxonomy-term #main-content .panel-myriad-layout .views-widget-filter-type .form-type-bef-checkbox label {
+      display: inline-block; }
 
 /********** OPPA SPANISH STYLE **********/
 body.i18n-es label, body.i18n-es .pane-title, body.i18n-es .ckeditor_links, body.i18n-es .link-edit-summary, body.i18n-es .form-actions input, body.i18n-es .vertical-tabs-list li a strong {

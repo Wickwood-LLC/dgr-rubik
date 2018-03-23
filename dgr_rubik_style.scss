@@ -3904,6 +3904,10 @@ form#user-login, form#user-pass {
       display: inline-block;
       width: auto;
       margin-right: 0.5em;
+
+      label {
+        display: inline-block;
+      }
     }
   }
 }
