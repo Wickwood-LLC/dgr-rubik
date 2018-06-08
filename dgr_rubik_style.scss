@@ -3390,7 +3390,7 @@ form#user-login, form#user-pass {
         min-width: 0;
       }
 
-      .pane-articles-test-panel-pane-7 {
+      .pane-articles2-panel-pane-7 {
         .view-content {
           column-width: 150px;
         }
@@ -3437,9 +3437,9 @@ form#user-login, form#user-pass {
       }
     }
 
-    .pane-articles-test-panel-pane-6,
-    .pane-news-test-panel-pane-6,
-    .pane-press-releases-test-panel-pane-6,
+    .pane-articles2-panel-pane-6,
+    .pane-news2-panel-pane-6,
+    . -panel-pane-6,
     .pane-panopoly-faq-panel-pane-4 {
       box-sizing: border-box;
       margin: 0 0 1em 0;
@@ -3470,7 +3470,7 @@ form#user-login, form#user-pass {
           margin: 0.5em;
           border: 1px solid #cccccc;
           font-size: 14px;
-          display: inline-block;
+          display: inline-flex;
           flex-flow: column nowrap;
           vertical-align: top;
 
@@ -3792,9 +3792,9 @@ form#user-login, form#user-pass {
   }
 }
 
-.pane-news-test-panel-pane-5,
-.pane-articles-test-panel-pane-5,
-.pane-press-releases-test-panel-pane-5 {
+.pane-news2-panel-pane-5,
+.pane-articles2-panel-pane-5,
+.pane-press-releases2-panel-pane-5 {
   .view-content {
     display: flex;
     flex-flow: row wrap;

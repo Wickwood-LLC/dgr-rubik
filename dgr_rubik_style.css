@@ -3069,7 +3069,9 @@ form#user-login, form#user-pass {
         margin: 0.5em;
         border: 1px solid #cccccc;
         font-size: 14px;
-        display: inline-block;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-flow: column nowrap;
