@@ -3152,13 +3152,17 @@ form#user-login, form#user-pass {
       margin: 0.5em;
       background-color: white;
       font-size: 14px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-flow: column nowrap;
-              flex-flow: column nowrap; }
+              flex-flow: column nowrap;
+      padding: 0.5em;
+      margin: 0.5em;
+      border: 1px solid #cccccc;
+      vertical-align: top; }
       @media (min-width: 375px) {
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row,
         .blog-type-page #main-content .panel-myriad-layout .main-display .pane-content .views-row {

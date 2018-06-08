@@ -3541,8 +3541,13 @@ form#user-login, form#user-pass {
           margin: 0.5em;
           background-color: white;
           font-size: 14px;
-          display: flex;
-            flex-flow: column nowrap;
+          display: inline-flex;
+          flex-flow: column nowrap;
+          padding: 0.5em;
+          margin: 0.5em;
+          border: 1px solid #cccccc;
+          vertical-align: top;
+
   
           @include breakpoint(375px) {
             min-width: 250px;
