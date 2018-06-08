@@ -3390,10 +3390,13 @@ form#user-login, form#user-pass {
         min-width: 0;
       }
 
-      .pane-articles2-panel-pane-7 {
-        .view-content {
-          column-width: 150px;
-        }
+      .view-articles2.view-display-id-panel_pane_2,
+      .view-articles2.view-display-id-panel_pane_7,
+      .view-news2.view-display-id-panel_pane_2,
+      .view-news2.view-display-id-panel_pane_3,
+      .view-press-releases2.view-display-id-panel_pane_2,
+      .view-press-releases2.view-display-id-panel_pane_3 {
+        column-width: 150px;
       }
 
       > div:first-child {
@@ -3439,7 +3442,7 @@ form#user-login, form#user-pass {
 
     .pane-articles2-panel-pane-6,
     .pane-news2-panel-pane-6,
-    . -panel-pane-6,
+    .pane-press-releases2-panel-pane-6,
     .pane-panopoly-faq-panel-pane-4 {
       box-sizing: border-box;
       margin: 0 0 1em 0;
