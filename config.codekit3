@@ -7,7 +7,7 @@
 		"uuidString": "C66B2F19-1CB2-4DDE-8E24-238B4A6F8E88"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -2083,7 +2083,8 @@
 	"creationDate": 528882172,
 	"displayValue": "dgr-rubik",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-ron"
+	"iconImageName": "meme-ron",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3886,6 +3887,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

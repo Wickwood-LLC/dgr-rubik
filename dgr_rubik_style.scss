@@ -3364,6 +3364,7 @@ form#user-login, form#user-pass {
       width: 100%;
       flex: 1 100%;
       padding: 0.5em;
+      display: inline-block;
 
       @include breakpoint(626px) {
         min-width: 560px;
@@ -3451,7 +3452,8 @@ form#user-login, form#user-pass {
     .featured-display {
       height: 100%;
 
-      .view-content {
+      .view-content,
+      .pane-content {
         display: flex;
         width: 100%;
         flex-flow: row wrap;
