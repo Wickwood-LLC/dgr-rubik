@@ -2837,7 +2837,9 @@ form#user-login, form#user-pass {
   width: 150px;
   height: auto; }
 
-[data-pane="3203"] {
+[data-pane="3698"],
+[data-pane="3800"],
+[data-pane="3910"] {
   width: 100%;
   max-width: 350px;
   margin: auto; }
