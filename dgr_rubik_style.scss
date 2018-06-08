@@ -3529,64 +3529,67 @@ form#user-login, form#user-pass {
     .main-display {
       width: 100%;
     }
-    .main-display .view-content {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-
-      .views-row {
-        flex: 1 30%;
-        margin: 0.5em;
-        background-color: white;
-        font-size: 14px;
+    .main-display {
+      .view-content,
+      .pane-content {
         display: flex;
-          flex-flow: column nowrap;
-
-        @include breakpoint(375px) {
-          min-width: 250px;
-          flex: 1 250px;
-          font-size: 18px;
-        }
-
-        .views-field-field-featured-image,
-        .views-field-title-field, 
-        .views-field-title-field p {
-          text-align: center;
-          
-          h3 {
-            margin-bottom: 0;
+        flex-flow: row wrap;
+        justify-content: center;
+  
+        .views-row {
+          flex: 1 30%;
+          margin: 0.5em;
+          background-color: white;
+          font-size: 14px;
+          display: flex;
+            flex-flow: column nowrap;
+  
+          @include breakpoint(375px) {
+            min-width: 250px;
+            flex: 1 250px;
+            font-size: 18px;
           }
-        }
-        .views-field-name,
-        .views-field-published-at {
-          display: block;
-          text-align: center;
-        }
-
-        .views-field-body {
-          flex-grow: 1;
-
-          .field-content {
-            margin-bottom: 1em;
-            line-height: 1.35em;
+  
+          .views-field-field-featured-image,
+          .views-field-title-field, 
+          .views-field-title-field p {
+            text-align: center;
+            
+            h3 {
+              margin-bottom: 0;
+            }
           }
-
-          iframe {
-            width: 100%;
-            height: auto;
+          .views-field-name,
+          .views-field-published-at {
+            display: block;
+            text-align: center;
           }
-        }
-        .views-field-field-categories {
-          font-weight: bold;
-          font-size: 0.8em;
-        }
-        .views-label-field-categories {
-          float: left;
-          margin-right: 4px;
-        }
-        .views-field-type {
-          font-weight: bold;
-          font-size: 0.8em;
+  
+          .views-field-body {
+            flex-grow: 1;
+  
+            .field-content {
+              margin-bottom: 1em;
+              line-height: 1.35em;
+            }
+  
+            iframe {
+              width: 100%;
+              height: auto;
+            }
+          }
+          .views-field-field-categories {
+            font-weight: bold;
+            font-size: 0.8em;
+          }
+          .views-label-field-categories {
+            float: left;
+            margin-right: 4px;
+          }
+          .views-field-type {
+            font-weight: bold;
+            font-size: 0.8em;
+          }
         }
       }
     }
