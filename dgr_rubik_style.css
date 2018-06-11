@@ -363,6 +363,27 @@ div#toolbar div.toolbar-shortcuts ul {
       .views-exposed-form .actions .views-exposed-widget input {
         margin-top: 0; }
 
+.view-empty,
+.pane-views-empty {
+  display: inline-block;
+  width: 100%;
+  text-align: center; }
+  @media (min-width: 944px) {
+    .view-empty,
+    .pane-views-empty {
+      margin-top: 0.5rem; } }
+  .view-empty p,
+  .pane-views-empty p {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #008080;
+    clear: both;
+    border: 1px solid #CCCCCC;
+    padding: 1em;
+    display: inline-block;
+    width: 100%; }
+
 .vbo-views-form p,
 .view-empty p {
   text-align: center;
