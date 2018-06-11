@@ -374,7 +374,7 @@ div#toolbar div.toolbar-shortcuts ul {
       margin-top: 0.5rem; } }
   .view-empty p,
   .pane-views-empty p {
-    text-align: center;
+    text-align: center !important;
     font-size: 1.5em;
     font-weight: bold;
     color: #008080;
@@ -382,7 +382,9 @@ div#toolbar div.toolbar-shortcuts ul {
     border: 1px solid #CCCCCC;
     padding: 1em;
     display: inline-block;
-    width: 100%; }
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
 
 .vbo-views-form p,
 .view-empty p {

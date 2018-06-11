@@ -454,7 +454,7 @@ div#toolbar div.toolbar-shortcuts ul {
   }
 
   p {
-    text-align: center;
+    text-align: center !important;
     font-size: 1.5em;
     font-weight: bold;
     color: #008080;
@@ -463,6 +463,7 @@ div#toolbar div.toolbar-shortcuts ul {
     padding: 1em;
     display: inline-block;
     width: 100%;
+    box-sizing: border-box;
   }
 }
 
