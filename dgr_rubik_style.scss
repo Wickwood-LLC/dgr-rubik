@@ -3250,6 +3250,10 @@ form#user-login, form#user-pass {
 
 /********** Articles, News, Press Release **********/
 .blog-type-page {
+  #page {
+    width: 90%;
+  }
+
   h1.page-title {
     width: 100%;
       text-align: center;
