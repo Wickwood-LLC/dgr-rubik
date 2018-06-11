@@ -3245,6 +3245,8 @@ form#user-login, form#user-pass {
       .blog-type-page #main-content .panel-myriad-layout .main-display .pane-content .views-row .views-field-type {
         font-weight: bold;
         font-size: 0.8em; }
+  .blog-type-page #main-content .panel-myriad-layout .main-display.pane-panopoly-taxonomy-panel-pane-3 .pane-content .views-row {
+    min-width: 270px; }
   .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a {
     float: right;
     text-transform: capitalize;

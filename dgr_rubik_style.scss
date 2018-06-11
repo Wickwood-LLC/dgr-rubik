@@ -3629,6 +3629,11 @@ form#user-login, form#user-pass {
         }
       }
     }
+    .main-display.pane-panopoly-taxonomy-panel-pane-3 {
+      .pane-content .views-row {
+        min-width: 270px;
+      }
+    }
 
     .views-field-view-node a {
         float: right;
