@@ -2887,8 +2887,9 @@ form#user-login, form#user-pass {
   display: table; }
 
 /********** Articles, News, Press Release **********/
-.blog-type-page #page {
-  width: 90%; }
+@media (min-width: 1025px) {
+  .blog-type-page #page {
+    width: 90%; } }
 
 .blog-type-page h1.page-title {
   width: 100%;

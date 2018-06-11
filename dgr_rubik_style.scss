@@ -3250,8 +3250,10 @@ form#user-login, form#user-pass {
 
 /********** Articles, News, Press Release **********/
 .blog-type-page {
-  #page {
-    width: 90%;
+  @include breakpoint(1025px) {
+    #page {
+      width: 90%;
+    }
   }
 
   h1.page-title {
