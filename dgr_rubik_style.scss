@@ -3217,6 +3217,12 @@ form#user-login, form#user-pass {
   margin: auto;
 }
 
+[data-pane="3690"],
+[data-pane="3792"],
+[data-pane="3902"] {
+  margin-bottom: 0;
+}
+
 .node-type-panopoly-faq {
   .field-name-field-categories {
     margin-top: 1em;
@@ -3406,6 +3412,7 @@ form#user-login, form#user-pass {
     .sidebar-content {
       flex: 1 1 0;
       margin: 0.5em;
+      margin-bottom: 0;
       min-width: 0;
       max-width: 100%;
       float: right;
