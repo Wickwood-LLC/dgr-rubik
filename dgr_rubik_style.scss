@@ -3217,12 +3217,6 @@ form#user-login, form#user-pass {
   margin: auto;
 }
 
-[data-pane="3690"],
-[data-pane="3792"],
-[data-pane="3902"] {
-  margin-bottom: 0;
-}
-
 .node-type-panopoly-faq {
   .field-name-field-categories {
     margin-top: 1em;
@@ -3451,6 +3445,11 @@ form#user-login, form#user-pass {
         .boxed {
           margin: 0;
         }
+      }
+      [data-pane="3690"],
+      [data-pane="3792"],
+      [data-pane="3902"] {
+        margin-bottom: 0;
       }
     }
 
