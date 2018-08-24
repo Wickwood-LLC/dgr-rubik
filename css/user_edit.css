@@ -1,0 +1,233 @@
+/********************/
+/***    MIXINS    ***/
+/********************/
+#user-account-main-page .pane-basic-user-info-for-user-account label {
+  width: 100px;
+}
+
+#user-account-main-page .pane-basic-user-info-for-user-account .pane-user-field-identification {
+  width: 100px;
+}
+
+.page-user-edit #main-content .form-item-name label,
+.page-user-edit #main-content .form-item-mail label,
+.page-admin-people-create #main-content .form-item-name label,
+.page-admin-people-create #main-content .form-item-mail label {
+  display: block;
+}
+
+.page-user-edit #main-content .form-item-name input,
+.page-user-edit #main-content .form-item-mail input,
+.page-admin-people-create #main-content .form-item-name input,
+.page-admin-people-create #main-content .form-item-mail input {
+  width: 100%;
+}
+
+.page-user-edit #main-content .field-name-field-name-prefix .form-item,
+.page-user-edit #main-content .field-name-field-first-name .form-item,
+.page-user-edit #main-content .field-name-field-middle-name-or-initial .form-item,
+.page-user-edit #main-content .field-name-field-last-name .form-item,
+.page-user-edit #main-content .field-name-field-name-suffix .form-item,
+.page-user-edit #main-content .field-name-field-nickname .form-item,
+.page-admin-people-create #main-content .field-name-field-name-prefix .form-item,
+.page-admin-people-create #main-content .field-name-field-first-name .form-item,
+.page-admin-people-create #main-content .field-name-field-middle-name-or-initial .form-item,
+.page-admin-people-create #main-content .field-name-field-last-name .form-item,
+.page-admin-people-create #main-content .field-name-field-name-suffix .form-item,
+.page-admin-people-create #main-content .field-name-field-nickname .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.page-user-edit #main-content .field-name-field-name-prefix label,
+.page-user-edit #main-content .field-name-field-first-name label,
+.page-user-edit #main-content .field-name-field-middle-name-or-initial label,
+.page-user-edit #main-content .field-name-field-last-name label,
+.page-user-edit #main-content .field-name-field-name-suffix label,
+.page-user-edit #main-content .field-name-field-nickname label,
+.page-admin-people-create #main-content .field-name-field-name-prefix label,
+.page-admin-people-create #main-content .field-name-field-first-name label,
+.page-admin-people-create #main-content .field-name-field-middle-name-or-initial label,
+.page-admin-people-create #main-content .field-name-field-last-name label,
+.page-admin-people-create #main-content .field-name-field-name-suffix label,
+.page-admin-people-create #main-content .field-name-field-nickname label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 95px;
+          flex: 0 0 95px;
+}
+
+.page-user-edit #main-content .field-name-field-name-prefix input,
+.page-user-edit #main-content .field-name-field-first-name input,
+.page-user-edit #main-content .field-name-field-middle-name-or-initial input,
+.page-user-edit #main-content .field-name-field-last-name input,
+.page-user-edit #main-content .field-name-field-name-suffix input,
+.page-user-edit #main-content .field-name-field-nickname input,
+.page-admin-people-create #main-content .field-name-field-name-prefix input,
+.page-admin-people-create #main-content .field-name-field-first-name input,
+.page-admin-people-create #main-content .field-name-field-middle-name-or-initial input,
+.page-admin-people-create #main-content .field-name-field-last-name input,
+.page-admin-people-create #main-content .field-name-field-name-suffix input,
+.page-admin-people-create #main-content .field-name-field-nickname input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 95px);
+          flex: 1 1 calc(100% - 95px);
+  min-width: 100px;
+}
+
+.page-user-edit #main-content .field-name-field-gender label,
+.page-admin-people-create #main-content .field-name-field-gender label {
+  width: 100%;
+}
+
+.page-user-edit #main-content .field-name-field-gender .form-radios,
+.page-admin-people-create #main-content .field-name-field-gender .form-radios {
+  display: inline-block;
+}
+
+.page-user-edit #main-content .field-name-field-gender .form-item.form-type-radio,
+.page-admin-people-create #main-content .field-name-field-gender .form-item.form-type-radio {
+  display: inline-block;
+  width: auto;
+}
+
+.page-user-edit #main-content .pane-user-field-identification,
+.page-admin-people-create #main-content .pane-user-field-identification {
+  width: auto;
+}
+
+.page-user-edit #main-content .pane-user-field-identification .field-name-field-identification,
+.page-admin-people-create #main-content .pane-user-field-identification .field-name-field-identification {
+  width: 100%;
+}
+
+.page-user-edit #main-content .pane-user-field-identification .field-name-field-identification label,
+.page-admin-people-create #main-content .pane-user-field-identification .field-name-field-identification label {
+  width: 100%;
+}
+
+.page-user-edit #main-content .pane-user-field-identification .field-name-field-identification:after,
+.page-admin-people-create #main-content .pane-user-field-identification .field-name-field-identification:after {
+  content: '';
+  display: none;
+}
+
+.page-user-edit #main-content .field-name-field-birthdate input,
+.page-admin-people-create #main-content .field-name-field-birthdate input {
+  width: 8em;
+}
+
+.page-user-edit #main-content .field-name-field-birthdate .description,
+.page-admin-people-create #main-content .field-name-field-birthdate .description {
+  display: none;
+}
+
+.page-user-edit #main-content .pane-user-form-buttons .form-actions,
+.page-admin-people-create #main-content .pane-user-form-buttons .form-actions {
+  text-align: center;
+  width: 100%;
+}
+
+.page-user-edit #main-content .field-name-field-phone-type,
+.page-admin-people-create #main-content .field-name-field-phone-type {
+  width: auto;
+}
+
+.page-user-edit #main-content .field-name-field-phone-type:after,
+.page-admin-people-create #main-content .field-name-field-phone-type:after {
+  content: '';
+  display: none;
+}
+
+.page-user-edit #main-content .field-name-field-phone-number,
+.page-admin-people-create #main-content .field-name-field-phone-number {
+  display: block;
+}
+
+.page-user-edit #main-content .field-name-field-address-type:after,
+.page-admin-people-create #main-content .field-name-field-address-type:after {
+  content: '';
+  display: none;
+}
+
+@media (min-width: 450px) and (max-width: 624px) {
+  .page-user-edit #main-content .pane-user-form-account,
+  .page-admin-people-create #main-content .pane-user-form-account {
+    padding-top: 2em;
+  }
+}
+
+.page-user-edit #main-content #field-email-values,
+.page-admin-people-create #main-content #field-email-values {
+  display: inline-table;
+}
+
+.page-user-edit .field-name-field-address .form-item,
+.page-admin-people-create .field-name-field-address .form-item {
+  margin-bottom: 5px;
+}
+
+.page-user-edit .field-name-field-name-notes .text-format-wrapper .filter-wrapper,
+.page-admin-people-create .field-name-field-name-notes .text-format-wrapper .filter-wrapper {
+  border: 0;
+}
+
+.page-user-edit .field-name-field-user-about label,
+.page-admin-people-create .field-name-field-user-about label {
+  display: none;
+}
+
+.page-user-edit .field-name-field-address div.addressfield-container-inline > div.form-item,
+.page-admin-people-create .field-name-field-address div.addressfield-container-inline > div.form-item {
+  float: none;
+  margin-right: 0;
+}
+
+.page-user-edit .field-name-field-address label,
+.page-admin-people-create .field-name-field-address label {
+  width: 70px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.page-user-edit .field-name-field-address select.state,
+.page-admin-people-create .field-name-field-address select.state {
+  width: calc(100% - 75px);
+}
+
+.page-admin-people-create .field-name-field-birthdate input,
+.page-admin-people-create .field-name-field-birthdate .description {
+  display: inline-block;
+  width: auto;
+}
+
+.page-admin-people-create td {
+  position: relative;
+}
+
+.page-admin-people-create input.button-remove:not(#edit-delete) {
+  position: absolute;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  right: -50px;
+  top: 50%;
+}
+
+.page-admin-people-create table.field-multiple-table {
+  border: 1px solid #DDDDDD;
+  display: table;
+  border-collapse: initial;
+}
+
+.page-admin-people-create table.field-multiple-table th {
+  padding: 5px;
+}
+/*# sourceMappingURL=user_edit.css.map */

@@ -1,0 +1,94 @@
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
+
+@import "_mixins.scss";
+
+#node-edit,
+.page-node-edit,
+.page-node-add {
+  #edit-entity-recur {
+    .form-item-entity-recur-rules-frequency,
+    .form-item-entity-recur-rules-period {
+      display: inline-block;
+      width: auto;
+    }
+
+    .form-item-entity-recur-until {
+      display: inline-block;
+      margin-top: 10px;
+      width: 100%;
+
+      label { padding: 0; }
+
+      label, .description {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .description { width: 235px; }
+      .form-required { display: none; }
+    }
+
+    #edit-entity-recur-until {
+      display: inline-block;
+      align-items: center;
+
+      label { display: none; }
+      input {     
+        display: inline-block;
+        width: auto;
+      }
+      .description { 
+        display: inline-block;
+        width: auto;
+      }
+    }
+  }
+
+  .field-type-datetime.field-widget-date-popup {
+    .form-item { 
+      display: inline-block; 
+    }
+
+    .date-float { width: 100%; }
+
+    .start-date-wrapper, .end-date-wrapper {
+      display: inline-block; 
+      margin: 1em 0 0 1em;
+      width: auto;
+    }
+
+    .end-date-wrapper {
+      label, .date-padding { display: inline-block; }
+      label { padding: 0; }
+    }
+
+    .description {  display: none;  }
+    input[type="checkbox"] {
+      width: auto;
+      margin-right: 5px;
+    }
+  }
+
+  .pane-node-form-publishing {
+    .pane-title { margin-bottom: 0; }
+    .form-item-pubdate {
+      width: 100%;
+  
+      .form-item {
+        label { width: 40px; }
+        input { 
+          width: 10em;
+          display: inline-block;
+        }
+        .description {
+          width: auto;
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  .pane-node-form-author {
+    .form-item-date { width: 100%; }
+  }
+}

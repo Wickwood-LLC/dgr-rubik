@@ -1,0 +1,164 @@
+/********************/
+/***    MIXINS    ***/
+/********************/
+#node-edit #edit-entity-recur .form-item-entity-recur-rules-frequency,
+#node-edit #edit-entity-recur .form-item-entity-recur-rules-period,
+.page-node-edit #edit-entity-recur .form-item-entity-recur-rules-frequency,
+.page-node-edit #edit-entity-recur .form-item-entity-recur-rules-period,
+.page-node-add #edit-entity-recur .form-item-entity-recur-rules-frequency,
+.page-node-add #edit-entity-recur .form-item-entity-recur-rules-period {
+  display: inline-block;
+  width: auto;
+}
+
+#node-edit #edit-entity-recur .form-item-entity-recur-until,
+.page-node-edit #edit-entity-recur .form-item-entity-recur-until,
+.page-node-add #edit-entity-recur .form-item-entity-recur-until {
+  display: inline-block;
+  margin-top: 10px;
+  width: 100%;
+}
+
+#node-edit #edit-entity-recur .form-item-entity-recur-until label,
+.page-node-edit #edit-entity-recur .form-item-entity-recur-until label,
+.page-node-add #edit-entity-recur .form-item-entity-recur-until label {
+  padding: 0;
+}
+
+#node-edit #edit-entity-recur .form-item-entity-recur-until label, #node-edit #edit-entity-recur .form-item-entity-recur-until .description,
+.page-node-edit #edit-entity-recur .form-item-entity-recur-until label,
+.page-node-edit #edit-entity-recur .form-item-entity-recur-until .description,
+.page-node-add #edit-entity-recur .form-item-entity-recur-until label,
+.page-node-add #edit-entity-recur .form-item-entity-recur-until .description {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#node-edit #edit-entity-recur .form-item-entity-recur-until .description,
+.page-node-edit #edit-entity-recur .form-item-entity-recur-until .description,
+.page-node-add #edit-entity-recur .form-item-entity-recur-until .description {
+  width: 235px;
+}
+
+#node-edit #edit-entity-recur .form-item-entity-recur-until .form-required,
+.page-node-edit #edit-entity-recur .form-item-entity-recur-until .form-required,
+.page-node-add #edit-entity-recur .form-item-entity-recur-until .form-required {
+  display: none;
+}
+
+#node-edit #edit-entity-recur #edit-entity-recur-until,
+.page-node-edit #edit-entity-recur #edit-entity-recur-until,
+.page-node-add #edit-entity-recur #edit-entity-recur-until {
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#node-edit #edit-entity-recur #edit-entity-recur-until label,
+.page-node-edit #edit-entity-recur #edit-entity-recur-until label,
+.page-node-add #edit-entity-recur #edit-entity-recur-until label {
+  display: none;
+}
+
+#node-edit #edit-entity-recur #edit-entity-recur-until input,
+.page-node-edit #edit-entity-recur #edit-entity-recur-until input,
+.page-node-add #edit-entity-recur #edit-entity-recur-until input {
+  display: inline-block;
+  width: auto;
+}
+
+#node-edit #edit-entity-recur #edit-entity-recur-until .description,
+.page-node-edit #edit-entity-recur #edit-entity-recur-until .description,
+.page-node-add #edit-entity-recur #edit-entity-recur-until .description {
+  display: inline-block;
+  width: auto;
+}
+
+#node-edit .field-type-datetime.field-widget-date-popup .form-item,
+.page-node-edit .field-type-datetime.field-widget-date-popup .form-item,
+.page-node-add .field-type-datetime.field-widget-date-popup .form-item {
+  display: inline-block;
+}
+
+#node-edit .field-type-datetime.field-widget-date-popup .date-float,
+.page-node-edit .field-type-datetime.field-widget-date-popup .date-float,
+.page-node-add .field-type-datetime.field-widget-date-popup .date-float {
+  width: 100%;
+}
+
+#node-edit .field-type-datetime.field-widget-date-popup .start-date-wrapper, #node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper,
+.page-node-edit .field-type-datetime.field-widget-date-popup .start-date-wrapper,
+.page-node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper,
+.page-node-add .field-type-datetime.field-widget-date-popup .start-date-wrapper,
+.page-node-add .field-type-datetime.field-widget-date-popup .end-date-wrapper {
+  display: inline-block;
+  margin: 1em 0 0 1em;
+  width: auto;
+}
+
+#node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper label, #node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper .date-padding,
+.page-node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper label,
+.page-node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper .date-padding,
+.page-node-add .field-type-datetime.field-widget-date-popup .end-date-wrapper label,
+.page-node-add .field-type-datetime.field-widget-date-popup .end-date-wrapper .date-padding {
+  display: inline-block;
+}
+
+#node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper label,
+.page-node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper label,
+.page-node-add .field-type-datetime.field-widget-date-popup .end-date-wrapper label {
+  padding: 0;
+}
+
+#node-edit .field-type-datetime.field-widget-date-popup .description,
+.page-node-edit .field-type-datetime.field-widget-date-popup .description,
+.page-node-add .field-type-datetime.field-widget-date-popup .description {
+  display: none;
+}
+
+#node-edit .field-type-datetime.field-widget-date-popup input[type="checkbox"],
+.page-node-edit .field-type-datetime.field-widget-date-popup input[type="checkbox"],
+.page-node-add .field-type-datetime.field-widget-date-popup input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+#node-edit .pane-node-form-publishing .pane-title,
+.page-node-edit .pane-node-form-publishing .pane-title,
+.page-node-add .pane-node-form-publishing .pane-title {
+  margin-bottom: 0;
+}
+
+#node-edit .pane-node-form-publishing .form-item-pubdate,
+.page-node-edit .pane-node-form-publishing .form-item-pubdate,
+.page-node-add .pane-node-form-publishing .form-item-pubdate {
+  width: 100%;
+}
+
+#node-edit .pane-node-form-publishing .form-item-pubdate .form-item label,
+.page-node-edit .pane-node-form-publishing .form-item-pubdate .form-item label,
+.page-node-add .pane-node-form-publishing .form-item-pubdate .form-item label {
+  width: 40px;
+}
+
+#node-edit .pane-node-form-publishing .form-item-pubdate .form-item input,
+.page-node-edit .pane-node-form-publishing .form-item-pubdate .form-item input,
+.page-node-add .pane-node-form-publishing .form-item-pubdate .form-item input {
+  width: 10em;
+  display: inline-block;
+}
+
+#node-edit .pane-node-form-publishing .form-item-pubdate .form-item .description,
+.page-node-edit .pane-node-form-publishing .form-item-pubdate .form-item .description,
+.page-node-add .pane-node-form-publishing .form-item-pubdate .form-item .description {
+  width: auto;
+  display: inline-block;
+}
+
+#node-edit .pane-node-form-author .form-item-date,
+.page-node-edit .pane-node-form-author .form-item-date,
+.page-node-add .pane-node-form-author .form-item-date {
+  width: 100%;
+}
+/*# sourceMappingURL=node_edit_forms.css.map */

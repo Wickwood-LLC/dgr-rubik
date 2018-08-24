@@ -1,0 +1,31 @@
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
+
+@import "_mixins.scss";
+
+.node-calendar-item {
+  .column-main .column-wrapper {
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    font-size: 1.2em;
+
+    .field {
+      margin-bottom: 0.5em;
+    }
+
+    .date-display-range {
+      display: inline;
+    }
+
+    .field-label-inline .field-label {
+      width: 160px;
+    }
+  }
+
+  .column-side .column-wrapper {
+    width: calc(100% - 1em) !important;
+    margin-left: 1em;
+    border: 1px solid #cccccc;
+    padding: 0 !important;
+  }
+}

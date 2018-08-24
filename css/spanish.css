@@ -1,0 +1,100 @@
+/********************/
+/***    MIXINS    ***/
+/********************/
+/********** OPPA SPANISH STYLE **********/
+body.i18n-es label, body.i18n-es .pane-title, body.i18n-es .ckeditor_links, body.i18n-es .link-edit-summary, body.i18n-es .form-actions input, body.i18n-es .vertical-tabs-list li a strong {
+  text-transform: none;
+}
+
+@media (min-width: 680px) {
+  body.i18n-es .pane-superfish-1 #superfish-1 li a {
+    font-size: 0.9em;
+    padding: 0 5px;
+  }
+}
+
+@media (min-width: 750px) {
+  body.i18n-es .pane-superfish-1 #superfish-1 li a {
+    font-size: 0.9em;
+    padding: 0 10px;
+  }
+}
+
+@media (min-width: 808px) {
+  body.i18n-es .pane-superfish-1 #superfish-1 li a {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 866px) {
+  body.i18n-es .pane-superfish-1 #superfish-1 li a {
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width: 924px) {
+  body.i18n-es .pane-superfish-1 #superfish-1 li a {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 1105px) {
+  body.i18n-es .pane-superfish-1 #superfish-1 li a {
+    font-size: 0.9em;
+    padding: 0 5px;
+  }
+}
+
+@media (min-width: 1126px) {
+  body.i18n-es .pane-superfish-1 #superfish-1 li a {
+    padding: 0 10px;
+  }
+}
+
+@media (min-width: 1187px) {
+  body.i18n-es .pane-superfish-1 #superfish-1 li a {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1268px) {
+  body.i18n-es .pane-superfish-1 #superfish-1 li a {
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width: 1348px) {
+  body.i18n-es .pane-superfish-1 #superfish-1 li a {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 681px) {
+  body.i18n-es #block-panels-mini-header.sticky-header #superfish-1 > li a {
+    font-size: 1.7vw;
+    padding: 0 0.7vw;
+  }
+}
+
+@media (min-width: 1106px) {
+  body.i18n-es #block-panels-mini-header.sticky-header #superfish-1 > li a {
+    font-size: calc((100vw - 540px)*0.017);
+    padding: 0 0.695vw;
+  }
+}
+
+@media (min-width: 1400px) {
+  body.i18n-es #block-panels-mini-header.sticky-header #superfish-1 > li a {
+    font-size: 14.5px;
+    padding: 0 10px;
+  }
+}
+
+.field-name-body table {
+  margin: auto;
+}
+
+.field-name-body table td {
+  border: 0px;
+}
+/*# sourceMappingURL=spanish.css.map */

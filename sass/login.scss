@@ -1,0 +1,44 @@
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
+
+@import "_mixins.scss";
+
+#user-login-panel .col-md-6 > .panel-panel-inner {
+  max-width: 575px;
+  margin: auto;
+}
+
+#user-login {
+  .form-item {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+
+    label { flex: 0 100px; }
+    input { 
+      flex: 1 0 100px;
+      min-width: 100px;
+    }
+    .description { flex: 1 auto; }
+  }
+}
+
+#user-login, #user-pass {
+  .g-recaptcha > div {
+    margin: 0 auto;
+  }
+}
+
+.g-recaptcha {
+  @include breakpoint(0px 400px) {
+    transform: scale(0.73);
+    transform-origin: 0 0;
+  }
+}
+
+form#user-login, form#user-pass {
+  padding: 2em 1em 1em 1em;
+  border-radius: 10px;
+  border: 2px solid lightgrey;
+  margin-bottom: 1em;
+}

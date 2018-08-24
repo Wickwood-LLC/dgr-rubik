@@ -1,0 +1,19 @@
+/********************/
+/***    MIXINS    ***/
+/********************/
+
+@mixin flexifields($label-width, $min-width: 100px) {
+  .form-item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  label {
+    flex: 0 0 $label-width;
+  }
+  input {
+    flex: 1 1 calc(100% - #{$label-width});
+    min-width: 100px;
+  }
+}
