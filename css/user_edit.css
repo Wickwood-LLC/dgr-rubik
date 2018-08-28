@@ -1,6 +1,7 @@
 /********************/
 /***    MIXINS    ***/
 /********************/
+/* Fluid Typography */
 #user-account-main-page .pane-basic-user-info-for-user-account label {
   width: 100px;
 }

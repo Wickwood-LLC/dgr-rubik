@@ -1,6 +1,7 @@
 /********************/
 /***    MIXINS    ***/
 /********************/
+/* Fluid Typography */
 #user-login-panel .col-md-6 > .panel-panel-inner {
   max-width: 575px;
   margin: auto;

@@ -1,6 +1,7 @@
 /********************/
 /***    MIXINS    ***/
 /********************/
+/* Fluid Typography */
 .page-staff-users table.views-table .item-list ul li {
   border: none;
 }

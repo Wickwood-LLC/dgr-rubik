@@ -1,6 +1,7 @@
 /********************/
 /***    MIXINS    ***/
 /********************/
+/* Fluid Typography */
 .content-main .featured-display {
   overflow: auto;
   border-top: 1px solid #ddd;
