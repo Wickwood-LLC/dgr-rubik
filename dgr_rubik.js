@@ -66,9 +66,16 @@
 
         if ($('#admin-menu').length) {
           if (currentPosition < 0) {   // if target element goes above the screen
-            $header.css({
-              top: topSpacing,
-            });
+            if ($('#navbar-administration').css('display') !== 'none') {  // if navbar administration menu is being used
+              $header.css({
+                top: '0',
+              });
+            }
+            else {
+              $header.css({
+                top: topSpacing,
+              });
+            }
           }
           else {
             $header.css({
@@ -104,9 +111,16 @@
 
         if ($('#admin-menu').length) {
           if (currentPosition < 0) {   // if target element goes above the screen
-            $header.css({
-              top: topSpacing,
-            });   //stick it at the top
+            if ($('#navbar-administration').css('display') !== 'none') {    // if navbar administration menu is being used
+              $header.css({
+                top: '0',
+              });
+            }
+            else {
+              $header.css({
+                top: topSpacing,
+              });
+            }
           }
           else {
             $header.css({
