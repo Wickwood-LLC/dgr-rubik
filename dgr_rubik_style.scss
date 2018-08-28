@@ -45,38 +45,44 @@ fieldset {
     min-width: 0;
 }
 
-h1 {
+h1,
+.prose h1 {
   font-size: 24px;  // backup size
   @include fluid-type(400px, 1200px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
   margin: .67em 0
 }
 
-h2 {
+h2,
+.prose h2 {
   font-size: 22px;
   @include fluid-type(400px, 1200px, 20px, 26px); // values inside are ($min_width,$max_width, $min_font, $max_font);
   margin: .75em 0
 }
 
-h3 {
+h3,
+.prose h3 {
   font-size: 14px;
   @include fluid-type(400px, 1200px, 14px, 18px); // values inside are ($min_width, $max_width, $min_font, $max_font);
   margin: .83em 0
 }
 
-h4 {
+h4,
+.prose h4 {
   font-size: 12px;
   @include fluid-type(400px, 1200px, 14px, 16px); // values inside are ($min_width, $max_width, $min_font, $max_font);
   margin: 1.12em 0
 
 }
 
-h5 {
+h5,
+.prose h5 {
   font-size: 10px;
   @include fluid-type(400px, 1200px, 10px, 14px); // values inside are ($min_width, $max_width, $min_font, $max_font);
   margin: 1.5em 0
 }
 
-h6 {
+h6,
+.prose h6 {
   font-size: 9px;
   @include fluid-type(400px, 1200px, 9px, 12px); // values inside are ($min_width, $max_width, $min_font, $max_font);
   margin: 1.67em 0

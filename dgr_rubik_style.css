@@ -34,64 +34,82 @@ del {
 fieldset {
   min-width: 0; }
 
-h1 {
+h1,
+.prose h1 {
   font-size: 24px;
   margin: .67em 0; }
   @media screen and (min-width: 400px) {
-    h1 {
+    h1,
+    .prose h1 {
       font-size: calc(24px + 8 * ((100vw - 400px) / 800)); } }
   @media screen and (min-width: 1200px) {
-    h1 {
+    h1,
+    .prose h1 {
       font-size: 32px; } }
 
-h2 {
+h2,
+.prose h2 {
   font-size: 22px;
   margin: .75em 0; }
   @media screen and (min-width: 400px) {
-    h2 {
+    h2,
+    .prose h2 {
       font-size: calc(20px + 6 * ((100vw - 400px) / 800)); } }
   @media screen and (min-width: 1200px) {
-    h2 {
+    h2,
+    .prose h2 {
       font-size: 26px; } }
 
-h3 {
+h3,
+.prose h3 {
   font-size: 14px;
   margin: .83em 0; }
   @media screen and (min-width: 400px) {
-    h3 {
+    h3,
+    .prose h3 {
       font-size: calc(14px + 4 * ((100vw - 400px) / 800)); } }
   @media screen and (min-width: 1200px) {
-    h3 {
+    h3,
+    .prose h3 {
       font-size: 18px; } }
 
-h4 {
+h4,
+.prose h4 {
   font-size: 12px;
   margin: 1.12em 0; }
   @media screen and (min-width: 400px) {
-    h4 {
+    h4,
+    .prose h4 {
       font-size: calc(14px + 2 * ((100vw - 400px) / 800)); } }
   @media screen and (min-width: 1200px) {
-    h4 {
+    h4,
+    .prose h4 {
       font-size: 16px; } }
 
-h5 {
+h5,
+.prose h5 {
   font-size: 10px;
   margin: 1.5em 0; }
   @media screen and (min-width: 400px) {
-    h5 {
+    h5,
+    .prose h5 {
       font-size: calc(10px + 4 * ((100vw - 400px) / 800)); } }
   @media screen and (min-width: 1200px) {
-    h5 {
+    h5,
+    .prose h5 {
       font-size: 14px; } }
 
-h6 {
+h6,
+.prose h6 {
   font-size: 9px;
   margin: 1.67em 0; }
   @media screen and (min-width: 400px) {
-    h6 {
+    h6,
+    .prose h6 {
       font-size: calc(9px + 3 * ((100vw - 400px) / 800)); } }
   @media screen and (min-width: 1200px) {
-    h6 {
+    h6,
+    .prose h6 {
       font-size: 12px; } }
 
 p {
