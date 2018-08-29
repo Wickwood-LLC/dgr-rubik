@@ -1,6 +1,7 @@
 /********************/
 /***    MIXINS    ***/
 /********************/
+/* Fluid Typography */
 /********************/
 /** Default Styles **/
 big {
@@ -33,31 +34,100 @@ del {
 fieldset {
   min-width: 0; }
 
-h1 {
-  font-size: 2em;
+h1,
+.prose h1 {
+  font-size: 24px;
   margin: .67em 0; }
+  @media screen and (min-width: 400px) {
+    h1,
+    .prose h1 {
+      font-size: calc(24px + 8 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    h1,
+    .prose h1 {
+      font-size: 32px; } }
 
-h2 {
-  font-size: 1.5em;
+h2,
+.prose h2 {
+  font-size: 22px;
   margin: .75em 0; }
+  @media screen and (min-width: 400px) {
+    h2,
+    .prose h2 {
+      font-size: calc(20px + 6 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    h2,
+    .prose h2 {
+      font-size: 26px; } }
 
-h3 {
-  font-size: 1.17em;
+h3,
+.prose h3 {
+  font-size: 14px;
   margin: .83em 0; }
+  @media screen and (min-width: 400px) {
+    h3,
+    .prose h3 {
+      font-size: calc(14px + 4 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    h3,
+    .prose h3 {
+      font-size: 18px; } }
 
-h4 {
+h4,
+.prose h4 {
+  font-size: 12px;
   margin: 1.12em 0; }
+  @media screen and (min-width: 400px) {
+    h4,
+    .prose h4 {
+      font-size: calc(14px + 2 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    h4,
+    .prose h4 {
+      font-size: 16px; } }
 
-h5 {
-  font-size: .83em;
+h5,
+.prose h5 {
+  font-size: 10px;
   margin: 1.5em 0; }
+  @media screen and (min-width: 400px) {
+    h5,
+    .prose h5 {
+      font-size: calc(10px + 4 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    h5,
+    .prose h5 {
+      font-size: 14px; } }
 
-h6 {
-  font-size: .75em;
+h6,
+.prose h6 {
+  font-size: 9px;
   margin: 1.67em 0; }
+  @media screen and (min-width: 400px) {
+    h6,
+    .prose h6 {
+      font-size: calc(9px + 3 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    h6,
+    .prose h6 {
+      font-size: 12px; } }
 
-h1, h2, h3, h4,
-h5, h6, b,
+p {
+  font-size: 13px; }
+  @media screen and (min-width: 400px) {
+    p {
+      font-size: calc(13px + 5 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    p {
+      font-size: 18px; } }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
 strong {
   font-weight: bolder;
   line-height: 1.2; }
@@ -97,7 +167,8 @@ sup {
 tt {
   font-family: monospace; }
 
-ol li, ul li {
+ol li,
+ul li {
   list-style: initial;
   margin-left: 40px; }
 
@@ -127,11 +198,14 @@ body.page-admin .region-footer .block,
 body.page-admin .region-footer table {
   border: 0px; }
 
-.help-page, div.comment, div.node {
+.help-page,
+div.comment,
+div.node {
   background: none;
   border: 0px; }
 
-div.comment, div.node {
+div.comment,
+div.node {
   background: none !important; }
 
 body.tao {
@@ -149,7 +223,8 @@ body.tao {
     display: inline-block;
     vertical-align: middle;
     margin-right: 5px; }
-    #branding .breadcrumb-link a, #branding .breadcrumb-link strong {
+    #branding .breadcrumb-link a,
+    #branding .breadcrumb-link strong {
       color: black;
       font-weight: normal;
       float: left;
@@ -524,7 +599,8 @@ ul.primary-tabs.links {
   ul.primary-tabs.links > li.active > a {
     text-shadow: black 0 1px 0; }
 
-ul.secondary-tabs.links:hover li, ul.secondary-tabs.links:hover li a {
+ul.secondary-tabs.links:hover li,
+ul.secondary-tabs.links:hover li a {
   float: none; }
 
 ul.secondary-tabs.links {
@@ -563,7 +639,8 @@ ul.links.pager > li,
 ul.primary-tabs.links > li {
   margin-left: 0; }
 
-ul.action-links > li, ul.action-links > li > a,
+ul.action-links > li,
+ul.action-links > li > a,
 ul.links.pager > li,
 ul.links.pager > li > a,
 ul.primary-tabs.links > li,
@@ -665,7 +742,9 @@ ul.rules-operations-add a {
     @media (min-width: 500px) {
       #block-tb-megamenu-main-menu .tb-megamenu-main-menu .btn-navbar {
         display: none; } }
-  #block-tb-megamenu-main-menu .tb-megamenu-main-menu .fa-navicon:before, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .fa-reorder:before, #block-tb-megamenu-main-menu .tb-megamenu-main-menu .fa-bars:before {
+  #block-tb-megamenu-main-menu .tb-megamenu-main-menu .fa-navicon:before,
+  #block-tb-megamenu-main-menu .tb-megamenu-main-menu .fa-reorder:before,
+  #block-tb-megamenu-main-menu .tb-megamenu-main-menu .fa-bars:before {
     content: "\f0c9\ Menu";
     color: #333;
     font-size: 14px; }
@@ -774,12 +853,15 @@ ul.rules-operations-add a {
   #modalContent div.ctools-modal-content a.close span.ui-icon {
     display: none; }
 
-.ui-button-icon-only .ui-button-text, .ui-button-icons-only .ui-button-text {
+.ui-button-icon-only .ui-button-text,
+.ui-button-icons-only .ui-button-text {
   display: none; }
 
-.mbp-folders ol, .mbp-folders ul {
+.mbp-folders ol,
+.mbp-folders ul {
   margin-left: 0; }
-  .mbp-folders ol li, .mbp-folders ul li {
+  .mbp-folders ol li,
+  .mbp-folders ul li {
     margin-left: 0; }
 
 .media-list-thumbnails .media-item.selected {
@@ -971,7 +1053,8 @@ ul.field-collection-view-links {
 .field-type-datetime.field-widget-date-popup .form-item {
   display: block;
   overflow: hidden; }
-  .field-type-datetime.field-widget-date-popup .form-item label, .field-type-datetime.field-widget-date-popup .form-item input {
+  .field-type-datetime.field-widget-date-popup .form-item label,
+  .field-type-datetime.field-widget-date-popup .form-item input {
     display: inline-block; }
   .field-type-datetime.field-widget-date-popup .form-item label {
     margin-right: 5px; }
@@ -1079,12 +1162,14 @@ label.panopoly-admin-hide-body-label-processed {
     .rubik-inline-field-descriptions .page-content .form-item .description p:last-child,
     .description p:last-child {
       margin-bottom: 0; }
-  .rubik-inline-field-descriptions .page-content .form-item .description ul, .rubik-inline-field-descriptions .page-content .form-item .description ol,
+  .rubik-inline-field-descriptions .page-content .form-item .description ul,
+  .rubik-inline-field-descriptions .page-content .form-item .description ol,
   .description ul,
   .description ol {
     margin: 0 2em;
     list-style: initial; }
-    .rubik-inline-field-descriptions .page-content .form-item .description ul li, .rubik-inline-field-descriptions .page-content .form-item .description ol li,
+    .rubik-inline-field-descriptions .page-content .form-item .description ul li,
+    .rubik-inline-field-descriptions .page-content .form-item .description ol li,
     .description ul li,
     .description ol li {
       margin: 0.25em 0;
@@ -1115,7 +1200,7 @@ form .tabs {
   background: -webkit-gradient(linear, left top, left bottom, from(#7db9e8), to(#1e5799));
   background: linear-gradient(to bottom, #7db9e8 0%, #1e5799 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799', GradientType=0);
   /* IE6-9 */ }
 
 .ui-datepicker .ui-datepicker-title select {
@@ -1128,7 +1213,8 @@ form .tabs {
 .ui-datepicker-current-day .ui-state-active {
   background: #7DB9E8; }
 
-.ui-state-default, .ui-widget-content .ui-state-default,
+.ui-state-default,
+.ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   border: 1px solid transparent; }
 
@@ -1145,7 +1231,7 @@ form .tabs {
   background: -webkit-gradient(linear, left top, left bottom, from(#666666), to(#333333));
   background: linear-gradient(to bottom, #666666 0%, #333333 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#333333',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#333333', GradientType=0);
   /* IE6-9 */
   padding: 0 14px 0 24px; }
 
@@ -1160,7 +1246,8 @@ form .tabs {
   border: 0;
   margin: 0.25em 0; }
 
-#media-tabs-wrapper .ui-tabs-nav li, #media-tabs-wrapper .ui-tabs-nav li.ui-state-active {
+#media-tabs-wrapper .ui-tabs-nav li,
+#media-tabs-wrapper .ui-tabs-nav li.ui-state-active {
   padding: 0 0.5em;
   margin-top: -2px; }
 
@@ -1199,7 +1286,8 @@ form .tabs {
         -ms-flex: 1 auto;
             flex: 1 auto; }
 
-#user-login .g-recaptcha > div, #user-pass .g-recaptcha > div {
+#user-login .g-recaptcha > div,
+#user-pass .g-recaptcha > div {
   margin: 0 auto; }
 
 @media (min-width: 0px) and (max-width: 400px) {
@@ -1217,7 +1305,8 @@ form .tabs {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-  .form-item-path-alias label, .form-item-path-alias span {
+  .form-item-path-alias label,
+  .form-item-path-alias span {
     -webkit-box-flex: 0;
         -ms-flex: 0 auto;
             flex: 0 auto; }
@@ -1255,7 +1344,8 @@ label[for="edit-pubdate"] {
   .page-node-edit #edit-entity-recur .form-item-entity-recur-until label,
   .page-node-add #edit-entity-recur .form-item-entity-recur-until label {
     padding: 0; }
-  #node-edit #edit-entity-recur .form-item-entity-recur-until label, #node-edit #edit-entity-recur .form-item-entity-recur-until .description,
+  #node-edit #edit-entity-recur .form-item-entity-recur-until label,
+  #node-edit #edit-entity-recur .form-item-entity-recur-until .description,
   .page-node-edit #edit-entity-recur .form-item-entity-recur-until label,
   .page-node-edit #edit-entity-recur .form-item-entity-recur-until .description,
   .page-node-add #edit-entity-recur .form-item-entity-recur-until label,
@@ -1303,7 +1393,8 @@ label[for="edit-pubdate"] {
 .page-node-add .field-type-datetime.field-widget-date-popup .date-float {
   width: 100%; }
 
-#node-edit .field-type-datetime.field-widget-date-popup .start-date-wrapper, #node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper,
+#node-edit .field-type-datetime.field-widget-date-popup .start-date-wrapper,
+#node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper,
 .page-node-edit .field-type-datetime.field-widget-date-popup .start-date-wrapper,
 .page-node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper,
 .page-node-add .field-type-datetime.field-widget-date-popup .start-date-wrapper,
@@ -1312,7 +1403,8 @@ label[for="edit-pubdate"] {
   margin: 1em 0 0 1em;
   width: auto; }
 
-#node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper label, #node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper .date-padding,
+#node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper label,
+#node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper .date-padding,
 .page-node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper label,
 .page-node-edit .field-type-datetime.field-widget-date-popup .end-date-wrapper .date-padding,
 .page-node-add .field-type-datetime.field-widget-date-popup .end-date-wrapper label,
@@ -2353,7 +2445,12 @@ td:not([class]) {
       margin-bottom: 0; } }
 
 @media (min-width: 0px) and (max-width: 767px) {
-  .form-item table, .form-item thead, .form-item th, .form-item tbody, .form-item tr, .form-item td {
+  .form-item table,
+  .form-item thead,
+  .form-item th,
+  .form-item tbody,
+  .form-item tr,
+  .form-item td {
     display: block; }
   .form-item td.field-multiple-drag {
     display: inline-block; }
@@ -2772,10 +2869,12 @@ div#panels-ipe-control-container {
 .breadcrumb-link a {
   color: #333; }
 
-.pager li.pager-current, .primary-tabs > li.active {
+.pager li.pager-current,
+.primary-tabs > li.active {
   background-color: grey; }
 
-form#user-login, form#user-pass {
+form#user-login,
+form#user-pass {
   padding: 2em 1em 1em 1em;
   border-radius: 10px;
   border: 2px solid lightgrey;
@@ -2935,7 +3034,8 @@ form#user-login, form#user-pass {
     .blog-type-page .pane-card-cycles-card-blog .view-content .views-row h3 {
       margin: 0 0 0.5em 0;
       text-align: center; }
-    .blog-type-page .pane-card-cycles-card-blog .view-content .views-row .col-1, .blog-type-page .pane-card-cycles-card-blog .view-content .views-row .col-2 {
+    .blog-type-page .pane-card-cycles-card-blog .view-content .views-row .col-1,
+    .blog-type-page .pane-card-cycles-card-blog .view-content .views-row .col-2 {
       width: 100%; }
     .blog-type-page .pane-card-cycles-card-blog .view-content .views-row .col-1 {
       padding: 1em;
@@ -2961,7 +3061,8 @@ form#user-login, form#user-pass {
   float: none;
   min-width: 0;
   max-width: 100%; }
-  .blog-type-page .views-exposed-form .views-exposed-widget .form-item input, .blog-type-page .views-exposed-form .views-exposed-widget .form-item select {
+  .blog-type-page .views-exposed-form .views-exposed-widget .form-item input,
+  .blog-type-page .views-exposed-form .views-exposed-widget .form-item select {
     min-width: 0;
     max-width: 100%; }
   .blog-type-page .views-exposed-form .views-exposed-widget .form-submit {
@@ -2982,7 +3083,8 @@ form#user-login, form#user-pass {
   padding-top: 0px; }
   .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-reset-button {
     float: right; }
-  .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-published_at .views-operator, .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-published_at .views-widget {
+  .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-published_at .views-operator,
+  .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-published_at .views-widget {
     margin-left: 1em; }
   .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-published_at .views-widget {
     margin-top: 0.5em; }
@@ -3128,7 +3230,8 @@ form#user-login, form#user-pass {
           .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row,
           .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-row {
             min-width: 0; } }
-        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title-field, .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title-field p,
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title-field,
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title-field p,
         .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-row .views-field-title-field,
         .blog-type-page #main-content .panel-myriad-layout .featured-display .pane-content .views-row .views-field-title-field p {
           text-align: center; }
@@ -3436,7 +3539,8 @@ form#user-login, form#user-pass {
 .node-type-press-release.panelized-node .field-name-field-categories {
   font-weight: bold;
   text-align: center; }
-  .node-type-press-release.panelized-node .field-name-field-categories .field__label, .node-type-press-release.panelized-node .field-name-field-categories .field__items {
+  .node-type-press-release.panelized-node .field-name-field-categories .field__label,
+  .node-type-press-release.panelized-node .field-name-field-categories .field__items {
     display: inline-block;
     float: none; }
 
@@ -3526,7 +3630,8 @@ form#user-login, form#user-pass {
 .pane-views-exp-categories-panel-pane-2 .views-exposed-form {
   margin: 0; }
 
-.pane-views-exp-categories-panel-pane-2 #edit-reset, .pane-views-exp-categories-panel-pane-2 #edit-reset--2 {
+.pane-views-exp-categories-panel-pane-2 #edit-reset,
+.pane-views-exp-categories-panel-pane-2 #edit-reset--2 {
   position: absolute;
   top: initial;
   bottom: 18px;
@@ -3584,7 +3689,12 @@ form#user-login, form#user-pass {
       display: inline-block; }
 
 /********** OPPA SPANISH STYLE **********/
-body.i18n-es label, body.i18n-es .pane-title, body.i18n-es .ckeditor_links, body.i18n-es .link-edit-summary, body.i18n-es .form-actions input, body.i18n-es .vertical-tabs-list li a strong {
+body.i18n-es label,
+body.i18n-es .pane-title,
+body.i18n-es .ckeditor_links,
+body.i18n-es .link-edit-summary,
+body.i18n-es .form-actions input,
+body.i18n-es .vertical-tabs-list li a strong {
   text-transform: none; }
 
 @media (min-width: 680px) {
