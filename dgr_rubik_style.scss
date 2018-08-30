@@ -136,7 +136,7 @@ h6,
     margin: 1.67em 0
 }
 
-p {
+#page p {
     font-size: 13px;
     @include fluid-type(400px, 1200px, 13px, 18px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }

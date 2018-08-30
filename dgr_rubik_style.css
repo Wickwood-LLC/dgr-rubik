@@ -112,13 +112,13 @@ h6,
     .prose h6 {
       font-size: 12px; } }
 
-p {
+#page p {
   font-size: 13px; }
   @media screen and (min-width: 400px) {
-    p {
+    #page p {
       font-size: calc(13px + 5 * ((100vw - 400px) / 800)); } }
   @media screen and (min-width: 1200px) {
-    p {
+    #page p {
       font-size: 18px; } }
 
 h1,
