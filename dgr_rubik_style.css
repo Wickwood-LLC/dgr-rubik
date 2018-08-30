@@ -3776,4 +3776,7 @@ body.i18n-es .vertical-tabs-list li a strong {
   margin: auto; }
   .field-name-body table td {
     border: 0px; }
+
+body.navbar-fixed #navbar-administration.navbar-oriented, #navbar-administration.navbar-oriented .navbar-bar, #navbar-administration.navbar-oriented .navbar-tray {
+  position: fixed; }
 /*# sourceMappingURL=dgr_rubik_style.css.map */

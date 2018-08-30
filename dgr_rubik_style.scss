@@ -4360,3 +4360,7 @@ body.i18n-es {
         }
     }
 }
+
+body.navbar-fixed #navbar-administration.navbar-oriented, #navbar-administration.navbar-oriented .navbar-bar, #navbar-administration.navbar-oriented .navbar-tray {
+    position: fixed;
+}
