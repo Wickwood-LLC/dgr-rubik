@@ -198,6 +198,10 @@ body.page-admin .region-footer .block,
 body.page-admin .region-footer table {
   border: 0px; }
 
+body.node-unpublished #block-system-main {
+  background: pink;
+  border: 1px solid red; }
+
 .help-page,
 div.comment,
 div.node {
@@ -210,6 +214,19 @@ div.node {
 
 body.tao {
   color: black; }
+
+.block,
+.item-list,
+.help-items ul,
+.form-item,
+.confirmation ul,
+.admin-list,
+.node-type-list,
+.admin-panel,
+.block .block-content,
+.container-inline .fieldset-content,
+.fieldset-content {
+  background: transparent; }
 
 #branding {
   background: none !important;

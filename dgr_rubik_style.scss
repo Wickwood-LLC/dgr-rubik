@@ -2,6 +2,7 @@
 @import "bower_components/compass-breakpoint/stylesheets/breakpoint";
 
 
+
 /********************/
 
 
@@ -25,6 +26,7 @@
         min-width: 100px;
     }
 }
+
 
 
 /* Fluid Typography */
@@ -51,6 +53,7 @@
         }
     }
 }
+
 
 
 /********************/
@@ -208,6 +211,7 @@ ul {
 }
 
 
+
 /***********************/
 
 body {
@@ -236,6 +240,13 @@ body.page-admin .region-footer {
     }
 }
 
+body.node-unpublished {
+    #block-system-main {
+        background: pink;
+        border: 1px solid red;
+    }
+}
+
 .help-page,
 div.comment,
 div.node {
@@ -250,6 +261,20 @@ div.node {
 
 body.tao {
     color: black;
+}
+
+.block,
+.item-list,
+.help-items ul,
+.form-item,
+.confirmation ul,
+.admin-list,
+.node-type-list,
+.admin-panel,
+.block .block-content,
+.container-inline .fieldset-content,
+.fieldset-content {
+    background: transparent;
 }
 
 #branding {
@@ -1138,6 +1163,7 @@ ul.rules-operations-add a {
 }
 
 
+
 /* Maintenance page styles */
 
 body.maintenance-page {
@@ -1238,6 +1264,7 @@ body.maintenance-page {
         margin-bottom: 0.5em;
     }
 }
+
 
 
 /* Maintenance page styles */
@@ -1414,6 +1441,7 @@ thead th.field-label label {
 table[id*='field-notes-values']>thead label {
     display: none;
 }
+
 
 
 /* Admin page styles */
@@ -1900,10 +1928,12 @@ html.js fieldset.collapsible div.fieldset-wrapper {
 }
 
 
+
 /*********************************************************************/
 
 @import "bower_components/bourbon/app/assets/stylesheets/bourbon";
 @import "bower_components/compass-breakpoint/stylesheets/breakpoint";
+
 
 
 /********************/
@@ -1929,6 +1959,7 @@ html.js fieldset.collapsible div.fieldset-wrapper {
         min-width: 100px;
     }
 }
+
 
 
 /********************/
@@ -2605,6 +2636,7 @@ html.js fieldset.collapsible div.fieldset-wrapper {
 
 
 
+
 /***********************/
 
 
@@ -2662,6 +2694,7 @@ html.js fieldset.collapsible div.fieldset-wrapper {
         width: 44%;
     }
 }
+
 
 
 
@@ -2840,6 +2873,7 @@ html.js fieldset.collapsible div.fieldset-wrapper {
 }
 
 
+
 /* Staff Edit Styles */
 
 td:not([class]) {
@@ -2854,6 +2888,7 @@ td:not([class]) {
         }
     }
 }
+
 
 
 /* Admin page styles */
@@ -3086,6 +3121,7 @@ input.form-submit {
     display: block;
     margin-top: 5px;
 }
+
 
 
 /****** MAIN MENU ******/
@@ -3517,6 +3553,7 @@ form#user-pass {
         display: table;
     }
 }
+
 
 
 /********** Articles, News, Press Release **********/
@@ -4245,6 +4282,7 @@ form#user-pass {
         }
     }
 }
+
 
 
 /********** OPPA SPANISH STYLE **********/
