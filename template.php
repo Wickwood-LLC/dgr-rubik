@@ -376,3 +376,14 @@ function dgr_rubik_form_node_form_alter(&$form, &$form_state, $form_id) {
 function dgr_rubik_form_user_profile_form_alter(&$form, &$form_state, $form_id) {
   $form['#attached']['css'][] = drupal_get_path('theme', 'dgr_rubik') . '/css/user_edit.css';
 }
+
+/**
+ * Implements hook_user_view_alter()
+ */
+function dgr_rubik_user_view_alter($account, $view_mode, $langcode) {
+  $attached_css = &drupal_static(__FUNCTION__);
+  if (!isset($attached_css) || !$attached_css) {
+    drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/user.css', array('group' => CSS_THEME));
+    $attached_css = TRUE;
+  }
+}
