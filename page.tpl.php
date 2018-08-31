@@ -61,7 +61,7 @@
     </div>
 </div>
 <div id='page'>
-    <?php if ($node->status == 0): ?>   // if unpublished
+    <?php if ($node->status == 0): ?>
         <h2 class="unpublished">This Page Is Unpublished</h2>
     <?php endif; ?>
     <div id='main-content' class='limiter clearfix'>

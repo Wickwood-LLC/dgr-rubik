@@ -240,11 +240,11 @@ body.page-admin .region-footer {
     }
 }
 
-body.node-unpublished {
-    #block-system-main {
-        background: pink;
-        border: 1px solid red;
-    }
+.unpublished {
+    color: red;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .help-page,
