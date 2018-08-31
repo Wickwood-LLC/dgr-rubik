@@ -320,7 +320,7 @@ function dgr_rubik_preprocess_html(&$vars) {
   drupal_add_html_head($viewport, 'viewport');
 
   drupal_add_css(path_to_theme().'/dgr_rubik_style.css', array(
-    'group' => CSS_THEME, 
+    'group' => CSS_THEME,
     'preprocess' => FALSE
   ));
 }
@@ -331,4 +331,16 @@ function dgr_rubik_preprocess_html(&$vars) {
 */
 function dgr_rubik_form_system_site_information_settings_alter(&$form, &$form_state, $form_id) {
   $form['site_information']['site_slogan']['#maxlength'] = 255;
+}
+
+/**
+ * Implements hook_preprocess_page()
+ */
+function dgr_rubik_preprocess_page() {
+  if (
+    (in_array(arg(0), array('articles', 'news', 'press-releases'))) || // Panel pages
+    (arg(0) == 'node' && preg_match('/^\d+$/', arg(1)) && empty(arg(2))) // Node view page.
+  ) {
+    drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/blog_pages.css');
+  }
 }
