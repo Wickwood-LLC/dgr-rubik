@@ -347,3 +347,10 @@ function dgr_rubik_preprocess_page() {
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/login.css', array('group' => CSS_THEME));
   }
 }
+
+/**
+ * Implements hook_preprocess_maintenance_page()
+ */
+function dgr_rubik_preprocess_maintenance_page() {
+  drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/maintenance.css', array('group' => CSS_THEME));
+}
