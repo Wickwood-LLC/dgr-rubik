@@ -337,6 +337,11 @@ function dgr_rubik_form_system_site_information_settings_alter(&$form, &$form_st
  * Implements hook_preprocess_page()
  */
 function dgr_rubik_preprocess_page() {
+  global $language;
+  if ($language->language == 'es') {
+    drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/spanish.css', array('group' => CSS_THEME));
+  }
+
   if (
     (in_array(arg(0), array('articles', 'news', 'press-releases'))) || // Panel pages
     (arg(0) == 'node' && preg_match('/^\d+$/', arg(1)) && empty(arg(2))) // Node view page.
