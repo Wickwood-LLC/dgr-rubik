@@ -341,6 +341,9 @@ function dgr_rubik_preprocess_page() {
     (in_array(arg(0), array('articles', 'news', 'press-releases'))) || // Panel pages
     (arg(0) == 'node' && preg_match('/^\d+$/', arg(1)) && empty(arg(2))) // Node view page.
   ) {
-    drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/blog_pages.css');
+    drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/blog_pages.css', array('group' => CSS_THEME));
+  }
+  else if (arg(0) == 'user' && arg(1) == 'login') {
+    drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/login.css', array('group' => CSS_THEME));
   }
 }
