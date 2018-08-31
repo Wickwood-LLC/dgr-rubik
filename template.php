@@ -351,6 +351,9 @@ function dgr_rubik_preprocess_page() {
   else if (arg(0) == 'user' && arg(1) == 'login') {
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/login.css', array('group' => CSS_THEME));
   }
+  else if (arg(0) == 'admin' && arg(1) == 'people' && arg(2) == 'create') {
+    drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/user_edit.css', array('group' => CSS_THEME));
+  }
 }
 
 /**
@@ -365,4 +368,11 @@ function dgr_rubik_preprocess_maintenance_page() {
  */
 function dgr_rubik_form_node_form_alter(&$form, &$form_state, $form_id) {
   $form['#attached']['css'][] = drupal_get_path('theme', 'dgr_rubik') . '/css/node_edit_forms.css';
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter()
+ */
+function dgr_rubik_form_user_profile_form_alter(&$form, &$form_state, $form_id) {
+  $form['#attached']['css'][] = drupal_get_path('theme', 'dgr_rubik') . '/css/user_edit.css';
 }
