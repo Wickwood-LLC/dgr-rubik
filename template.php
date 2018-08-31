@@ -354,3 +354,10 @@ function dgr_rubik_preprocess_page() {
 function dgr_rubik_preprocess_maintenance_page() {
   drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/maintenance.css', array('group' => CSS_THEME));
 }
+
+/**
+ * Implements hook_form_BASE_FORM_ID_alter()
+ */
+function dgr_rubik_form_node_form_alter(&$form, &$form_state, $form_id) {
+  $form['#attached']['css'][] = drupal_get_path('theme', 'dgr_rubik') . '/css/node_edit_forms.css';
+}
