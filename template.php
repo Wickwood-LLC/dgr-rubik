@@ -342,11 +342,16 @@ function dgr_rubik_preprocess_page() {
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/spanish.css', array('group' => CSS_THEME));
   }
 
-  if (
-    (in_array(arg(0), array('articles', 'news', 'press-releases'))) || // Panel pages
-    (arg(0) == 'node' && preg_match('/^\d+$/', arg(1)) && empty(arg(2))) // Node view page.
-  ) {
+  if (in_array(arg(0), array('articles', 'news', 'press-releases'))) { // Panel pages
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/blog_pages.css', array('group' => CSS_THEME));
+  }
+  else if ((arg(0) == 'node' && preg_match('/^\d+$/', arg(1)) && empty(arg(2))) ) { // Node view page.
+    drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/blog_pages.css', array('group' => CSS_THEME));
+    // Get node being displayed.
+    $node = menu_get_object();
+    if ($node->type == 'calendar_item') {
+      drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/calendar_item.css', array('group' => CSS_THEME));
+    }
   }
   else if (arg(0) == 'user' && arg(1) == 'login') {
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/login.css', array('group' => CSS_THEME));
