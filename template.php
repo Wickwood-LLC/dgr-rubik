@@ -320,7 +320,7 @@ function dgr_rubik_preprocess_html(&$vars) {
   drupal_add_html_head($viewport, 'viewport');
 
   drupal_add_css(path_to_theme().'/dgr_rubik_style.css', array(
-    'group' => CSS_THEME, 
+    'group' => CSS_THEME,
     'preprocess' => FALSE
   ));
 }
@@ -331,4 +331,64 @@ function dgr_rubik_preprocess_html(&$vars) {
 */
 function dgr_rubik_form_system_site_information_settings_alter(&$form, &$form_state, $form_id) {
   $form['site_information']['site_slogan']['#maxlength'] = 255;
+}
+
+/**
+ * Implements hook_preprocess_page()
+ */
+function dgr_rubik_preprocess_page() {
+  global $language;
+  if ($language->language == 'es') {
+    drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/spanish.css', array('group' => CSS_THEME));
+  }
+
+  if (in_array(arg(0), array('articles', 'news', 'press-releases'))) { // Panel pages
+    drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/blog_pages.css', array('group' => CSS_THEME));
+  }
+  else if ((arg(0) == 'node' && preg_match('/^\d+$/', arg(1)) && empty(arg(2))) ) { // Node view page.
+    drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/blog_pages.css', array('group' => CSS_THEME));
+    // Get node being displayed.
+    $node = menu_get_object();
+    if ($node->type == 'calendar_item') {
+      drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/calendar_item.css', array('group' => CSS_THEME));
+    }
+  }
+  else if (arg(0) == 'user' && arg(1) == 'login') {
+    drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/login.css', array('group' => CSS_THEME));
+  }
+  else if (arg(0) == 'admin' && arg(1) == 'people' && arg(2) == 'create') {
+    drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/user_edit.css', array('group' => CSS_THEME));
+  }
+}
+
+/**
+ * Implements hook_preprocess_maintenance_page()
+ */
+function dgr_rubik_preprocess_maintenance_page() {
+  drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/maintenance.css', array('group' => CSS_THEME));
+}
+
+/**
+ * Implements hook_form_BASE_FORM_ID_alter()
+ */
+function dgr_rubik_form_node_form_alter(&$form, &$form_state, $form_id) {
+  $form['#attached']['css'][] = drupal_get_path('theme', 'dgr_rubik') . '/css/node_edit_forms.css';
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter()
+ */
+function dgr_rubik_form_user_profile_form_alter(&$form, &$form_state, $form_id) {
+  $form['#attached']['css'][] = drupal_get_path('theme', 'dgr_rubik') . '/css/user_edit.css';
+}
+
+/**
+ * Implements hook_user_view_alter()
+ */
+function dgr_rubik_user_view_alter($account, $view_mode, $langcode) {
+  $attached_css = &drupal_static(__FUNCTION__);
+  if (!isset($attached_css) || !$attached_css) {
+    drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/user.css', array('group' => CSS_THEME));
+    $attached_css = TRUE;
+  }
 }
