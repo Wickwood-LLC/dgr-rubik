@@ -68,7 +68,7 @@
           if (currentPosition < 0) {   // if target element goes above the screen
             if ($('#navbar-administration').css('display') !== 'none') {  // if navbar administration menu is being used
               $header.css({
-                top: '0',
+                top: $('#navbar-bar').height(),
               });
             }
             else {
@@ -113,7 +113,7 @@
           if (currentPosition < 0) {   // if target element goes above the screen
             if ($('#navbar-administration').css('display') !== 'none') {    // if navbar administration menu is being used
               $header.css({
-                top: '0',
+                top: $('#navbar-bar').height(),
               });
             }
             else {
