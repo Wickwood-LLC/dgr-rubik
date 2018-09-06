@@ -2,60 +2,7 @@
 /***    MIXINS    ***/
 /********************/
 /* Fluid Typography */
-#user-login-panel .col-md-6 > .panel-panel-inner {
-  max-width: 575px;
-  margin: auto;
-}
-
-#user-login .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#user-login .form-item label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 100px;
-          flex: 0 100px;
-}
-
-#user-login .form-item input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 100px;
-          flex: 1 0 100px;
-  min-width: 100px;
-}
-
-#user-login .form-item .description {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 auto;
-          flex: 1 auto;
-}
-
-#user-login .g-recaptcha > div, #user-pass .g-recaptcha > div {
-  margin: 0 auto;
-}
-
-@media (min-width: 0px) and (max-width: 400px) {
-  .g-recaptcha {
-    -webkit-transform: scale(0.73);
-            transform: scale(0.73);
-    -webkit-transform-origin: 0 0;
-            transform-origin: 0 0;
-  }
-}
-
 form#user-login, form#user-pass {
-  padding: 2em 1em 1em 1em;
-  border-radius: 10px;
   border: 2px solid lightgrey;
-  margin-bottom: 1em;
 }
 /*# sourceMappingURL=login.css.map */
