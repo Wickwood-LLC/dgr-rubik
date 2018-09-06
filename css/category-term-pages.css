@@ -1,0 +1,70 @@
+/********************/
+/***    MIXINS    ***/
+/********************/
+/* Fluid Typography */
+.page-taxonomy-term #main-content .panel-myriad-layout .views-exposed-form {
+  margin: 0;
+}
+
+.page-taxonomy-term #main-content .panel-myriad-layout .views-exposed-form #edit-reset {
+  position: absolute;
+  bottom: 18px;
+  top: initial;
+}
+
+.page-taxonomy-term #main-content .panel-myriad-layout [data-pane="3499"] {
+  width: 100%;
+}
+
+@media (min-width: 944px) {
+  .page-taxonomy-term #main-content .panel-myriad-layout .sidebar-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .page-taxonomy-term #main-content .panel-myriad-layout .sidebar-content .pane-views-68df6443216479c90da4235283a03ab4 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 0px;
+            flex: 1 1 0;
+    margin-right: 0.5em;
+  }
+  .page-taxonomy-term #main-content .panel-myriad-layout .sidebar-content [data-pane="3494"] {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 0px;
+            flex: 1 1 0;
+    margin: 0;
+    margin-left: 0.5em;
+  }
+}
+
+.page-taxonomy-term #main-content .panel-myriad-layout .views-widget-filter-type {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-taxonomy-term #main-content .panel-myriad-layout .views-widget-filter-type label[for="edit-content-type-filter"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-taxonomy-term #main-content .panel-myriad-layout .views-widget-filter-type .form-type-bef-checkbox {
+  display: inline-block;
+  width: auto;
+  margin-right: 0.5em;
+}
+
+.page-taxonomy-term #main-content .panel-myriad-layout .views-widget-filter-type .form-type-bef-checkbox label {
+  display: inline-block;
+}
+/*# sourceMappingURL=category-term-pages.css.map */

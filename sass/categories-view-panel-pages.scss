@@ -1,0 +1,49 @@
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
+@import "_mixins.scss";
+
+.page-categories {
+    #main-content .radix-burr-flipped {
+        .main-display .view-content {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: stretch;
+            justify-content: center;
+
+            .views-row {
+                flex: 1 1 150px;
+                margin: 0.5em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+        }
+        @include breakpoint(944px) {
+            .col-md-8 {
+                width: 66.66666666666666%;
+                width: calc((100% / 3) * 2);
+                float: left;
+            }
+            .col-md-4 {
+                width: 33.33333333333333%;
+                width: calc(100% / 3);
+                float: left;
+            }
+        }
+    }
+}
+
+.pane-views-exp-categories-panel-pane-2 {
+    .views-exposed-form {
+        margin: 0;
+    }
+
+    #edit-reset,
+    #edit-reset--2 {
+        position: absolute;
+        top: initial;
+        bottom: 18px;
+        right: 10px;
+    }
+}

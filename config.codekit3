@@ -1827,6 +1827,40 @@
 		"oAP": "\/css\/blog_pages.css.map",
 		"oF": 0
 		},
+	"\/css\/categories-view-panel-pages.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/categories-view-panel-pages-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/categories-view-panel-pages.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/categories-view-panel-pages.css.map",
+		"oF": 0
+		},
+	"\/css\/category-term-pages.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/category-term-pages-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/category-term-pages.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/category-term-pages.css.map",
+		"oF": 0
+		},
 	"\/css\/faq-nodes.css": {
 		"aP": 1,
 		"bl": 0,
@@ -2218,6 +2252,32 @@
 		"oA": 0,
 		"oAP": "\/css\/blog_pages.css",
 		"oF": 3,
+		"oS": 1,
+		"uL": 1
+		},
+	"\/sass\/categories-view-panel-pages.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/css\/categories-view-panel-pages.css",
+		"oF": 2,
+		"oS": 1,
+		"uL": 1
+		},
+	"\/sass\/category-term-pages.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/css\/category-term-pages.css",
+		"oF": 2,
 		"oS": 1,
 		"uL": 1
 		},

@@ -342,9 +342,17 @@ function dgr_rubik_preprocess_page() {
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/spanish.css', array('group' => CSS_THEME));
   }
 
-  if (in_array(arg(0), array('articles', 'news', 'press-releases', 'faqs'))) { // Panel pages
+  if (in_array(arg(0), array('articles', 'news', 'press-releases', 'faqs', 'categories'))) { // Panel pages
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/blog_pages.css', array('group' => CSS_THEME));
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/view-card-cycles.css', array('group' => CSS_THEME));
+
+    if (in_array(arg(0), array('categories'))) { // Categories view pages
+      drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/categories-view-panel-pages.scss', array('group' => CSS_THEME));
+    }
+    $term = menu_get_object('taxonomy_term', 2);
+    if ($term) {
+      drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/categories-view-panel-pages.scss', array('group' => CSS_THEME));
+    }
   }
   else if ((arg(0) == 'node' && preg_match('/^\d+$/', arg(1)) && empty(arg(2))) ) { // Node view page.
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/blog_pages.css', array('group' => CSS_THEME));
