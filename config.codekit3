@@ -2053,13 +2053,6 @@
 		"oAP": "\/template.php",
 		"oF": 0
 		},
-	"\/templates\/node.tpl.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/templates\/node.tpl.php",
-		"oF": 0
-		},
 	"\/templates\/overlay.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
