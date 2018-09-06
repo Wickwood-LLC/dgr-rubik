@@ -347,11 +347,11 @@ function dgr_rubik_preprocess_page() {
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/view-card-cycles.css', array('group' => CSS_THEME));
 
     if (arg(0) == 'categories') { // Categories view pages
-      drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/categories-view-panel-pages.scss', array('group' => CSS_THEME));
+      drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/categories-view-panel-pages.css', array('group' => CSS_THEME));
     }
     $term = menu_get_object('taxonomy_term', 1);
     if ($term) {
-      drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/categories-view-panel-pages.scss', array('group' => CSS_THEME));
+      drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/categories-view-panel-pages.css', array('group' => CSS_THEME));
     }
   }
   else if ((arg(0) == 'node' && preg_match('/^\d+$/', arg(1)) && empty(arg(2))) ) { // Node view page.
