@@ -1,0 +1,67 @@
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
+@import "_mixins.scss";
+
+.node-type-panopoly-faq {
+    .field-name-field-featured-image {
+        width: 100%;
+
+        @include breakpoint(481px) {
+            margin: 0 1em 1em 0;
+            width: 50%;
+            float: left;
+        }
+
+        img {
+            max-width: 100%;
+            min-width: 0;
+            height: auto;
+            width: 100%;
+        }
+    }
+
+    .row {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 0 1em;
+    }
+
+    .field-name-field-categories {
+        margin-top: 1em;
+        font-size: 0.9em;
+        text-align: right;
+        font-weight: bold;
+
+        .field-label,
+        .field-items {
+            display: inline-block;
+            float: none;
+        }
+    }
+
+    .radix-layouts-content {
+        flex: 1 100%;
+        padding-right: 0;
+
+        @include breakpoint(848px) {
+            flex: 3 0 560px;
+            min-width: 560px;
+            padding: 0.5em;
+        }
+    }
+
+    .radix-layouts-sidebar {
+        flex: 1 300px;
+        min-width: 300px;
+        padding-left: 0;
+
+        @include breakpoint(848px) {
+            flex: 1 1 250px;
+            padding: 0.5em;
+        }
+
+        .boxed {
+            padding-top: 2em;
+        }
+    }
+}

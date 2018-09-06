@@ -1,6 +1,5 @@
 @import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
 @import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
-
 @import "_mixins.scss";
 
 .node-type-panopoly-faq {
@@ -440,98 +439,6 @@
     }
 }
 
-.node-type-article-post,
-.node-type-panopoly-news-article,
-.node-type-panopoly-faq {
-    .field-name-field-featured-image {
-        width: 100%;
-
-        @include breakpoint(481px) {
-            margin: 0 1em 1em 0;
-            width: 50%;
-            float: left;
-        }
-
-        img {
-            max-width: 100%;
-            min-width: 0;
-            height: auto;
-            width: 100%;
-        }
-    }
-    .field-name-field-categories {
-        margin-top: 1em;
-        font-weight: bold;
-    }
-
-    .row {
-        display: flex;
-        flex-flow: row wrap;
-        padding: 0 1em;
-    }
-
-    .radix-layouts-content {
-        flex: 1 100%;
-        padding-right: 0;
-
-        @include breakpoint(848px) {
-            flex: 3 0 560px;
-            min-width: 560px;
-            padding: 0.5em;
-        }
-    }
-
-    .radix-layouts-sidebar {
-        flex: 1 300px;
-        min-width: 300px;
-        padding-left: 0;
-
-        @include breakpoint(848px) {
-            flex: 1 1 250px;
-            padding: 0.5em;
-        }
-
-        .boxed {
-            padding-top: 2em;
-        }
-    }
-}
-
-.node-type-press-release.panelized-node {
-    #content {
-        margin-right: 1%;
-        margin-left: 1%;
-    }
-
-    .panel-col-mid {
-        flex: 1 1 500px;
-    }
-    .panel-col-right {
-        @include breakpoint(1024px) {
-            flex: 0 300px;
-            min-width: 300px;
-        }
-
-        div:first-child .panel-pane {
-            margin-top: 0;
-        }
-    }
-
-    h1.pane-node-title-field {
-        text-align: center;
-    }
-
-    .content-main {
-        margin: 0 auto 40px auto;
-    }
-
-    img {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-    }
-}
-
 .field-name-field-categories {
     font-weight: bold;
     text-align: center;
@@ -546,33 +453,6 @@
 .pane-node-links {
     .links {
         display: inline-block;
-    }
-}
-
-.pane-news2-panel-pane-5,
-.pane-articles2-panel-pane-5,
-.pane-press-releases2-panel-pane-5 {
-    .view-content {
-        display: flex;
-        flex-flow: row wrap;
-    }
-
-    .views-row {
-        display: inline-block;
-        vertical-align: top;
-        width: 230px;
-        margin-right: 10px;
-        margin-bottom: 0.5em;
-        flex: 1 240px;
-    }
-
-    .views-field-field-featured-image {
-        float: left;
-        margin-right: 10px;
-    }
-
-    .views-field-published-at {
-        font-size: 0.8em;
     }
 }
 

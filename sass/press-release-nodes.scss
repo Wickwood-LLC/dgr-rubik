@@ -1,0 +1,63 @@
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
+@import "_mixins.scss";
+
+.node-type-press-release.panelized-node {
+    #content {
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+
+    .panel-col-mid {
+        flex: 1 1 500px;
+    }
+    .panel-col-right {
+        @include breakpoint(1024px) {
+            flex: 0 300px;
+            min-width: 300px;
+        }
+
+        div:first-child .panel-pane {
+            margin-top: 0;
+        }
+    }
+
+    h1.pane-node-title-field {
+        text-align: center;
+    }
+
+    .content-main {
+        margin: 0 auto 40px auto;
+    }
+
+    img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.pane-press-releases2-panel-pane-5 {
+    .view-content {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .views-row {
+        display: inline-block;
+        vertical-align: top;
+        width: 230px;
+        margin-right: 10px;
+        margin-bottom: 0.5em;
+        flex: 1 240px;
+    }
+
+    .views-field-field-featured-image {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .views-field-published-at {
+        font-size: 0.8em;
+    }
+}
