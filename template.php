@@ -349,7 +349,7 @@ function dgr_rubik_preprocess_page() {
     if (arg(0) == 'categories') { // Categories view pages
       drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/categories-view-panel-pages.css', array('group' => CSS_THEME));
     }
-    $term = menu_get_object('taxonomy_term', 1);
+    $term = menu_get_object('taxonomy_term', 2);
     if ($term) {
       drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/categories-view-panel-pages.css', array('group' => CSS_THEME));
     }
