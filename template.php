@@ -346,10 +346,10 @@ function dgr_rubik_preprocess_page() {
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/blog_pages.css', array('group' => CSS_THEME));
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/view-card-cycles.css', array('group' => CSS_THEME));
 
-    if (in_array(arg(0), array('categories'))) { // Categories view pages
+    if (arg(0) == 'categories') { // Categories view pages
       drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/categories-view-panel-pages.scss', array('group' => CSS_THEME));
     }
-    $term = menu_get_object('taxonomy_term', 2);
+    $term = menu_get_object('taxonomy_term', 1);
     if ($term) {
       drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/categories-view-panel-pages.scss', array('group' => CSS_THEME));
     }
