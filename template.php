@@ -354,6 +354,15 @@ function dgr_rubik_preprocess_page() {
     if ($node->type == 'calendar_item') {
       drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/calendar_item.css', array('group' => CSS_THEME));
     }
+    if ($node->type == 'article_post' || 'panopoly_news_article') {
+      drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/articles-news-nodes.css', array('group' => CSS_THEME));
+    }
+    if ($node->type == 'press_release') {
+      drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/pres-release-nodes.css', array('group' => CSS_THEME));
+    }
+    if ($node->type == 'panopoly_faq') {
+      drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/faq-nodes.css', array('group' => CSS_THEME));
+    }
   }
   else if (arg(0) == 'user' && arg(1) == 'login') {
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/login.css', array('group' => CSS_THEME));
