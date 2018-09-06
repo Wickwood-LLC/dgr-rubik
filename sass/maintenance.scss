@@ -5,41 +5,13 @@
 
 /* Maintenance page styles */
 body.maintenance-page {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  #page-wrapper {
-    border: 1px solid #ddd;
-  }
-  #page {
-    margin: 20px 40px 40px;
-    width: auto;
-  }
   #header,
   #container,
   #footer-wrapper {
-    flex: 1 1 100%;
-    justify-content: center;
-    display: inherit;
     display: flex;
-  }
-  #header .section {
-    text-align: center;
-  }
-  #name-and-slogan,
-  #main {
-    text-align: center;
-  }
-  #name-and-slogan {
-    margin-bottom: 50px;
-    padding-top: 20px;
   }
   #site-name {
     font-size: 1.5em ;
-    line-height: 1;
     margin: 20px 0;
     text-align: center;
     font-family: Georgia, "Book Antiqua", serif;
@@ -95,11 +67,6 @@ body.maintenance-page {
         color: #008080;
       }
     }
-  }
-  h1#page-title {
-    background: none;
-    font-size: 28px;
-    margin-bottom: 0.5em;
   }
 }
 /* Maintenance page styles */

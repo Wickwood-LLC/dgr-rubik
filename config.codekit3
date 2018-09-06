@@ -1810,23 +1810,6 @@
 		"oAP": "\/css\/blog_pages.css.map",
 		"oF": 0
 		},
-	"\/css\/calendar_item.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/calendar_item-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/css\/calendar_item.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/css\/calendar_item.css.map",
-		"oF": 0
-		},
 	"\/css\/login.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1861,23 +1844,6 @@
 		"oAP": "\/css\/maintenance.css.map",
 		"oF": 0
 		},
-	"\/css\/node_edit_forms.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/node_edit_forms-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/css\/node_edit_forms.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/css\/node_edit_forms.css.map",
-		"oF": 0
-		},
 	"\/css\/spanish.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1893,40 +1859,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/spanish.css.map",
-		"oF": 0
-		},
-	"\/css\/user.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/user-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/css\/user.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/css\/user.css.map",
-		"oF": 0
-		},
-	"\/css\/user_edit.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/user_edit-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/css\/user_edit.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/css\/user_edit.css.map",
 		"oF": 0
 		},
 	"\/dgr_rubik-min.js": {
@@ -2208,19 +2140,6 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"\/sass\/calendar_item.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/css\/calendar_item.css",
-		"oF": 2,
-		"oS": 1,
-		"uL": 1
-		},
 	"\/sass\/login.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -2247,19 +2166,6 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"\/sass\/node_edit_forms.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/css\/node_edit_forms.css",
-		"oF": 2,
-		"oS": 1,
-		"uL": 1
-		},
 	"\/sass\/spanish.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -2269,32 +2175,6 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "\/css\/spanish.css",
-		"oF": 2,
-		"oS": 1,
-		"uL": 1
-		},
-	"\/sass\/user.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/css\/user.css",
-		"oF": 2,
-		"oS": 1,
-		"uL": 1
-		},
-	"\/sass\/user_edit.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/css\/user_edit.css",
 		"oF": 2,
 		"oS": 1,
 		"uL": 1
