@@ -1,0 +1,45 @@
+.view-card-cycles {
+    .vscc-controls {
+        text-align: center;
+    }
+    .vscc_controls_pause {
+        display: inline-block;
+    }
+
+    .views-slideshow-controls-top {
+        position: absolute;
+        top: 7px;
+        width: 100%;
+        text-align: center;
+        z-index: 10;
+    }
+
+    .views-slideshow-cycle-main-frame,
+    .views-slideshow-cycle-main-frame-row {
+        width: 100% !important;
+    }
+
+    .views-slideshow-cycle-main-frame-row-item {
+        padding-top: 2em;
+        text-align: center;
+        margin: 0;
+    }
+
+    div.field-type-asin {
+        border: 0px;
+    }
+
+    .field-name-field-amazon-book-listing img {
+        width: 150px;
+        height: auto;
+    }
+}
+
+.pane-card-cycles-card-slideshow,
+.pane-card-cycles-card-slideshow-clone {
+    position: relative;
+
+    .col-1 {
+        width: 100%;
+    }
+}

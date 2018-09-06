@@ -2,42 +2,6 @@
 /***    MIXINS    ***/
 /********************/
 /* Fluid Typography */
-.view-card-cycles .vscc-controls {
-  text-align: center;
-}
-
-.view-card-cycles .vscc_controls_pause {
-  display: inline-block;
-}
-
-.view-card-cycles .views-slideshow-controls-top {
-  position: absolute;
-  top: 7px;
-  width: 100%;
-  text-align: center;
-  z-index: 10;
-}
-
-.view-card-cycles .views-slideshow-cycle-main-frame,
-.view-card-cycles .views-slideshow-cycle-main-frame-row {
-  width: 100% !important;
-}
-
-.view-card-cycles .views-slideshow-cycle-main-frame-row-item {
-  padding-top: 2em;
-  text-align: center;
-  margin: 0;
-}
-
-.view-card-cycles div.field-type-asin {
-  border: 0px;
-}
-
-.view-card-cycles .field-name-field-amazon-book-listing img {
-  width: 150px;
-  height: auto;
-}
-
 .node-type-panopoly-faq .field-name-field-categories {
   margin-top: 1em;
   font-size: 0.9em;
@@ -143,16 +107,6 @@
 
 .blog-type-page .pane-card-cycles-card-blog .view-content .views-row .pane-node-field-call-to-action {
   text-align: center;
-}
-
-.blog-type-page .pane-card-cycles-card-slideshow,
-.blog-type-page .pane-card-cycles-card-slideshow-clone {
-  position: relative;
-}
-
-.blog-type-page .pane-card-cycles-card-slideshow .col-1,
-.blog-type-page .pane-card-cycles-card-slideshow-clone .col-1 {
-  width: 100%;
 }
 
 .blog-type-page .views-exposed-form .views-exposed-widget {
