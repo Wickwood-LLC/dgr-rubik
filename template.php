@@ -342,7 +342,7 @@ function dgr_rubik_preprocess_page() {
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/spanish.css', array('group' => CSS_THEME));
   }
 
-  if (in_array(arg(0), array('articles', 'news', 'press-releases'))) { // Panel pages
+  if (in_array(arg(0), array('articles', 'news', 'press-releases', 'faqs'))) { // Panel pages
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/blog_pages.css', array('group' => CSS_THEME));
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/view-card-cycles.css', array('group' => CSS_THEME));
   }
