@@ -342,15 +342,15 @@ function dgr_rubik_preprocess_page() {
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/spanish.css', array('group' => CSS_THEME));
   }
 
-  if (in_array(arg(0), array('articles', 'news', 'press-releases', 'faqs', 'categories'))) { // Panel pages
+  if (in_array(arg(0), array('articles', 'news', 'press-releases', 'faqs'))) { // Panel pages
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/blog_pages.css', array('group' => CSS_THEME));
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/view-card-cycles.css', array('group' => CSS_THEME));
+  }
+  else if (arg(0) == 'categories') { // Categories view pages
+    drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/blog_pages.css', array('group' => CSS_THEME));
+    drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/categories-view-panel-pages.css', array('group' => CSS_THEME));
 
-    if (arg(0) == 'categories') { // Categories view pages
-      drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/categories-view-panel-pages.css', array('group' => CSS_THEME));
-    }
-    $term = menu_get_object('taxonomy_term', 2);
-    if ($term) {
+    if (arg(2)) { // Categories term view pages
       drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/categories-view-panel-pages.css', array('group' => CSS_THEME));
     }
   }
