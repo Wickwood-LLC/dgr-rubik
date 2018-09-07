@@ -360,13 +360,13 @@ function dgr_rubik_preprocess_page() {
     if ($node->type == 'calendar_item') {
       drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/calendar_item.css', array('group' => CSS_THEME));
     }
-    if ($node->type == 'article_post' || 'panopoly_news_article') {
+    else if (in_array($node->type, array('article_post', 'panopoly_news_article'))) {
       drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/articles-news-nodes.css', array('group' => CSS_THEME));
     }
-    if ($node->type == 'press_release') {
+    else if ($node->type == 'press_release') {
       drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/pres-release-nodes.css', array('group' => CSS_THEME));
     }
-    if ($node->type == 'panopoly_faq') {
+    else if ($node->type == 'panopoly_faq') {
       drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/faq-nodes.css', array('group' => CSS_THEME));
     }
   }
