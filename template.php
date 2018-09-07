@@ -318,6 +318,11 @@ function dgr_rubik_preprocess_html(&$vars) {
    ),
   );
   drupal_add_html_head($viewport, 'viewport');
+
+  drupal_add_css(path_to_theme().'/dgr_rubik_style.css', array(
+    'group' => CSS_THEME,
+    'preprocess' => FALSE
+  ));
 }
 
 /**
