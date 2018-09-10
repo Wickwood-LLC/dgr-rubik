@@ -35,12 +35,11 @@
 <div id='page-title'>
     <div class='limiter clearfix'>
         <?php if ($title): ?>
-          <?php print render($title_prefix); ?>
-          <h1 class='page-title <?php print $page_icon_class ?>'>
+        <?php print render($title_prefix); ?>
+        <h1 class='page-title <?php print $page_icon_class ?>'>
             <?php if (!empty($page_icon_class)): ?><span class='icon'></span><?php endif; ?>
             <?php if ($title) print $title ?>
           </h1>
-          <?php print render($title_suffix); ?>
         <?php endif; ?>
     </div>
 </div>
@@ -50,6 +49,7 @@
         <ul class='action-links links clearfix'>
             <?php print render($action_links) ?>
         </ul>
+        <?php print render($title_suffix); ?>
     </div>
     <?php endif; ?>
     <div class='tabs clearfix'>
@@ -62,7 +62,7 @@
 </div>
 <div id='page'>
     <?php if (($node) && ($node->status == 0)): ?>
-        <h2 class="unpublished">This Page Is Unpublished</h2>
+    <h2 class="unpublished">This Page Is Unpublished</h2>
     <?php endif; ?>
     <div id='main-content' class='limiter clearfix'>
         <?php if ($page['help']) print render($page['help']) ?>
