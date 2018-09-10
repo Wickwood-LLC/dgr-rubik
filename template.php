@@ -358,7 +358,7 @@ function dgr_rubik_preprocess_page() {
       drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/articles-news-nodes.css', array('group' => CSS_THEME));
     }
     else if ($node->type == 'press_release') {
-      drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/pres-release-nodes.css', array('group' => CSS_THEME));
+      drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/press-release-nodes.css', array('group' => CSS_THEME));
     }
     else if ($node->type == 'panopoly_faq') {
       drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/faq-nodes.css', array('group' => CSS_THEME));
