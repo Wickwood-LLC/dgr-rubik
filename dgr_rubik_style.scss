@@ -2764,3 +2764,13 @@ div#panels-ipe-control-container {
         display: table;
     }
 }
+
+.field-name-body {
+    table {
+        margin: auto;
+
+        td {
+            border: 0px;
+        }
+    }
+}

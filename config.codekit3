@@ -1806,7 +1806,7 @@
 	"\/css\/articles-news-nodes.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/css\/articles-news-nodes.css.map",
 		"oF": 0
 		},
@@ -1823,7 +1823,7 @@
 	"\/css\/blog_pages.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/css\/blog_pages.css.map",
 		"oF": 0
 		},
@@ -1840,7 +1840,7 @@
 	"\/css\/categories-view-panel-pages.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/css\/categories-view-panel-pages.css.map",
 		"oF": 0
 		},
@@ -1857,7 +1857,7 @@
 	"\/css\/category-term-pages.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/css\/category-term-pages.css.map",
 		"oF": 0
 		},
@@ -1874,7 +1874,7 @@
 	"\/css\/faq-nodes.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/css\/faq-nodes.css.map",
 		"oF": 0
 		},
@@ -1891,7 +1891,7 @@
 	"\/css\/login.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/css\/login.css.map",
 		"oF": 0
 		},
@@ -1908,7 +1908,7 @@
 	"\/css\/maintenance.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/css\/maintenance.css.map",
 		"oF": 0
 		},
@@ -1925,7 +1925,7 @@
 	"\/css\/press-release-nodes.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/css\/press-release-nodes.css.map",
 		"oF": 0
 		},
@@ -1942,7 +1942,7 @@
 	"\/css\/spanish.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/css\/spanish.css.map",
 		"oF": 0
 		},
@@ -1959,7 +1959,7 @@
 	"\/css\/view-card-cycles.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/css\/view-card-cycles.css.map",
 		"oF": 0
 		},
@@ -2017,7 +2017,7 @@
 		"oA": 0,
 		"oAP": "\/dgr_rubik_style.css",
 		"oF": 0,
-		"oS": 1,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/images\/bleeds-rtl.png": {
@@ -2223,140 +2223,140 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/sass\/_mixins.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
 	"\/sass\/articles-news-nodes.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/articles-news-nodes.css",
-		"oF": 3,
-		"oS": 1,
+		"oAP": "\/sass\/articles-news-nodes.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/sass\/blog_pages.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/blog_pages.css",
-		"oF": 3,
-		"oS": 1,
+		"oAP": "\/sass\/blog_pages.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/sass\/categories-view-panel-pages.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/categories-view-panel-pages.css",
-		"oF": 2,
-		"oS": 1,
+		"oAP": "\/sass\/categories-view-panel-pages.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/sass\/category-term-pages.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/category-term-pages.css",
-		"oF": 2,
-		"oS": 1,
+		"oAP": "\/sass\/category-term-pages.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/sass\/faq-nodes.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/faq-nodes.css",
-		"oF": 3,
-		"oS": 1,
+		"oAP": "\/sass\/faq-nodes.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/sass\/login.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/login.css",
-		"oF": 3,
-		"oS": 1,
+		"oAP": "\/sass\/login.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/sass\/maintenance.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/maintenance.css",
-		"oF": 3,
-		"oS": 1,
+		"oAP": "\/sass\/maintenance.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/sass\/press-release-nodes.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/press-release-nodes.css",
-		"oF": 3,
-		"oS": 1,
+		"oAP": "\/sass\/press-release-nodes.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/sass\/spanish.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/spanish.css",
-		"oF": 3,
-		"oS": 1,
+		"oAP": "\/sass\/spanish.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/sass\/view-card-cycles.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/view-card-cycles.css",
-		"oF": 3,
-		"oS": 1,
+		"oAP": "\/sass\/view-card-cycles.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/template.php": {
@@ -2812,7 +2812,7 @@
 			},
 		"array-callback-return": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowImplicit': false}"
 			},
 		"array-element-newline": {
 			"active": 0,
@@ -2976,7 +2976,7 @@
 			},
 		"indent": {
 			"active": 0,
-			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
 			},
 		"init-declarations": {
 			"active": 0,
@@ -3596,7 +3596,7 @@
 			},
 		"object-property-newline": {
 			"active": 0,
-			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			"optionString": "{'allowAllPropertiesOnSameLine': true}"
 			},
 		"object-shorthand": {
 			"active": 0,
@@ -4274,7 +4274,7 @@
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
-		"autoOutputAction": 2,
+		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.*",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -4379,7 +4379,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",
