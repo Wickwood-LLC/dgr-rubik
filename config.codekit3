@@ -1973,6 +1973,13 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/dgr_rubik.info": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dgr_rubik.info",
+		"oF": 0
+		},
 	"\/dgr_rubik.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2351,6 +2358,13 @@
 		"oF": 3,
 		"oS": 1,
 		"uL": 1
+		},
+	"\/template.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template.php",
+		"oF": 0
 		},
 	"\/templates\/overlay.tpl.php": {
 		"cB": 0,

@@ -37,7 +37,6 @@
         <?php if ($title): ?>
           <?php print render($title_prefix); ?>
           <h1 class='page-title <?php print $page_icon_class ?>'>
-            <?php if (!empty($page_icon_class)): ?><span class='icon'></span><?php endif; ?>
             <?php if ($title) print $title ?>
           </h1>
           <?php print render($title_suffix); ?>
@@ -50,6 +49,7 @@
         <ul class='action-links links clearfix'>
             <?php print render($action_links) ?>
         </ul>
+        <?php if (!empty($page_icon_class)): ?><span class='icon'></span><?php endif; ?>
     </div>
     <?php endif; ?>
     <div class='tabs clearfix'>
