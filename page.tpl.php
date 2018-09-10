@@ -32,17 +32,17 @@
     </div>
 </div>
 <?php endif; ?>
+<?php if ($title): ?>
 <div id='page-title'>
     <div class='limiter clearfix'>
-        <?php if ($title): ?>
         <?php print render($title_prefix); ?>
         <h1 class='page-title <?php print $page_icon_class ?>'>
             <?php if (!empty($page_icon_class)): ?><span class='icon'></span><?php endif; ?>
             <?php if ($title) print $title ?>
           </h1>
-        <?php endif; ?>
     </div>
 </div>
+<?php endif; ?>
 <div class="tools">
     <?php if ($action_links): ?>
     <div class="links-and-shortcuts">
