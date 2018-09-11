@@ -31,12 +31,25 @@
     }
 
     .content-main {
-        margin: 0 auto 40px auto;
+        margin: 0 auto 1em auto;
     }
 
     img {
         max-width: 100%;
         height: auto;
+    }
+
+    .field-name-field-upload-document {
+        flex-flow: row wrap;
+        margin-bottom: 0.5em;
+    }
+    .field-name-field-categories {
+        margin-bottom: 0.5em;
+        
+        .field-label,
+        .field-items {
+            float: none;
+        }
     }
 }
 

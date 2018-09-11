@@ -35,12 +35,29 @@
 }
 
 .node-type-press-release.panelized-node .content-main {
-  margin: 0 auto 40px auto;
+  margin: 0 auto 1em auto;
 }
 
 .node-type-press-release.panelized-node img {
   max-width: 100%;
   height: auto;
+}
+
+.node-type-press-release.panelized-node .field-name-field-upload-document {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin-bottom: 0.5em;
+}
+
+.node-type-press-release.panelized-node .field-name-field-categories {
+  margin-bottom: 0.5em;
+}
+
+.node-type-press-release.panelized-node .field-name-field-categories .field-label,
+.node-type-press-release.panelized-node .field-name-field-categories .field-items {
+  float: none;
 }
 
 .pane-press-releases2-panel-pane-5 .view-content {
