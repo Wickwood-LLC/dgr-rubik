@@ -58,6 +58,7 @@
 .node-type-press-release.panelized-node .field-name-field-categories .field-label,
 .node-type-press-release.panelized-node .field-name-field-categories .field-items {
   float: none;
+  display: inline-block;
 }
 
 .pane-press-releases2-panel-pane-5 .view-content {

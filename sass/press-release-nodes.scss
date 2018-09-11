@@ -45,10 +45,11 @@
     }
     .field-name-field-categories {
         margin-bottom: 0.5em;
-        
+
         .field-label,
         .field-items {
             float: none;
+            display: inline-block;
         }
     }
 }
