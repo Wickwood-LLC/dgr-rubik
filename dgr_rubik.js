@@ -88,7 +88,7 @@
       }
 
       $(window).scroll(function(){ // scroll event
-        windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
+        windowTop = document.body.scrollTop    // tells how far our screen is currently from the top of the page
         currentPosition = stickyTop - windowTop + headerHeight;    // tells how far our target element is from where our screen is currently
 
         // console.log('Distance from top of page: ' + stickyTop);
