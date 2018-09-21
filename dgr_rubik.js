@@ -152,46 +152,58 @@
     }
   };
 
-  var dgr_equalheight = function(container){
-
-    var currentTallest = 0,
-        currentRowStart = 0,
-        rowDivs = new Array(),
-        $el,
-        topPosition = 0;
-    $(container).each(function() {
-
-      $el = $(this);
-      $($el).height('auto')
-      topPostion = $el.position().top;
-
-      if (currentRowStart != topPostion) {
-        for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
-          rowDivs[currentDiv].height(currentTallest);
-        }
-        rowDivs.length = 0; // empty the array
-        currentRowStart = topPostion;
-        currentTallest = $el.height();
-        rowDivs.push($el);
-      } else {
-        rowDivs.push($el);
-        currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
+  /** Function to recalculate the heights of item elements to make
+   * the items in same row to have same height.
+   */
+  var dgr_equalheight = function(items_selector, parent){
+    // Associative array to store items by row.
+    var elements_by_row = {};
+    // Index items by row
+    $(items_selector, parent).each(function() {
+      var $el = $(this);
+      $($el).height('auto');
+      var position = $el.position().top;
+      if(!elements_by_row.hasOwnProperty(position)) {
+        // Initialize array for the row.
+        elements_by_row[position] = [];
       }
-      for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
-        rowDivs[currentDiv].height(currentTallest);
-      }
+      elements_by_row[position].push($el);
     });
+
+    for(var position in elements_by_row) {
+      // Find height of tallest item in current row.
+      var max_height = 0;
+      for (i = 0 ; i < elements_by_row[position].length ; i++) {
+        if (max_height < elements_by_row[position][i].height()) {
+          max_height = elements_by_row[position][i].height();
+        }
+      }
+      // Make all items in the row to have same height as tallest one.
+      for (i = 0 ; i < elements_by_row[position].length ; i++) {
+        elements_by_row[position][i].height(max_height);
+      }
+    }
   };
 
+  var dgr_lazyload_image_timeout;
+  /**
+   * Make equal height for items within .featured-display container.
+   */
   var dgr_perform_equalheight = function() {
-    if ($(window).width() > 943) {
-      dgr_equalheight('.featured-display .views-row');
-    }
-    else {
-      $('.featured-display .views-row').css({
-        'height': 'auto',
-      })
-    }
+    // We avoid frequent recalculation of heights using clearTimeout and setTimeout.
+    clearTimeout(dgr_lazyload_image_timeout);
+    dgr_lazyload_image_timeout = setTimeout(function(){
+      if ($(window).width() > 943) {
+        $('.featured-display:visible').each(function() {
+          dgr_equalheight('.views-row', $(this));
+        });
+      }
+      else {
+        $('.featured-display .views-row').css({
+          'height': 'auto',
+        })
+      }
+    }, 500);
   };
 
   Drupal.behaviors.responsiveEqualHeight = {
