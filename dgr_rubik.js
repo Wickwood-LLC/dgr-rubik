@@ -219,6 +219,10 @@
       $(window).resize(function(){
         dgr_perform_equalheight();
       });
+
+      $(document).on("lazyloader-image-load", function(img, op) {
+        dgr_perform_equalheight();
+      });
     }
   };
 
