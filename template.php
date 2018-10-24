@@ -414,11 +414,3 @@ function dgr_rubik_views_pre_render(&$view) {
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/view-card-cycles.css', array('group' => CSS_THEME));
   }
 }
-
-/**
- * Implements hook_entity_info_alter().
- */
-function dgr_rubik_entity_info_alter(&$entity_info) {
-  $entity_info['node']['view modes']['print']['custom settings'] = TRUE;
-}
-
