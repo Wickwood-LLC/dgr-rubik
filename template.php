@@ -434,6 +434,7 @@ function get_panel_view(&$node) {
         return $output; 
       }
     }
+    dpm($node);
     // Otherwise, fall back.
     return drupal_render(node_view(node_load($node->nid)));
 }
