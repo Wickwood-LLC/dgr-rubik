@@ -2373,6 +2373,13 @@
 		"oAP": "/templates/overlay.tpl.php",
 		"oF": 0
 		},
+	"/templates/print--node--press-release.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/print--node--press-release.tpl.php",
+		"oF": 0
+		},
 	"/templates/views-exposed-form.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
