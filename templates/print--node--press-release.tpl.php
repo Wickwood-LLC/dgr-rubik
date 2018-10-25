@@ -100,6 +100,25 @@
     <h1> TESTING </h1>
     <?php dpm($content); ?>
     <div class="print-content"><?php print $content; ?></div>
+    <?php
+    function get_panel_view(&$node) {
+        // Load my task plugin
+        $task = page_manager_get_task('node_view');
+       
+
+        // Load the node into a context.
+        ctools_include('context');
+        ctools_include('context-task-handler');
+        $contexts = ctools_context_handler_get_task_contexts($task, '', array($node));
+       
+        $output = ctools_context_handler_render($task, '', $contexts, array($node->nid));
+        if ($output !== FALSE) {
+            return drupal_render($output['content']);
+        }
+        // Otherwise, fall back.
+        return drupal_render(node_view(node_load($node->nid)));
+    }
+    ?>
     <div class="print-footer"><?php print theme('print_footer'); ?></div>
     <hr class="print-hr" />
     <?php if ($sourceurl_enabled): ?>
