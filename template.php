@@ -414,3 +414,26 @@ function dgr_rubik_views_pre_render(&$view) {
     drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/view-card-cycles.css', array('group' => CSS_THEME));
   }
 }
+
+function get_panel_view(&$node) {
+    // Load my task plugin
+    $task = page_manager_get_task('node_view');
+   
+
+    // Load the node into a context.
+    ctools_include('context');
+    ctools_include('context-task-handler');
+    $contexts = ctools_context_handler_get_task_contexts($task, '', array($node));
+   
+    $output = ctools_context_handler_render($task, '', $contexts, array($node->nid));
+    if ($output !== FALSE) {
+      if (user_access('administer site configuration')) {
+        return drupal_render($output['content']);
+      }
+      else{
+        return $output; 
+      }
+    }
+    // Otherwise, fall back.
+    return drupal_render(node_view(node_load($node->nid)));
+}
