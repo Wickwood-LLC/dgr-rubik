@@ -415,25 +415,33 @@ function dgr_rubik_views_pre_render(&$view) {
   }
 }
 
-function get_panel_view(&$node) {
-    // Load my task plugin
+/**
+ * Implements hook_preprocess_print().
+ */
+function dgr_rubik_preprocess_print(&$variables) {
+
+  // All our nodes use Panels, which we want to also use to render the print
+  // and printpdf main content sections.  If you need to you could modify
+  // this if statement to limit this to certain node types.
+  if (isset($variables['node'])) {
+    $node = $variables['node'];
+    // Load the panels node view task plugin.
     $task = page_manager_get_task('node_view');
-   
 
     // Load the node into a context.
     ctools_include('context');
     ctools_include('context-task-handler');
     $contexts = ctools_context_handler_get_task_contexts($task, '', array($node));
-   
+
+    // Attempt to render the node with its contexts using CTools.
     $output = ctools_context_handler_render($task, '', $contexts, array($node->nid));
     if ($output !== FALSE) {
       if (user_access('administer site configuration')) {
-        return drupal_render($output['content']);
+        $variables['print']['content'] = drupal_render($output['content']);
       }
-      else{
-        return $output; 
+      else {
+        $variables['print']['content'] = $output;
       }
     }
-    // Otherwise, fall back.
-    return drupal_render(node_view(node_load($node->nid)));
+  }
 }

@@ -95,11 +95,10 @@
     <div class="print-breadcrumb"><?php print theme('print_breadcrumb', array('node' => $node)); ?></div>
     <hr class="print-hr" />
     <?php if (!isset($node->type)): ?>
+      <h1> TESTING </h1>
       <h2 class="print-title"><?php print $print_title; ?></h2>
     <?php endif; ?>
-    <h1> TESTING </h1>
-    <?php dpm($content); ?>
-    <div class="print-content"><?php print get_panel_view($print['node']); ?></div>
+    <div class="print-content"><?php print $content; ?></div>
     <div class="print-footer"><?php print theme('print_footer'); ?></div>
     <hr class="print-hr" />
     <?php if ($sourceurl_enabled): ?>
