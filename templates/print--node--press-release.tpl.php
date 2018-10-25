@@ -113,7 +113,12 @@
        
         $output = ctools_context_handler_render($task, '', $contexts, array($node->nid));
         if ($output !== FALSE) {
+          if (user_access('administer site configuration')) {
             return drupal_render($output['content']);
+          }
+          else{
+            return $output; 
+          }
         }
         // Otherwise, fall back.
         return drupal_render(node_view(node_load($node->nid)));
