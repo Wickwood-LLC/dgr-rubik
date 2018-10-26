@@ -83,7 +83,7 @@
     <?php endif; ?>
     <?php print $css; ?>
   </head>
-  <body class="node-type-press-release panelized-node">
+  <body class="node-type-press-release panelized-node print-version">
     <?php if (!empty($message)): ?>
       <div class="print-message"><?php print $message; ?></div><p />
     <?php endif; ?>

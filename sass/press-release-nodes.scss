@@ -78,3 +78,164 @@
         font-size: 0.8em;
     }
 }
+
+.node-type-press-release.panelized-node.print-version {
+    .rtecenter {
+        text-align: center;
+    }
+
+    .panel-wwm-3col-stacked {
+        display: flex;
+        flex-flow: row wrap;
+        align-content: space-between;
+        justify-content: space-between;
+
+        .panel-col-mid,
+        .panel-col-left,
+        .panel-col-right {
+            flex: 0 0 100%;
+        }
+
+        .panel-col-mid {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+
+            &>* {
+                flex: 1 100%;
+            }
+        }
+
+        .content-main {
+            display: inline-flex;
+            flex-flow: row wrap;
+
+            &>* {
+                flex: 1 100%;
+            }
+        }
+
+        @include breakpoint(768px) {
+            .panel-col-mid {
+                flex: 0 0 98%;
+                margin: 0 1%;
+
+                .content-inner-top-left {
+                    flex: 1 0px;
+                    margin-right: .5em;
+                }
+                .content-inner-top-right {
+                    flex: 1 0px;
+                    margin-left: .5em;
+                }
+            }
+            &.has-one-sidebar {
+                .panel-col-sidebar {
+                    flex: 0 1 100%;
+                }
+            }
+            &.has-two-sidebars {
+                .panel-col-sidebar {
+                    flex: 0 1 49%;
+                }
+                .panel-col-left {
+                    margin-right: 1%;
+                }
+                .panel-col-right {
+                    margin-left: 1%;
+                }
+            }
+        }
+
+        @include breakpoint(1024px) {
+            &.no-sidebar {
+                .panel-col-mid {
+                    flex: 0 0 98%;
+                }
+                .panel-col-sidebar {
+                    display: none;
+                }
+            }
+            &.left-sidebar {
+                .panel-col-mid {
+                    flex: 0 0 74%;
+                    margin: 0 0 0 1%;
+                }
+                .panel-col-left {
+                    flex: 0 0 24%;
+                    margin-right: 1%;
+                    order: -1;
+                }
+                .panel-col-right {
+                    display: none;
+                }
+            }
+            &.right-sidebar {
+                .panel-col-mid {
+                    flex: 0 0 74%;
+                    margin: 0 1% 0 0;
+                }
+                .panel-col-left {
+                    display: none;
+                }
+                .panel-col-right {
+                    flex: 0 0 24%;
+                    margin-left: 1%;
+                }
+            }
+            &.has-two-sidebars {
+                flex-flow: row nowrap;
+
+                .panel-col-mid {
+                    flex: 2 1 0px;
+                    margin: 0 1%;
+                }
+                .panel-col-left,
+                .panel-col-right {
+                    flex: 1 1 0px;
+                    margin: 0;
+                }
+                .panel-col-left {
+                    order: -1;
+                }
+            }
+            &.no-mid {
+                .panel-col-mid {
+                    display: none;
+                }
+                &.left-sidebar .panel-col-sidebar,
+                &.right-sidebar .panel-col-sidebar {
+                    margin: 0;
+                    flex: 1 1 0px;
+                }
+                &.has-two-sidebars .panel-col-left {
+                    margin-right: 1%;
+                }
+                &.has-two-sidebars .panel-col-right {
+                    margin-left: 1%;
+                }
+            }
+        }
+    }
+    .sub-header-1,
+    .sub-header-2,
+    .sub-footer-1,
+    .sub-footer-2 {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        &>* {
+            flex: 1 1 100%;
+            padding: 1%;
+            @include breakpoint(768px) {
+                flex: 1 1 0px;
+            }
+        }
+        .empty {
+            display: none;
+        }
+        .no-sides {
+            flex: 2 1 0px;
+        }
+    }
+}
