@@ -7,6 +7,56 @@
         text-align: center;
     }
 
+    #content {
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+
+    .panel-col-mid {
+        flex: 1 1 500px;
+    }
+    .panel-col-right {
+        @include breakpoint(1024px) {
+            flex: 0 300px;
+            min-width: 300px;
+        }
+
+        div:first-child .panel-pane {
+            margin-top: 0;
+        }
+    }
+
+    h1.pane-node-title-field {
+        text-align: center;
+    }
+
+    .field-name-field-featured-image img {
+        width: 100%;
+    }
+
+    .content-main {
+        margin: 0 auto 1em auto;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .field-name-field-upload-document {
+        flex-flow: row wrap;
+        margin-bottom: 0.5em;
+    }
+    .field-name-field-categories {
+        margin-bottom: 0.5em;
+
+        .field-label,
+        .field-items {
+            float: none;
+            display: inline-block;
+        }
+    }
+
     .panel-wwm-3col-stacked {
         display: flex;
         flex-flow: row wrap;
