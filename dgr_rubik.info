@@ -4,7 +4,7 @@ base theme = full_rubik
 core = 7.x
 
 stylesheets[screen][] = dgr_rubik_style.css
-stylesheets[all][] = css/print.css
+stylesheets[print][] = css/print.css
 scripts[] = dgr_rubik.js
 
 regions[header] = Header
