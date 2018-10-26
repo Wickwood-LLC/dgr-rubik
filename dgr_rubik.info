@@ -5,6 +5,7 @@ core = 7.x
 
 stylesheets[screen][] = dgr_rubik_style.css
 stylesheets[print][] = css/print.css
+stylesheets[screen][] = css/print.css
 scripts[] = dgr_rubik.js
 
 regions[header] = Header
