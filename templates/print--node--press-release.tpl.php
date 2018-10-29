@@ -96,8 +96,7 @@
     <?php if (!isset($node->type)): ?>
       <h2 class="print-title"><?php print $print_title; ?></h2>
     <?php endif; ?>
-    <div class="print-content"><?php print get_panel_view($node); ?></div>
-    <div class="print-footer"><?php print theme('print_footer'); ?></div>
+    <div class="print-content"><?php print $content; ?></div>
     <hr class="print-hr" />
     <?php if ($sourceurl_enabled): ?>
       <div class="print-source_url">
