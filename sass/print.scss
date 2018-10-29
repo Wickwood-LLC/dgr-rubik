@@ -116,8 +116,24 @@ img.print-logo {
         text-align: center;
     }
 
-    .field-name-field-featured-image img {
-        width: 100%;
+    .field-name-field-featured-image {
+        margin: 0 1em 1em 0;
+        width: 50%;
+        float: left;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .field-name-field-full-contact-details {
+        margin: 2em 0;
+        text-align: center;
+
+        h4 {
+            margin: 0;
+            display: inline-flex;
+        }
     }
 
     .content-main {
@@ -141,5 +157,9 @@ img.print-logo {
             float: none;
             display: inline-block;
         }
+    }
+
+    .pane-custom.pane-1 {
+        text-align: center;
     }
 }
