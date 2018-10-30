@@ -83,6 +83,7 @@
     <?php endif; ?>
     <?php print $css; ?>
   </head>
+  <?php dpm($node); ?>
   <body class="<?php print $classes; ?>">
     <?php if (!empty($message)): ?>
       <div class="print-message"><?php print $message; ?></div><p />
