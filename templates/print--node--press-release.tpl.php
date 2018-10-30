@@ -83,7 +83,8 @@
     <?php endif; ?>
     <?php print $css; ?>
   </head>
-  <body class="node-type-press-release panelized-node print-version">
+  <?php dpm($node); ?>
+  <body class="<?php print $node['panelizer']['print']['css_class']; ?>">
     <?php if (!empty($message)): ?>
       <div class="print-message"><?php print $message; ?></div><p />
     <?php endif; ?>
