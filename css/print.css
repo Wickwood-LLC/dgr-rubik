@@ -204,7 +204,8 @@ img.print-logo {
 }
 
 @media (min-width: 550px) {
-  .node-type-press-release.panelized-node.print-version .panel-wwm-3col-stacked .panel-col-mid .content-inner-top-right {
+  .node-type-press-release.panelized-node.print-version .panel-wwm-3col-stacked .panel-col-mid .content-inner-top-right,
+  .node-type-press-release.panelized-node.print-version .panel-wwm-3col-stacked .panel-col-mid .content-inner-top-left {
     flex: 1 0px;
     margin-left: .5em;
   }

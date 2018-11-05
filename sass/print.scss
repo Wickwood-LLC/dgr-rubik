@@ -181,9 +181,12 @@ img.print-logo {
     }
 
     @include breakpoint(550px) {
-        .panel-wwm-3col-stacked .panel-col-mid .content-inner-top-right {
-            flex: 1 0px;
-            margin-left: .5em;
-        }
+        .panel-wwm-3col-stacked .panel-col-mid {
+            .content-inner-top-right,
+            .content-inner-top-left {
+                    flex: 1 0px;
+                    margin-left: .5em;
+                }
+            }
     }
 }
