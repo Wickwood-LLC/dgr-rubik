@@ -104,6 +104,7 @@ img.print-logo {
         line-height: 24px;
         margin: 24px 0;
     }
+
     .rtecenter {
         text-align: center;
     }
@@ -177,5 +178,12 @@ img.print-logo {
 
     .pane-custom.pane-1 {
         text-align: center;
+    }
+
+    @include breakpoint(550px) {
+        .panel-wwm-3col-stacked .panel-col-mid .content-inner-top-right {
+            flex: 1 0px;
+            margin-left: .5em;
+        }
     }
 }

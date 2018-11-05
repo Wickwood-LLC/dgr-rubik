@@ -202,4 +202,11 @@ img.print-logo {
 .node-type-press-release.panelized-node.print-version .pane-custom.pane-1 {
   text-align: center;
 }
+
+@media (min-width: 550px) {
+  .node-type-press-release.panelized-node.print-version .panel-wwm-3col-stacked .panel-col-mid .content-inner-top-right {
+    flex: 1 0px;
+    margin-left: .5em;
+  }
+}
 /*# sourceMappingURL=print.css.map */
