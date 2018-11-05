@@ -91,6 +91,19 @@ img.print-logo {
 }
 
 .node-type-press-release.panelized-node.print-version {
+    h1 {
+        line-height: 36px;
+        margin: 24px 0;
+    }
+    h2 {
+        line-height: 32px;
+        margin: 24px 0;
+    }
+    p {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 24px 0;
+    }
     .rtecenter {
         text-align: center;
     }
@@ -120,8 +133,9 @@ img.print-logo {
 
     .field-name-field-featured-image {
         margin: 0 1em 1em 0;
-        width: 50%;
         float: left;
+        width: 50%;
+        max-width: 360px;
 
         img {
             width: 100%;
