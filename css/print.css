@@ -110,6 +110,109 @@ img.print-logo {
   text-align: center;
 }
 
+/************************************/
+h1 {
+  line-height: 36px;
+  margin: 24px 0;
+}
+
+h2 {
+  line-height: 32px;
+  margin: 24px 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 24px 0;
+}
+
+.rtecenter {
+  text-align: center;
+}
+
+#content {
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.panel-col-mid {
+  flex: 1 1 500px;
+}
+
+@media (min-width: 1024px) {
+  .panel-col-right {
+    flex: 0 300px;
+    min-width: 300px;
+  }
+}
+
+.panel-col-right div:first-child .panel-pane {
+  margin-top: 0;
+}
+
+h1.pane-node-title-field {
+  text-align: center;
+}
+
+.field-name-field-featured-image {
+  margin: 0 1em 1em 0;
+  float: left;
+  width: 50%;
+  max-width: 360px;
+}
+
+.field-name-field-featured-image img {
+  width: 100%;
+}
+
+.field-name-field-full-contact-details {
+  margin: 2em 0;
+  text-align: center;
+}
+
+.field-name-field-full-contact-details h4 {
+  margin: 0;
+  display: inline-flex;
+}
+
+.content-main {
+  margin: 0 auto 1em auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.field-name-field-upload-document {
+  flex-flow: row wrap;
+  margin-bottom: 0.5em;
+}
+
+.field-name-field-categories {
+  margin-bottom: 0.5em;
+}
+
+.field-name-field-categories .field-label,
+.field-name-field-categories .field-items {
+  float: none;
+  display: inline-block;
+}
+
+.pane-custom.pane-1 {
+  text-align: center;
+}
+
+@media (min-width: 550px) {
+  .panel-wwm-3col-stacked .panel-col-mid .content-inner-top-right,
+  .panel-wwm-3col-stacked .panel-col-mid .content-inner-top-left {
+    flex: 1 0px;
+    margin-left: .5em;
+  }
+}
+
+/************************************/
 .node-type-press-release.panelized-node.print-version h1 {
   line-height: 36px;
   margin: 24px 0;
