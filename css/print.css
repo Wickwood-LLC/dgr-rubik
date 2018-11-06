@@ -211,6 +211,7 @@ img.print-logo {
   padding: 5%;
   display: flex;
   flex-flow: column nowrap;
+  background: blue;
 }
 
 .node-type-press-release.panelized-node.print-version img {
