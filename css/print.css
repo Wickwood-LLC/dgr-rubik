@@ -172,6 +172,13 @@ img.print-logo {
   display: block;
 }
 
+.node-type-press-release.panelized-node.print-version .content-inner-top-right,
+.node-type-press-release.panelized-node.print-version .content-inner-top-left {
+  display: inline-block;
+  width: calc(50% - 1em);
+  vertical-align: top;
+}
+
 @media (min-width: 1024px) {
   .node-type-press-release.panelized-node.print-version .panel-col-right {
     flex: 0 300px;

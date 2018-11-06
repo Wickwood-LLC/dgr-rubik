@@ -175,6 +175,13 @@ img.print-logo {
         display: block;
     }
 
+    .content-inner-top-right,
+    .content-inner-top-left {
+        display: inline-block;
+        width: calc(50% - 1em);
+        vertical-align: top;
+    }
+
     .panel-col-right {
         @include breakpoint(1024px) {
             flex: 0 300px;
