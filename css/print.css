@@ -174,7 +174,6 @@ img.print-logo {
 
 .node-type-press-release.panelized-node.print-version .content-inner-top-right,
 .node-type-press-release.panelized-node.print-version .content-inner-top-left {
-  margin-left: .5em;
   display: inline-block;
   width: 49%;
   vertical-align: top;
