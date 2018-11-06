@@ -253,6 +253,9 @@ img.print-logo {
             .content-inner-top-left {
                 flex: 1 0px;
                 margin-left: .5em;
+                display: inline-block;
+                width: calc(50% - 1em);
+                vertical-align: top;
             }
         }
     }

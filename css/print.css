@@ -248,6 +248,9 @@ img.print-logo {
   .node-type-press-release.panelized-node.print-version .panel-wwm-3col-stacked .panel-col-mid .content-inner-top-left {
     flex: 1 0px;
     margin-left: .5em;
+    display: inline-block;
+    width: calc(50% - 1em);
+    vertical-align: top;
   }
 }
 /*# sourceMappingURL=print.css.map */
