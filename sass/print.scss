@@ -177,8 +177,9 @@ img.print-logo {
 
     .content-inner-top-right,
     .content-inner-top-left {
+        margin-left: .5em;
         display: inline-block;
-        width: calc(50% - 1em);
+        width: 49%;
         vertical-align: top;
     }
 
