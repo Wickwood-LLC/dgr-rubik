@@ -247,6 +247,8 @@ img {
 }
 
 .node-type-press-release.panelized-node.print-version {
+    background: blue;
+    
     .rtecenter {
         text-align: center;
     }
@@ -299,7 +301,6 @@ img {
     .content-main {
         margin: 0 auto 1em auto;
         padding: 5%;
-        background: blue;
     }
 
     img {
