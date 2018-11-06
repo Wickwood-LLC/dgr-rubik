@@ -159,7 +159,7 @@ img.print-logo {
 .node-type-press-release.panelized-node.print-version {
     display: flex;
     flex-flow: column nowrap;
-    
+
     .rtecenter {
         text-align: center;
     }
@@ -212,6 +212,8 @@ img.print-logo {
     .content-main {
         margin: 0 auto 1em auto;
         padding: 5%;
+        display: flex;
+        flex-flow: column nowrap;
     }
 
     img {

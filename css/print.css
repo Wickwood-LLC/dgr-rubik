@@ -209,6 +209,8 @@ img.print-logo {
 .node-type-press-release.panelized-node.print-version .content-main {
   margin: 0 auto 1em auto;
   padding: 5%;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .node-type-press-release.panelized-node.print-version img {
