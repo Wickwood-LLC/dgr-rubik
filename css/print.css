@@ -204,6 +204,7 @@ img.print-logo {
 .node-type-press-release.panelized-node.print-version .content-main {
   margin: 0 auto 1em auto;
   padding: 5%;
+  background: blue;
 }
 
 .node-type-press-release.panelized-node.print-version img {
