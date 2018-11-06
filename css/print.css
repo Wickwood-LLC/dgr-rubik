@@ -210,9 +210,12 @@ img.print-logo {
 .node-type-press-release.panelized-node.print-version .content-main {
   margin: 0 auto 1em auto;
   padding: 5%;
-  display: flex;
-  flex-flow: column nowrap;
+  display: block;
   background: blue;
+}
+
+.node-type-press-release.panelized-node.print-version .content-bottom {
+  width: 100%;
 }
 
 .node-type-press-release.panelized-node.print-version img {

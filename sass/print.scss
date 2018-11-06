@@ -213,9 +213,12 @@ img.print-logo {
     .content-main {
         margin: 0 auto 1em auto;
         padding: 5%;
-        display: flex;
-        flex-flow: column nowrap;
+        display: block;
         background: blue;
+    }
+
+    .content-bottom {
+        width: 100%;
     }
 
     img {
