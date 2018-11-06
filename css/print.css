@@ -168,6 +168,7 @@ img.print-logo {
 
 .node-type-press-release.panelized-node.print-version .panel-col-mid {
   flex: 1 1 500px;
+  width: 100%;
 }
 
 @media (min-width: 1024px) {
@@ -212,7 +213,6 @@ img.print-logo {
   display: flex;
   flex-flow: column nowrap;
   background: blue;
-  width: 100%;
 }
 
 .node-type-press-release.panelized-node.print-version img {
