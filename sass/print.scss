@@ -156,6 +156,18 @@ img.print-logo {
     text-align: center;
 }
 
+.print-version {
+    .field-name-field-featured-image {
+        margin: 0 1em 1em 0;
+        float: left;
+        max-width: 360px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
 .node-type-press-release.panelized-node.print-version {
     display: flex;
     flex-flow: column nowrap;
@@ -195,16 +207,6 @@ img.print-logo {
 
     h1.pane-node-title-field {
         text-align: center;
-    }
-
-    .field-name-field-featured-image {
-        margin: 0 1em 1em 0;
-        float: left;
-        max-width: 360px;
-
-        img {
-            width: 100%;
-        }
     }
 
     .field-name-field-full-contact-details {
