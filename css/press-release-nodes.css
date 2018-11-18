@@ -8,16 +8,12 @@
 }
 
 .node-type-press-release.panelized-node .panel-col-mid {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 500px;
-          flex: 1 1 500px;
+  flex: 1 1 500px;
 }
 
 @media (min-width: 1024px) {
   .node-type-press-release.panelized-node .panel-col-right {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 300px;
-            flex: 0 300px;
+    flex: 0 300px;
     min-width: 300px;
   }
 }
@@ -44,10 +40,7 @@
 }
 
 .node-type-press-release.panelized-node .field-name-field-upload-document {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  flex-flow: row wrap;
   margin-bottom: 0.5em;
 }
 
@@ -62,13 +55,8 @@
 }
 
 .pane-press-releases2-panel-pane-5 .view-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 .pane-press-releases2-panel-pane-5 .views-row {
@@ -77,9 +65,7 @@
   width: 230px;
   margin-right: 10px;
   margin-bottom: 0.5em;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 240px;
-          flex: 1 240px;
+  flex: 1 240px;
 }
 
 .pane-press-releases2-panel-pane-5 .views-field-field-featured-image {
