@@ -1895,6 +1895,23 @@
 		"oAP": "/css/login.css.map",
 		"oF": 0
 		},
+	"/css/mail.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/mail-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/mail.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/css/mail.css.map",
+		"oF": 0
+		},
 	"/css/maintenance.css": {
 		"aP": 1,
 		"bl": 0,
@@ -2322,6 +2339,29 @@
 		"oAP": "/sass/login.css",
 		"oF": 0,
 		"oS": 0,
+		"uL": 1
+		},
+	"/sass/mail.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/sass/mail-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/sass/mail.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "/css/mail.css",
+		"oF": 2,
+		"oS": 1,
 		"uL": 1
 		},
 	"/sass/maintenance.scss": {

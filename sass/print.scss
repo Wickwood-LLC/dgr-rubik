@@ -274,24 +274,3 @@ img.print-logo {
         }
     }
 }
-
-body.page-printmail {
-    #page {
-        max-width: 840px;
-        width: 100%;
-        min-width: 0;
-
-        @include breakpoint(1025px) {
-            width: 100%;
-        }
-    }
-    form#print-mail-form {
-        padding: 1em;
-        border-radius: 10px;
-        border: 2px solid lightgrey;
-
-        .form-type-textfield {
-            @include flexifields(100px);
-        }
-    }
-}
