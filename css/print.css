@@ -219,6 +219,10 @@ img.print-logo {
   display: inline-flex;
 }
 
+.node-type-press-release.panelized-node.print-version .field-name-field-full-contact-details h4:after {
+  content: '\00a0';
+}
+
 .node-type-press-release.panelized-node.print-version .content-main {
   margin: 0 auto 1em auto;
   display: block;

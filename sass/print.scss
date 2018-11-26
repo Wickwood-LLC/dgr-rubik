@@ -220,6 +220,10 @@ img.print-logo {
         h4 {
             margin: 0;
             display: inline-flex;
+
+            &:after {
+                content: '\00a0';
+            }
         }
     }
 
