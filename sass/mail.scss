@@ -25,5 +25,9 @@ body.page-printmail {
         .form-type-textfield {
             @include flexifields(100px);
         }
+
+        input.form-submit {
+            margin: 0.5em;
+        }
     }
 }

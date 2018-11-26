@@ -40,4 +40,8 @@ body.page-printmail form#print-mail-form .form-type-textfield input {
   flex: 1 1 calc(100% - 100px);
   min-width: 100px;
 }
+
+body.page-printmail form#print-mail-form input.form-submit {
+  margin: 0.5em;
+}
 /*# sourceMappingURL=mail.css.map */
