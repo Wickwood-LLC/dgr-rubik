@@ -41,6 +41,14 @@ body.page-printmail form#print-mail-form .form-type-textfield input {
   min-width: 100px;
 }
 
+body.page-printmail form#print-mail-form .form-type-textfield label {
+  width: 100%;
+}
+
+body.page-printmail form#print-mail-form .form-type-textfield input {
+  width: calc(100% - 100px);
+}
+
 body.page-printmail form#print-mail-form input.form-submit {
   margin: 0.5em;
 }
