@@ -20,16 +20,13 @@ body.page-printmail {
 
         .form-item {
             text-align: left;
-        }
-
-        .form-type-textfield {
-            @include flexifields(100px);
+            @include flexifields(120px);
 
             label {
-                width: 100%;
+                width: 120px;
             }
             input {
-                width: calc(100% - 100px);
+                width: calc(100% - 120px);
             }
         }
 
