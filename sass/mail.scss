@@ -19,6 +19,8 @@ body.page-printmail {
         text-align: center;
 
         .form-item {
+            display: flex;
+            flex-flow: row wrap;
             text-align: left;
             @include flexifields(120px);
 
@@ -27,6 +29,18 @@ body.page-printmail {
             }
             input {
                 width: calc(100% - 120px);
+                min-width: 250px;
+            }
+        }
+        .form-item-txt-to-addrs {
+            @include flexifields(120px);
+
+            label {
+                width: 120px;
+            }
+            textarea {
+                width: calc(100% - 120px);
+                min-width: 250px;
             }
         }
 

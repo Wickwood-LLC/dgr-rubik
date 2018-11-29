@@ -22,6 +22,8 @@ body.page-printmail form#print-mail-form {
 }
 
 body.page-printmail form#print-mail-form .form-item {
+  display: flex;
+  flex-flow: row wrap;
   text-align: left;
 }
 
@@ -47,6 +49,32 @@ body.page-printmail form#print-mail-form .form-item label {
 
 body.page-printmail form#print-mail-form .form-item input {
   width: calc(100% - 120px);
+  min-width: 250px;
+}
+
+body.page-printmail form#print-mail-form .form-item-txt-to-addrs .form-item {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+body.page-printmail form#print-mail-form .form-item-txt-to-addrs label {
+  flex: 0 0 120px;
+}
+
+body.page-printmail form#print-mail-form .form-item-txt-to-addrs input {
+  flex: 1 1 calc(100% - 120px);
+  min-width: 100px;
+}
+
+body.page-printmail form#print-mail-form .form-item-txt-to-addrs label {
+  width: 120px;
+}
+
+body.page-printmail form#print-mail-form .form-item-txt-to-addrs textarea {
+  width: calc(100% - 120px);
+  min-width: 250px;
 }
 
 body.page-printmail form#print-mail-form input.form-submit {
