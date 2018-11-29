@@ -48,11 +48,13 @@ body.page-printmail form#print-mail-form .form-item label {
 }
 
 body.page-printmail form#print-mail-form .form-item input {
+  flex: 100%;
   min-width: 0;
 }
 
 @media (min-width: 430px) {
   body.page-printmail form#print-mail-form .form-item input {
+    flex: 1 1 calc(100% - 120px);
     min-width: 250px;
   }
 }
@@ -83,12 +85,13 @@ body.page-printmail form#print-mail-form .form-item-txt-to-addrs label {
 }
 
 body.page-printmail form#print-mail-form .form-item-txt-to-addrs .form-textarea-wrapper {
-  flex: 1 1 calc(100% - 120px);
+  flex: 100%;
   min-width: 0;
 }
 
 @media (min-width: 430px) {
   body.page-printmail form#print-mail-form .form-item-txt-to-addrs .form-textarea-wrapper {
+    flex: 1 1 calc(100% - 120px);
     min-width: 250px;
   }
 }
@@ -98,14 +101,15 @@ body.page-printmail form#print-mail-form .form-item-txt-to-addrs textarea#edit-t
 }
 
 body.page-printmail form#print-mail-form .form-type-item > a {
-  flex: 1 1 calc(100% - 120px);
-  min-width: 0;
   word-break: break-word;
+  flex: 100%;
+  min-width: 0;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 430px) {
   body.page-printmail form#print-mail-form .form-type-item > a {
-    min-width: 400px;
+    flex: 1 1 calc(100% - 120px);
+    min-width: 250px;
   }
 }
 
