@@ -28,19 +28,22 @@ body.page-printmail {
                 width: 120px;
             }
             input {
-                width: calc(100% - 120px);
                 min-width: 250px;
             }
         }
         .form-item-txt-to-addrs {
+            display: flex;
+            flex-flow: row wrap;
             @include flexifields(120px);
 
             label {
                 width: 120px;
             }
             .form-textarea-wrapper {
-                width: calc(100% - 120px);
                 min-width: 250px;
+            }
+            textarea#edit-txt-to-addrs {
+                width: 100%;
             }
         }
 

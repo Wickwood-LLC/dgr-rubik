@@ -48,8 +48,12 @@ body.page-printmail form#print-mail-form .form-item label {
 }
 
 body.page-printmail form#print-mail-form .form-item input {
-  width: calc(100% - 120px);
   min-width: 250px;
+}
+
+body.page-printmail form#print-mail-form .form-item-txt-to-addrs {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 body.page-printmail form#print-mail-form .form-item-txt-to-addrs .form-item {
@@ -73,8 +77,11 @@ body.page-printmail form#print-mail-form .form-item-txt-to-addrs label {
 }
 
 body.page-printmail form#print-mail-form .form-item-txt-to-addrs .form-textarea-wrapper {
-  width: calc(100% - 120px);
   min-width: 250px;
+}
+
+body.page-printmail form#print-mail-form .form-item-txt-to-addrs textarea#edit-txt-to-addrs {
+  width: 100%;
 }
 
 body.page-printmail form#print-mail-form input.form-submit {
