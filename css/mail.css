@@ -72,7 +72,7 @@ body.page-printmail form#print-mail-form .form-item-txt-to-addrs label {
   width: 120px;
 }
 
-body.page-printmail form#print-mail-form .form-item-txt-to-addrs textarea {
+body.page-printmail form#print-mail-form .form-item-txt-to-addrs .form-textarea-wrapper {
   width: calc(100% - 120px);
   min-width: 250px;
 }

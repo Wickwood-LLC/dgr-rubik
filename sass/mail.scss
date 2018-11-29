@@ -38,7 +38,7 @@ body.page-printmail {
             label {
                 width: 120px;
             }
-            textarea {
+            .form-textarea-wrapper {
                 width: calc(100% - 120px);
                 min-width: 250px;
             }
