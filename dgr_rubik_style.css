@@ -2199,6 +2199,8 @@ div#panels-ipe-control-container {
   .field-name-body table td {
     border: 0px; }
 
-.pane-print-ui-print-links .pane-content span {
-  margin: 0 1em 0 0;
-  display: inline-block; }
+.pane-print-ui-print-links .pane-content {
+  text-align: center; }
+  .pane-print-ui-print-links .pane-content span {
+    margin: 0 0.5em 0 0.5em;
+    display: inline-block; }
