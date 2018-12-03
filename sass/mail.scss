@@ -59,6 +59,11 @@ body.page-printmail {
             textarea#edit-txt-to-addrs {
                 width: 100%;
             }
+            .description {
+                @include breakpoint(430px) {
+                    margin-left: 120px;
+                }
+            }
         }
         .form-type-item > a{
             word-break: break-word;

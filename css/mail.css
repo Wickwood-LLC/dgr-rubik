@@ -100,6 +100,12 @@ body.page-printmail form#print-mail-form .form-item-txt-to-addrs textarea#edit-t
   width: 100%;
 }
 
+@media (min-width: 430px) {
+  body.page-printmail form#print-mail-form .form-item-txt-to-addrs .description {
+    margin-left: 120px;
+  }
+}
+
 body.page-printmail form#print-mail-form .form-type-item > a {
   word-break: break-word;
   flex: 100%;
