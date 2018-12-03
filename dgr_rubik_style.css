@@ -2200,7 +2200,9 @@ div#panels-ipe-control-container {
     border: 0px; }
 
 .pane-print-ui-print-links .pane-content {
-  text-align: center; }
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 0.5em; }
   .pane-print-ui-print-links .pane-content span {
     margin: 0 0.5em 0 0.5em;
     display: inline-block; }
