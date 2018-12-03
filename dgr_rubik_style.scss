@@ -187,6 +187,12 @@ body.page-admin .region-footer {
         border: 0px;
     }
 }
+body.page-contaact-us {
+    .pane-node-webform.boxed {
+        border: 2px solid #77bbcc;
+        border-radius: 10px;
+    }
+}
 
 .unpublished {
     color: red;
