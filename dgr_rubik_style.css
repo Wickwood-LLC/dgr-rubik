@@ -837,7 +837,7 @@ div.panel-pane div.node.boxed {
     margin: 0;
     top: -11px;
     background: white;
-    padding: 0 1em;
+    padding: 0 .2em;
     display: inline-block !important; }
     .boxed .pane-title.ctools-collapsible-handle,
     div.panel-pane div.node.boxed .pane-title.ctools-collapsible-handle {
